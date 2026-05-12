@@ -1,0 +1,54 @@
+{
+  "video": "srkw_calf_drone",
+  "model": "yolov8x-worldv2",
+  "classes_prompted": [
+    "whale",
+    "orca",
+    "killer whale",
+    "dolphin",
+    "dorsal fin",
+    "marine mammal"
+  ],
+  "total_frames_processed": 162,
+  "frames_with_detections": 133,
+  "total_detections": 380,
+  "class_counts": {
+    "dorsal fin": 90,
+    "marine mammal": 148,
+    "whale": 138,
+    "killer whale": 3,
+    "dolphin": 1
+  },
+  "confidence_stats": {
+    "dorsal fin": {
+      "count": 90,
+      "min": 0.05,
+      "max": 0.724,
+      "mean": 0.201
+    },
+    "marine mammal": {
+      "count": 148,
+      "min": 0.05,
+      "max": 0.969,
+      "mean": 0.385
+    },
+    "whale": {
+      "count": 138,
+      "min": 0.051,
+      "max": 0.824,
+      "mean": 0.323
+    },
+    "killer whale": {
+      "count": 3,
+      "min": 0.078,
+      "max": 0.148,
+      "mean": 0.108
+    },
+    "dolphin": {
+      "count": 1,
+      "min": 0.441,
+      "max": 0.441,
+      "mean": 0.441
+    }
+  }
+}

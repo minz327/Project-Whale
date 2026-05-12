@@ -1,0 +1,586 @@
+{
+    "data": {
+        "labels": {
+            "training_labels": "/Users/lawrence/Desktop/DORSAP_Project/First_general_model/First_general_model_GUI.v001.slp",
+            "validation_labels": null,
+            "validation_fraction": 0.1,
+            "test_labels": null,
+            "split_by_inds": false,
+            "training_inds": [
+                72,
+                64,
+                130,
+                221,
+                52,
+                116,
+                111,
+                150,
+                77,
+                207,
+                28,
+                6,
+                104,
+                173,
+                51,
+                39,
+                154,
+                115,
+                17,
+                53,
+                178,
+                164,
+                171,
+                20,
+                82,
+                60,
+                99,
+                44,
+                156,
+                214,
+                127,
+                200,
+                177,
+                5,
+                224,
+                152,
+                197,
+                163,
+                143,
+                194,
+                55,
+                227,
+                120,
+                59,
+                142,
+                15,
+                7,
+                71,
+                209,
+                122,
+                144,
+                167,
+                102,
+                230,
+                220,
+                10,
+                162,
+                9,
+                0,
+                114,
+                29,
+                218,
+                3,
+                176,
+                133,
+                42,
+                131,
+                151,
+                117,
+                100,
+                74,
+                89,
+                139,
+                222,
+                80,
+                33,
+                118,
+                65,
+                57,
+                172,
+                21,
+                223,
+                180,
+                109,
+                132,
+                23,
+                187,
+                208,
+                121,
+                217,
+                48,
+                185,
+                79,
+                97,
+                31,
+                58,
+                35,
+                36,
+                2,
+                135,
+                170,
+                76,
+                46,
+                124,
+                202,
+                195,
+                149,
+                12,
+                141,
+                219,
+                108,
+                137,
+                90,
+                182,
+                229,
+                168,
+                63,
+                101,
+                54,
+                94,
+                153,
+                134,
+                40,
+                184,
+                159,
+                140,
+                145,
+                106,
+                26,
+                188,
+                67,
+                50,
+                155,
+                19,
+                81,
+                1,
+                175,
+                210,
+                87,
+                37,
+                24,
+                190,
+                181,
+                186,
+                38,
+                95,
+                103,
+                125,
+                147,
+                169,
+                14,
+                96,
+                211,
+                69,
+                166,
+                75,
+                161,
+                189,
+                225,
+                92,
+                78,
+                4,
+                105,
+                216,
+                73,
+                128,
+                16,
+                112,
+                84,
+                157,
+                199,
+                113,
+                30,
+                204,
+                32,
+                205,
+                213,
+                146,
+                158,
+                85,
+                91,
+                226,
+                22,
+                174,
+                228,
+                123,
+                192,
+                215,
+                70,
+                129,
+                61,
+                201,
+                83,
+                183,
+                18,
+                136,
+                41,
+                191,
+                88,
+                49,
+                119,
+                206,
+                45,
+                165,
+                66,
+                27,
+                110,
+                93
+            ],
+            "validation_inds": [
+                47,
+                179,
+                198,
+                107,
+                13,
+                160,
+                138,
+                98,
+                86,
+                212,
+                193,
+                56,
+                148,
+                34,
+                196,
+                203,
+                62,
+                11,
+                8,
+                126,
+                68,
+                43,
+                25
+            ],
+            "test_inds": null,
+            "search_path_hints": [
+                ""
+            ],
+            "skeletons": [
+                {
+                    "directed": true,
+                    "graph": {
+                        "name": "Skeleton-1",
+                        "num_edges_inserted": 6
+                    },
+                    "links": [
+                        {
+                            "edge_insert_idx": 0,
+                            "key": 0,
+                            "source": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "rostrum_tip",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "mid_saddle_patch",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/reduce": [
+                                    {
+                                        "py/type": "sleap.skeleton.EdgeType"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            1
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 1,
+                            "key": 0,
+                            "source": {
+                                "py/id": 2
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "Caudal_peduncle",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 2,
+                            "key": 0,
+                            "source": {
+                                "py/id": 2
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "left_pect_fin_tip",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 3,
+                            "key": 0,
+                            "source": {
+                                "py/id": 2
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "right_pect_fin_tip",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 4,
+                            "key": 0,
+                            "source": {
+                                "py/id": 4
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "left_caudal_fluke",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 5,
+                            "key": 0,
+                            "source": {
+                                "py/id": 4
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "right_caudal_fluke",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        }
+                    ],
+                    "multigraph": true,
+                    "nodes": [
+                        {
+                            "id": {
+                                "py/id": 1
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 7
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 8
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 5
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 6
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 2
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "preprocessing": {
+            "ensure_rgb": true,
+            "ensure_grayscale": false,
+            "imagenet_mode": null,
+            "input_scaling": 1.0,
+            "pad_to_stride": 1,
+            "resize_and_pad_to_target": true,
+            "target_height": 2700,
+            "target_width": 5120
+        },
+        "instance_cropping": {
+            "center_on_part": "mid_saddle_patch",
+            "crop_size": 832,
+            "crop_size_detection_padding": 16
+        }
+    },
+    "model": {
+        "backbone": {
+            "leap": null,
+            "unet": {
+                "stem_stride": null,
+                "max_stride": 16,
+                "output_stride": 4,
+                "filters": 24,
+                "filters_rate": 2.0,
+                "middle_block": true,
+                "up_interpolate": true,
+                "stacks": 1
+            },
+            "hourglass": null,
+            "resnet": null,
+            "pretrained_encoder": null
+        },
+        "heads": {
+            "single_instance": null,
+            "centroid": null,
+            "centered_instance": {
+                "anchor_part": "mid_saddle_patch",
+                "part_names": [
+                    "rostrum_tip",
+                    "left_caudal_fluke",
+                    "right_caudal_fluke",
+                    "left_pect_fin_tip",
+                    "right_pect_fin_tip",
+                    "mid_saddle_patch",
+                    "Caudal_peduncle"
+                ],
+                "sigma": 2.5,
+                "output_stride": 4,
+                "loss_weight": 1.0,
+                "offset_refinement": false
+            },
+            "multi_instance": null,
+            "multi_class_bottomup": null,
+            "multi_class_topdown": null
+        },
+        "base_checkpoint": null
+    },
+    "optimization": {
+        "preload_data": true,
+        "augmentation_config": {
+            "rotate": true,
+            "rotation_min_angle": -15.0,
+            "rotation_max_angle": 15.0,
+            "translate": false,
+            "translate_min": -5,
+            "translate_max": 5,
+            "scale": false,
+            "scale_min": 0.9,
+            "scale_max": 1.1,
+            "uniform_noise": false,
+            "uniform_noise_min_val": 0.0,
+            "uniform_noise_max_val": 10.0,
+            "gaussian_noise": false,
+            "gaussian_noise_mean": 5.0,
+            "gaussian_noise_stddev": 1.0,
+            "contrast": false,
+            "contrast_min_gamma": 0.5,
+            "contrast_max_gamma": 2.0,
+            "brightness": false,
+            "brightness_min_val": 0.0,
+            "brightness_max_val": 10.0,
+            "random_crop": false,
+            "random_crop_height": 256,
+            "random_crop_width": 256,
+            "random_flip": true,
+            "flip_horizontal": false
+        },
+        "online_shuffling": true,
+        "shuffle_buffer_size": 128,
+        "prefetch": true,
+        "batch_size": 4,
+        "batches_per_epoch": 200,
+        "min_batches_per_epoch": 200,
+        "val_batches_per_epoch": 20,
+        "min_val_batches_per_epoch": 10,
+        "epochs": 200,
+        "optimizer": "adam",
+        "initial_learning_rate": 0.0001,
+        "learning_rate_schedule": {
+            "reduce_on_plateau": true,
+            "reduction_factor": 0.5,
+            "plateau_min_delta": 1e-06,
+            "plateau_patience": 5,
+            "plateau_cooldown": 3,
+            "min_learning_rate": 1e-08
+        },
+        "hard_keypoint_mining": {
+            "online_mining": false,
+            "hard_to_easy_ratio": 2.0,
+            "min_hard_keypoints": 2,
+            "max_hard_keypoints": null,
+            "loss_scale": 5.0
+        },
+        "early_stopping": {
+            "stop_training_on_plateau": true,
+            "plateau_min_delta": 1e-08,
+            "plateau_patience": 10
+        }
+    },
+    "outputs": {
+        "save_outputs": true,
+        "run_name": "250328_113346.centered_instance.n=231",
+        "run_name_prefix": "full_FGM_v1_",
+        "run_name_suffix": "",
+        "runs_folder": "/Users/lawrence/Desktop/DORSAP_Project/First_general_model/models",
+        "tags": [
+            ""
+        ],
+        "save_visualizations": true,
+        "keep_viz_images": false,
+        "zip_outputs": false,
+        "log_to_csv": true,
+        "checkpointing": {
+            "initial_model": false,
+            "best_model": true,
+            "every_epoch": false,
+            "latest_model": false,
+            "final_model": false
+        },
+        "tensorboard": {
+            "write_logs": true,
+            "loss_frequency": "epoch",
+            "architecture_graph": false,
+            "profile_graph": false,
+            "visualizations": true
+        },
+        "zmq": {
+            "subscribe_to_controller": true,
+            "controller_address": "tcp://127.0.0.1:9000",
+            "controller_polling_timeout": 10,
+            "publish_updates": true,
+            "publish_address": "tcp://127.0.0.1:9001"
+        }
+    },
+    "name": "",
+    "description": "",
+    "sleap_version": "1.4.1",
+    "filename": "/Users/lawrence/Desktop/DORSAP_Project/First_general_model/models/full_FGM_v1_250328_113346.centered_instance.n=231/training_config.json"
+}

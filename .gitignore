@@ -1,0 +1,26 @@
+# Raw video clips (too large for git — re-download via scripts/download_clips.py)
+data/raw_clips/
+
+# Large binary files
+*.zip
+*.pt
+*.ckpt
+*.h5
+*.MP4
+*.mp4
+*.tfevents*
+*.pkg.slp
+
+# Virtual environments
+.venv/
+venv/
+*/.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

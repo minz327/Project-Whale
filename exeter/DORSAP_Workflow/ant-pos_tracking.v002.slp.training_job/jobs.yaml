@@ -1,0 +1,12 @@
+inference:
+- data_path: ant-pos_tracking.v002.pkg.slp
+  models:
+  - C:/Users/lc1151/OneDrive - University of Exeter/Desktop/SLEAP/Axis_tracking/models/bottom_up_head_tracking_
+  only_suggested_frames: true
+  output_path: ant-pos_tracking.v002.pkg.slp.predictions.slp
+  tracking: {}
+  type: labels
+training:
+- cfg: bottomup.yaml
+  run_path: C:/Users/lc1151/OneDrive - University of Exeter/Desktop/SLEAP/Axis_tracking/models/bottom_up_head_tracking_
+  train_labels: ant-pos_tracking.v002.pkg.slp

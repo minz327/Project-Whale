@@ -1,0 +1,18 @@
+{
+  "video": "srkw_calf_drone",
+  "total_frames_processed": 323,
+  "frames_with_detections": 225,
+  "total_detections": 408,
+  "class_counts": {
+    "bird": 151,
+    "surfboard": 8,
+    "person": 76,
+    "airplane": 15,
+    "boat": 148,
+    "clock": 1,
+    "frisbee": 1,
+    "kite": 5,
+    "umbrella": 3
+  },
+  "avg_confidence": 0.37193840227144603
+}
