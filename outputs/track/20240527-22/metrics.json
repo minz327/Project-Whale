@@ -1,0 +1,74 @@
+{
+  "speeds": {
+    "2": {
+      "avg_px_s": 1414.7,
+      "max_px_s": 6157.6,
+      "n_measurements": 58
+    },
+    "3": {
+      "avg_px_s": 468.4,
+      "max_px_s": 2113.7,
+      "n_measurements": 36
+    },
+    "4": {
+      "avg_px_s": 336.3,
+      "max_px_s": 1154.5,
+      "n_measurements": 104
+    },
+    "12": {
+      "avg_px_s": 319.0,
+      "max_px_s": 1360.1,
+      "n_measurements": 71
+    },
+    "13": {
+      "avg_px_s": 244.1,
+      "max_px_s": 806.0,
+      "n_measurements": 14
+    }
+  },
+  "surfacing": {
+    "2": {
+      "n_bouts": 3,
+      "bout_durations_s": [
+        1.5,
+        3.5,
+        0.0
+      ],
+      "dive_gaps_s": [
+        4.8,
+        0.8
+      ]
+    },
+    "3": {
+      "n_bouts": 1,
+      "bout_durations_s": [
+        4.0
+      ],
+      "dive_gaps_s": []
+    },
+    "4": {
+      "n_bouts": 1,
+      "bout_durations_s": [
+        11.6
+      ],
+      "dive_gaps_s": []
+    },
+    "12": {
+      "n_bouts": 1,
+      "bout_durations_s": [
+        8.1
+      ],
+      "dive_gaps_s": []
+    },
+    "13": {
+      "n_bouts": 2,
+      "bout_durations_s": [
+        2.2,
+        0.9
+      ],
+      "dive_gaps_s": [
+        3.9
+      ]
+    }
+  }
+}

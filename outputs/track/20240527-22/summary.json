@@ -1,0 +1,116 @@
+{
+  "video": "20240527-22",
+  "total_frames_processed": 320,
+  "sample_rate": 3,
+  "confidence_threshold": 0.1,
+  "frames_with_tracks": 198,
+  "unique_track_ids": 15,
+  "total_track_points": 309,
+  "track_stats": {
+    "1": {
+      "frames": 4,
+      "first_frame": 0,
+      "last_frame": 9,
+      "span": 9,
+      "avg_confidence": 0.547
+    },
+    "2": {
+      "frames": 16,
+      "first_frame": 0,
+      "last_frame": 45,
+      "span": 45,
+      "avg_confidence": 0.447
+    },
+    "3": {
+      "frames": 37,
+      "first_frame": 0,
+      "last_frame": 120,
+      "span": 120,
+      "avg_confidence": 0.595
+    },
+    "4": {
+      "frames": 107,
+      "first_frame": 15,
+      "last_frame": 363,
+      "span": 348,
+      "avg_confidence": 0.608
+    },
+    "5": {
+      "frames": 1,
+      "first_frame": 42,
+      "last_frame": 42,
+      "span": 0,
+      "avg_confidence": 0.661
+    },
+    "6": {
+      "frames": 1,
+      "first_frame": 138,
+      "last_frame": 138,
+      "span": 0,
+      "avg_confidence": 0.428
+    },
+    "7": {
+      "frames": 21,
+      "first_frame": 189,
+      "last_frame": 294,
+      "span": 105,
+      "avg_confidence": 0.428
+    },
+    "8": {
+      "frames": 25,
+      "first_frame": 198,
+      "last_frame": 318,
+      "span": 120,
+      "avg_confidence": 0.563
+    },
+    "9": {
+      "frames": 1,
+      "first_frame": 378,
+      "last_frame": 378,
+      "span": 0,
+      "avg_confidence": 0.373
+    },
+    "10": {
+      "frames": 1,
+      "first_frame": 471,
+      "last_frame": 471,
+      "span": 0,
+      "avg_confidence": 0.331
+    },
+    "11": {
+      "frames": 2,
+      "first_frame": 498,
+      "last_frame": 507,
+      "span": 9,
+      "avg_confidence": 0.424
+    },
+    "12": {
+      "frames": 73,
+      "first_frame": 561,
+      "last_frame": 804,
+      "span": 243,
+      "avg_confidence": 0.656
+    },
+    "13": {
+      "frames": 14,
+      "first_frame": 573,
+      "last_frame": 639,
+      "span": 66,
+      "avg_confidence": 0.473
+    },
+    "14": {
+      "frames": 5,
+      "first_frame": 756,
+      "last_frame": 783,
+      "span": 27,
+      "avg_confidence": 0.407
+    },
+    "15": {
+      "frames": 1,
+      "first_frame": 873,
+      "last_frame": 873,
+      "span": 0,
+      "avg_confidence": 0.347
+    }
+  }
+}

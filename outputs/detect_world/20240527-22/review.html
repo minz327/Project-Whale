@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Detection Review — 20240527-22</title>
+<style>
+  body { font-family: -apple-system, sans-serif; margin: 20px; background: #1a1a1a; color: #eee; }
+  h1 { color: #4fc3f7; }
+  .summary { background: #2a2a2a; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+  .summary table { border-collapse: collapse; }
+  .summary td, .summary th { padding: 6px 14px; text-align: left; }
+  .summary th { color: #90caf9; }
+  .frame-card { background: #2a2a2a; margin: 15px 0; padding: 15px; border-radius: 8px;
+                 display: flex; gap: 20px; align-items: flex-start; }
+  .frame-card img { max-width: 720px; border-radius: 4px; cursor: pointer; }
+  .frame-card img:hover { max-width: 100%; }
+  .det-list { min-width: 280px; }
+  .det-item { padding: 6px 10px; margin: 4px 0; border-radius: 4px; font-size: 14px; }
+  .det-item.high { background: #1b5e20; }
+  .det-item.mid { background: #e65100; }
+  .det-item.low { background: #b71c1c; }
+  .conf { font-weight: bold; font-size: 16px; }
+  .merged { color: #aaa; font-size: 12px; }
+  .controls { margin: 10px 0; }
+  .filter-btn { padding: 6px 14px; margin: 3px; border: none; border-radius: 4px;
+                 cursor: pointer; font-size: 13px; }
+  .filter-btn.active { outline: 2px solid #4fc3f7; }
+  .hidden { display: none; }
+  .stats-bar { display: flex; gap: 20px; margin: 10px 0; }
+  .stat { text-align: center; }
+  .stat .num { font-size: 28px; font-weight: bold; }
+  .stat .label { font-size: 12px; color: #aaa; }
+</style>
+</head>
+<body>
+<h1>Detection Review — 20240527-22</h1>
+
+<div class="summary">
+  <div class="stats-bar">
+    <div class="stat"><div class="num">193</div><div class="label">Merged detections</div></div>
+    <div class="stat"><div class="num">60</div><div class="label">Frames to review</div></div>
+    <div class="stat" style="color:#4caf50"><div class="num">64</div><div class="label">High conf (≥0.3)</div></div>
+    <div class="stat" style="color:#ff9800"><div class="num">74</div><div class="label">Mid conf (0.1–0.3)</div></div>
+    <div class="stat" style="color:#f44336"><div class="num">55</div><div class="label">Low conf (<0.1)</div></div>
+  </div>
+</div>
+
+<div class="controls">
+  <strong>Filter by confidence:</strong>
+  <button class="filter-btn active" onclick="filterFrames('all')">All</button>
+  <button class="filter-btn" onclick="filterFrames('high')" style="background:#1b5e20;color:#fff">High (≥0.3)</button>
+  <button class="filter-btn" onclick="filterFrames('mid')" style="background:#e65100;color:#fff">Mid (0.1–0.3)</button>
+  <button class="filter-btn" onclick="filterFrames('low')" style="background:#b71c1c;color:#fff">Low (<0.1)</button>
+</div>
+
+<div id="frames">
+
+<div class="frame-card" data-tier="high" data-frame="0">
+  <img src="frame_00000_det.jpg" alt="Frame 0" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 0</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.737</span> whale
+  <div class="merged">bbox: 2576,1350 → 2979,1710 (403×360px)</div>
+  <div class="merged">merged with: marine mammal:0.17</div>
+</div><div class="det-item high">
+  <span class="conf">0.730</span> marine mammal
+  <div class="merged">bbox: 637,1173 → 1330,1817 (693×644px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.446</span> marine mammal
+  <div class="merged">bbox: 643,1658 → 1164,2106 (521×448px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.058</span> marine mammal
+  <div class="merged">bbox: 0,1620 → 587,2061 (587×441px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="15">
+  <img src="frame_00015_det.jpg" alt="Frame 15" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 15</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.558</span> whale
+  <div class="merged">bbox: 574,1392 → 1107,1887 (533×495px)</div>
+  <div class="merged">merged with: marine mammal:0.52</div>
+</div><div class="det-item high">
+  <span class="conf">0.547</span> whale
+  <div class="merged">bbox: 2586,1155 → 2935,1490 (349×335px)</div>
+  <div class="merged">merged with: marine mammal:0.34</div>
+</div><div class="det-item high">
+  <span class="conf">0.434</span> marine mammal
+  <div class="merged">bbox: 593,928 → 1333,1573 (740×645px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="30">
+  <img src="frame_00030_det.jpg" alt="Frame 30" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 30</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.574</span> marine mammal
+  <div class="merged">bbox: 571,537 → 1261,1166 (690×629px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.517</span> marine mammal
+  <div class="merged">bbox: 2606,801 → 3100,1273 (494×472px)</div>
+  <div class="merged">merged with: whale:0.44</div>
+</div><div class="det-item high">
+  <span class="conf">0.410</span> whale
+  <div class="merged">bbox: 578,1030 → 1204,1622 (626×592px)</div>
+  <div class="merged">merged with: marine mammal:0.38</div>
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="45">
+  <img src="frame_00045_det.jpg" alt="Frame 45" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 45</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.467</span> marine mammal
+  <div class="merged">bbox: 2634,407 → 3109,897 (475×490px)</div>
+  <div class="merged">merged with: whale:0.21</div>
+</div><div class="det-item high">
+  <span class="conf">0.367</span> marine mammal
+  <div class="merged">bbox: 557,115 → 1247,725 (690×610px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.232</span> marine mammal
+  <div class="merged">bbox: 555,575 → 1279,1274 (724×699px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="60">
+  <img src="frame_00060_det.jpg" alt="Frame 60" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 60</strong> — 5 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.638</span> marine mammal
+  <div class="merged">bbox: 603,258 → 1293,972 (690×714px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.629</span> marine mammal
+  <div class="merged">bbox: 2705,226 → 3091,684 (386×458px)</div>
+  <div class="merged">merged with: whale:0.46</div>
+</div><div class="det-item mid">
+  <span class="conf">0.117</span> whale
+  <div class="merged">bbox: 3120,1993 → 3222,2052 (102×59px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.106</span> marine mammal
+  <div class="merged">bbox: 800,0 → 1394,424 (594×424px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.080</span> marine mammal
+  <div class="merged">bbox: 0,292 → 397,669 (397×377px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="75">
+  <img src="frame_00075_det.jpg" alt="Frame 75" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 75</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.707</span> marine mammal
+  <div class="merged">bbox: 601,145 → 1296,843 (695×698px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.484</span> whale
+  <div class="merged">bbox: 2747,164 → 3082,518 (335×354px)</div>
+  <div class="merged">merged with: marine mammal:0.06</div>
+</div><div class="det-item mid">
+  <span class="conf">0.121</span> marine mammal
+  <div class="merged">bbox: 0,187 → 558,694 (558×507px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="90">
+  <img src="frame_00090_det.jpg" alt="Frame 90" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 90</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.880</span> marine mammal
+  <div class="merged">bbox: 646,64 → 1342,767 (696×703px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.475</span> whale
+  <div class="merged">bbox: 2829,134 → 3181,489 (352×355px)</div>
+  <div class="merged">merged with: marine mammal:0.47</div>
+</div><div class="det-item low">
+  <span class="conf">0.099</span> marine mammal
+  <div class="merged">bbox: 48,143 → 609,642 (561×499px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="105">
+  <img src="frame_00105_det.jpg" alt="Frame 105" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 105</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.836</span> marine mammal
+  <div class="merged">bbox: 714,24 → 1391,727 (677×703px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.318</span> whale
+  <div class="merged">bbox: 2934,132 → 3278,500 (344×368px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.155</span> marine mammal
+  <div class="merged">bbox: 112,122 → 646,610 (534×488px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="120">
+  <img src="frame_00120_det.jpg" alt="Frame 120" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 120</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.716</span> whale
+  <div class="merged">bbox: 3027,209 → 3360,564 (333×355px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.473</span> marine mammal
+  <div class="merged">bbox: 747,38 → 1610,748 (863×710px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.357</span> marine mammal
+  <div class="merged">bbox: 0,511 → 561,1137 (561×626px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.330</span> marine mammal
+  <div class="merged">bbox: 170,148 → 690,616 (520×468px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="135">
+  <img src="frame_00135_det.jpg" alt="Frame 135" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 135</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.393</span> marine mammal
+  <div class="merged">bbox: 767,146 → 1434,853 (667×707px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.349</span> whale
+  <div class="merged">bbox: 3072,355 → 3425,723 (353×368px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.144</span> marine mammal
+  <div class="merged">bbox: 0,657 → 472,1159 (472×502px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.130</span> marine mammal
+  <div class="merged">bbox: 194,260 → 769,797 (575×537px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="150">
+  <img src="frame_00150_det.jpg" alt="Frame 150" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 150</strong> — 5 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.863</span> marine mammal
+  <div class="merged">bbox: 3108,534 → 3466,901 (358×367px)</div>
+  <div class="merged">merged with: whale:0.41</div>
+</div><div class="det-item mid">
+  <span class="conf">0.133</span> marine mammal
+  <div class="merged">bbox: 0,802 → 597,1453 (597×651px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.131</span> marine mammal
+  <div class="merged">bbox: 760,278 → 1479,993 (719×715px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.122</span> marine mammal
+  <div class="merged">bbox: 194,398 → 874,1055 (680×657px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.055</span> marine mammal
+  <div class="merged">bbox: 932,0 → 1399,408 (467×408px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="165">
+  <img src="frame_00165_det.jpg" alt="Frame 165" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 165</strong> — 3 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.238</span> marine mammal
+  <div class="merged">bbox: 0,938 → 590,1615 (590×677px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.234</span> marine mammal
+  <div class="merged">bbox: 189,551 → 871,1216 (682×665px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.179</span> marine mammal
+  <div class="merged">bbox: 3139,719 → 3503,1099 (364×380px)</div>
+  <div class="merged">merged with: whale:0.15</div>
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="180">
+  <img src="frame_00180_det.jpg" alt="Frame 180" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 180</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.889</span> marine mammal
+  <div class="merged">bbox: 3162,806 → 3510,1195 (348×389px)</div>
+  <div class="merged">merged with: whale:0.56</div>
+</div><div class="det-item mid">
+  <span class="conf">0.226</span> marine mammal
+  <div class="merged">bbox: 0,969 → 563,1686 (563×717px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.207</span> marine mammal
+  <div class="merged">bbox: 170,625 → 843,1245 (673×620px)</div>
+  <div class="merged">merged with: whale:0.07</div>
+</div><div class="det-item low">
+  <span class="conf">0.061</span> marine mammal
+  <div class="merged">bbox: 670,5 → 1401,602 (731×597px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="195">
+  <img src="frame_00195_det.jpg" alt="Frame 195" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 195</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.567</span> whale
+  <div class="merged">bbox: 3150,858 → 3446,1158 (296×300px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.502</span> marine mammal
+  <div class="merged">bbox: 0,978 → 559,1698 (559×720px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.368</span> marine mammal
+  <div class="merged">bbox: 128,606 → 758,1232 (630×626px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="210">
+  <img src="frame_00210_det.jpg" alt="Frame 210" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 210</strong> — 5 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.738</span> marine mammal
+  <div class="merged">bbox: 3144,846 → 3501,1212 (357×366px)</div>
+  <div class="merged">merged with: whale:0.48, dorsal fin:0.10</div>
+</div><div class="det-item mid">
+  <span class="conf">0.181</span> marine mammal
+  <div class="merged">bbox: 20,534 → 682,1143 (662×609px)</div>
+  <div class="merged">merged with: whale:0.13</div>
+</div><div class="det-item mid">
+  <span class="conf">0.126</span> marine mammal
+  <div class="merged">bbox: 0,918 → 387,1567 (387×649px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.112</span> dorsal fin
+  <div class="merged">bbox: 3215,857 → 3382,1013 (167×156px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.055</span> marine mammal
+  <div class="merged">bbox: 791,110 → 1251,532 (460×422px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="225">
+  <img src="frame_00225_det.jpg" alt="Frame 225" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 225</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.774</span> marine mammal
+  <div class="merged">bbox: 3213,832 → 3491,1187 (278×355px)</div>
+  <div class="merged">merged with: whale:0.17</div>
+</div><div class="det-item high">
+  <span class="conf">0.376</span> marine mammal
+  <div class="merged">bbox: 0,927 → 301,1486 (301×559px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.140</span> whale
+  <div class="merged">bbox: 40,503 → 616,1084 (576×581px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.056</span> dorsal fin
+  <div class="merged">bbox: 3219,836 → 3390,1028 (171×192px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="240">
+  <img src="frame_00240_det.jpg" alt="Frame 240" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 240</strong> — 5 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.538</span> marine mammal
+  <div class="merged">bbox: 3171,839 → 3494,1196 (323×357px)</div>
+  <div class="merged">merged with: whale:0.08</div>
+</div><div class="det-item mid">
+  <span class="conf">0.300</span> whale
+  <div class="merged">bbox: 3222,858 → 3417,1119 (195×261px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.199</span> marine mammal
+  <div class="merged">bbox: 0,915 → 373,1544 (373×629px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.181</span> whale
+  <div class="merged">bbox: 2,469 → 684,1155 (682×686px)</div>
+  <div class="merged">merged with: marine mammal:0.16</div>
+</div><div class="det-item mid">
+  <span class="conf">0.116</span> dorsal fin
+  <div class="merged">bbox: 3227,871 → 3372,1035 (145×164px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="255">
+  <img src="frame_00255_det.jpg" alt="Frame 255" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 255</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.701</span> marine mammal
+  <div class="merged">bbox: 0,402 → 670,1113 (670×711px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.476</span> marine mammal
+  <div class="merged">bbox: 3158,877 → 3496,1201 (338×324px)</div>
+  <div class="merged">merged with: whale:0.09, dorsal fin:0.08</div>
+</div><div class="det-item mid">
+  <span class="conf">0.236</span> marine mammal
+  <div class="merged">bbox: 0,882 → 332,1529 (332×647px)</div>
+  <div class="merged">merged with: whale:0.18</div>
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="270">
+  <img src="frame_00270_det.jpg" alt="Frame 270" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 270</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.723</span> marine mammal
+  <div class="merged">bbox: 0,400 → 618,1069 (618×669px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.513</span> marine mammal
+  <div class="merged">bbox: 3160,879 → 3437,1143 (277×264px)</div>
+  <div class="merged">merged with: whale:0.25</div>
+</div><div class="det-item high">
+  <span class="conf">0.339</span> marine mammal
+  <div class="merged">bbox: 0,1084 → 343,1553 (343×469px)</div>
+  <div class="merged">merged with: whale:0.29</div>
+</div><div class="det-item low">
+  <span class="conf">0.084</span> marine mammal
+  <div class="merged">bbox: 670,448 → 1140,923 (470×475px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="285">
+  <img src="frame_00285_det.jpg" alt="Frame 285" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 285</strong> — 6 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.808</span> marine mammal
+  <div class="merged">bbox: 0,363 → 569,1026 (569×663px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.523</span> marine mammal
+  <div class="merged">bbox: 3171,888 → 3486,1203 (315×315px)</div>
+  <div class="merged">merged with: whale:0.06</div>
+</div><div class="det-item high">
+  <span class="conf">0.400</span> marine mammal
+  <div class="merged">bbox: 0,839 → 337,1560 (337×721px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.068</span> dorsal fin
+  <div class="merged">bbox: 399,863 → 570,1027 (171×164px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.059</span> whale
+  <div class="merged">bbox: 1454,1327 → 1698,1564 (244×237px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.050</span> marine mammal
+  <div class="merged">bbox: 403,176 → 1085,880 (682×704px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="300">
+  <img src="frame_00300_det.jpg" alt="Frame 300" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 300</strong> — 5 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.587</span> marine mammal
+  <div class="merged">bbox: 3173,888 → 3436,1129 (263×241px)</div>
+  <div class="merged">merged with: whale:0.19</div>
+</div><div class="det-item mid">
+  <span class="conf">0.116</span> marine mammal
+  <div class="merged">bbox: 0,955 → 278,1470 (278×515px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.105</span> marine mammal
+  <div class="merged">bbox: 0,349 → 520,994 (520×645px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.080</span> dorsal fin
+  <div class="merged">bbox: 3242,890 → 3418,1053 (176×163px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.067</span> whale
+  <div class="merged">bbox: 1468,1324 → 1710,1583 (242×259px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="315">
+  <img src="frame_00315_det.jpg" alt="Frame 315" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 315</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.587</span> marine mammal
+  <div class="merged">bbox: 3169,870 → 3428,1103 (259×233px)</div>
+  <div class="merged">merged with: whale:0.24</div>
+</div><div class="det-item mid">
+  <span class="conf">0.219</span> marine mammal
+  <div class="merged">bbox: 0,352 → 500,953 (500×601px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.093</span> dorsal fin
+  <div class="merged">bbox: 3249,887 → 3393,1023 (144×136px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="330">
+  <img src="frame_00330_det.jpg" alt="Frame 330" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 330</strong> — 1 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.576</span> marine mammal
+  <div class="merged">bbox: 3175,850 → 3435,1125 (260×275px)</div>
+  <div class="merged">merged with: whale:0.33</div>
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="345">
+  <img src="frame_00345_det.jpg" alt="Frame 345" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 345</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.760</span> marine mammal
+  <div class="merged">bbox: 3279,952 → 3530,1204 (251×252px)</div>
+  <div class="merged">merged with: whale:0.11</div>
+</div><div class="det-item mid">
+  <span class="conf">0.288</span> marine mammal
+  <div class="merged">bbox: 34,431 → 552,911 (518×480px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.095</span> whale
+  <div class="merged">bbox: 1807,1035 → 2089,1308 (282×273px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.066</span> marine mammal
+  <div class="merged">bbox: 0,543 → 269,1403 (269×860px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="360">
+  <img src="frame_00360_det.jpg" alt="Frame 360" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 360</strong> — 2 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.644</span> marine mammal
+  <div class="merged">bbox: 3464,1262 → 3704,1507 (240×245px)</div>
+  <div class="merged">merged with: whale:0.39</div>
+</div><div class="det-item mid">
+  <span class="conf">0.135</span> whale
+  <div class="merged">bbox: 1969,1210 → 2286,1518 (317×308px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="375">
+  <img src="frame_00375_det.jpg" alt="Frame 375" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 375</strong> — 4 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.278</span> whale
+  <div class="merged">bbox: 3678,1800 → 3836,1997 (158×197px)</div>
+  <div class="merged">merged with: marine mammal:0.14</div>
+</div><div class="det-item mid">
+  <span class="conf">0.237</span> marine mammal
+  <div class="merged">bbox: 0,527 → 608,1471 (608×944px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.143</span> marine mammal
+  <div class="merged">bbox: 90,868 → 567,1467 (477×599px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.050</span> marine mammal
+  <div class="merged">bbox: 322,315 → 1007,1071 (685×756px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="low" data-frame="405">
+  <img src="frame_00405_det.jpg" alt="Frame 405" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 405</strong> — 1 detection(s)
+    <div class="det-item low">
+  <span class="conf">0.087</span> marine mammal
+  <div class="merged">bbox: 416,1011 → 773,1686 (357×675px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="low" data-frame="420">
+  <img src="frame_00420_det.jpg" alt="Frame 420" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 420</strong> — 3 detection(s)
+    <div class="det-item low">
+  <span class="conf">0.081</span> marine mammal
+  <div class="merged">bbox: 470,1064 → 829,1730 (359×666px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.072</span> marine mammal
+  <div class="merged">bbox: 311,1062 → 1025,1937 (714×875px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.059</span> whale
+  <div class="merged">bbox: 433,772 → 810,1164 (377×392px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="450">
+  <img src="frame_00450_det.jpg" alt="Frame 450" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 450</strong> — 1 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.190</span> whale
+  <div class="merged">bbox: 408,809 → 775,1171 (367×362px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="465">
+  <img src="frame_00465_det.jpg" alt="Frame 465" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 465</strong> — 4 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.262</span> marine mammal
+  <div class="merged">bbox: 918,662 → 1250,1455 (332×793px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.163</span> marine mammal
+  <div class="merged">bbox: 1409,668 → 1715,1420 (306×752px)</div>
+  <div class="merged">merged with: whale:0.07</div>
+</div><div class="det-item mid">
+  <span class="conf">0.102</span> marine mammal
+  <div class="merged">bbox: 444,1063 → 849,1555 (405×492px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.070</span> marine mammal
+  <div class="merged">bbox: 1726,673 → 2223,1272 (497×599px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="480">
+  <img src="frame_00480_det.jpg" alt="Frame 480" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 480</strong> — 2 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.210</span> whale
+  <div class="merged">bbox: 407,752 → 766,1105 (359×353px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.084</span> marine mammal
+  <div class="merged">bbox: 1439,633 → 1761,1431 (322×798px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="495">
+  <img src="frame_00495_det.jpg" alt="Frame 495" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 495</strong> — 5 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.594</span> marine mammal
+  <div class="merged">bbox: 1449,632 → 1773,1210 (324×578px)</div>
+  <div class="merged">merged with: whale:0.11</div>
+</div><div class="det-item high">
+  <span class="conf">0.302</span> marine mammal
+  <div class="merged">bbox: 954,647 → 1186,1352 (232×705px)</div>
+  <div class="merged">merged with: whale:0.11</div>
+</div><div class="det-item mid">
+  <span class="conf">0.240</span> whale
+  <div class="merged">bbox: 430,765 → 786,1129 (356×364px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.098</span> marine mammal
+  <div class="merged">bbox: 521,1067 → 908,1512 (387×445px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.076</span> marine mammal
+  <div class="merged">bbox: 430,764 → 854,1438 (424×674px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="low" data-frame="510">
+  <img src="frame_00510_det.jpg" alt="Frame 510" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 510</strong> — 1 detection(s)
+    <div class="det-item low">
+  <span class="conf">0.078</span> whale
+  <div class="merged">bbox: 468,784 → 810,1127 (342×343px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="525">
+  <img src="frame_00525_det.jpg" alt="Frame 525" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 525</strong> — 4 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.183</span> marine mammal
+  <div class="merged">bbox: 584,1161 → 1030,1674 (446×513px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.182</span> whale
+  <div class="merged">bbox: 1576,684 → 1741,1214 (165×530px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.054</span> whale
+  <div class="merged">bbox: 482,823 → 814,1198 (332×375px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.054</span> marine mammal
+  <div class="merged">bbox: 972,727 → 1335,1533 (363×806px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="540">
+  <img src="frame_00540_det.jpg" alt="Frame 540" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 540</strong> — 1 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.111</span> marine mammal
+  <div class="merged">bbox: 1496,721 → 1929,1562 (433×841px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="555">
+  <img src="frame_00555_det.jpg" alt="Frame 555" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 555</strong> — 3 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.217</span> marine mammal
+  <div class="merged">bbox: 1525,781 → 1808,1340 (283×559px)</div>
+  <div class="merged">merged with: whale:0.06</div>
+</div><div class="det-item mid">
+  <span class="conf">0.108</span> marine mammal
+  <div class="merged">bbox: 990,838 → 1356,1648 (366×810px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.054</span> marine mammal
+  <div class="merged">bbox: 508,932 → 1043,1754 (535×822px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="570">
+  <img src="frame_00570_det.jpg" alt="Frame 570" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 570</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.657</span> marine mammal
+  <div class="merged">bbox: 1541,821 → 1824,1393 (283×572px)</div>
+  <div class="merged">merged with: whale:0.09</div>
+</div><div class="det-item high">
+  <span class="conf">0.427</span> marine mammal
+  <div class="merged">bbox: 996,880 → 1366,1694 (370×814px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.231</span> whale
+  <div class="merged">bbox: 516,972 → 861,1339 (345×367px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="585">
+  <img src="frame_00585_det.jpg" alt="Frame 585" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 585</strong> — 7 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.242</span> marine mammal
+  <div class="merged">bbox: 988,918 → 1363,1692 (375×774px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.242</span> marine mammal
+  <div class="merged">bbox: 1542,839 → 1821,1540 (279×701px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.233</span> whale
+  <div class="merged">bbox: 1610,840 → 1744,1007 (134×167px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.231</span> marine mammal
+  <div class="merged">bbox: 614,1373 → 1114,1920 (500×547px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.109</span> marine mammal
+  <div class="merged">bbox: 1657,1212 → 1808,1594 (151×382px)</div>
+  <div class="merged">merged with: whale:0.05</div>
+</div><div class="det-item low">
+  <span class="conf">0.089</span> marine mammal
+  <div class="merged">bbox: 1072,1228 → 1366,1731 (294×503px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.077</span> marine mammal
+  <div class="merged">bbox: 496,1009 → 1113,1935 (617×926px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="600">
+  <img src="frame_00600_det.jpg" alt="Frame 600" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 600</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.656</span> marine mammal
+  <div class="merged">bbox: 1544,843 → 1844,1633 (300×790px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.345</span> marine mammal
+  <div class="merged">bbox: 997,947 → 1372,1763 (375×816px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.053</span> marine mammal
+  <div class="merged">bbox: 517,1030 → 884,1881 (367×851px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="615">
+  <img src="frame_00615_det.jpg" alt="Frame 615" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 615</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.756</span> marine mammal
+  <div class="merged">bbox: 1525,819 → 1881,1646 (356×827px)</div>
+  
+</div><div class="det-item high">
+  <span class="conf">0.450</span> marine mammal
+  <div class="merged">bbox: 982,954 → 1369,1779 (387×825px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.244</span> marine mammal
+  <div class="merged">bbox: 496,1049 → 1027,1903 (531×854px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="630">
+  <img src="frame_00630_det.jpg" alt="Frame 630" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 630</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.732</span> marine mammal
+  <div class="merged">bbox: 1496,758 → 1915,1607 (419×849px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.156</span> marine mammal
+  <div class="merged">bbox: 955,951 → 1260,1645 (305×694px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.084</span> marine mammal
+  <div class="merged">bbox: 497,1074 → 847,1712 (350×638px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.066</span> marine mammal
+  <div class="merged">bbox: 497,1075 → 1035,1979 (538×904px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="645">
+  <img src="frame_00645_det.jpg" alt="Frame 645" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 645</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.690</span> marine mammal
+  <div class="merged">bbox: 1464,662 → 1954,1533 (490×871px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.118</span> marine mammal
+  <div class="merged">bbox: 920,911 → 1384,1673 (464×762px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.102</span> marine mammal
+  <div class="merged">bbox: 492,1058 → 899,1943 (407×885px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="660">
+  <img src="frame_00660_det.jpg" alt="Frame 660" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 660</strong> — 3 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.281</span> marine mammal
+  <div class="merged">bbox: 1434,533 → 1974,1372 (540×839px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.149</span> marine mammal
+  <div class="merged">bbox: 453,969 → 880,1719 (427×750px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.117</span> marine mammal
+  <div class="merged">bbox: 875,804 → 1250,1459 (375×655px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="675">
+  <img src="frame_00675_det.jpg" alt="Frame 675" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 675</strong> — 1 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.294</span> marine mammal
+  <div class="merged">bbox: 1377,166 → 1988,1202 (611×1036px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="690">
+  <img src="frame_00690_det.jpg" alt="Frame 690" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 690</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.869</span> marine mammal
+  <div class="merged">bbox: 1313,1 → 1974,1016 (661×1015px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.074</span> marine mammal
+  <div class="merged">bbox: 387,724 → 838,1445 (451×721px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.051</span> marine mammal
+  <div class="merged">bbox: 780,534 → 1331,1278 (551×744px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="705">
+  <img src="frame_00705_det.jpg" alt="Frame 705" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 705</strong> — 2 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.568</span> marine mammal
+  <div class="merged">bbox: 1226,35 → 1815,859 (589×824px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.051</span> marine mammal
+  <div class="merged">bbox: 702,36 → 1867,1069 (1165×1033px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="720">
+  <img src="frame_00720_det.jpg" alt="Frame 720" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 720</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.885</span> marine mammal
+  <div class="merged">bbox: 1189,1 → 1786,749 (597×748px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.213</span> marine mammal
+  <div class="merged">bbox: 259,448 → 723,1176 (464×728px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.171</span> marine mammal
+  <div class="merged">bbox: 646,275 → 1078,875 (432×600px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="735">
+  <img src="frame_00735_det.jpg" alt="Frame 735" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 735</strong> — 3 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.734</span> marine mammal
+  <div class="merged">bbox: 1171,0 → 1942,712 (771×712px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.167</span> marine mammal
+  <div class="merged">bbox: 251,417 → 705,1144 (454×727px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.082</span> marine mammal
+  <div class="merged">bbox: 638,238 → 1035,796 (397×558px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="750">
+  <img src="frame_00750_det.jpg" alt="Frame 750" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 750</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.934</span> marine mammal
+  <div class="merged">bbox: 1310,121 → 1733,683 (423×562px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.195</span> marine mammal
+  <div class="merged">bbox: 642,202 → 1026,766 (384×564px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.145</span> marine mammal
+  <div class="merged">bbox: 240,398 → 672,1048 (432×650px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.077</span> dorsal fin
+  <div class="merged">bbox: 1511,508 → 1707,686 (196×178px)</div>
+  <div class="merged">merged with: whale:0.06</div>
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="765">
+  <img src="frame_00765_det.jpg" alt="Frame 765" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 765</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.498</span> marine mammal
+  <div class="merged">bbox: 1278,150 → 1685,679 (407×529px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.195</span> marine mammal
+  <div class="merged">bbox: 240,422 → 802,1211 (562×789px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.183</span> marine mammal
+  <div class="merged">bbox: 627,240 → 1058,859 (431×619px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.080</span> marine mammal
+  <div class="merged">bbox: 1260,359 → 1428,633 (168×274px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="780">
+  <img src="frame_00780_det.jpg" alt="Frame 780" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 780</strong> — 3 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.171</span> marine mammal
+  <div class="merged">bbox: 1016,0 → 1889,687 (873×687px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.064</span> marine mammal
+  <div class="merged">bbox: 234,529 → 810,1271 (576×742px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.059</span> marine mammal
+  <div class="merged">bbox: 585,327 → 991,838 (406×511px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="high" data-frame="795">
+  <img src="frame_00795_det.jpg" alt="Frame 795" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 795</strong> — 4 detection(s)
+    <div class="det-item high">
+  <span class="conf">0.636</span> marine mammal
+  <div class="merged">bbox: 971,40 → 1646,706 (675×666px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.183</span> marine mammal
+  <div class="merged">bbox: 1173,250 → 1644,707 (471×457px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.084</span> marine mammal
+  <div class="merged">bbox: 573,416 → 982,876 (409×460px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.074</span> marine mammal
+  <div class="merged">bbox: 260,637 → 693,1154 (433×517px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="810">
+  <img src="frame_00810_det.jpg" alt="Frame 810" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 810</strong> — 2 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.120</span> marine mammal
+  <div class="merged">bbox: 851,223 → 1584,780 (733×557px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.071</span> whale
+  <div class="merged">bbox: 243,856 → 717,1298 (474×442px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="low" data-frame="825">
+  <img src="frame_00825_det.jpg" alt="Frame 825" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 825</strong> — 1 detection(s)
+    <div class="det-item low">
+  <span class="conf">0.080</span> marine mammal
+  <div class="merged">bbox: 739,410 → 1392,866 (653×456px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="855">
+  <img src="frame_00855_det.jpg" alt="Frame 855" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 855</strong> — 2 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.109</span> whale
+  <div class="merged">bbox: 652,465 → 1094,708 (442×243px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.107</span> marine mammal
+  <div class="merged">bbox: 657,696 → 1334,1019 (677×323px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="870">
+  <img src="frame_00870_det.jpg" alt="Frame 870" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 870</strong> — 3 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.260</span> marine mammal
+  <div class="merged">bbox: 661,707 → 1313,1023 (652×316px)</div>
+  
+</div><div class="det-item mid">
+  <span class="conf">0.230</span> whale
+  <div class="merged">bbox: 654,481 → 1154,745 (500×264px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.098</span> marine mammal
+  <div class="merged">bbox: 392,1410 → 973,1681 (581×271px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="885">
+  <img src="frame_00885_det.jpg" alt="Frame 885" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 885</strong> — 2 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.121</span> whale
+  <div class="merged">bbox: 613,467 → 1140,778 (527×311px)</div>
+  <div class="merged">merged with: marine mammal:0.08</div>
+</div><div class="det-item low">
+  <span class="conf">0.054</span> marine mammal
+  <div class="merged">bbox: 627,719 → 1241,1013 (614×294px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="900">
+  <img src="frame_00900_det.jpg" alt="Frame 900" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 900</strong> — 3 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.149</span> marine mammal
+  <div class="merged">bbox: 277,1322 → 879,1641 (602×319px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.088</span> marine mammal
+  <div class="merged">bbox: 508,433 → 1050,772 (542×339px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.064</span> marine mammal
+  <div class="merged">bbox: 508,662 → 1100,969 (592×307px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="low" data-frame="915">
+  <img src="frame_00915_det.jpg" alt="Frame 915" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 915</strong> — 3 detection(s)
+    <div class="det-item low">
+  <span class="conf">0.086</span> marine mammal
+  <div class="merged">bbox: 486,683 → 1055,942 (569×259px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.063</span> whale
+  <div class="merged">bbox: 259,1297 → 744,1546 (485×249px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.054</span> marine mammal
+  <div class="merged">bbox: 482,484 → 1230,943 (748×459px)</div>
+  
+</div>
+  </div>
+</div>
+
+<div class="frame-card" data-tier="mid" data-frame="945">
+  <img src="frame_00945_det.jpg" alt="Frame 945" loading="lazy">
+  <div class="det-list">
+    <strong>Frame 945</strong> — 3 detection(s)
+    <div class="det-item mid">
+  <span class="conf">0.142</span> marine mammal
+  <div class="merged">bbox: 501,461 → 1018,775 (517×314px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.082</span> whale
+  <div class="merged">bbox: 407,1049 → 799,1230 (392×181px)</div>
+  
+</div><div class="det-item low">
+  <span class="conf">0.064</span> whale
+  <div class="merged">bbox: 290,1281 → 731,1505 (441×224px)</div>
+  
+</div>
+  </div>
+</div>
+
+</div>
+
+<script>
+function filterFrames(tier) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('.frame-card').forEach(card => {
+    if (tier === 'all' || card.dataset.tier === tier) {
+      card.classList.remove('hidden');
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+}
+</script>
+</body>
+</html>

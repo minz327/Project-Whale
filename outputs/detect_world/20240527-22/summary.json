@@ -1,0 +1,40 @@
+{
+  "video": "20240527-22",
+  "model": "yolov8x-worldv2",
+  "classes_prompted": [
+    "whale",
+    "orca",
+    "killer whale",
+    "dolphin",
+    "dorsal fin",
+    "marine mammal"
+  ],
+  "total_frames_processed": 64,
+  "frames_with_detections": 60,
+  "total_detections": 264,
+  "class_counts": {
+    "whale": 70,
+    "marine mammal": 185,
+    "dorsal fin": 9
+  },
+  "confidence_stats": {
+    "whale": {
+      "count": 70,
+      "min": 0.051,
+      "max": 0.737,
+      "mean": 0.23
+    },
+    "marine mammal": {
+      "count": 185,
+      "min": 0.05,
+      "max": 0.934,
+      "mean": 0.276
+    },
+    "dorsal fin": {
+      "count": 9,
+      "min": 0.056,
+      "max": 0.116,
+      "mean": 0.087
+    }
+  }
+}
