@@ -1,0 +1,7419 @@
+[
+  {
+    "frame": 0,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 643.8,
+        "y": 1180.0,
+        "confidence": 0.648
+      },
+      "left_pect_fin_tip": {
+        "x": 653.8,
+        "y": 1640.0,
+        "confidence": 0.1409
+      },
+      "right_pect_fin_tip": {
+        "x": 863.6,
+        "y": 1225.0,
+        "confidence": 0.1228
+      },
+      "left_caudal_fluke": {
+        "x": 898.6,
+        "y": 1435.0,
+        "confidence": 0.6906
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 0,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 655.7,
+        "y": 1684.0,
+        "confidence": 0.3026
+      },
+      "left_caudal_fluke": {
+        "x": 1001.1,
+        "y": 1992.8,
+        "confidence": 0.7568
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 636.2,
+        "y": 1148.4,
+        "confidence": 0.612
+      },
+      "left_pect_fin_tip": {
+        "x": 631.2,
+        "y": 1173.4,
+        "confidence": 0.1603
+      },
+      "right_pect_fin_tip": {
+        "x": 856.4,
+        "y": 1188.5,
+        "confidence": 0.1635
+      },
+      "left_caudal_fluke": {
+        "x": 896.4,
+        "y": 1403.9,
+        "confidence": 0.5649
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 6,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 623.9,
+        "y": 1105.0,
+        "confidence": 0.8102
+      },
+      "left_pect_fin_tip": {
+        "x": 613.8,
+        "y": 1564.3,
+        "confidence": 0.1064
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 6,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 630.5,
+        "y": 1601.1,
+        "confidence": 0.366
+      },
+      "left_caudal_fluke": {
+        "x": 967.4,
+        "y": 1911.2,
+        "confidence": 0.6113
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 9,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 620.9,
+        "y": 1546.5,
+        "confidence": 0.4161
+      },
+      "left_caudal_fluke": {
+        "x": 970.4,
+        "y": 1864.9,
+        "confidence": 0.5274
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 9,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 621.3,
+        "y": 1054.7,
+        "confidence": 0.8481
+      },
+      "left_pect_fin_tip": {
+        "x": 723.7,
+        "y": 1264.5,
+        "confidence": 0.1183
+      },
+      "left_caudal_fluke": {
+        "x": 862.0,
+        "y": 1295.2,
+        "confidence": 0.1766
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 12,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 614.8,
+        "y": 1490.4,
+        "confidence": 0.2907
+      },
+      "left_caudal_fluke": {
+        "x": 960.8,
+        "y": 1812.1,
+        "confidence": 0.7069
+      },
+      "right_caudal_fluke": {
+        "x": 1052.2,
+        "y": 1426.9,
+        "confidence": 0.2425
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 12,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 610.3,
+        "y": 997.6,
+        "confidence": 0.7768
+      },
+      "left_pect_fin_tip": {
+        "x": 715.5,
+        "y": 1213.2,
+        "confidence": 0.2722
+      },
+      "left_caudal_fluke": {
+        "x": 850.8,
+        "y": 1238.3,
+        "confidence": 0.2261
+      },
+      "right_caudal_fluke": {
+        "x": 1056.2,
+        "y": 1428.8,
+        "confidence": 0.2407
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 15,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 609.2,
+        "y": 1431.3,
+        "confidence": 0.324
+      },
+      "left_caudal_fluke": {
+        "x": 951.5,
+        "y": 1750.5,
+        "confidence": 0.6453
+      },
+      "right_caudal_fluke": {
+        "x": 1055.4,
+        "y": 1365.9,
+        "confidence": 0.2661
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 15,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2591.2,
+        "y": 1164.3,
+        "confidence": 0.5603
+      },
+      "left_pect_fin_tip": {
+        "x": 2583.7,
+        "y": 1307.9,
+        "confidence": 0.346
+      },
+      "right_pect_fin_tip": {
+        "x": 2767.6,
+        "y": 1171.8,
+        "confidence": 0.1508
+      },
+      "left_caudal_fluke": {
+        "x": 2891.0,
+        "y": 1443.9,
+        "confidence": 1.1627
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 15,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 600.3,
+        "y": 940.7,
+        "confidence": 0.5553
+      },
+      "left_pect_fin_tip": {
+        "x": 707.1,
+        "y": 1165.0,
+        "confidence": 0.2911
+      },
+      "left_caudal_fluke": {
+        "x": 856.7,
+        "y": 1181.1,
+        "confidence": 0.4999
+      },
+      "right_caudal_fluke": {
+        "x": 1043.6,
+        "y": 1357.3,
+        "confidence": 0.2031
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 18,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2598.3,
+        "y": 1104.4,
+        "confidence": 0.9289
+      },
+      "left_pect_fin_tip": {
+        "x": 2587.9,
+        "y": 1249.5,
+        "confidence": 0.2585
+      },
+      "right_pect_fin_tip": {
+        "x": 2766.4,
+        "y": 1107.0,
+        "confidence": 0.155
+      },
+      "left_caudal_fluke": {
+        "x": 2890.6,
+        "y": 1384.3,
+        "confidence": 0.9865
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 18,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 593.2,
+        "y": 881.5,
+        "confidence": 0.4704
+      },
+      "left_pect_fin_tip": {
+        "x": 708.3,
+        "y": 1111.7,
+        "confidence": 0.2173
+      },
+      "left_caudal_fluke": {
+        "x": 938.5,
+        "y": 1669.9,
+        "confidence": 0.7665
+      },
+      "right_caudal_fluke": {
+        "x": 1111.1,
+        "y": 1341.9,
+        "confidence": 0.1394
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 18,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 600.7,
+        "y": 1362.0,
+        "confidence": 0.3113
+      },
+      "left_caudal_fluke": {
+        "x": 935.6,
+        "y": 1670.9,
+        "confidence": 0.4654
+      },
+      "right_caudal_fluke": {
+        "x": 1110.5,
+        "y": 1339.7,
+        "confidence": 0.1598
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 21,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2604.2,
+        "y": 1041.3,
+        "confidence": 0.972
+      },
+      "mid_saddle_patch": {
+        "x": 2577.4,
+        "y": 1201.9,
+        "confidence": 0.1066
+      },
+      "left_pect_fin_tip": {
+        "x": 2594.1,
+        "y": 1195.2,
+        "confidence": 0.379
+      },
+      "right_pect_fin_tip": {
+        "x": 2771.5,
+        "y": 1034.6,
+        "confidence": 0.1425
+      },
+      "left_caudal_fluke": {
+        "x": 2891.9,
+        "y": 1322.3,
+        "confidence": 0.7915
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 21,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 597.9,
+        "y": 1290.8,
+        "confidence": 0.3684
+      },
+      "right_pect_fin_tip": {
+        "x": 881.7,
+        "y": 1336.7,
+        "confidence": 0.1675
+      },
+      "left_caudal_fluke": {
+        "x": 927.6,
+        "y": 1591.2,
+        "confidence": 0.4122
+      },
+      "right_caudal_fluke": {
+        "x": 1107.0,
+        "y": 1269.9,
+        "confidence": 0.1778
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 21,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 586.0,
+        "y": 812.4,
+        "confidence": 0.4654
+      },
+      "left_pect_fin_tip": {
+        "x": 697.3,
+        "y": 1009.4,
+        "confidence": 0.1004
+      },
+      "right_pect_fin_tip": {
+        "x": 990.6,
+        "y": 1545.0,
+        "confidence": 0.2179
+      },
+      "left_caudal_fluke": {
+        "x": 828.8,
+        "y": 1029.7,
+        "confidence": 0.3866
+      },
+      "right_caudal_fluke": {
+        "x": 1107.0,
+        "y": 1272.2,
+        "confidence": 0.1809
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 24,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 592.8,
+        "y": 1213.3,
+        "confidence": 0.2389
+      },
+      "mid_saddle_patch": {
+        "x": 584.4,
+        "y": 1213.3,
+        "confidence": 0.1635
+      },
+      "right_pect_fin_tip": {
+        "x": 985.9,
+        "y": 1455.6,
+        "confidence": 0.1615
+      },
+      "left_caudal_fluke": {
+        "x": 919.0,
+        "y": 1509.9,
+        "confidence": 0.4999
+      },
+      "right_caudal_fluke": {
+        "x": 1107.2,
+        "y": 1200.8,
+        "confidence": 0.1209
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 24,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2610.2,
+        "y": 968.8,
+        "confidence": 0.9017
+      },
+      "left_pect_fin_tip": {
+        "x": 2599.8,
+        "y": 1119.7,
+        "confidence": 0.4066
+      },
+      "right_pect_fin_tip": {
+        "x": 2753.5,
+        "y": 958.4,
+        "confidence": 0.1082
+      },
+      "left_caudal_fluke": {
+        "x": 2894.3,
+        "y": 1249.7,
+        "confidence": 0.8591
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 24,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 577.8,
+        "y": 726.1,
+        "confidence": 0.4321
+      },
+      "mid_saddle_patch": {
+        "x": 582.9,
+        "y": 1208.4,
+        "confidence": 0.1403
+      },
+      "left_pect_fin_tip": {
+        "x": 974.7,
+        "y": 1449.5,
+        "confidence": 0.1235
+      },
+      "right_pect_fin_tip": {
+        "x": 984.8,
+        "y": 1454.5,
+        "confidence": 0.2373
+      },
+      "right_caudal_fluke": {
+        "x": 1105.4,
+        "y": 1198.3,
+        "confidence": 0.126
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 27,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2617.8,
+        "y": 892.5,
+        "confidence": 1.2046
+      },
+      "left_pect_fin_tip": {
+        "x": 2603.5,
+        "y": 1045.7,
+        "confidence": 0.462
+      },
+      "right_pect_fin_tip": {
+        "x": 2774.3,
+        "y": 899.6,
+        "confidence": 0.1131
+      },
+      "left_caudal_fluke": {
+        "x": 2905.9,
+        "y": 1177.5,
+        "confidence": 1.0956
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 27,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 592.6,
+        "y": 1130.9,
+        "confidence": 0.2873
+      },
+      "mid_saddle_patch": {
+        "x": 583.9,
+        "y": 1122.2,
+        "confidence": 0.1135
+      },
+      "right_pect_fin_tip": {
+        "x": 985.9,
+        "y": 1381.5,
+        "confidence": 0.2436
+      },
+      "left_caudal_fluke": {
+        "x": 908.1,
+        "y": 1420.4,
+        "confidence": 0.5368
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 27,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 573.7,
+        "y": 645.9,
+        "confidence": 0.5082
+      },
+      "mid_saddle_patch": {
+        "x": 583.7,
+        "y": 1122.7,
+        "confidence": 0.1171
+      },
+      "right_pect_fin_tip": {
+        "x": 985.2,
+        "y": 1378.7,
+        "confidence": 0.1801
+      },
+      "left_caudal_fluke": {
+        "x": 824.6,
+        "y": 866.7,
+        "confidence": 0.1081
+      },
+      "right_caudal_fluke": {
+        "x": 1090.7,
+        "y": 1092.6,
+        "confidence": 0.1082
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 30,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 572.3,
+        "y": 558.1,
+        "confidence": 0.5349
+      },
+      "mid_saddle_patch": {
+        "x": 572.3,
+        "y": 1031.3,
+        "confidence": 0.1005
+      },
+      "left_caudal_fluke": {
+        "x": 806.4,
+        "y": 772.3,
+        "confidence": 0.136
+      },
+      "right_caudal_fluke": {
+        "x": 1095.3,
+        "y": 996.4,
+        "confidence": 0.1473
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 30,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2621.9,
+        "y": 813.1,
+        "confidence": 1.2092
+      },
+      "left_pect_fin_tip": {
+        "x": 2607.7,
+        "y": 969.8,
+        "confidence": 0.4067
+      },
+      "left_caudal_fluke": {
+        "x": 2910.5,
+        "y": 1094.5,
+        "confidence": 0.7859
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 30,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 584.5,
+        "y": 1041.1,
+        "confidence": 0.3403
+      },
+      "right_pect_fin_tip": {
+        "x": 986.3,
+        "y": 1312.0,
+        "confidence": 0.1831
+      },
+      "left_caudal_fluke": {
+        "x": 900.5,
+        "y": 1330.0,
+        "confidence": 0.2507
+      },
+      "right_caudal_fluke": {
+        "x": 1108.2,
+        "y": 1023.0,
+        "confidence": 0.1241
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 33,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2631.0,
+        "y": 729.2,
+        "confidence": 1.0349
+      },
+      "left_pect_fin_tip": {
+        "x": 2613.0,
+        "y": 891.7,
+        "confidence": 0.3974
+      },
+      "left_caudal_fluke": {
+        "x": 2912.7,
+        "y": 1010.8,
+        "confidence": 0.7142
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 33,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 574.0,
+        "y": 466.7,
+        "confidence": 0.4441
+      },
+      "left_caudal_fluke": {
+        "x": 811.7,
+        "y": 679.1,
+        "confidence": 0.2865
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 33,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 581.5,
+        "y": 950.1,
+        "confidence": 0.1761
+      },
+      "mid_saddle_patch": {
+        "x": 571.5,
+        "y": 945.2,
+        "confidence": 0.1073
+      },
+      "left_caudal_fluke": {
+        "x": 900.6,
+        "y": 1244.0,
+        "confidence": 0.5719
+      },
+      "right_caudal_fluke": {
+        "x": 990.3,
+        "y": 1358.6,
+        "confidence": 0.1141
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 36,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 572.7,
+        "y": 371.3,
+        "confidence": 0.6321
+      },
+      "Caudal_peduncle": {
+        "x": 890.2,
+        "y": 932.0,
+        "confidence": 0.1143
+      },
+      "left_caudal_fluke": {
+        "x": 815.8,
+        "y": 589.6,
+        "confidence": 0.2342
+      },
+      "right_caudal_fluke": {
+        "x": 1078.7,
+        "y": 817.8,
+        "confidence": 0.1851
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 36,
+    "track_id": 3,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 882.5,
+        "y": 934.3,
+        "confidence": 0.1052
+      },
+      "left_caudal_fluke": {
+        "x": 877.5,
+        "y": 1139.5,
+        "confidence": 0.2263
+      },
+      "right_caudal_fluke": {
+        "x": 1077.7,
+        "y": 814.2,
+        "confidence": 0.1864
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 39,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 566.6,
+        "y": 286.8,
+        "confidence": 0.7001
+      },
+      "left_caudal_fluke": {
+        "x": 803.6,
+        "y": 493.4,
+        "confidence": 0.2496
+      },
+      "right_caudal_fluke": {
+        "x": 1096.1,
+        "y": 730.2,
+        "confidence": 0.2724
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 39,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 899.1,
+        "y": 841.1,
+        "confidence": 0.1679
+      },
+      "left_caudal_fluke": {
+        "x": 888.7,
+        "y": 1049.2,
+        "confidence": 0.3592
+      },
+      "right_caudal_fluke": {
+        "x": 1091.7,
+        "y": 726.7,
+        "confidence": 0.2518
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 42,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 564.3,
+        "y": 209.2,
+        "confidence": 0.6723
+      },
+      "mid_saddle_patch": {
+        "x": 559.3,
+        "y": 686.0,
+        "confidence": 0.1431
+      },
+      "left_caudal_fluke": {
+        "x": 803.4,
+        "y": 408.7,
+        "confidence": 0.2483
+      },
+      "right_caudal_fluke": {
+        "x": 1107.2,
+        "y": 666.6,
+        "confidence": 0.2626
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 42,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 547.9,
+        "y": 678.9,
+        "confidence": 0.1267
+      },
+      "mid_saddle_patch": {
+        "x": 558.2,
+        "y": 684.1,
+        "confidence": 0.1527
+      },
+      "Caudal_peduncle": {
+        "x": 874.1,
+        "y": 741.1,
+        "confidence": 0.116
+      },
+      "left_caudal_fluke": {
+        "x": 874.1,
+        "y": 968.9,
+        "confidence": 0.5319
+      },
+      "right_caudal_fluke": {
+        "x": 1101.9,
+        "y": 658.2,
+        "confidence": 0.2465
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 45,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2652.4,
+        "y": 415.7,
+        "confidence": 1.1727
+      },
+      "left_pect_fin_tip": {
+        "x": 2631.2,
+        "y": 578.3,
+        "confidence": 0.4375
+      },
+      "left_caudal_fluke": {
+        "x": 2938.6,
+        "y": 705.5,
+        "confidence": 0.7464
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 45,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 568.9,
+        "y": 130.6,
+        "confidence": 0.6052
+      },
+      "mid_saddle_patch": {
+        "x": 554.0,
+        "y": 608.1,
+        "confidence": 0.1408
+      },
+      "right_pect_fin_tip": {
+        "x": 827.4,
+        "y": 198.2,
+        "confidence": 0.1112
+      },
+      "left_caudal_fluke": {
+        "x": 867.2,
+        "y": 878.4,
+        "confidence": 0.131
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 48,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2663.3,
+        "y": 351.1,
+        "confidence": 1.1334
+      },
+      "left_pect_fin_tip": {
+        "x": 2645.4,
+        "y": 515.2,
+        "confidence": 0.4034
+      },
+      "left_caudal_fluke": {
+        "x": 2945.1,
+        "y": 640.1,
+        "confidence": 0.8306
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 51,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2680.7,
+        "y": 310.2,
+        "confidence": 1.1855
+      },
+      "left_pect_fin_tip": {
+        "x": 2660.0,
+        "y": 475.9,
+        "confidence": 0.3977
+      },
+      "left_caudal_fluke": {
+        "x": 2956.4,
+        "y": 600.1,
+        "confidence": 1.0177
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 51,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 562.0,
+        "y": 446.5,
+        "confidence": 0.3154
+      },
+      "left_pect_fin_tip": {
+        "x": 1095.6,
+        "y": 559.7,
+        "confidence": 0.1709
+      },
+      "left_caudal_fluke": {
+        "x": 863.8,
+        "y": 726.8,
+        "confidence": 0.1431
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 54,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2705.3,
+        "y": 279.8,
+        "confidence": 1.2498
+      },
+      "left_pect_fin_tip": {
+        "x": 2684.5,
+        "y": 453.1,
+        "confidence": 0.405
+      },
+      "left_caudal_fluke": {
+        "x": 2986.1,
+        "y": 577.9,
+        "confidence": 0.97
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 54,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 593.9,
+        "y": 365.3,
+        "confidence": 0.1004
+      },
+      "left_pect_fin_tip": {
+        "x": 698.7,
+        "y": 679.3,
+        "confidence": 0.2178
+      },
+      "left_caudal_fluke": {
+        "x": 362.0,
+        "y": 679.3,
+        "confidence": 0.3103
+      },
+      "right_caudal_fluke": {
+        "x": 1057.7,
+        "y": 826.7,
+        "confidence": 0.1042
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 57,
+    "track_id": 3,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 704.5,
+        "y": 623.0,
+        "confidence": 0.1771
+      },
+      "right_pect_fin_tip": {
+        "x": 920.7,
+        "y": 390.1,
+        "confidence": 0.1837
+      },
+      "left_caudal_fluke": {
+        "x": 654.6,
+        "y": 273.7,
+        "confidence": 0.135
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 57,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2723.2,
+        "y": 255.8,
+        "confidence": 1.0339
+      },
+      "Caudal_peduncle": {
+        "x": 3051.7,
+        "y": 601.0,
+        "confidence": 0.1632
+      },
+      "left_pect_fin_tip": {
+        "x": 2699.0,
+        "y": 428.4,
+        "confidence": 0.3567
+      },
+      "right_pect_fin_tip": {
+        "x": 2887.5,
+        "y": 288.2,
+        "confidence": 0.1214
+      },
+      "left_caudal_fluke": {
+        "x": 2997.8,
+        "y": 557.9,
+        "confidence": 1.0466
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 60,
+    "track_id": 3,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1256.7,
+        "y": 234.3,
+        "confidence": 0.1686
+      },
+      "left_pect_fin_tip": {
+        "x": 706.2,
+        "y": 584.1,
+        "confidence": 0.1405
+      },
+      "left_caudal_fluke": {
+        "x": 881.1,
+        "y": 553.3,
+        "confidence": 0.1837
+      },
+      "right_caudal_fluke": {
+        "x": 1256.7,
+        "y": 224.0,
+        "confidence": 0.1438
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 60,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2730.1,
+        "y": 233.2,
+        "confidence": 1.1615
+      },
+      "left_pect_fin_tip": {
+        "x": 2706.9,
+        "y": 398.4,
+        "confidence": 0.3985
+      },
+      "left_caudal_fluke": {
+        "x": 3000.9,
+        "y": 533.8,
+        "confidence": 0.6648
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 63,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 705.2,
+        "y": 574.8,
+        "confidence": 0.1873
+      },
+      "Caudal_peduncle": {
+        "x": 1253.6,
+        "y": 200.6,
+        "confidence": 0.2555
+      },
+      "right_pect_fin_tip": {
+        "x": 730.9,
+        "y": 277.5,
+        "confidence": 0.1172
+      },
+      "left_caudal_fluke": {
+        "x": 864.1,
+        "y": 518.4,
+        "confidence": 0.1175
+      },
+      "right_caudal_fluke": {
+        "x": 982.0,
+        "y": 641.4,
+        "confidence": 0.16
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 63,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2733.5,
+        "y": 217.5,
+        "confidence": 1.1727
+      },
+      "left_pect_fin_tip": {
+        "x": 2709.0,
+        "y": 375.0,
+        "confidence": 0.4086
+      },
+      "left_caudal_fluke": {
+        "x": 2999.5,
+        "y": 515.0,
+        "confidence": 0.8999
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 66,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 593.6,
+        "y": 217.8,
+        "confidence": 0.2038
+      },
+      "Caudal_peduncle": {
+        "x": 1250.6,
+        "y": 171.2,
+        "confidence": 0.3695
+      },
+      "left_pect_fin_tip": {
+        "x": 702.2,
+        "y": 538.5,
+        "confidence": 0.1205
+      },
+      "left_caudal_fluke": {
+        "x": 852.2,
+        "y": 486.8,
+        "confidence": 0.2012
+      },
+      "right_caudal_fluke": {
+        "x": 1116.1,
+        "y": 238.4,
+        "confidence": 0.1693
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 66,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2736.9,
+        "y": 201.4,
+        "confidence": 1.1063
+      },
+      "left_pect_fin_tip": {
+        "x": 2714.3,
+        "y": 356.6,
+        "confidence": 0.3741
+      },
+      "right_pect_fin_tip": {
+        "x": 2880.5,
+        "y": 209.9,
+        "confidence": 0.1576
+      },
+      "left_caudal_fluke": {
+        "x": 3001.7,
+        "y": 500.6,
+        "confidence": 1.0419
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 69,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 592.4,
+        "y": 195.0,
+        "confidence": 0.4612
+      },
+      "Caudal_peduncle": {
+        "x": 1249.7,
+        "y": 148.1,
+        "confidence": 0.2864
+      },
+      "left_caudal_fluke": {
+        "x": 842.8,
+        "y": 461.0,
+        "confidence": 0.2901
+      },
+      "right_caudal_fluke": {
+        "x": 1108.9,
+        "y": 732.3,
+        "confidence": 0.1568
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 69,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2743.3,
+        "y": 191.2,
+        "confidence": 1.111
+      },
+      "left_pect_fin_tip": {
+        "x": 2723.6,
+        "y": 346.5,
+        "confidence": 0.3562
+      },
+      "left_caudal_fluke": {
+        "x": 3011.9,
+        "y": 490.4,
+        "confidence": 1.0116
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 72,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 596.1,
+        "y": 171.5,
+        "confidence": 0.6268
+      },
+      "Caudal_peduncle": {
+        "x": 1250.2,
+        "y": 126.1,
+        "confidence": 0.3105
+      },
+      "left_pect_fin_tip": {
+        "x": 596.1,
+        "y": 186.6,
+        "confidence": 0.1166
+      },
+      "right_pect_fin_tip": {
+        "x": 897.6,
+        "y": 242.1,
+        "confidence": 0.1017
+      },
+      "left_caudal_fluke": {
+        "x": 856.7,
+        "y": 443.8,
+        "confidence": 0.8224
+      },
+      "right_caudal_fluke": {
+        "x": 1066.3,
+        "y": 660.7,
+        "confidence": 0.1515
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 72,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2750.9,
+        "y": 181.0,
+        "confidence": 1.1823
+      },
+      "left_pect_fin_tip": {
+        "x": 2732.2,
+        "y": 337.7,
+        "confidence": 0.3929
+      },
+      "right_pect_fin_tip": {
+        "x": 2885.2,
+        "y": 181.0,
+        "confidence": 0.1074
+      },
+      "left_caudal_fluke": {
+        "x": 3019.5,
+        "y": 475.8,
+        "confidence": 0.915
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 75,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 606.0,
+        "y": 156.5,
+        "confidence": 0.6126
+      },
+      "Caudal_peduncle": {
+        "x": 1254.8,
+        "y": 107.6,
+        "confidence": 0.3782
+      },
+      "left_pect_fin_tip": {
+        "x": 601.0,
+        "y": 171.1,
+        "confidence": 0.1133
+      },
+      "left_caudal_fluke": {
+        "x": 872.6,
+        "y": 430.3,
+        "confidence": 0.2099
+      },
+      "right_caudal_fluke": {
+        "x": 1063.7,
+        "y": 635.6,
+        "confidence": 0.1718
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 75,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2766.4,
+        "y": 172.0,
+        "confidence": 1.0448
+      },
+      "Caudal_peduncle": {
+        "x": 3093.2,
+        "y": 506.4,
+        "confidence": 0.1031
+      },
+      "left_pect_fin_tip": {
+        "x": 2748.6,
+        "y": 322.6,
+        "confidence": 0.3448
+      },
+      "right_pect_fin_tip": {
+        "x": 2927.3,
+        "y": 195.0,
+        "confidence": 0.1306
+      },
+      "left_caudal_fluke": {
+        "x": 3031.9,
+        "y": 468.1,
+        "confidence": 0.6182
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 78,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 605.6,
+        "y": 135.2,
+        "confidence": 0.4826
+      },
+      "Caudal_peduncle": {
+        "x": 1264.2,
+        "y": 91.7,
+        "confidence": 0.3757
+      },
+      "left_pect_fin_tip": {
+        "x": 610.7,
+        "y": 149.6,
+        "confidence": 0.1147
+      },
+      "left_caudal_fluke": {
+        "x": 860.9,
+        "y": 400.6,
+        "confidence": 0.5474
+      },
+      "right_caudal_fluke": {
+        "x": 1111.1,
+        "y": 115.8,
+        "confidence": 0.1934
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 78,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2780.6,
+        "y": 164.0,
+        "confidence": 1.0665
+      },
+      "Caudal_peduncle": {
+        "x": 3105.0,
+        "y": 503.5,
+        "confidence": 0.1304
+      },
+      "left_pect_fin_tip": {
+        "x": 2760.5,
+        "y": 327.5,
+        "confidence": 0.2808
+      },
+      "right_pect_fin_tip": {
+        "x": 2936.5,
+        "y": 181.6,
+        "confidence": 0.1972
+      },
+      "left_caudal_fluke": {
+        "x": 3049.7,
+        "y": 463.2,
+        "confidence": 0.6593
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 81,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2799.9,
+        "y": 156.3,
+        "confidence": 1.0373
+      },
+      "left_pect_fin_tip": {
+        "x": 2775.0,
+        "y": 320.0,
+        "confidence": 0.3029
+      },
+      "right_pect_fin_tip": {
+        "x": 2951.5,
+        "y": 168.7,
+        "confidence": 0.206
+      },
+      "left_caudal_fluke": {
+        "x": 3063.3,
+        "y": 454.0,
+        "confidence": 0.6439
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 81,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 612.0,
+        "y": 124.6,
+        "confidence": 0.6014
+      },
+      "Caudal_peduncle": {
+        "x": 912.4,
+        "y": 110.2,
+        "confidence": 0.1153
+      },
+      "right_pect_fin_tip": {
+        "x": 1248.9,
+        "y": 699.8,
+        "confidence": 0.1161
+      },
+      "left_caudal_fluke": {
+        "x": 865.8,
+        "y": 383.5,
+        "confidence": 0.9677
+      },
+      "right_caudal_fluke": {
+        "x": 1114.3,
+        "y": 95.9,
+        "confidence": 0.2532
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 84,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 626.4,
+        "y": 111.5,
+        "confidence": 0.5094
+      },
+      "Caudal_peduncle": {
+        "x": 923.7,
+        "y": 97.5,
+        "confidence": 0.1217
+      },
+      "left_pect_fin_tip": {
+        "x": 707.0,
+        "y": 362.2,
+        "confidence": 0.1011
+      },
+      "left_caudal_fluke": {
+        "x": 863.2,
+        "y": 357.6,
+        "confidence": 0.1962
+      },
+      "right_caudal_fluke": {
+        "x": 1130.2,
+        "y": 83.6,
+        "confidence": 0.2777
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 84,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2818.6,
+        "y": 150.3,
+        "confidence": 1.0575
+      },
+      "Caudal_peduncle": {
+        "x": 3138.7,
+        "y": 487.7,
+        "confidence": 0.1269
+      },
+      "left_pect_fin_tip": {
+        "x": 2793.8,
+        "y": 311.6,
+        "confidence": 0.3606
+      },
+      "right_pect_fin_tip": {
+        "x": 2967.5,
+        "y": 157.8,
+        "confidence": 0.1361
+      },
+      "left_caudal_fluke": {
+        "x": 3084.1,
+        "y": 450.5,
+        "confidence": 0.8345
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 87,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2841.5,
+        "y": 145.0,
+        "confidence": 1.1975
+      },
+      "Caudal_peduncle": {
+        "x": 3159.1,
+        "y": 483.1,
+        "confidence": 0.1109
+      },
+      "left_pect_fin_tip": {
+        "x": 2810.1,
+        "y": 308.8,
+        "confidence": 0.4225
+      },
+      "right_pect_fin_tip": {
+        "x": 2970.6,
+        "y": 148.5,
+        "confidence": 0.1805
+      },
+      "left_caudal_fluke": {
+        "x": 3099.8,
+        "y": 441.2,
+        "confidence": 1.067
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 90,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 649.4,
+        "y": 86.0,
+        "confidence": 0.498
+      },
+      "left_pect_fin_tip": {
+        "x": 735.6,
+        "y": 285.3,
+        "confidence": 0.2182
+      },
+      "right_pect_fin_tip": {
+        "x": 720.4,
+        "y": 72.5,
+        "confidence": 0.1331
+      },
+      "left_caudal_fluke": {
+        "x": 887.6,
+        "y": 326.1,
+        "confidence": 0.1165
+      },
+      "right_caudal_fluke": {
+        "x": 1151.1,
+        "y": 606.9,
+        "confidence": 0.1899
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 90,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2864.3,
+        "y": 142.4,
+        "confidence": 1.1883
+      },
+      "left_pect_fin_tip": {
+        "x": 2826.0,
+        "y": 301.2,
+        "confidence": 0.3114
+      },
+      "left_caudal_fluke": {
+        "x": 3120.1,
+        "y": 442.2,
+        "confidence": 0.3466
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 93,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 665.6,
+        "y": 71.7,
+        "confidence": 0.4414
+      },
+      "left_pect_fin_tip": {
+        "x": 746.6,
+        "y": 277.8,
+        "confidence": 0.2864
+      },
+      "left_caudal_fluke": {
+        "x": 918.9,
+        "y": 322.6,
+        "confidence": 0.5746
+      },
+      "right_caudal_fluke": {
+        "x": 1162.2,
+        "y": 591.5,
+        "confidence": 0.2003
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 93,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2886.6,
+        "y": 139.6,
+        "confidence": 1.0797
+      },
+      "left_pect_fin_tip": {
+        "x": 2846.2,
+        "y": 293.3,
+        "confidence": 0.363
+      },
+      "left_caudal_fluke": {
+        "x": 3142.4,
+        "y": 439.0,
+        "confidence": 0.6002
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 96,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 684.7,
+        "y": 64.2,
+        "confidence": 0.2208
+      },
+      "Caudal_peduncle": {
+        "x": 1324.9,
+        "y": 555.0,
+        "confidence": 0.1184
+      },
+      "left_pect_fin_tip": {
+        "x": 760.0,
+        "y": 270.6,
+        "confidence": 0.2396
+      },
+      "right_pect_fin_tip": {
+        "x": 1319.5,
+        "y": 564.1,
+        "confidence": 0.1127
+      },
+      "left_caudal_fluke": {
+        "x": 921.4,
+        "y": 311.9,
+        "confidence": 0.6434
+      },
+      "right_caudal_fluke": {
+        "x": 1168.9,
+        "y": 577.9,
+        "confidence": 0.2192
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 96,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2910.8,
+        "y": 139.5,
+        "confidence": 1.1873
+      },
+      "mid_saddle_patch": {
+        "x": 2857.5,
+        "y": 294.0,
+        "confidence": 0.122
+      },
+      "left_pect_fin_tip": {
+        "x": 2869.0,
+        "y": 286.5,
+        "confidence": 0.3922
+      },
+      "left_caudal_fluke": {
+        "x": 3166.0,
+        "y": 437.2,
+        "confidence": 0.7007
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 99,
+    "track_id": 3,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1348.5,
+        "y": 552.5,
+        "confidence": 0.1226
+      },
+      "left_pect_fin_tip": {
+        "x": 771.4,
+        "y": 263.1,
+        "confidence": 0.1987
+      },
+      "right_pect_fin_tip": {
+        "x": 1333.3,
+        "y": 556.8,
+        "confidence": 0.1611
+      },
+      "left_caudal_fluke": {
+        "x": 933.4,
+        "y": 298.2,
+        "confidence": 0.1212
+      },
+      "right_caudal_fluke": {
+        "x": 1181.4,
+        "y": 570.0,
+        "confidence": 0.2349
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 102,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 706.9,
+        "y": 47.9,
+        "confidence": 0.1403
+      },
+      "left_pect_fin_tip": {
+        "x": 777.6,
+        "y": 261.3,
+        "confidence": 0.2191
+      },
+      "right_pect_fin_tip": {
+        "x": 989.6,
+        "y": 135.0,
+        "confidence": 0.1759
+      },
+      "left_caudal_fluke": {
+        "x": 949.2,
+        "y": 291.8,
+        "confidence": 0.8326
+      },
+      "right_caudal_fluke": {
+        "x": 1191.5,
+        "y": 566.2,
+        "confidence": 0.2259
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 105,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 712.5,
+        "y": 39.1,
+        "confidence": 0.1352
+      },
+      "Caudal_peduncle": {
+        "x": 1361.1,
+        "y": 538.3,
+        "confidence": 0.203
+      },
+      "left_pect_fin_tip": {
+        "x": 793.6,
+        "y": 273.5,
+        "confidence": 0.2357
+      },
+      "right_pect_fin_tip": {
+        "x": 1016.5,
+        "y": 130.2,
+        "confidence": 0.1459
+      },
+      "left_caudal_fluke": {
+        "x": 925.3,
+        "y": 91.2,
+        "confidence": 0.4034
+      },
+      "right_caudal_fluke": {
+        "x": 1199.0,
+        "y": 555.7,
+        "confidence": 0.1763
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 108,
+    "track_id": 3,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 803.3,
+        "y": 284.9,
+        "confidence": 0.1596
+      },
+      "right_pect_fin_tip": {
+        "x": 1030.3,
+        "y": 133.8,
+        "confidence": 0.199
+      },
+      "left_caudal_fluke": {
+        "x": 974.8,
+        "y": 289.3,
+        "confidence": 0.2983
+      },
+      "right_caudal_fluke": {
+        "x": 1201.8,
+        "y": 544.0,
+        "confidence": 0.1799
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 108,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2992.0,
+        "y": 154.9,
+        "confidence": 1.0745
+      },
+      "Caudal_peduncle": {
+        "x": 3300.8,
+        "y": 492.8,
+        "confidence": 0.1043
+      },
+      "left_pect_fin_tip": {
+        "x": 2949.7,
+        "y": 310.7,
+        "confidence": 0.4407
+      },
+      "right_pect_fin_tip": {
+        "x": 2949.7,
+        "y": 310.7,
+        "confidence": 0.1042
+      },
+      "left_caudal_fluke": {
+        "x": 3240.1,
+        "y": 455.8,
+        "confidence": 0.9919
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 111,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1387.8,
+        "y": 573.7,
+        "confidence": 0.1517
+      },
+      "Caudal_peduncle": {
+        "x": 1398.0,
+        "y": 565.0,
+        "confidence": 0.1112
+      },
+      "left_pect_fin_tip": {
+        "x": 1230.5,
+        "y": 721.5,
+        "confidence": 0.1378
+      },
+      "right_pect_fin_tip": {
+        "x": 1047.7,
+        "y": 147.8,
+        "confidence": 0.2309
+      },
+      "left_caudal_fluke": {
+        "x": 986.8,
+        "y": 286.8,
+        "confidence": 0.3164
+      },
+      "right_caudal_fluke": {
+        "x": 1215.2,
+        "y": 521.5,
+        "confidence": 0.1152
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 111,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3010.0,
+        "y": 167.9,
+        "confidence": 0.9842
+      },
+      "Caudal_peduncle": {
+        "x": 3320.3,
+        "y": 504.5,
+        "confidence": 0.1147
+      },
+      "left_pect_fin_tip": {
+        "x": 2970.6,
+        "y": 320.5,
+        "confidence": 0.3779
+      },
+      "right_pect_fin_tip": {
+        "x": 3152.0,
+        "y": 175.8,
+        "confidence": 0.1392
+      },
+      "left_caudal_fluke": {
+        "x": 3257.2,
+        "y": 467.7,
+        "confidence": 1.242
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 114,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3028.7,
+        "y": 180.4,
+        "confidence": 1.0137
+      },
+      "left_pect_fin_tip": {
+        "x": 2987.0,
+        "y": 326.3,
+        "confidence": 0.3198
+      },
+      "right_pect_fin_tip": {
+        "x": 3166.8,
+        "y": 180.4,
+        "confidence": 0.1859
+      },
+      "left_caudal_fluke": {
+        "x": 3276.3,
+        "y": 474.9,
+        "confidence": 0.7847
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 114,
+    "track_id": 3,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1413.8,
+        "y": 563.1,
+        "confidence": 0.1481
+      },
+      "right_pect_fin_tip": {
+        "x": 1064.6,
+        "y": 154.0,
+        "confidence": 0.14
+      },
+      "left_caudal_fluke": {
+        "x": 992.7,
+        "y": 285.9,
+        "confidence": 0.3968
+      },
+      "right_caudal_fluke": {
+        "x": 1080.0,
+        "y": 400.3,
+        "confidence": 0.1175
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 117,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3045.3,
+        "y": 197.7,
+        "confidence": 1.0806
+      },
+      "Caudal_peduncle": {
+        "x": 3354.0,
+        "y": 532.1,
+        "confidence": 0.1281
+      },
+      "left_pect_fin_tip": {
+        "x": 3006.7,
+        "y": 349.5,
+        "confidence": 0.2744
+      },
+      "right_pect_fin_tip": {
+        "x": 3292.2,
+        "y": 408.7,
+        "confidence": 0.1509
+      },
+      "left_caudal_fluke": {
+        "x": 3292.2,
+        "y": 491.0,
+        "confidence": 0.5469
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 117,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 751.9,
+        "y": 70.5,
+        "confidence": 0.2433
+      },
+      "left_pect_fin_tip": {
+        "x": 812.8,
+        "y": 251.0,
+        "confidence": 0.121
+      },
+      "right_pect_fin_tip": {
+        "x": 1010.8,
+        "y": 96.9,
+        "confidence": 0.1293
+      },
+      "right_caudal_fluke": {
+        "x": 1178.4,
+        "y": 510.8,
+        "confidence": 0.1527
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 120,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3062.6,
+        "y": 220.8,
+        "confidence": 1.1408
+      },
+      "left_pect_fin_tip": {
+        "x": 3026.8,
+        "y": 371.7,
+        "confidence": 0.3332
+      },
+      "right_pect_fin_tip": {
+        "x": 3223.7,
+        "y": 300.0,
+        "confidence": 0.1268
+      },
+      "left_caudal_fluke": {
+        "x": 3303.0,
+        "y": 512.3,
+        "confidence": 0.6909
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 120,
+    "track_id": 3,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1414.7,
+        "y": 590.0,
+        "confidence": 0.222
+      },
+      "Caudal_peduncle": {
+        "x": 1420.9,
+        "y": 595.0,
+        "confidence": 0.1118
+      },
+      "left_pect_fin_tip": {
+        "x": 811.7,
+        "y": 295.0,
+        "confidence": 0.1611
+      },
+      "right_pect_fin_tip": {
+        "x": 1016.9,
+        "y": 115.0,
+        "confidence": 0.146
+      },
+      "left_caudal_fluke": {
+        "x": 985.8,
+        "y": 305.0,
+        "confidence": 0.1434
+      },
+      "right_caudal_fluke": {
+        "x": 1166.1,
+        "y": 515.0,
+        "confidence": 0.1712
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 123,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3076.2,
+        "y": 246.1,
+        "confidence": 1.2062
+      },
+      "left_pect_fin_tip": {
+        "x": 3040.5,
+        "y": 399.3,
+        "confidence": 0.3637
+      },
+      "right_pect_fin_tip": {
+        "x": 3242.1,
+        "y": 330.4,
+        "confidence": 0.105
+      },
+      "left_caudal_fluke": {
+        "x": 3321.3,
+        "y": 537.1,
+        "confidence": 0.7706
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 126,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3085.1,
+        "y": 276.4,
+        "confidence": 1.1539
+      },
+      "left_pect_fin_tip": {
+        "x": 3051.8,
+        "y": 425.0,
+        "confidence": 0.4036
+      },
+      "right_pect_fin_tip": {
+        "x": 3220.9,
+        "y": 281.5,
+        "confidence": 0.1685
+      },
+      "left_caudal_fluke": {
+        "x": 3328.6,
+        "y": 563.4,
+        "confidence": 0.8494
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 129,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3098.4,
+        "y": 307.6,
+        "confidence": 1.1808
+      },
+      "left_pect_fin_tip": {
+        "x": 3060.1,
+        "y": 453.4,
+        "confidence": 0.3873
+      },
+      "right_pect_fin_tip": {
+        "x": 3226.3,
+        "y": 307.6,
+        "confidence": 0.1459
+      },
+      "left_caudal_fluke": {
+        "x": 3336.3,
+        "y": 596.7,
+        "confidence": 0.7426
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 132,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3110.7,
+        "y": 340.5,
+        "confidence": 1.1481
+      },
+      "left_pect_fin_tip": {
+        "x": 3066.7,
+        "y": 482.7,
+        "confidence": 0.4379
+      },
+      "left_caudal_fluke": {
+        "x": 3348.6,
+        "y": 632.7,
+        "confidence": 0.6988
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 135,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3124.0,
+        "y": 371.8,
+        "confidence": 0.9546
+      },
+      "left_pect_fin_tip": {
+        "x": 3073.7,
+        "y": 509.8,
+        "confidence": 0.4216
+      },
+      "left_caudal_fluke": {
+        "x": 3354.5,
+        "y": 666.4,
+        "confidence": 0.6091
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 138,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3136.8,
+        "y": 402.9,
+        "confidence": 0.9753
+      },
+      "left_pect_fin_tip": {
+        "x": 3082.2,
+        "y": 541.6,
+        "confidence": 0.3865
+      },
+      "left_caudal_fluke": {
+        "x": 3357.6,
+        "y": 692.6,
+        "confidence": 0.7874
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 141,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3147.8,
+        "y": 436.8,
+        "confidence": 0.8764
+      },
+      "mid_saddle_patch": {
+        "x": 3086.4,
+        "y": 577.4,
+        "confidence": 0.1199
+      },
+      "left_pect_fin_tip": {
+        "x": 3089.0,
+        "y": 574.9,
+        "confidence": 0.4197
+      },
+      "right_pect_fin_tip": {
+        "x": 3089.0,
+        "y": 574.9,
+        "confidence": 0.1047
+      },
+      "left_caudal_fluke": {
+        "x": 3362.6,
+        "y": 728.3,
+        "confidence": 0.6251
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 144,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3157.6,
+        "y": 470.8,
+        "confidence": 0.923
+      },
+      "mid_saddle_patch": {
+        "x": 3094.7,
+        "y": 612.5,
+        "confidence": 0.1244
+      },
+      "left_pect_fin_tip": {
+        "x": 3097.3,
+        "y": 607.2,
+        "confidence": 0.4229
+      },
+      "right_pect_fin_tip": {
+        "x": 3097.3,
+        "y": 607.2,
+        "confidence": 0.1024
+      },
+      "left_caudal_fluke": {
+        "x": 3375.1,
+        "y": 764.8,
+        "confidence": 0.5635
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 147,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3165.0,
+        "y": 509.9,
+        "confidence": 1.031
+      },
+      "mid_saddle_patch": {
+        "x": 3100.4,
+        "y": 644.6,
+        "confidence": 0.1522
+      },
+      "left_pect_fin_tip": {
+        "x": 3102.9,
+        "y": 644.6,
+        "confidence": 0.4222
+      },
+      "right_pect_fin_tip": {
+        "x": 3276.2,
+        "y": 520.2,
+        "confidence": 0.1194
+      },
+      "left_caudal_fluke": {
+        "x": 3379.7,
+        "y": 797.5,
+        "confidence": 0.9765
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 150,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3173.3,
+        "y": 548.8,
+        "confidence": 0.928
+      },
+      "left_pect_fin_tip": {
+        "x": 3107.2,
+        "y": 683.6,
+        "confidence": 0.3999
+      },
+      "left_caudal_fluke": {
+        "x": 3392.8,
+        "y": 837.0,
+        "confidence": 0.876
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 153,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3179.4,
+        "y": 586.2,
+        "confidence": 0.8469
+      },
+      "left_pect_fin_tip": {
+        "x": 3111.5,
+        "y": 719.0,
+        "confidence": 0.4049
+      },
+      "left_caudal_fluke": {
+        "x": 3399.4,
+        "y": 876.3,
+        "confidence": 0.9411
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 156,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3183.8,
+        "y": 626.1,
+        "confidence": 1.0323
+      },
+      "mid_saddle_patch": {
+        "x": 3113.5,
+        "y": 774.7,
+        "confidence": 0.1302
+      },
+      "left_pect_fin_tip": {
+        "x": 3116.2,
+        "y": 761.2,
+        "confidence": 0.3224
+      },
+      "right_pect_fin_tip": {
+        "x": 3297.3,
+        "y": 604.5,
+        "confidence": 0.1191
+      },
+      "left_caudal_fluke": {
+        "x": 3402.7,
+        "y": 907.1,
+        "confidence": 1.1746
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 159,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3189.8,
+        "y": 664.0,
+        "confidence": 0.9916
+      },
+      "mid_saddle_patch": {
+        "x": 3118.2,
+        "y": 804.9,
+        "confidence": 0.2363
+      },
+      "Caudal_peduncle": {
+        "x": 3492.4,
+        "y": 1025.6,
+        "confidence": 0.1079
+      },
+      "left_pect_fin_tip": {
+        "x": 3123.5,
+        "y": 786.3,
+        "confidence": 0.1936
+      },
+      "left_caudal_fluke": {
+        "x": 3404.8,
+        "y": 948.5,
+        "confidence": 0.9944
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 162,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3193.1,
+        "y": 703.7,
+        "confidence": 1.0013
+      },
+      "mid_saddle_patch": {
+        "x": 3122.7,
+        "y": 833.6,
+        "confidence": 0.1542
+      },
+      "left_pect_fin_tip": {
+        "x": 3125.4,
+        "y": 833.6,
+        "confidence": 0.2737
+      },
+      "left_caudal_fluke": {
+        "x": 3412.4,
+        "y": 987.9,
+        "confidence": 0.6332
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 168,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3205.0,
+        "y": 767.1,
+        "confidence": 1.0939
+      },
+      "left_pect_fin_tip": {
+        "x": 3139.7,
+        "y": 895.0,
+        "confidence": 0.4207
+      },
+      "right_pect_fin_tip": {
+        "x": 3362.8,
+        "y": 851.5,
+        "confidence": 0.1163
+      },
+      "left_caudal_fluke": {
+        "x": 3409.1,
+        "y": 1042.0,
+        "confidence": 0.8695
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 171,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3208.1,
+        "y": 791.0,
+        "confidence": 1.1094
+      },
+      "left_pect_fin_tip": {
+        "x": 3140.8,
+        "y": 916.9,
+        "confidence": 0.3892
+      },
+      "left_caudal_fluke": {
+        "x": 3412.7,
+        "y": 1066.3,
+        "confidence": 0.635
+      },
+      "right_caudal_fluke": {
+        "x": 3465.3,
+        "y": 1107.3,
+        "confidence": 0.1108
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 174,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3205.0,
+        "y": 809.9,
+        "confidence": 0.8205
+      },
+      "mid_saddle_patch": {
+        "x": 3141.3,
+        "y": 937.3,
+        "confidence": 0.1238
+      },
+      "left_pect_fin_tip": {
+        "x": 3145.7,
+        "y": 932.9,
+        "confidence": 0.3518
+      },
+      "left_caudal_fluke": {
+        "x": 3416.0,
+        "y": 1091.1,
+        "confidence": 0.6063
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 177,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3210.2,
+        "y": 824.8,
+        "confidence": 0.9466
+      },
+      "mid_saddle_patch": {
+        "x": 3151.0,
+        "y": 948.4,
+        "confidence": 0.1251
+      },
+      "left_pect_fin_tip": {
+        "x": 3153.7,
+        "y": 948.4,
+        "confidence": 0.4034
+      },
+      "right_pect_fin_tip": {
+        "x": 3153.7,
+        "y": 948.4,
+        "confidence": 0.1012
+      },
+      "left_caudal_fluke": {
+        "x": 3417.5,
+        "y": 1101.6,
+        "confidence": 0.825
+      },
+      "right_caudal_fluke": {
+        "x": 3460.6,
+        "y": 1136.6,
+        "confidence": 0.1074
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 180,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3212.2,
+        "y": 840.0,
+        "confidence": 0.8353
+      },
+      "mid_saddle_patch": {
+        "x": 3153.3,
+        "y": 963.5,
+        "confidence": 0.1811
+      },
+      "left_pect_fin_tip": {
+        "x": 3156.1,
+        "y": 960.7,
+        "confidence": 0.3695
+      },
+      "left_caudal_fluke": {
+        "x": 3416.8,
+        "y": 1109.5,
+        "confidence": 0.6212
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 183,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3214.6,
+        "y": 850.5,
+        "confidence": 0.7083
+      },
+      "mid_saddle_patch": {
+        "x": 3152.4,
+        "y": 966.2,
+        "confidence": 0.2409
+      },
+      "left_pect_fin_tip": {
+        "x": 3155.2,
+        "y": 966.2,
+        "confidence": 0.3566
+      },
+      "left_caudal_fluke": {
+        "x": 3418.2,
+        "y": 1121.4,
+        "confidence": 1.0473
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 186,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3217.4,
+        "y": 855.0,
+        "confidence": 0.7697
+      },
+      "mid_saddle_patch": {
+        "x": 3149.1,
+        "y": 970.5,
+        "confidence": 0.1916
+      },
+      "left_pect_fin_tip": {
+        "x": 3154.4,
+        "y": 970.5,
+        "confidence": 0.3563
+      },
+      "left_caudal_fluke": {
+        "x": 3422.1,
+        "y": 1128.0,
+        "confidence": 0.9593
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 189,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3219.1,
+        "y": 858.2,
+        "confidence": 0.8974
+      },
+      "mid_saddle_patch": {
+        "x": 3146.2,
+        "y": 969.9,
+        "confidence": 0.2027
+      },
+      "left_pect_fin_tip": {
+        "x": 3151.4,
+        "y": 969.9,
+        "confidence": 0.3454
+      },
+      "left_caudal_fluke": {
+        "x": 3419.3,
+        "y": 1128.2,
+        "confidence": 0.7749
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 189,
+    "track_id": 2,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 147.1,
+        "y": 1335.0,
+        "confidence": 1.0648
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 192,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3220.3,
+        "y": 862.4,
+        "confidence": 0.9664
+      },
+      "mid_saddle_patch": {
+        "x": 3142.0,
+        "y": 974.7,
+        "confidence": 0.1919
+      },
+      "left_pect_fin_tip": {
+        "x": 3149.8,
+        "y": 969.5,
+        "confidence": 0.3611
+      },
+      "left_caudal_fluke": {
+        "x": 3423.9,
+        "y": 1131.3,
+        "confidence": 0.8273
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 192,
+    "track_id": 2,
+    "keypoints": {
+      "right_pect_fin_tip": {
+        "x": 117.5,
+        "y": 1213.1,
+        "confidence": 0.1064
+      },
+      "left_caudal_fluke": {
+        "x": 133.2,
+        "y": 1329.4,
+        "confidence": 0.4777
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 195,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3222.3,
+        "y": 865.2,
+        "confidence": 0.8792
+      },
+      "mid_saddle_patch": {
+        "x": 3148.7,
+        "y": 979.9,
+        "confidence": 0.25
+      },
+      "left_pect_fin_tip": {
+        "x": 3155.2,
+        "y": 982.0,
+        "confidence": 0.2281
+      },
+      "left_caudal_fluke": {
+        "x": 3417.0,
+        "y": 1129.2,
+        "confidence": 0.3433
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 195,
+    "track_id": 2,
+    "keypoints": {
+      "right_pect_fin_tip": {
+        "x": 114.2,
+        "y": 1203.0,
+        "confidence": 0.1294
+      },
+      "left_caudal_fluke": {
+        "x": 129.9,
+        "y": 1322.4,
+        "confidence": 0.5451
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 198,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3225.3,
+        "y": 865.2,
+        "confidence": 1.0922
+      },
+      "mid_saddle_patch": {
+        "x": 3147.7,
+        "y": 977.9,
+        "confidence": 0.2744
+      },
+      "left_pect_fin_tip": {
+        "x": 3150.2,
+        "y": 982.9,
+        "confidence": 0.1042
+      },
+      "left_caudal_fluke": {
+        "x": 3423.2,
+        "y": 1133.2,
+        "confidence": 0.4042
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 198,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 127.6,
+        "y": 606.2,
+        "confidence": 0.8373
+      },
+      "left_pect_fin_tip": {
+        "x": 187.2,
+        "y": 810.3,
+        "confidence": 0.2348
+      },
+      "right_pect_fin_tip": {
+        "x": 353.1,
+        "y": 659.4,
+        "confidence": 0.2566
+      },
+      "left_caudal_fluke": {
+        "x": 442.5,
+        "y": 916.8,
+        "confidence": 0.6032
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 198,
+    "track_id": 2,
+    "keypoints": {
+      "right_pect_fin_tip": {
+        "x": 112.0,
+        "y": 1201.7,
+        "confidence": 0.1318
+      },
+      "left_caudal_fluke": {
+        "x": 132.0,
+        "y": 1319.3,
+        "confidence": 0.7238
+      },
+      "right_caudal_fluke": {
+        "x": 284.0,
+        "y": 1281.9,
+        "confidence": 0.1072
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 201,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3226.7,
+        "y": 866.5,
+        "confidence": 1.1733
+      },
+      "mid_saddle_patch": {
+        "x": 3143.9,
+        "y": 972.5,
+        "confidence": 0.1277
+      },
+      "left_pect_fin_tip": {
+        "x": 3149.1,
+        "y": 975.1,
+        "confidence": 0.3281
+      },
+      "right_pect_fin_tip": {
+        "x": 3379.3,
+        "y": 938.9,
+        "confidence": 0.1442
+      },
+      "left_caudal_fluke": {
+        "x": 3420.7,
+        "y": 1130.3,
+        "confidence": 0.621
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 201,
+    "track_id": 2,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 188.7,
+        "y": 822.6,
+        "confidence": 0.1162
+      },
+      "left_caudal_fluke": {
+        "x": 116.4,
+        "y": 1311.1,
+        "confidence": 0.7923
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 207,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3227.8,
+        "y": 864.1,
+        "confidence": 0.7555
+      },
+      "left_pect_fin_tip": {
+        "x": 3145.8,
+        "y": 969.5,
+        "confidence": 0.3303
+      },
+      "left_caudal_fluke": {
+        "x": 3417.2,
+        "y": 1127.6,
+        "confidence": 0.4303
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 210,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3227.5,
+        "y": 865.1,
+        "confidence": 1.1372
+      },
+      "mid_saddle_patch": {
+        "x": 3143.0,
+        "y": 968.2,
+        "confidence": 0.2125
+      },
+      "left_pect_fin_tip": {
+        "x": 3148.3,
+        "y": 968.2,
+        "confidence": 0.2863
+      },
+      "left_caudal_fluke": {
+        "x": 3417.5,
+        "y": 1129.5,
+        "confidence": 0.5596
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 213,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3229.9,
+        "y": 864.5,
+        "confidence": 1.1889
+      },
+      "mid_saddle_patch": {
+        "x": 3145.9,
+        "y": 967.0,
+        "confidence": 0.2195
+      },
+      "left_pect_fin_tip": {
+        "x": 3151.1,
+        "y": 967.0,
+        "confidence": 0.3053
+      },
+      "left_caudal_fluke": {
+        "x": 3416.2,
+        "y": 1127.4,
+        "confidence": 0.4294
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 213,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 105.4,
+        "y": 559.2,
+        "confidence": 0.1835
+      },
+      "right_pect_fin_tip": {
+        "x": 327.9,
+        "y": 627.6,
+        "confidence": 0.1876
+      },
+      "left_caudal_fluke": {
+        "x": 382.6,
+        "y": 850.1,
+        "confidence": 0.1984
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 216,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3229.0,
+        "y": 863.1,
+        "confidence": 1.1246
+      },
+      "mid_saddle_patch": {
+        "x": 3148.9,
+        "y": 968.7,
+        "confidence": 0.151
+      },
+      "left_pect_fin_tip": {
+        "x": 3154.1,
+        "y": 971.3,
+        "confidence": 0.3265
+      },
+      "left_caudal_fluke": {
+        "x": 3414.9,
+        "y": 1123.3,
+        "confidence": 0.6081
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 216,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 78.8,
+        "y": 556.1,
+        "confidence": 0.3234
+      },
+      "left_pect_fin_tip": {
+        "x": 122.2,
+        "y": 738.5,
+        "confidence": 0.1485
+      },
+      "right_pect_fin_tip": {
+        "x": 307.5,
+        "y": 605.0,
+        "confidence": 0.2149
+      },
+      "left_caudal_fluke": {
+        "x": 386.3,
+        "y": 849.6,
+        "confidence": 0.6582
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 219,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3230.1,
+        "y": 864.5,
+        "confidence": 1.0845
+      },
+      "mid_saddle_patch": {
+        "x": 3149.6,
+        "y": 969.0,
+        "confidence": 0.1731
+      },
+      "left_pect_fin_tip": {
+        "x": 3155.0,
+        "y": 969.0,
+        "confidence": 0.3342
+      },
+      "right_pect_fin_tip": {
+        "x": 3324.0,
+        "y": 845.8,
+        "confidence": 0.1054
+      },
+      "left_caudal_fluke": {
+        "x": 3412.5,
+        "y": 1121.6,
+        "confidence": 0.8883
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 219,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 68.4,
+        "y": 541.1,
+        "confidence": 0.5545
+      },
+      "Caudal_peduncle": {
+        "x": 315.2,
+        "y": 604.4,
+        "confidence": 0.1014
+      },
+      "left_pect_fin_tip": {
+        "x": 113.9,
+        "y": 735.2,
+        "confidence": 0.1139
+      },
+      "right_pect_fin_tip": {
+        "x": 300.0,
+        "y": 604.4,
+        "confidence": 0.2135
+      },
+      "left_caudal_fluke": {
+        "x": 376.0,
+        "y": 840.8,
+        "confidence": 0.8304
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 222,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3232.1,
+        "y": 864.1,
+        "confidence": 1.0388
+      },
+      "mid_saddle_patch": {
+        "x": 3149.4,
+        "y": 965.5,
+        "confidence": 0.1591
+      },
+      "left_pect_fin_tip": {
+        "x": 3152.1,
+        "y": 965.5,
+        "confidence": 0.3181
+      },
+      "left_caudal_fluke": {
+        "x": 3416.2,
+        "y": 1128.2,
+        "confidence": 0.5364
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 222,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 57.2,
+        "y": 534.5,
+        "confidence": 0.6216
+      },
+      "Caudal_peduncle": {
+        "x": 305.0,
+        "y": 594.7,
+        "confidence": 0.1306
+      },
+      "left_pect_fin_tip": {
+        "x": 118.2,
+        "y": 740.8,
+        "confidence": 0.1809
+      },
+      "right_pect_fin_tip": {
+        "x": 278.3,
+        "y": 586.1,
+        "confidence": 0.122
+      },
+      "left_caudal_fluke": {
+        "x": 366.0,
+        "y": 835.4,
+        "confidence": 0.925
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 225,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3231.8,
+        "y": 866.8,
+        "confidence": 1.0355
+      },
+      "mid_saddle_patch": {
+        "x": 3155.1,
+        "y": 966.5,
+        "confidence": 0.1453
+      },
+      "left_pect_fin_tip": {
+        "x": 3157.6,
+        "y": 969.1,
+        "confidence": 0.3694
+      },
+      "left_caudal_fluke": {
+        "x": 3418.5,
+        "y": 1125.1,
+        "confidence": 0.3831
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 228,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3232.7,
+        "y": 866.1,
+        "confidence": 0.9921
+      },
+      "mid_saddle_patch": {
+        "x": 3159.3,
+        "y": 964.7,
+        "confidence": 0.2364
+      },
+      "left_pect_fin_tip": {
+        "x": 3159.3,
+        "y": 971.6,
+        "confidence": 0.1811
+      },
+      "left_caudal_fluke": {
+        "x": 3418.5,
+        "y": 1125.2,
+        "confidence": 0.6314
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 228,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 529.9,
+        "y": 1128.2,
+        "confidence": 0.3069
+      },
+      "left_caudal_fluke": {
+        "x": 341.6,
+        "y": 812.2,
+        "confidence": 0.3923
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 231,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3234.8,
+        "y": 870.0,
+        "confidence": 0.9568
+      },
+      "mid_saddle_patch": {
+        "x": 3160.9,
+        "y": 961.5,
+        "confidence": 0.2212
+      },
+      "left_pect_fin_tip": {
+        "x": 3160.9,
+        "y": 974.3,
+        "confidence": 0.181
+      },
+      "left_caudal_fluke": {
+        "x": 3418.3,
+        "y": 1124.3,
+        "confidence": 0.7013
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 231,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 534.0,
+        "y": 1129.8,
+        "confidence": 0.2134
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 234,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3242.1,
+        "y": 869.6,
+        "confidence": 0.8823
+      },
+      "mid_saddle_patch": {
+        "x": 3159.2,
+        "y": 964.7,
+        "confidence": 0.1833
+      },
+      "left_pect_fin_tip": {
+        "x": 3164.1,
+        "y": 974.4,
+        "confidence": 0.2213
+      },
+      "left_caudal_fluke": {
+        "x": 3415.1,
+        "y": 1123.1,
+        "confidence": 0.5676
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 234,
+    "track_id": 2,
+    "keypoints": {
+      "right_pect_fin_tip": {
+        "x": 468.7,
+        "y": 861.8,
+        "confidence": 0.1466
+      },
+      "left_caudal_fluke": {
+        "x": 325.6,
+        "y": 811.2,
+        "confidence": 0.1709
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 237,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3242.0,
+        "y": 871.8,
+        "confidence": 0.8106
+      },
+      "left_pect_fin_tip": {
+        "x": 3158.1,
+        "y": 967.1,
+        "confidence": 0.234
+      },
+      "left_caudal_fluke": {
+        "x": 3412.2,
+        "y": 1125.9,
+        "confidence": 0.2872
+      },
+      "right_caudal_fluke": {
+        "x": 3439.5,
+        "y": 1146.3,
+        "confidence": 0.1042
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 237,
+    "track_id": 2,
+    "keypoints": {
+      "right_pect_fin_tip": {
+        "x": 471.7,
+        "y": 849.0,
+        "confidence": 0.2006
+      },
+      "left_caudal_fluke": {
+        "x": 323.1,
+        "y": 798.5,
+        "confidence": 1.1179
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 237,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 20.6,
+        "y": 502.5,
+        "confidence": 0.5919
+      },
+      "Caudal_peduncle": {
+        "x": 284.3,
+        "y": 581.1,
+        "confidence": 0.1451
+      },
+      "left_pect_fin_tip": {
+        "x": 78.3,
+        "y": 713.7,
+        "confidence": 0.2555
+      },
+      "right_pect_fin_tip": {
+        "x": 477.9,
+        "y": 851.3,
+        "confidence": 0.223
+      },
+      "left_caudal_fluke": {
+        "x": 313.1,
+        "y": 792.3,
+        "confidence": 0.7467
+      },
+      "right_caudal_fluke": {
+        "x": 560.3,
+        "y": 1028.2,
+        "confidence": 0.1344
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 240,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3245.0,
+        "y": 872.7,
+        "confidence": 0.7257
+      },
+      "left_pect_fin_tip": {
+        "x": 3160.2,
+        "y": 962.9,
+        "confidence": 0.2233
+      },
+      "right_pect_fin_tip": {
+        "x": 3337.6,
+        "y": 828.9,
+        "confidence": 0.1155
+      },
+      "left_caudal_fluke": {
+        "x": 3412.2,
+        "y": 1130.4,
+        "confidence": 0.3569
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 243,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 531.7,
+        "y": 1129.4,
+        "confidence": 0.1429
+      },
+      "Caudal_peduncle": {
+        "x": 677.1,
+        "y": 962.2,
+        "confidence": 0.1237
+      },
+      "left_pect_fin_tip": {
+        "x": 62.3,
+        "y": 724.0,
+        "confidence": 0.3021
+      },
+      "right_pect_fin_tip": {
+        "x": 456.9,
+        "y": 825.3,
+        "confidence": 0.1448
+      },
+      "left_caudal_fluke": {
+        "x": 299.1,
+        "y": 779.7,
+        "confidence": 0.7782
+      },
+      "right_caudal_fluke": {
+        "x": 685.4,
+        "y": 972.3,
+        "confidence": 0.1352
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 246,
+    "track_id": 2,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 54.3,
+        "y": 725.1,
+        "confidence": 0.1747
+      },
+      "right_pect_fin_tip": {
+        "x": 325.9,
+        "y": 689.3,
+        "confidence": 0.1252
+      },
+      "left_caudal_fluke": {
+        "x": 288.3,
+        "y": 771.1,
+        "confidence": 0.6174
+      },
+      "right_caudal_fluke": {
+        "x": 681.0,
+        "y": 970.4,
+        "confidence": 0.1371
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 246,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3250.1,
+        "y": 880.2,
+        "confidence": 0.5443
+      },
+      "mid_saddle_patch": {
+        "x": 3152.6,
+        "y": 962.4,
+        "confidence": 0.1086
+      },
+      "left_pect_fin_tip": {
+        "x": 3157.7,
+        "y": 965.0,
+        "confidence": 0.1817
+      },
+      "left_caudal_fluke": {
+        "x": 3411.9,
+        "y": 1134.4,
+        "confidence": 0.439
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 249,
+    "track_id": 2,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 50.5,
+        "y": 714.4,
+        "confidence": 0.1494
+      },
+      "right_pect_fin_tip": {
+        "x": 315.9,
+        "y": 678.5,
+        "confidence": 0.1284
+      },
+      "left_caudal_fluke": {
+        "x": 791.8,
+        "y": 596.5,
+        "confidence": 0.2649
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 249,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3254.4,
+        "y": 880.2,
+        "confidence": 0.3983
+      },
+      "mid_saddle_patch": {
+        "x": 3150.2,
+        "y": 968.4,
+        "confidence": 0.1186
+      },
+      "left_pect_fin_tip": {
+        "x": 3156.2,
+        "y": 970.4,
+        "confidence": 0.1322
+      },
+      "left_caudal_fluke": {
+        "x": 3248.4,
+        "y": 970.4,
+        "confidence": 0.1834
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 252,
+    "track_id": 2,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 71.8,
+        "y": 722.9,
+        "confidence": 0.1449
+      },
+      "left_caudal_fluke": {
+        "x": 768.2,
+        "y": 532.0,
+        "confidence": 0.1221
+      },
+      "right_caudal_fluke": {
+        "x": 515.0,
+        "y": 975.7,
+        "confidence": 0.1194
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 252,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3255.2,
+        "y": 881.9,
+        "confidence": 0.5087
+      },
+      "left_pect_fin_tip": {
+        "x": 3150.2,
+        "y": 969.2,
+        "confidence": 0.129
+      },
+      "left_caudal_fluke": {
+        "x": 3430.2,
+        "y": 1091.5,
+        "confidence": 0.1036
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 255,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 484.1,
+        "y": 307.0,
+        "confidence": 0.1437
+      },
+      "left_pect_fin_tip": {
+        "x": 66.8,
+        "y": 722.1,
+        "confidence": 0.1713
+      },
+      "left_caudal_fluke": {
+        "x": 767.8,
+        "y": 532.5,
+        "confidence": 0.7374
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 255,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3256.2,
+        "y": 882.7,
+        "confidence": 0.7046
+      },
+      "mid_saddle_patch": {
+        "x": 3151.2,
+        "y": 965.7,
+        "confidence": 0.1071
+      },
+      "left_pect_fin_tip": {
+        "x": 3153.6,
+        "y": 965.7,
+        "confidence": 0.1666
+      },
+      "left_caudal_fluke": {
+        "x": 3405.2,
+        "y": 1129.4,
+        "confidence": 0.4604
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 258,
+    "track_id": 2,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 65.9,
+        "y": 723.7,
+        "confidence": 0.1535
+      },
+      "left_caudal_fluke": {
+        "x": 762.2,
+        "y": 526.5,
+        "confidence": 0.7195
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 258,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3255.8,
+        "y": 885.2,
+        "confidence": 0.6826
+      },
+      "left_pect_fin_tip": {
+        "x": 3162.4,
+        "y": 964.2,
+        "confidence": 0.1513
+      },
+      "left_caudal_fluke": {
+        "x": 3411.4,
+        "y": 1131.8,
+        "confidence": 0.5118
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 261,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3258.7,
+        "y": 887.4,
+        "confidence": 0.435
+      },
+      "mid_saddle_patch": {
+        "x": 3162.2,
+        "y": 965.3,
+        "confidence": 0.1322
+      },
+      "left_pect_fin_tip": {
+        "x": 3166.0,
+        "y": 967.2,
+        "confidence": 0.2102
+      },
+      "left_caudal_fluke": {
+        "x": 3362.7,
+        "y": 948.6,
+        "confidence": 0.2261
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 261,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 468.8,
+        "y": 304.6,
+        "confidence": 0.1338
+      },
+      "left_pect_fin_tip": {
+        "x": 61.2,
+        "y": 717.3,
+        "confidence": 0.163
+      },
+      "right_pect_fin_tip": {
+        "x": 69.3,
+        "y": 717.3,
+        "confidence": 0.1052
+      },
+      "left_caudal_fluke": {
+        "x": 750.2,
+        "y": 516.0,
+        "confidence": 0.9041
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 264,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 465.8,
+        "y": 1071.2,
+        "confidence": 0.1211
+      },
+      "left_pect_fin_tip": {
+        "x": 59.7,
+        "y": 717.4,
+        "confidence": 0.1988
+      },
+      "right_pect_fin_tip": {
+        "x": 67.7,
+        "y": 717.4,
+        "confidence": 0.1245
+      },
+      "left_caudal_fluke": {
+        "x": 222.9,
+        "y": 707.6,
+        "confidence": 0.4166
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 264,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3260.4,
+        "y": 887.9,
+        "confidence": 0.5319
+      },
+      "left_pect_fin_tip": {
+        "x": 3162.3,
+        "y": 966.8,
+        "confidence": 0.1204
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 264,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 467.1,
+        "y": 1069.2,
+        "confidence": 0.1407
+      },
+      "right_caudal_fluke": {
+        "x": 343.2,
+        "y": 819.5,
+        "confidence": 0.1047
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 267,
+    "track_id": 2,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 58.3,
+        "y": 713.8,
+        "confidence": 0.1855
+      },
+      "left_caudal_fluke": {
+        "x": 217.8,
+        "y": 704.2,
+        "confidence": 0.5843
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 267,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3263.0,
+        "y": 890.3,
+        "confidence": 0.6247
+      },
+      "mid_saddle_patch": {
+        "x": 3160.6,
+        "y": 965.9,
+        "confidence": 0.1583
+      },
+      "left_pect_fin_tip": {
+        "x": 3160.6,
+        "y": 965.9,
+        "confidence": 0.1314
+      },
+      "left_caudal_fluke": {
+        "x": 3408.0,
+        "y": 1136.4,
+        "confidence": 0.387
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 270,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 440.6,
+        "y": 1063.2,
+        "confidence": 0.1136
+      },
+      "left_pect_fin_tip": {
+        "x": 58.5,
+        "y": 701.2,
+        "confidence": 0.1353
+      },
+      "left_caudal_fluke": {
+        "x": 206.6,
+        "y": 691.6,
+        "confidence": 0.5565
+      },
+      "right_caudal_fluke": {
+        "x": 487.4,
+        "y": 957.0,
+        "confidence": 0.1199
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 270,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3263.0,
+        "y": 891.0,
+        "confidence": 0.7681
+      },
+      "left_pect_fin_tip": {
+        "x": 3163.0,
+        "y": 969.0,
+        "confidence": 0.1855
+      },
+      "left_caudal_fluke": {
+        "x": 3429.0,
+        "y": 1105.0,
+        "confidence": 0.1768
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 273,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 433.1,
+        "y": 1054.9,
+        "confidence": 0.1194
+      },
+      "left_pect_fin_tip": {
+        "x": 51.2,
+        "y": 693.8,
+        "confidence": 0.1732
+      },
+      "left_caudal_fluke": {
+        "x": 189.0,
+        "y": 674.0,
+        "confidence": 0.3672
+      },
+      "right_caudal_fluke": {
+        "x": 444.9,
+        "y": 911.4,
+        "confidence": 0.1574
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 273,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3264.6,
+        "y": 892.7,
+        "confidence": 0.9098
+      },
+      "left_pect_fin_tip": {
+        "x": 3166.9,
+        "y": 967.7,
+        "confidence": 0.2765
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 276,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3265.0,
+        "y": 893.6,
+        "confidence": 0.7884
+      },
+      "mid_saddle_patch": {
+        "x": 3158.7,
+        "y": 969.7,
+        "confidence": 0.1748
+      },
+      "left_pect_fin_tip": {
+        "x": 3164.4,
+        "y": 967.8,
+        "confidence": 0.1614
+      },
+      "right_pect_fin_tip": {
+        "x": 3209.9,
+        "y": 958.3,
+        "confidence": 0.1535
+      },
+      "left_caudal_fluke": {
+        "x": 3409.3,
+        "y": 1133.5,
+        "confidence": 0.1283
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 276,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 429.7,
+        "y": 1032.6,
+        "confidence": 0.1067
+      },
+      "left_caudal_fluke": {
+        "x": 705.9,
+        "y": 469.0,
+        "confidence": 0.31
+      },
+      "right_caudal_fluke": {
+        "x": 448.9,
+        "y": 912.1,
+        "confidence": 0.195
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 279,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3267.7,
+        "y": 893.4,
+        "confidence": 0.8594
+      },
+      "mid_saddle_patch": {
+        "x": 3160.5,
+        "y": 966.8,
+        "confidence": 0.1285
+      },
+      "left_pect_fin_tip": {
+        "x": 3164.5,
+        "y": 962.9,
+        "confidence": 0.1733
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 279,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 414.1,
+        "y": 1028.4,
+        "confidence": 0.361
+      },
+      "Caudal_peduncle": {
+        "x": 572.2,
+        "y": 878.0,
+        "confidence": 0.1585
+      },
+      "left_pect_fin_tip": {
+        "x": 429.1,
+        "y": 1037.8,
+        "confidence": 0.1156
+      },
+      "right_pect_fin_tip": {
+        "x": 485.6,
+        "y": 1014.3,
+        "confidence": 0.1117
+      },
+      "left_caudal_fluke": {
+        "x": 180.7,
+        "y": 666.4,
+        "confidence": 0.5417
+      },
+      "right_caudal_fluke": {
+        "x": 451.7,
+        "y": 920.3,
+        "confidence": 0.1081
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 279,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 416.7,
+        "y": 1027.1,
+        "confidence": 0.2417
+      },
+      "Caudal_peduncle": {
+        "x": 571.6,
+        "y": 882.4,
+        "confidence": 0.2045
+      },
+      "right_pect_fin_tip": {
+        "x": 335.6,
+        "y": 1420.7,
+        "confidence": 0.136
+      },
+      "right_caudal_fluke": {
+        "x": 449.9,
+        "y": 922.9,
+        "confidence": 0.193
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 282,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 404.1,
+        "y": 1024.2,
+        "confidence": 0.4049
+      },
+      "Caudal_peduncle": {
+        "x": 571.9,
+        "y": 873.7,
+        "confidence": 0.3075
+      },
+      "left_caudal_fluke": {
+        "x": 697.7,
+        "y": 460.9,
+        "confidence": 0.3451
+      },
+      "right_caudal_fluke": {
+        "x": 415.6,
+        "y": 868.8,
+        "confidence": 0.1663
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 282,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3267.7,
+        "y": 893.2,
+        "confidence": 0.9808
+      },
+      "mid_saddle_patch": {
+        "x": 3166.4,
+        "y": 968.5,
+        "confidence": 0.2074
+      },
+      "left_pect_fin_tip": {
+        "x": 3171.1,
+        "y": 968.5,
+        "confidence": 0.1843
+      },
+      "left_caudal_fluke": {
+        "x": 3411.4,
+        "y": 1133.5,
+        "confidence": 0.1629
+      },
+      "right_caudal_fluke": {
+        "x": 3442.0,
+        "y": 1166.4,
+        "confidence": 0.129
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 282,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 404.4,
+        "y": 1023.8,
+        "confidence": 0.4048
+      },
+      "Caudal_peduncle": {
+        "x": 572.9,
+        "y": 874.6,
+        "confidence": 0.2683
+      },
+      "right_caudal_fluke": {
+        "x": 424.6,
+        "y": 879.8,
+        "confidence": 0.1367
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 285,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 394.3,
+        "y": 1019.8,
+        "confidence": 0.2907
+      },
+      "Caudal_peduncle": {
+        "x": 567.0,
+        "y": 871.5,
+        "confidence": 0.3006
+      },
+      "left_caudal_fluke": {
+        "x": 146.4,
+        "y": 622.7,
+        "confidence": 0.5806
+      },
+      "right_caudal_fluke": {
+        "x": 416.8,
+        "y": 885.8,
+        "confidence": 0.2103
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 285,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3267.1,
+        "y": 895.4,
+        "confidence": 1.0696
+      },
+      "mid_saddle_patch": {
+        "x": 3164.8,
+        "y": 965.9,
+        "confidence": 0.1902
+      },
+      "left_pect_fin_tip": {
+        "x": 3169.3,
+        "y": 965.9,
+        "confidence": 0.2017
+      },
+      "left_caudal_fluke": {
+        "x": 3414.9,
+        "y": 1134.2,
+        "confidence": 0.2245
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 285,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 394.8,
+        "y": 1017.6,
+        "confidence": 0.2471
+      },
+      "Caudal_peduncle": {
+        "x": 565.0,
+        "y": 872.1,
+        "confidence": 0.2508
+      },
+      "right_caudal_fluke": {
+        "x": 418.7,
+        "y": 882.5,
+        "confidence": 0.1868
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 288,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 388.5,
+        "y": 1010.7,
+        "confidence": 0.1823
+      },
+      "Caudal_peduncle": {
+        "x": 557.7,
+        "y": 866.2,
+        "confidence": 0.2306
+      },
+      "left_caudal_fluke": {
+        "x": 142.3,
+        "y": 622.2,
+        "confidence": 0.5263
+      },
+      "right_caudal_fluke": {
+        "x": 423.1,
+        "y": 896.1,
+        "confidence": 0.1489
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 288,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 131.1,
+        "y": 1500.8,
+        "confidence": 0.1129
+      },
+      "Caudal_peduncle": {
+        "x": 322.4,
+        "y": 1356.8,
+        "confidence": 0.3046
+      },
+      "right_caudal_fluke": {
+        "x": 414.6,
+        "y": 886.1,
+        "confidence": 0.1841
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 288,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3269.8,
+        "y": 893.2,
+        "confidence": 0.9031
+      },
+      "mid_saddle_patch": {
+        "x": 3164.1,
+        "y": 960.0,
+        "confidence": 0.2224
+      },
+      "left_pect_fin_tip": {
+        "x": 3168.7,
+        "y": 960.0,
+        "confidence": 0.2004
+      },
+      "left_caudal_fluke": {
+        "x": 3410.0,
+        "y": 1128.1,
+        "confidence": 0.2872
+      },
+      "right_caudal_fluke": {
+        "x": 3451.4,
+        "y": 1171.9,
+        "confidence": 0.1055
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 291,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3269.8,
+        "y": 895.7,
+        "confidence": 1.0701
+      },
+      "mid_saddle_patch": {
+        "x": 3160.2,
+        "y": 957.1,
+        "confidence": 0.1391
+      },
+      "left_pect_fin_tip": {
+        "x": 3162.3,
+        "y": 957.1,
+        "confidence": 0.2557
+      },
+      "left_caudal_fluke": {
+        "x": 3412.3,
+        "y": 1130.3,
+        "confidence": 0.1686
+      },
+      "right_caudal_fluke": {
+        "x": 3453.9,
+        "y": 1174.1,
+        "confidence": 0.1156
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 291,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 385.0,
+        "y": 1004.1,
+        "confidence": 0.3036
+      },
+      "Caudal_peduncle": {
+        "x": 555.3,
+        "y": 852.9,
+        "confidence": 0.1573
+      },
+      "left_caudal_fluke": {
+        "x": 133.3,
+        "y": 611.9,
+        "confidence": 0.9167
+      },
+      "right_caudal_fluke": {
+        "x": 373.9,
+        "y": 843.5,
+        "confidence": 0.1597
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 294,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3272.2,
+        "y": 894.0,
+        "confidence": 0.8092
+      },
+      "left_pect_fin_tip": {
+        "x": 3164.6,
+        "y": 962.5,
+        "confidence": 0.1728
+      },
+      "right_pect_fin_tip": {
+        "x": 3188.1,
+        "y": 941.0,
+        "confidence": 0.1009
+      },
+      "left_caudal_fluke": {
+        "x": 3262.4,
+        "y": 978.1,
+        "confidence": 0.2758
+      },
+      "right_caudal_fluke": {
+        "x": 3444.4,
+        "y": 1166.0,
+        "confidence": 0.1164
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 294,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 378.2,
+        "y": 1000.1,
+        "confidence": 0.5008
+      },
+      "right_caudal_fluke": {
+        "x": 368.6,
+        "y": 839.6,
+        "confidence": 0.1686
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 294,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 378.3,
+        "y": 1001.4,
+        "confidence": 0.5097
+      },
+      "Caudal_peduncle": {
+        "x": 547.3,
+        "y": 842.2,
+        "confidence": 0.1139
+      },
+      "left_caudal_fluke": {
+        "x": 657.5,
+        "y": 420.8,
+        "confidence": 0.4013
+      },
+      "right_caudal_fluke": {
+        "x": 382.0,
+        "y": 851.6,
+        "confidence": 0.1928
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 297,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3270.8,
+        "y": 896.7,
+        "confidence": 0.8307
+      },
+      "left_pect_fin_tip": {
+        "x": 3162.9,
+        "y": 960.2,
+        "confidence": 0.1426
+      },
+      "left_caudal_fluke": {
+        "x": 3408.3,
+        "y": 1131.5,
+        "confidence": 0.1903
+      },
+      "right_caudal_fluke": {
+        "x": 3454.8,
+        "y": 983.5,
+        "confidence": 0.1402
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 300,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3272.2,
+        "y": 896.5,
+        "confidence": 0.7911
+      },
+      "left_caudal_fluke": {
+        "x": 3266.5,
+        "y": 980.0,
+        "confidence": 0.3212
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 303,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3274.1,
+        "y": 897.1,
+        "confidence": 0.7446
+      },
+      "left_pect_fin_tip": {
+        "x": 3167.6,
+        "y": 960.5,
+        "confidence": 0.1656
+      },
+      "left_caudal_fluke": {
+        "x": 3399.0,
+        "y": 1128.0,
+        "confidence": 0.1558
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 306,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3276.6,
+        "y": 897.3,
+        "confidence": 0.7975
+      },
+      "mid_saddle_patch": {
+        "x": 3165.2,
+        "y": 954.9,
+        "confidence": 0.1861
+      },
+      "left_pect_fin_tip": {
+        "x": 3169.3,
+        "y": 959.0,
+        "confidence": 0.2242
+      },
+      "left_caudal_fluke": {
+        "x": 3385.9,
+        "y": 1119.5,
+        "confidence": 0.1002
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 309,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3277.8,
+        "y": 901.0,
+        "confidence": 0.8812
+      },
+      "mid_saddle_patch": {
+        "x": 3170.9,
+        "y": 958.2,
+        "confidence": 0.1532
+      },
+      "left_pect_fin_tip": {
+        "x": 3172.8,
+        "y": 958.2,
+        "confidence": 0.2716
+      },
+      "left_caudal_fluke": {
+        "x": 3399.9,
+        "y": 1128.1,
+        "confidence": 0.3004
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 312,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3278.5,
+        "y": 902.2,
+        "confidence": 0.4677
+      },
+      "mid_saddle_patch": {
+        "x": 3164.6,
+        "y": 955.4,
+        "confidence": 0.1654
+      },
+      "left_pect_fin_tip": {
+        "x": 3168.3,
+        "y": 955.4,
+        "confidence": 0.2666
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 315,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3281.7,
+        "y": 901.6,
+        "confidence": 0.6433
+      },
+      "mid_saddle_patch": {
+        "x": 3167.6,
+        "y": 954.1,
+        "confidence": 0.1799
+      },
+      "left_pect_fin_tip": {
+        "x": 3169.5,
+        "y": 956.0,
+        "confidence": 0.2335
+      },
+      "left_caudal_fluke": {
+        "x": 3399.5,
+        "y": 1128.5,
+        "confidence": 0.1217
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 318,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3283.8,
+        "y": 902.9,
+        "confidence": 0.4021
+      },
+      "mid_saddle_patch": {
+        "x": 3173.5,
+        "y": 954.5,
+        "confidence": 0.1351
+      },
+      "left_pect_fin_tip": {
+        "x": 3177.0,
+        "y": 954.5,
+        "confidence": 0.2603
+      },
+      "left_caudal_fluke": {
+        "x": 3404.7,
+        "y": 1128.9,
+        "confidence": 0.2184
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 318,
+    "track_id": 2,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 307.6,
+        "y": 935.5,
+        "confidence": 0.3895
+      },
+      "left_pect_fin_tip": {
+        "x": 304.2,
+        "y": 909.9,
+        "confidence": 0.1204
+      },
+      "right_pect_fin_tip": {
+        "x": 60.8,
+        "y": 351.3,
+        "confidence": 0.116
+      },
+      "left_caudal_fluke": {
+        "x": 598.2,
+        "y": 351.3,
+        "confidence": 0.5313
+      },
+      "right_caudal_fluke": {
+        "x": 307.6,
+        "y": 752.1,
+        "confidence": 0.1561
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 321,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3286.1,
+        "y": 904.3,
+        "confidence": 0.4867
+      },
+      "mid_saddle_patch": {
+        "x": 3174.1,
+        "y": 952.1,
+        "confidence": 0.2491
+      },
+      "left_pect_fin_tip": {
+        "x": 3176.0,
+        "y": 954.0,
+        "confidence": 0.1745
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 324,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3287.1,
+        "y": 903.9,
+        "confidence": 0.6887
+      },
+      "mid_saddle_patch": {
+        "x": 3170.9,
+        "y": 948.5,
+        "confidence": 0.1813
+      },
+      "left_pect_fin_tip": {
+        "x": 3172.8,
+        "y": 950.4,
+        "confidence": 0.2275
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 327,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3288.1,
+        "y": 903.3,
+        "confidence": 0.6274
+      },
+      "mid_saddle_patch": {
+        "x": 3169.8,
+        "y": 949.0,
+        "confidence": 0.1876
+      },
+      "left_pect_fin_tip": {
+        "x": 3173.6,
+        "y": 950.9,
+        "confidence": 0.2001
+      },
+      "left_caudal_fluke": {
+        "x": 3354.9,
+        "y": 920.5,
+        "confidence": 0.115
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 330,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3291.1,
+        "y": 902.8,
+        "confidence": 0.7593
+      },
+      "mid_saddle_patch": {
+        "x": 3172.3,
+        "y": 944.4,
+        "confidence": 0.1941
+      },
+      "left_pect_fin_tip": {
+        "x": 3168.3,
+        "y": 946.4,
+        "confidence": 0.112
+      },
+      "right_pect_fin_tip": {
+        "x": 3417.9,
+        "y": 982.1,
+        "confidence": 0.1451
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 333,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3301.7,
+        "y": 905.7,
+        "confidence": 0.6737
+      },
+      "left_pect_fin_tip": {
+        "x": 3181.1,
+        "y": 947.9,
+        "confidence": 0.1708
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 336,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3319.0,
+        "y": 914.5,
+        "confidence": 0.6866
+      },
+      "left_pect_fin_tip": {
+        "x": 3201.1,
+        "y": 958.5,
+        "confidence": 0.2648
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 339,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3341.0,
+        "y": 927.5,
+        "confidence": 0.4896
+      },
+      "left_pect_fin_tip": {
+        "x": 3220.7,
+        "y": 968.9,
+        "confidence": 0.1494
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 342,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3370.9,
+        "y": 952.4,
+        "confidence": 0.5018
+      },
+      "mid_saddle_patch": {
+        "x": 3240.0,
+        "y": 993.5,
+        "confidence": 0.132
+      },
+      "left_caudal_fluke": {
+        "x": 3355.9,
+        "y": 1029.1,
+        "confidence": 0.1652
+      },
+      "right_caudal_fluke": {
+        "x": 3496.2,
+        "y": 1193.6,
+        "confidence": 0.1218
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 345,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3408.1,
+        "y": 995.9,
+        "confidence": 0.4858
+      },
+      "left_pect_fin_tip": {
+        "x": 3279.4,
+        "y": 1035.8,
+        "confidence": 0.1579
+      },
+      "left_caudal_fluke": {
+        "x": 3487.9,
+        "y": 1206.2,
+        "confidence": 0.1698
+      },
+      "right_caudal_fluke": {
+        "x": 3518.7,
+        "y": 1224.3,
+        "confidence": 0.1239
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 348,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3448.9,
+        "y": 1058.0,
+        "confidence": 0.3598
+      },
+      "mid_saddle_patch": {
+        "x": 3316.5,
+        "y": 1091.5,
+        "confidence": 0.1327
+      },
+      "right_caudal_fluke": {
+        "x": 3553.0,
+        "y": 1290.9,
+        "confidence": 0.1161
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 351,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3490.2,
+        "y": 1127.6,
+        "confidence": 0.2337
+      },
+      "mid_saddle_patch": {
+        "x": 3352.7,
+        "y": 1152.8,
+        "confidence": 0.1766
+      },
+      "left_pect_fin_tip": {
+        "x": 3438.2,
+        "y": 1228.6,
+        "confidence": 0.1763
+      },
+      "left_caudal_fluke": {
+        "x": 3465.1,
+        "y": 1203.3,
+        "confidence": 0.4276
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 354,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3529.8,
+        "y": 1189.0,
+        "confidence": 0.2965
+      },
+      "mid_saddle_patch": {
+        "x": 3396.4,
+        "y": 1209.1,
+        "confidence": 0.1848
+      },
+      "left_pect_fin_tip": {
+        "x": 3398.1,
+        "y": 1212.4,
+        "confidence": 0.205
+      },
+      "left_caudal_fluke": {
+        "x": 3503.2,
+        "y": 1260.9,
+        "confidence": 0.3395
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 360,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3603.9,
+        "y": 1312.5,
+        "confidence": 0.2056
+      },
+      "mid_saddle_patch": {
+        "x": 3461.0,
+        "y": 1323.1,
+        "confidence": 0.2202
+      },
+      "left_caudal_fluke": {
+        "x": 3577.4,
+        "y": 1383.2,
+        "confidence": 0.1891
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 363,
+    "track_id": 4,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3643.2,
+        "y": 1401.6,
+        "confidence": 0.197
+      },
+      "mid_saddle_patch": {
+        "x": 3501.6,
+        "y": 1408.4,
+        "confidence": 0.1574
+      },
+      "left_pect_fin_tip": {
+        "x": 3499.9,
+        "y": 1415.2,
+        "confidence": 0.1416
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 561,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1626.1,
+        "y": 798.7,
+        "confidence": 0.1324
+      },
+      "left_pect_fin_tip": {
+        "x": 1622.0,
+        "y": 1110.7,
+        "confidence": 0.111
+      },
+      "left_caudal_fluke": {
+        "x": 1901.2,
+        "y": 934.2,
+        "confidence": 0.5408
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 567,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1631.9,
+        "y": 809.0,
+        "confidence": 0.2027
+      },
+      "left_pect_fin_tip": {
+        "x": 1544.1,
+        "y": 1009.6,
+        "confidence": 0.1833
+      },
+      "left_caudal_fluke": {
+        "x": 1886.7,
+        "y": 946.9,
+        "confidence": 0.3529
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 570,
+    "track_id": 12,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 1546.5,
+        "y": 1020.4,
+        "confidence": 0.1885
+      },
+      "left_caudal_fluke": {
+        "x": 1896.8,
+        "y": 958.5,
+        "confidence": 1.0025
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 573,
+    "track_id": 13,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1619.2,
+        "y": 822.2,
+        "confidence": 0.1704
+      },
+      "mid_saddle_patch": {
+        "x": 1619.2,
+        "y": 834.2,
+        "confidence": 0.1115
+      },
+      "Caudal_peduncle": {
+        "x": 1261.5,
+        "y": 1514.3,
+        "confidence": 0.1175
+      },
+      "left_pect_fin_tip": {
+        "x": 1541.7,
+        "y": 1019.1,
+        "confidence": 0.2089
+      },
+      "left_caudal_fluke": {
+        "x": 1130.3,
+        "y": 1257.8,
+        "confidence": 0.5441
+      },
+      "right_caudal_fluke": {
+        "x": 1279.3,
+        "y": 1514.3,
+        "confidence": 0.1494
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 573,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1624.3,
+        "y": 827.9,
+        "confidence": 0.1232
+      },
+      "mid_saddle_patch": {
+        "x": 1619.6,
+        "y": 837.4,
+        "confidence": 0.105
+      },
+      "left_pect_fin_tip": {
+        "x": 1548.5,
+        "y": 1027.0,
+        "confidence": 0.1666
+      },
+      "left_caudal_fluke": {
+        "x": 1894.5,
+        "y": 960.6,
+        "confidence": 0.377
+      },
+      "right_caudal_fluke": {
+        "x": 1283.0,
+        "y": 1510.5,
+        "confidence": 0.1064
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 585,
+    "track_id": 13,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1633.1,
+        "y": 835.7,
+        "confidence": 0.2648
+      },
+      "left_pect_fin_tip": {
+        "x": 1543.7,
+        "y": 1031.3,
+        "confidence": 0.3028
+      },
+      "right_pect_fin_tip": {
+        "x": 1649.9,
+        "y": 830.1,
+        "confidence": 0.1515
+      },
+      "left_caudal_fluke": {
+        "x": 1130.3,
+        "y": 1282.7,
+        "confidence": 0.6903
+      },
+      "right_caudal_fluke": {
+        "x": 761.6,
+        "y": 1757.5,
+        "confidence": 0.1672
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 588,
+    "track_id": 13,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 1541.4,
+        "y": 1024.6,
+        "confidence": 0.2315
+      },
+      "left_caudal_fluke": {
+        "x": 1129.0,
+        "y": 1291.1,
+        "confidence": 0.4153
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 588,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1632.5,
+        "y": 848.3,
+        "confidence": 0.299
+      },
+      "left_pect_fin_tip": {
+        "x": 1538.4,
+        "y": 1036.4,
+        "confidence": 0.2184
+      },
+      "right_pect_fin_tip": {
+        "x": 1647.4,
+        "y": 818.6,
+        "confidence": 0.1494
+      },
+      "left_caudal_fluke": {
+        "x": 1736.5,
+        "y": 1289.0,
+        "confidence": 0.3788
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 591,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1628.5,
+        "y": 843.3,
+        "confidence": 0.8465
+      },
+      "left_pect_fin_tip": {
+        "x": 1541.9,
+        "y": 1042.0,
+        "confidence": 0.2662
+      },
+      "right_pect_fin_tip": {
+        "x": 1801.6,
+        "y": 1138.8,
+        "confidence": 0.1337
+      },
+      "left_caudal_fluke": {
+        "x": 1745.6,
+        "y": 1296.8,
+        "confidence": 0.5129
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 594,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1626.5,
+        "y": 853.0,
+        "confidence": 0.1927
+      },
+      "left_pect_fin_tip": {
+        "x": 1539.5,
+        "y": 1047.2,
+        "confidence": 0.2647
+      },
+      "right_pect_fin_tip": {
+        "x": 1652.1,
+        "y": 832.5,
+        "confidence": 0.118
+      },
+      "left_caudal_fluke": {
+        "x": 1897.6,
+        "y": 1016.5,
+        "confidence": 0.5961
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 594,
+    "track_id": 13,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1629.9,
+        "y": 862.8,
+        "confidence": 0.1051
+      },
+      "left_pect_fin_tip": {
+        "x": 1538.5,
+        "y": 1056.9,
+        "confidence": 0.2641
+      },
+      "right_pect_fin_tip": {
+        "x": 1647.1,
+        "y": 834.3,
+        "confidence": 0.1302
+      },
+      "left_caudal_fluke": {
+        "x": 1121.6,
+        "y": 1308.0,
+        "confidence": 0.252
+      },
+      "right_caudal_fluke": {
+        "x": 887.4,
+        "y": 1758.8,
+        "confidence": 0.1308
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 597,
+    "track_id": 12,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 1540.4,
+        "y": 1057.7,
+        "confidence": 0.3098
+      },
+      "right_pect_fin_tip": {
+        "x": 1798.1,
+        "y": 1160.8,
+        "confidence": 0.1463
+      },
+      "left_caudal_fluke": {
+        "x": 1751.7,
+        "y": 1299.9,
+        "confidence": 0.2074
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 597,
+    "track_id": 13,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 1536.1,
+        "y": 1063.4,
+        "confidence": 0.2878
+      },
+      "left_caudal_fluke": {
+        "x": 1135.0,
+        "y": 1324.8,
+        "confidence": 0.4725
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 600,
+    "track_id": 12,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 1535.0,
+        "y": 1072.6,
+        "confidence": 0.155
+      },
+      "right_pect_fin_tip": {
+        "x": 1797.0,
+        "y": 1146.8,
+        "confidence": 0.1985
+      },
+      "left_caudal_fluke": {
+        "x": 1899.6,
+        "y": 1021.3,
+        "confidence": 0.2735
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 600,
+    "track_id": 13,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 1537.1,
+        "y": 1072.5,
+        "confidence": 0.1687
+      },
+      "left_caudal_fluke": {
+        "x": 1136.9,
+        "y": 1331.5,
+        "confidence": 0.3416
+      },
+      "right_caudal_fluke": {
+        "x": 1166.3,
+        "y": 1537.4,
+        "confidence": 0.1012
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 603,
+    "track_id": 12,
+    "keypoints": {
+      "right_pect_fin_tip": {
+        "x": 1808.5,
+        "y": 1135.6,
+        "confidence": 0.1209
+      },
+      "left_caudal_fluke": {
+        "x": 1752.1,
+        "y": 1293.5,
+        "confidence": 0.6136
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 606,
+    "track_id": 12,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 1743.6,
+        "y": 1280.7,
+        "confidence": 0.1076
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 606,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 685.7,
+        "y": 1470.9,
+        "confidence": 0.2427
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 609,
+    "track_id": 12,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 1896.8,
+        "y": 1020.4,
+        "confidence": 0.6471
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 609,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 1116.3,
+        "y": 1317.6,
+        "confidence": 0.2132
+      },
+      "right_caudal_fluke": {
+        "x": 953.8,
+        "y": 1868.4,
+        "confidence": 0.1488
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 612,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1615.3,
+        "y": 850.6,
+        "confidence": 0.2009
+      },
+      "mid_saddle_patch": {
+        "x": 1603.5,
+        "y": 838.8,
+        "confidence": 0.1104
+      },
+      "left_caudal_fluke": {
+        "x": 1745.4,
+        "y": 1264.6,
+        "confidence": 0.3656
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 612,
+    "track_id": 13,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1619.5,
+        "y": 847.5,
+        "confidence": 0.2426
+      },
+      "left_caudal_fluke": {
+        "x": 685.2,
+        "y": 1486.2,
+        "confidence": 0.4904
+      },
+      "right_caudal_fluke": {
+        "x": 957.2,
+        "y": 1870.6,
+        "confidence": 0.1291
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 615,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1613.6,
+        "y": 838.7,
+        "confidence": 0.1354
+      },
+      "left_caudal_fluke": {
+        "x": 1744.7,
+        "y": 1256.4,
+        "confidence": 0.3669
+      },
+      "right_caudal_fluke": {
+        "x": 1750.7,
+        "y": 1632.2,
+        "confidence": 0.1165
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 615,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 675.0,
+        "y": 1485.6,
+        "confidence": 0.7297
+      },
+      "right_caudal_fluke": {
+        "x": 925.0,
+        "y": 1741.8,
+        "confidence": 0.1696
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 618,
+    "track_id": 12,
+    "keypoints": {
+      "left_pect_fin_tip": {
+        "x": 1595.2,
+        "y": 831.9,
+        "confidence": 0.1109
+      },
+      "left_caudal_fluke": {
+        "x": 1874.4,
+        "y": 992.3,
+        "confidence": 0.2746
+      },
+      "right_caudal_fluke": {
+        "x": 1761.5,
+        "y": 1628.1,
+        "confidence": 0.1155
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 621,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1592.0,
+        "y": 813.9,
+        "confidence": 0.2345
+      },
+      "Caudal_peduncle": {
+        "x": 1875.1,
+        "y": 1597.0,
+        "confidence": 0.1109
+      },
+      "right_caudal_fluke": {
+        "x": 1766.7,
+        "y": 1609.1,
+        "confidence": 0.1194
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 624,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1587.2,
+        "y": 797.7,
+        "confidence": 0.1973
+      },
+      "Caudal_peduncle": {
+        "x": 1886.7,
+        "y": 1582.4,
+        "confidence": 0.184
+      },
+      "left_caudal_fluke": {
+        "x": 1713.0,
+        "y": 1229.0,
+        "confidence": 0.7871
+      },
+      "right_caudal_fluke": {
+        "x": 1850.8,
+        "y": 1612.3,
+        "confidence": 0.1142
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 624,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 666.0,
+        "y": 1482.1,
+        "confidence": 0.154
+      },
+      "right_caudal_fluke": {
+        "x": 1062.8,
+        "y": 1660.5,
+        "confidence": 0.1259
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 627,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1575.8,
+        "y": 787.8,
+        "confidence": 0.2364
+      },
+      "Caudal_peduncle": {
+        "x": 1897.0,
+        "y": 1560.6,
+        "confidence": 0.2364
+      },
+      "left_caudal_fluke": {
+        "x": 1724.0,
+        "y": 1214.4,
+        "confidence": 0.1044
+      },
+      "right_caudal_fluke": {
+        "x": 1872.3,
+        "y": 1591.5,
+        "confidence": 0.1145
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 627,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 1683.8,
+        "y": 1210.2,
+        "confidence": 0.1367
+      },
+      "right_caudal_fluke": {
+        "x": 938.8,
+        "y": 1834.8,
+        "confidence": 0.1506
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 630,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1558.6,
+        "y": 772.4,
+        "confidence": 0.3398
+      },
+      "Caudal_peduncle": {
+        "x": 1901.3,
+        "y": 1537.5,
+        "confidence": 0.2762
+      },
+      "left_pect_fin_tip": {
+        "x": 1528.0,
+        "y": 1078.5,
+        "confidence": 0.1592
+      },
+      "left_caudal_fluke": {
+        "x": 1681.0,
+        "y": 1188.6,
+        "confidence": 0.5433
+      },
+      "right_caudal_fluke": {
+        "x": 1876.9,
+        "y": 1586.4,
+        "confidence": 0.1016
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 633,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1550.5,
+        "y": 757.2,
+        "confidence": 0.4953
+      },
+      "Caudal_peduncle": {
+        "x": 1888.0,
+        "y": 1513.5,
+        "confidence": 0.1229
+      },
+      "left_pect_fin_tip": {
+        "x": 1519.2,
+        "y": 1063.5,
+        "confidence": 0.1866
+      },
+      "left_caudal_fluke": {
+        "x": 1694.2,
+        "y": 1176.0,
+        "confidence": 0.3718
+      },
+      "right_caudal_fluke": {
+        "x": 1781.8,
+        "y": 1519.8,
+        "confidence": 0.1022
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 636,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1547.5,
+        "y": 735.7,
+        "confidence": 0.4273
+      },
+      "Caudal_peduncle": {
+        "x": 1179.3,
+        "y": 1097.6,
+        "confidence": 0.1483
+      },
+      "left_pect_fin_tip": {
+        "x": 1503.8,
+        "y": 1041.4,
+        "confidence": 0.1605
+      },
+      "left_caudal_fluke": {
+        "x": 1666.1,
+        "y": 1147.5,
+        "confidence": 0.1551
+      },
+      "right_caudal_fluke": {
+        "x": 1198.0,
+        "y": 1559.4,
+        "confidence": 0.1099
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 639,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1532.5,
+        "y": 711.2,
+        "confidence": 0.3252
+      },
+      "Caudal_peduncle": {
+        "x": 1172.5,
+        "y": 1096.1,
+        "confidence": 0.1524
+      },
+      "left_pect_fin_tip": {
+        "x": 1507.7,
+        "y": 1034.0,
+        "confidence": 0.1593
+      },
+      "left_caudal_fluke": {
+        "x": 1662.8,
+        "y": 1114.7,
+        "confidence": 0.3158
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 639,
+    "track_id": 13,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1486.6,
+        "y": 1033.5,
+        "confidence": 0.2436
+      },
+      "left_pect_fin_tip": {
+        "x": 1509.1,
+        "y": 1033.5,
+        "confidence": 0.1448
+      },
+      "left_caudal_fluke": {
+        "x": 1086.2,
+        "y": 1276.0,
+        "confidence": 0.2997
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 642,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1516.8,
+        "y": 691.6,
+        "confidence": 0.3244
+      },
+      "Caudal_peduncle": {
+        "x": 1165.4,
+        "y": 1062.2,
+        "confidence": 0.1155
+      },
+      "left_pect_fin_tip": {
+        "x": 1497.6,
+        "y": 1017.5,
+        "confidence": 0.1764
+      },
+      "left_caudal_fluke": {
+        "x": 1689.3,
+        "y": 1106.9,
+        "confidence": 0.1609
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 645,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1501.8,
+        "y": 676.3,
+        "confidence": 0.4136
+      },
+      "left_pect_fin_tip": {
+        "x": 1489.2,
+        "y": 1002.8,
+        "confidence": 0.1594
+      },
+      "left_caudal_fluke": {
+        "x": 1809.5,
+        "y": 852.1,
+        "confidence": 0.166
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 648,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1697.8,
+        "y": 1487.6,
+        "confidence": 0.4425
+      },
+      "mid_saddle_patch": {
+        "x": 1710.2,
+        "y": 1475.2,
+        "confidence": 0.1168
+      },
+      "left_pect_fin_tip": {
+        "x": 1481.8,
+        "y": 678.9,
+        "confidence": 0.1847
+      },
+      "left_caudal_fluke": {
+        "x": 1648.4,
+        "y": 1030.8,
+        "confidence": 0.2532
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 651,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1486.3,
+        "y": 625.1,
+        "confidence": 0.5138
+      },
+      "left_pect_fin_tip": {
+        "x": 1473.9,
+        "y": 649.9,
+        "confidence": 0.1588
+      },
+      "left_caudal_fluke": {
+        "x": 1653.8,
+        "y": 1003.4,
+        "confidence": 0.2475
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 654,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1472.5,
+        "y": 599.5,
+        "confidence": 0.6031
+      },
+      "mid_saddle_patch": {
+        "x": 1702.0,
+        "y": 1411.9,
+        "confidence": 0.1045
+      },
+      "left_pect_fin_tip": {
+        "x": 1460.1,
+        "y": 618.1,
+        "confidence": 0.1623
+      },
+      "left_caudal_fluke": {
+        "x": 1652.4,
+        "y": 984.0,
+        "confidence": 0.5682
+      },
+      "right_caudal_fluke": {
+        "x": 1782.6,
+        "y": 1362.3,
+        "confidence": 0.1481
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 660,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1450.0,
+        "y": 534.7,
+        "confidence": 0.6042
+      },
+      "mid_saddle_patch": {
+        "x": 1698.0,
+        "y": 1357.2,
+        "confidence": 0.1647
+      },
+      "Caudal_peduncle": {
+        "x": 1782.6,
+        "y": 1175.8,
+        "confidence": 0.1306
+      },
+      "left_pect_fin_tip": {
+        "x": 1443.9,
+        "y": 552.8,
+        "confidence": 0.1611
+      },
+      "left_caudal_fluke": {
+        "x": 1776.6,
+        "y": 740.3,
+        "confidence": 0.1654
+      },
+      "right_caudal_fluke": {
+        "x": 1788.7,
+        "y": 1308.8,
+        "confidence": 0.1578
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 663,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1443.4,
+        "y": 511.1,
+        "confidence": 0.5895
+      },
+      "mid_saddle_patch": {
+        "x": 1694.4,
+        "y": 1317.8,
+        "confidence": 0.151
+      },
+      "Caudal_peduncle": {
+        "x": 1915.0,
+        "y": 1234.1,
+        "confidence": 0.16
+      },
+      "right_pect_fin_tip": {
+        "x": 1694.4,
+        "y": 800.3,
+        "confidence": 0.1126
+      },
+      "left_caudal_fluke": {
+        "x": 1762.8,
+        "y": 670.9,
+        "confidence": 0.26
+      },
+      "right_caudal_fluke": {
+        "x": 1785.7,
+        "y": 1249.3,
+        "confidence": 0.1329
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 666,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1429.6,
+        "y": 480.4,
+        "confidence": 0.463
+      },
+      "mid_saddle_patch": {
+        "x": 1694.0,
+        "y": 1291.7,
+        "confidence": 0.1746
+      },
+      "Caudal_peduncle": {
+        "x": 1910.3,
+        "y": 1195.5,
+        "confidence": 0.2572
+      },
+      "left_pect_fin_tip": {
+        "x": 1417.6,
+        "y": 750.8,
+        "confidence": 0.139
+      },
+      "left_caudal_fluke": {
+        "x": 1615.9,
+        "y": 840.9,
+        "confidence": 0.225
+      },
+      "right_caudal_fluke": {
+        "x": 1796.2,
+        "y": 1213.5,
+        "confidence": 0.1716
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 669,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1416.6,
+        "y": 449.6,
+        "confidence": 0.4835
+      },
+      "mid_saddle_patch": {
+        "x": 1694.8,
+        "y": 1247.3,
+        "confidence": 0.1717
+      },
+      "Caudal_peduncle": {
+        "x": 1912.5,
+        "y": 1156.7,
+        "confidence": 0.2862
+      },
+      "left_pect_fin_tip": {
+        "x": 1416.6,
+        "y": 709.5,
+        "confidence": 0.1214
+      },
+      "right_caudal_fluke": {
+        "x": 1791.6,
+        "y": 1180.8,
+        "confidence": 0.176
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 672,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1405.5,
+        "y": 419.5,
+        "confidence": 0.3985
+      },
+      "mid_saddle_patch": {
+        "x": 1688.1,
+        "y": 1212.1,
+        "confidence": 0.1359
+      },
+      "Caudal_peduncle": {
+        "x": 1909.3,
+        "y": 1107.6,
+        "confidence": 0.3391
+      },
+      "left_pect_fin_tip": {
+        "x": 1405.5,
+        "y": 665.2,
+        "confidence": 0.1652
+      },
+      "left_caudal_fluke": {
+        "x": 1614.4,
+        "y": 769.7,
+        "confidence": 0.2037
+      },
+      "right_caudal_fluke": {
+        "x": 1792.6,
+        "y": 1132.2,
+        "confidence": 0.1151
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 678,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1364.4,
+        "y": 330.0,
+        "confidence": 0.4516
+      },
+      "mid_saddle_patch": {
+        "x": 1674.5,
+        "y": 1134.4,
+        "confidence": 0.1283
+      },
+      "Caudal_peduncle": {
+        "x": 1908.9,
+        "y": 1031.2,
+        "confidence": 0.3466
+      },
+      "left_pect_fin_tip": {
+        "x": 1394.7,
+        "y": 563.8,
+        "confidence": 0.2712
+      },
+      "left_caudal_fluke": {
+        "x": 1046.8,
+        "y": 996.9,
+        "confidence": 0.1161
+      },
+      "right_caudal_fluke": {
+        "x": 1795.5,
+        "y": 1051.9,
+        "confidence": 0.1471
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 681,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1343.3,
+        "y": 292.3,
+        "confidence": 0.331
+      },
+      "mid_saddle_patch": {
+        "x": 1663.5,
+        "y": 1096.3,
+        "confidence": 0.1536
+      },
+      "Caudal_peduncle": {
+        "x": 1901.8,
+        "y": 983.3,
+        "confidence": 0.3318
+      },
+      "left_pect_fin_tip": {
+        "x": 1380.5,
+        "y": 531.5,
+        "confidence": 0.3068
+      },
+      "left_caudal_fluke": {
+        "x": 1037.9,
+        "y": 956.8,
+        "confidence": 0.6656
+      },
+      "right_caudal_fluke": {
+        "x": 1924.1,
+        "y": 1003.3,
+        "confidence": 0.1254
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 684,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1687.9,
+        "y": 1075.8,
+        "confidence": 0.3087
+      },
+      "mid_saddle_patch": {
+        "x": 1665.5,
+        "y": 1069.3,
+        "confidence": 0.1299
+      },
+      "Caudal_peduncle": {
+        "x": 1897.3,
+        "y": 946.2,
+        "confidence": 0.2931
+      },
+      "left_pect_fin_tip": {
+        "x": 1366.5,
+        "y": 499.0,
+        "confidence": 0.2975
+      },
+      "left_caudal_fluke": {
+        "x": 1695.4,
+        "y": 434.2,
+        "confidence": 0.1192
+      },
+      "right_caudal_fluke": {
+        "x": 1912.2,
+        "y": 952.7,
+        "confidence": 0.1303
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 687,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1676.2,
+        "y": 1043.1,
+        "confidence": 0.4653
+      },
+      "mid_saddle_patch": {
+        "x": 1654.1,
+        "y": 1030.5,
+        "confidence": 0.1278
+      },
+      "Caudal_peduncle": {
+        "x": 1890.1,
+        "y": 904.8,
+        "confidence": 0.3541
+      },
+      "left_pect_fin_tip": {
+        "x": 1351.8,
+        "y": 458.7,
+        "confidence": 0.276
+      },
+      "left_caudal_fluke": {
+        "x": 1012.5,
+        "y": 886.0,
+        "confidence": 0.3657
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 690,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1666.0,
+        "y": 1006.7,
+        "confidence": 0.4041
+      },
+      "mid_saddle_patch": {
+        "x": 1658.6,
+        "y": 994.5,
+        "confidence": 0.1475
+      },
+      "Caudal_peduncle": {
+        "x": 1878.2,
+        "y": 872.4,
+        "confidence": 0.2749
+      },
+      "left_pect_fin_tip": {
+        "x": 1344.0,
+        "y": 421.0,
+        "confidence": 0.2495
+      },
+      "left_caudal_fluke": {
+        "x": 1000.1,
+        "y": 854.1,
+        "confidence": 0.5136
+      },
+      "right_caudal_fluke": {
+        "x": 1892.8,
+        "y": 860.2,
+        "confidence": 0.1299
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 693,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1308.3,
+        "y": 164.2,
+        "confidence": 0.4333
+      },
+      "mid_saddle_patch": {
+        "x": 1653.0,
+        "y": 967.8,
+        "confidence": 0.1256
+      },
+      "Caudal_peduncle": {
+        "x": 1859.8,
+        "y": 827.0,
+        "confidence": 0.2938
+      },
+      "left_pect_fin_tip": {
+        "x": 1329.0,
+        "y": 387.1,
+        "confidence": 0.1482
+      },
+      "right_caudal_fluke": {
+        "x": 1880.5,
+        "y": 821.2,
+        "confidence": 0.1317
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 696,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1290.1,
+        "y": 128.0,
+        "confidence": 0.6414
+      },
+      "mid_saddle_patch": {
+        "x": 1637.0,
+        "y": 929.7,
+        "confidence": 0.1405
+      },
+      "Caudal_peduncle": {
+        "x": 1840.3,
+        "y": 779.4,
+        "confidence": 0.3023
+      },
+      "left_pect_fin_tip": {
+        "x": 1308.0,
+        "y": 345.2,
+        "confidence": 0.144
+      },
+      "left_caudal_fluke": {
+        "x": 1511.4,
+        "y": 462.1,
+        "confidence": 0.3937
+      },
+      "right_caudal_fluke": {
+        "x": 1654.9,
+        "y": 723.8,
+        "confidence": 0.1115
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 699,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1270.1,
+        "y": 102.2,
+        "confidence": 0.5342
+      },
+      "Caudal_peduncle": {
+        "x": 1828.2,
+        "y": 758.6,
+        "confidence": 0.3666
+      },
+      "left_pect_fin_tip": {
+        "x": 1270.1,
+        "y": 118.4,
+        "confidence": 0.155
+      },
+      "left_caudal_fluke": {
+        "x": 1489.8,
+        "y": 425.0,
+        "confidence": 0.2226
+      },
+      "right_caudal_fluke": {
+        "x": 1632.2,
+        "y": 683.2,
+        "confidence": 0.1062
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 705,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1586.4,
+        "y": 839.7,
+        "confidence": 0.3625
+      },
+      "Caudal_peduncle": {
+        "x": 1794.3,
+        "y": 691.2,
+        "confidence": 0.169
+      },
+      "left_pect_fin_tip": {
+        "x": 1586.4,
+        "y": 824.4,
+        "confidence": 0.1135
+      },
+      "left_caudal_fluke": {
+        "x": 1592.3,
+        "y": 184.3,
+        "confidence": 0.4619
+      },
+      "right_caudal_fluke": {
+        "x": 1598.2,
+        "y": 614.4,
+        "confidence": 0.1584
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 708,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1578.5,
+        "y": 816.4,
+        "confidence": 0.3438
+      },
+      "Caudal_peduncle": {
+        "x": 1782.3,
+        "y": 664.0,
+        "confidence": 0.1863
+      },
+      "left_pect_fin_tip": {
+        "x": 1578.5,
+        "y": 806.6,
+        "confidence": 0.1244
+      },
+      "right_pect_fin_tip": {
+        "x": 1485.4,
+        "y": 265.6,
+        "confidence": 0.1063
+      },
+      "left_caudal_fluke": {
+        "x": 1444.6,
+        "y": 339.4,
+        "confidence": 0.2416
+      },
+      "right_caudal_fluke": {
+        "x": 1537.8,
+        "y": 501.7,
+        "confidence": 0.112
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 711,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1563.6,
+        "y": 791.7,
+        "confidence": 0.2406
+      },
+      "Caudal_peduncle": {
+        "x": 1765.2,
+        "y": 638.1,
+        "confidence": 0.241
+      },
+      "left_pect_fin_tip": {
+        "x": 1569.4,
+        "y": 786.9,
+        "confidence": 0.1821
+      },
+      "left_caudal_fluke": {
+        "x": 1442.6,
+        "y": 321.5,
+        "confidence": 0.1481
+      },
+      "right_caudal_fluke": {
+        "x": 1598.2,
+        "y": 561.4,
+        "confidence": 0.1274
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 714,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1760.6,
+        "y": 632.8,
+        "confidence": 0.1301
+      },
+      "Caudal_peduncle": {
+        "x": 1760.6,
+        "y": 628.1,
+        "confidence": 0.2973
+      },
+      "left_pect_fin_tip": {
+        "x": 1558.1,
+        "y": 764.1,
+        "confidence": 0.1364
+      },
+      "left_caudal_fluke": {
+        "x": 1417.5,
+        "y": 290.6,
+        "confidence": 0.1688
+      },
+      "right_caudal_fluke": {
+        "x": 1541.2,
+        "y": 529.7,
+        "confidence": 0.1054
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 717,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1841.9,
+        "y": 835.8,
+        "confidence": 0.1337
+      },
+      "Caudal_peduncle": {
+        "x": 1759.8,
+        "y": 616.6,
+        "confidence": 0.3825
+      },
+      "left_pect_fin_tip": {
+        "x": 1546.2,
+        "y": 749.0,
+        "confidence": 0.1178
+      },
+      "left_caudal_fluke": {
+        "x": 1546.2,
+        "y": 105.0,
+        "confidence": 0.3681
+      },
+      "right_caudal_fluke": {
+        "x": 1688.6,
+        "y": 607.5,
+        "confidence": 0.1358
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 720,
+    "track_id": 12,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1757.0,
+        "y": 606.9,
+        "confidence": 0.1728
+      },
+      "left_caudal_fluke": {
+        "x": 1395.9,
+        "y": 260.7,
+        "confidence": 0.2185
+      },
+      "right_caudal_fluke": {
+        "x": 1530.6,
+        "y": 499.0,
+        "confidence": 0.1409
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 723,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1739.2,
+        "y": 590.6,
+        "confidence": 0.1174
+      },
+      "Caudal_peduncle": {
+        "x": 1750.3,
+        "y": 595.2,
+        "confidence": 0.2195
+      },
+      "left_caudal_fluke": {
+        "x": 1396.7,
+        "y": 245.3,
+        "confidence": 0.3075
+      },
+      "right_caudal_fluke": {
+        "x": 1507.2,
+        "y": 472.5,
+        "confidence": 0.1145
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 726,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1730.3,
+        "y": 574.3,
+        "confidence": 0.1562
+      },
+      "Caudal_peduncle": {
+        "x": 1746.5,
+        "y": 578.8,
+        "confidence": 0.2369
+      },
+      "left_caudal_fluke": {
+        "x": 1536.5,
+        "y": 84.6,
+        "confidence": 0.1928
+      },
+      "right_caudal_fluke": {
+        "x": 1504.2,
+        "y": 467.5,
+        "confidence": 0.1304
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 729,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1522.9,
+        "y": 710.9,
+        "confidence": 0.2469
+      },
+      "Caudal_peduncle": {
+        "x": 1738.5,
+        "y": 577.9,
+        "confidence": 0.2337
+      },
+      "left_caudal_fluke": {
+        "x": 1392.5,
+        "y": 233.9,
+        "confidence": 0.4782
+      },
+      "right_caudal_fluke": {
+        "x": 1574.0,
+        "y": 532.0,
+        "confidence": 0.1308
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 732,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1715.1,
+        "y": 564.2,
+        "confidence": 0.1915
+      },
+      "Caudal_peduncle": {
+        "x": 1731.4,
+        "y": 564.2,
+        "confidence": 0.2688
+      },
+      "left_caudal_fluke": {
+        "x": 1389.7,
+        "y": 231.0,
+        "confidence": 0.1553
+      },
+      "right_caudal_fluke": {
+        "x": 1519.9,
+        "y": 475.3,
+        "confidence": 0.1369
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 735,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1522.7,
+        "y": 705.0,
+        "confidence": 0.2385
+      },
+      "Caudal_peduncle": {
+        "x": 1733.8,
+        "y": 583.8,
+        "confidence": 0.2413
+      },
+      "left_caudal_fluke": {
+        "x": 1378.2,
+        "y": 215.5,
+        "confidence": 0.2557
+      },
+      "right_caudal_fluke": {
+        "x": 1583.8,
+        "y": 543.3,
+        "confidence": 0.1509
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 738,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1518.6,
+        "y": 699.8,
+        "confidence": 0.276
+      },
+      "Caudal_peduncle": {
+        "x": 1729.9,
+        "y": 565.2,
+        "confidence": 0.2753
+      },
+      "left_caudal_fluke": {
+        "x": 1379.5,
+        "y": 210.8,
+        "confidence": 0.3229
+      },
+      "right_caudal_fluke": {
+        "x": 1652.1,
+        "y": 372.3,
+        "confidence": 0.1115
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 741,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1518.2,
+        "y": 697.3,
+        "confidence": 0.1995
+      },
+      "Caudal_peduncle": {
+        "x": 1726.1,
+        "y": 556.1,
+        "confidence": 0.3429
+      },
+      "left_pect_fin_tip": {
+        "x": 1184.4,
+        "y": 105.9,
+        "confidence": 0.111
+      },
+      "left_caudal_fluke": {
+        "x": 1375.9,
+        "y": 198.6,
+        "confidence": 0.1142
+      },
+      "right_caudal_fluke": {
+        "x": 1660.4,
+        "y": 556.1,
+        "confidence": 0.1091
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 744,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1519.5,
+        "y": 689.2,
+        "confidence": 0.3992
+      },
+      "Caudal_peduncle": {
+        "x": 1728.3,
+        "y": 556.7,
+        "confidence": 0.2666
+      },
+      "left_pect_fin_tip": {
+        "x": 1184.3,
+        "y": 110.5,
+        "confidence": 0.1227
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 747,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1514.9,
+        "y": 681.8,
+        "confidence": 0.4155
+      },
+      "Caudal_peduncle": {
+        "x": 1719.7,
+        "y": 563.8,
+        "confidence": 0.296
+      },
+      "left_caudal_fluke": {
+        "x": 1514.9,
+        "y": 56.8,
+        "confidence": 0.1629
+      },
+      "right_caudal_fluke": {
+        "x": 1504.2,
+        "y": 476.4,
+        "confidence": 0.1551
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 750,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1508.8,
+        "y": 673.5,
+        "confidence": 0.139
+      },
+      "Caudal_peduncle": {
+        "x": 1569.7,
+        "y": 479.3,
+        "confidence": 0.1234
+      },
+      "left_pect_fin_tip": {
+        "x": 1508.8,
+        "y": 669.5,
+        "confidence": 0.1008
+      },
+      "left_caudal_fluke": {
+        "x": 1374.9,
+        "y": 202.0,
+        "confidence": 0.1621
+      },
+      "right_caudal_fluke": {
+        "x": 1516.9,
+        "y": 479.3,
+        "confidence": 0.1066
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 753,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1508.9,
+        "y": 672.6,
+        "confidence": 0.3322
+      },
+      "left_caudal_fluke": {
+        "x": 1365.9,
+        "y": 193.9,
+        "confidence": 0.3354
+      },
+      "right_caudal_fluke": {
+        "x": 1521.2,
+        "y": 490.6,
+        "confidence": 0.1185
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 756,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1498.9,
+        "y": 674.8,
+        "confidence": 0.3313
+      },
+      "left_caudal_fluke": {
+        "x": 1361.9,
+        "y": 196.2,
+        "confidence": 0.1975
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 756,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 485.7,
+        "y": 787.4,
+        "confidence": 0.6388
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 759,
+    "track_id": 12,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 1352.0,
+        "y": 199.2,
+        "confidence": 0.3526
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 759,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 486.8,
+        "y": 790.6,
+        "confidence": 0.438
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 762,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1478.0,
+        "y": 659.8,
+        "confidence": 0.2266
+      },
+      "left_caudal_fluke": {
+        "x": 1346.7,
+        "y": 206.5,
+        "confidence": 0.2267
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 762,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 475.6,
+        "y": 788.9,
+        "confidence": 0.5947
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 765,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1119.4,
+        "y": 166.7,
+        "confidence": 0.1948
+      },
+      "left_caudal_fluke": {
+        "x": 1340.8,
+        "y": 212.4,
+        "confidence": 0.1389
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 768,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1113.7,
+        "y": 188.6,
+        "confidence": 0.1815
+      },
+      "left_caudal_fluke": {
+        "x": 1334.3,
+        "y": 226.0,
+        "confidence": 0.2815
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 771,
+    "track_id": 12,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 1319.7,
+        "y": 233.9,
+        "confidence": 0.4916
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 774,
+    "track_id": 12,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 1291.6,
+        "y": 237.6,
+        "confidence": 0.3532
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 774,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 478.8,
+        "y": 846.3,
+        "confidence": 0.5457
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 777,
+    "track_id": 12,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1611.1,
+        "y": 527.8,
+        "confidence": 0.2275
+      },
+      "left_caudal_fluke": {
+        "x": 1409.6,
+        "y": 94.1,
+        "confidence": 0.2426
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 783,
+    "track_id": 12,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1593.6,
+        "y": 544.6,
+        "confidence": 0.2536
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 783,
+    "track_id": 13,
+    "keypoints": {
+      "left_caudal_fluke": {
+        "x": 484.1,
+        "y": 887.9,
+        "confidence": 0.1632
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 786,
+    "track_id": 12,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1592.1,
+        "y": 559.0,
+        "confidence": 0.1793
+      },
+      "left_caudal_fluke": {
+        "x": 1384.7,
+        "y": 119.2,
+        "confidence": 0.501
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 789,
+    "track_id": 12,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1585.9,
+        "y": 557.3,
+        "confidence": 0.1235
+      },
+      "left_caudal_fluke": {
+        "x": 1371.8,
+        "y": 124.8,
+        "confidence": 0.51
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 792,
+    "track_id": 12,
+    "keypoints": {
+      "Caudal_peduncle": {
+        "x": 1574.0,
+        "y": 552.1,
+        "confidence": 0.1721
+      },
+      "left_pect_fin_tip": {
+        "x": 1001.2,
+        "y": 54.4,
+        "confidence": 0.1096
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 795,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 977.3,
+        "y": 71.9,
+        "confidence": 0.4633
+      },
+      "Caudal_peduncle": {
+        "x": 1552.0,
+        "y": 558.5,
+        "confidence": 0.1622
+      },
+      "left_caudal_fluke": {
+        "x": 1328.0,
+        "y": 156.5,
+        "confidence": 0.2069
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 798,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 949.7,
+        "y": 100.0,
+        "confidence": 0.5639
+      },
+      "left_pect_fin_tip": {
+        "x": 1084.1,
+        "y": 73.9,
+        "confidence": 0.1246
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 801,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 924.4,
+        "y": 130.8,
+        "confidence": 0.5384
+      },
+      "left_pect_fin_tip": {
+        "x": 1057.5,
+        "y": 90.2,
+        "confidence": 0.158
+      },
+      "left_caudal_fluke": {
+        "x": 1284.1,
+        "y": 198.4,
+        "confidence": 0.1837
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 804,
+    "track_id": 12,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 899.3,
+        "y": 171.2,
+        "confidence": 0.513
+      },
+      "left_pect_fin_tip": {
+        "x": 1029.2,
+        "y": 118.9,
+        "confidence": 0.1691
+      },
+      "left_caudal_fluke": {
+        "x": 1257.9,
+        "y": 214.0,
+        "confidence": 0.3782
+      }
+    },
+    "n_keypoints_found": 3
+  }
+]
