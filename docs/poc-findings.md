@@ -39,7 +39,7 @@ Video → Frame extraction → YOLO-World detection → Cross-class NMS → Byte
 
 - YOLO-World (open-vocabulary, zero fine-tuning) detects whales with **80%+ accuracy** at high confidence
 - Works on both boat-level and aerial drone footage
-- Confidence is low overall (mean ~0.3) — fine-tuning on whale data would improve this
+- Confidence is moderate (mean ~0.57 on aerial clips) — fine-tuning on whale data would improve edge cases
 - Standard COCO models (YOLOv8n) completely fail — **0 whale detections**
 - Cross-class NMS is essential: ~40% of raw detections are duplicate labels ("whale" + "marine mammal" + "dorsal fin") on the same animal
 
@@ -47,7 +47,7 @@ Video → Frame extraction → YOLO-World detection → Cross-class NMS → Byte
 
 - ByteTrack maintains whale IDs during continuous surfacing (up to **12 seconds** tested)
 - IDs break across dives — a whale that submerges gets a new ID when it resurfaces
-- Appearance-based re-linking (ResNet18 embeddings) successfully merges fragments (0.86–0.92 cosine similarity), reducing **15 tracks to 5** in the test clip
+- Appearance-based re-linking (ResNet18 embeddings) successfully merges fragments (0.86–0.92 cosine similarity), reducing **13 tracks to 9** in the test clip
 - **Unsolved**: Long dives + drone movement cause large spatial gaps that can't be reliably re-linked
 
 ### 3. What annotation work is needed? **Minimal for detection, moderate for tracking.**

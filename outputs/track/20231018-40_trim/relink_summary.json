@@ -1,0 +1,16 @@
+{
+  "merge_map": {
+    "6": 5,
+    "5": 3,
+    "4": 3,
+    "11": 9
+  },
+  "params": {
+    "max_gap_frames": 200,
+    "max_dist_px": 600,
+    "min_similarity": 0.7,
+    "min_frames": 5
+  },
+  "before_track_count": 13,
+  "after_track_count": 9
+}

@@ -74,10 +74,10 @@ Only **20240527-22** has gone through the full pipeline. Videos are in `videos/`
 
 1. **Detection works zero-shot** — YOLO-World with text prompts ("whale", "orca", etc.) at conf ≥ 0.05 achieves 80%+ accuracy. Standard COCO YOLOv8 completely fails.
 2. **Tracking works during surfacing** — ByteTrack maintains IDs for up to 12s of continuous surfacing, but IDs fragment across dives.
-3. **Re-linking helps** — ResNet18 appearance embedding re-linking reduced 15 tracks → 5 on test clip.
+3. **Re-linking helps** — ResNet18 appearance embedding re-linking reduced 13 tracks → 9 on test clip.
 4. **Absolute trajectories are unusable** — Camera motion dominates. Pivoted to relative/pairwise metrics (inter-whale distance, heading, speed) which are camera-motion-invariant.
 5. **Stabilization failed** — Attempted and scrapped; produced bad artifacts.
-6. **Pose estimation runs** — Ren's SLEAP model (7 keypoints: rostrum, saddle patch, caudal peduncle, pectoral fins, caudal flukes) produces results. Rostrum + caudal fluke are reliable; saddle patch and pectoral fins are weak on aerial footage.
+6. **Pose estimation runs** — Two-stage top-down pipeline: centroid model finds saddle patch center on full frame (1360×2560), then centered-instance model predicts 7 keypoints on 832×832 crop. Achieves 6.5/7 keypoints avg with consistent quality across all frames.
 
 ---
 
@@ -158,9 +158,10 @@ outputs/
 ## Exeter / Ren's Work
 
 Ren's DORSAP project from Exeter is stored in `exeter/`. Key assets used:
-- **SLEAP model**: `exeter/models/full_FGM_v1_250328_113346.centered_instance.n=231/best_model.h5` — centered-instance model trained on 231 frames, 7-keypoint orca skeleton
+- **Centroid model**: `exeter/models/full_FGM_v1_250327_234344.centroid.n=231/best_model.h5` — finds saddle patch center on full frame (requires 1360×2560 input due to U-Net skip connections)
+- **Centered-instance model**: `exeter/models/full_FGM_v1_250328_113346.centered_instance.n=231/best_model.h5` — 7-keypoint prediction on 832×832 crop centered on centroid → 208×208×7 confidence maps
 - **Skeleton definition**: `exeter/basic_aerial_skeleton.json`
-- The model expects 832×832 input crops → 208×208×7 confidence maps (one per keypoint)
+- Two-stage pipeline: centroid on full frame → crop centered on saddle patch → instance model
 
 ---
 

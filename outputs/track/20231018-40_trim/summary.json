@@ -1,0 +1,102 @@
+{
+  "video": "20231018-40_trim",
+  "total_frames_processed": 862,
+  "sample_rate": 3,
+  "confidence_threshold": 0.1,
+  "frames_with_tracks": 483,
+  "unique_track_ids": 13,
+  "total_track_points": 483,
+  "track_stats": {
+    "1": {
+      "frames": 1,
+      "first_frame": 0,
+      "last_frame": 0,
+      "span": 0,
+      "avg_confidence": 0.455
+    },
+    "2": {
+      "frames": 11,
+      "first_frame": 63,
+      "last_frame": 120,
+      "span": 57,
+      "avg_confidence": 0.639
+    },
+    "3": {
+      "frames": 17,
+      "first_frame": 99,
+      "last_frame": 153,
+      "span": 54,
+      "avg_confidence": 0.539
+    },
+    "4": {
+      "frames": 6,
+      "first_frame": 192,
+      "last_frame": 219,
+      "span": 27,
+      "avg_confidence": 0.364
+    },
+    "5": {
+      "frames": 168,
+      "first_frame": 285,
+      "last_frame": 879,
+      "span": 594,
+      "avg_confidence": 0.562
+    },
+    "6": {
+      "frames": 33,
+      "first_frame": 936,
+      "last_frame": 1068,
+      "span": 132,
+      "avg_confidence": 0.456
+    },
+    "7": {
+      "frames": 3,
+      "first_frame": 1110,
+      "last_frame": 1122,
+      "span": 12,
+      "avg_confidence": 0.559
+    },
+    "8": {
+      "frames": 4,
+      "first_frame": 1125,
+      "last_frame": 1134,
+      "span": 9,
+      "avg_confidence": 0.508
+    },
+    "9": {
+      "frames": 145,
+      "first_frame": 1176,
+      "last_frame": 1725,
+      "span": 549,
+      "avg_confidence": 0.592
+    },
+    "10": {
+      "frames": 1,
+      "first_frame": 1818,
+      "last_frame": 1818,
+      "span": 0,
+      "avg_confidence": 0.489
+    },
+    "11": {
+      "frames": 89,
+      "first_frame": 1845,
+      "last_frame": 2151,
+      "span": 306,
+      "avg_confidence": 0.625
+    },
+    "12": {
+      "frames": 2,
+      "first_frame": 2289,
+      "last_frame": 2298,
+      "span": 9,
+      "avg_confidence": 0.408
+    },
+    "13": {
+      "frames": 3,
+      "first_frame": 2364,
+      "last_frame": 2373,
+      "span": 9,
+      "avg_confidence": 0.392
+    }
+  }
+}

@@ -53,6 +53,24 @@ TRACK_COLORS = [
 ]
 
 
+def load_tracks(csv_path: Path) -> dict[int, dict[int, dict]]:
+    """Load tracks CSV, return {frame: {track_id: {bbox_x1,y1,x2,y2, class_name, confidence}}}."""
+    by_frame: dict[int, dict[int, dict]] = {}
+    with open(csv_path, newline="") as f:
+        for row in csv.DictReader(f):
+            fr = int(row["frame"])
+            tid = int(row["track_id"])
+            by_frame.setdefault(fr, {})[tid] = {
+                "x1": float(row["bbox_x1"]),
+                "y1": float(row["bbox_y1"]),
+                "x2": float(row["bbox_x2"]),
+                "y2": float(row["bbox_y2"]),
+                "class": row.get("class_name", ""),
+                "conf": float(row.get("confidence", 0)),
+            }
+    return by_frame
+
+
 def load_pose_keypoints(csv_path: Path) -> list[dict]:
     rows = []
     with open(csv_path, newline="") as f:
@@ -115,6 +133,15 @@ def main():
         print(f"Error: {pose_csv} not found")
         sys.exit(1)
 
+    # Load tracks (bounding boxes)
+    tracks_csv = args.track_dir / "tracks_relinked.csv"
+    if not tracks_csv.exists():
+        tracks_csv = args.track_dir / "tracks.csv"
+    tracks_by_frame = {}
+    if tracks_csv.exists():
+        tracks_by_frame = load_tracks(tracks_csv)
+        print(f"Loaded detection boxes from {tracks_csv.name}")
+
     # Load keypoints
     print(f"Loading keypoints from {pose_csv}...")
     all_kps = load_pose_keypoints(pose_csv)
@@ -153,6 +180,18 @@ def main():
 
         if frame_idx in target_set:
             annotated = frame.copy()
+
+            # Draw detection bounding boxes
+            if frame_idx in tracks_by_frame:
+                for tid, det in tracks_by_frame[frame_idx].items():
+                    color = TRACK_COLORS[tid % len(TRACK_COLORS)]
+                    pt1 = (int(det["x1"]), int(det["y1"]))
+                    pt2 = (int(det["x2"]), int(det["y2"]))
+                    cv2.rectangle(annotated, pt1, pt2, color, 2)
+                    label = f"{det['class']} {det['conf']:.2f}"
+                    cv2.putText(annotated, label,
+                                (pt1[0], pt1[1] - 8),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 1)
 
             for entry in by_frame[frame_idx]:
                 draw_pose(annotated, entry["keypoints"], entry["track_id"])
