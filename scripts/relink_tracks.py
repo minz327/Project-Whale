@@ -209,6 +209,57 @@ def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
     return float(np.dot(a, b) / denom)
 
 
+def load_pose_features(pose_csv: Path, track_ids: set[int]) -> dict[int, dict]:
+    """Compute average body length from pose keypoints per track.
+
+    Body length (rostrum→caudal distance) is consistent for the same whale
+    at similar drone altitude, making it more discriminative than generic
+    ResNet18 features for same-whale matching.
+    """
+    if not pose_csv.exists():
+        return {}
+
+    by_track: dict[int, list[float]] = {tid: [] for tid in track_ids}
+
+    with open(pose_csv, newline="") as f:
+        for row in csv.DictReader(f):
+            tid = int(row["track_id"])
+            if tid not in track_ids:
+                continue
+            rx = row.get("rostrum_tip_x", "")
+            ry = row.get("rostrum_tip_y", "")
+            cx = row.get("Caudal_peduncle_x", "")
+            cy = row.get("Caudal_peduncle_y", "")
+            if not all([rx, ry, cx, cy]):
+                continue
+            dx = float(rx) - float(cx)
+            dy = float(ry) - float(cy)
+            by_track[tid].append((dx**2 + dy**2) ** 0.5)
+
+    features = {}
+    for tid, lengths in by_track.items():
+        if not lengths:
+            continue
+        features[tid] = {
+            "mean_body_length": float(np.mean(lengths)),
+            "n_pose_frames": len(lengths),
+        }
+    return features
+
+
+def pose_body_length_ratio(feat_a: dict, feat_b: dict) -> float:
+    """Score body-length similarity between two tracks.
+
+    Same whale at similar altitude should have consistent apparent body length.
+    Returns ratio in [0, 1] — closer to 1 means more similar.
+    """
+    len_a = feat_a["mean_body_length"]
+    len_b = feat_b["mean_body_length"]
+    if min(len_a, len_b) < 1:
+        return 0.5
+    return min(len_a, len_b) / max(len_a, len_b)
+
+
 def merge_tracks(tracks: list[dict], merge_map: dict[int, int]) -> list[dict]:
     """Apply merge mapping to tracks, reassigning IDs."""
     merged = []
@@ -279,6 +330,12 @@ def main():
     embeddings = compute_embeddings(crops)
     print(f"  Computed embeddings for {len(embeddings)} tracks")
 
+    # Load pose features if available
+    pose_csv = args.track_dir / "pose" / "pose_keypoints.csv"
+    pose_features = load_pose_features(pose_csv, candidate_tids)
+    if pose_features:
+        print(f"  Loaded pose features for {len(pose_features)} tracks")
+
     # Score candidates with appearance similarity
     print(f"\nScoring candidates (min similarity={args.min_similarity})...")
     merge_map: dict[int, int] = {}  # new_id -> old_id (merge into old)
@@ -292,9 +349,21 @@ def main():
             continue
 
         sim = cosine_similarity(embeddings[old_id], embeddings[new_id])
+
+        # Check pose body-length consistency if available
+        pose_info = ""
+        if old_id in pose_features and new_id in pose_features:
+            bl_ratio = pose_body_length_ratio(
+                pose_features[old_id], pose_features[new_id])
+            pose_info = f", body-length ratio={bl_ratio:.3f}"
+            if bl_ratio < 0.7:
+                print(f"    Track {old_id} → {new_id}: similarity={sim:.3f}"
+                      f"{pose_info} → REJECT (body length mismatch)")
+                continue
+
         status = "MERGE" if sim >= args.min_similarity else "REJECT"
-        print(f"    Track {old_id} → {new_id}: similarity={sim:.3f}, "
-              f"gap={gap}, dist={dist:.0f}px → {status}")
+        print(f"    Track {old_id} → {new_id}: similarity={sim:.3f}"
+              f"{pose_info}, gap={gap}, dist={dist:.0f}px → {status}")
 
         if sim >= args.min_similarity:
             merge_map[new_id] = old_id

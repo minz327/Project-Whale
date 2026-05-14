@@ -1,6 +1,6 @@
 # ProjectWhale — Progress & Continuation Guide
 
-> Last updated: 2026-05-13
+> Last updated: 2026-05-14
 
 ---
 
@@ -18,8 +18,9 @@ Video (.MP4)
   ├─ 1. detect_yoloworld.py   → outputs/detect_world/{clip}/
   ├─ 2. evaluate_detections.py → review.html (human QA)
   ├─ 3. track_whales.py        → outputs/track/{clip}/tracks.csv + tracked video
-  ├─ 4. relink_tracks.py       → tracks_relinked.csv (fix ID breaks)
-  ├─ 5. track_metrics.py       → metrics.json + track_metrics.png
+  ├─ 4. relink_tracks.py       → tracks_relinked.csv (fix ID breaks, pose-aware)
+  ├─ 4b. compensate_tracks.py  → tracks_compensated.csv (optical flow ego-motion removal)
+  ├─ 5. track_metrics.py       → metrics.json + track_metrics.png (body-length calibrated)
   ├─ 6. visualize_tracks.py    → trajectory_map.png + track_timeline.png
   └─ 7. pose_estimate.py       → pose/pose_keypoints.csv + pose_results.json
        └─ visualize_pose.py    → pose/pose_review.html + annotated frames
@@ -47,8 +48,9 @@ Video (.MP4)
 | `download_clips.py` | `.venv` | Downloads clips from `data/clip_log.csv` via yt-dlp |
 | `evaluate_detections.py` | `.venv` | Cross-class NMS + HTML review grid for human QA |
 | `track_whales.py` | `.venv` | YOLO-World + ByteTrack multi-object tracking |
-| `relink_tracks.py` | `.venv` | Merges fragmented tracks via spatial + ResNet18 appearance embeddings |
-| `track_metrics.py` | `.venv` | Camera-invariant relative metrics (speed, inter-whale distance, surfacing) |
+| `relink_tracks.py` | `.venv` | Merges fragmented tracks via spatial + ResNet18 + pose body-length features |
+| `compensate_tracks.py` | `.venv` | Optical flow ego-motion compensation (subtracts camera drift from tracks) |
+| `track_metrics.py` | `.venv` | Relative metrics with body-length calibration + pose-derived heading |
 | `visualize_tracks.py` | `.venv` | Static trajectory map + timeline chart |
 | `pose_estimate.py` | `.venv_sleap` | SLEAP pose estimation using Ren's pre-trained model (7 keypoints) |
 | `visualize_pose.py` | `.venv` | Draws skeletons + keypoints on frames, generates HTML review |
@@ -74,7 +76,7 @@ Only **20240527-22** has gone through the full pipeline. Videos are in `videos/`
 
 1. **Detection works zero-shot** — YOLO-World with text prompts ("whale", "orca", etc.) at conf ≥ 0.05 achieves 80%+ accuracy. Standard COCO YOLOv8 completely fails.
 2. **Tracking works during surfacing** — ByteTrack maintains IDs for up to 12s of continuous surfacing, but IDs fragment across dives.
-3. **Re-linking helps** — ResNet18 appearance embedding re-linking reduced 13 tracks → 9 on test clip.
+3. **Re-linking helps** — ResNet18 appearance embedding re-linking reduced 15 tracks → 12 on test clip.
 4. **Absolute trajectories are unusable** — Camera motion dominates. Pivoted to relative/pairwise metrics (inter-whale distance, heading, speed) which are camera-motion-invariant.
 5. **Stabilization failed** — Attempted and scrapped; produced bad artifacts.
 6. **Pose estimation runs** — Two-stage top-down pipeline: centroid model finds saddle patch center on full frame (1360×2560), then centered-instance model predicts 7 keypoints on 832×832 crop. Achieves 6.5/7 keypoints avg with consistent quality across all frames.

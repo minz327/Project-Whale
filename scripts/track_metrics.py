@@ -42,11 +42,14 @@ def load_tracks(csv_path: Path) -> list[dict]:
     return tracks
 
 
-def compute_speed(pts: list[dict], fps: float, sample_rate: int) -> list[dict]:
+def compute_speed(pts: list[dict], fps: float, sample_rate: int,
+                  pose_data: dict | None = None) -> list[dict]:
     """Compute frame-to-frame speed for a single track.
 
     Speed is in pixels/second. Between consecutive detections only,
     so camera drift within a few frames is minimal.
+    If pose_data is provided, uses rostrum→caudal body axis for heading
+    instead of noisy frame-to-frame displacement.
     """
     pts_sorted = sorted(pts, key=lambda x: x["frame"])
     speeds = []
@@ -67,13 +70,24 @@ def compute_speed(pts: list[dict], fps: float, sample_rate: int) -> list[dict]:
         time_gap = frame_gap / fps
         speed_px_s = dist_px / time_gap if time_gap > 0 else 0
 
+        # Heading: prefer pose-derived body axis over displacement
+        heading_source = "displacement"
+        heading = float(np.degrees(np.arctan2(-dy, dx)) % 360)
+        if pose_data is not None:
+            pose_heading = compute_pose_heading(
+                pose_data, curr["frame"], curr["track_id"])
+            if pose_heading is not None:
+                heading = pose_heading
+                heading_source = "pose"
+
         speeds.append({
             "frame": curr["frame"],
             "speed_px_s": speed_px_s,
             "dist_px": dist_px,
             "frame_gap": frame_gap,
             "time_gap_s": time_gap,
-            "heading_deg": np.degrees(np.arctan2(-dy, dx)) % 360,
+            "heading_deg": heading,
+            "heading_source": heading_source,
         })
 
     return speeds
@@ -168,6 +182,58 @@ def compute_bbox_size(pts: list[dict]) -> list[dict]:
             "area_px": w * h,
         })
     return sizes
+
+
+def compute_body_length_px(long_tracks: dict[int, list[dict]]) -> float:
+    """Estimate whale body length in pixels from bbox diagonals.
+
+    Uses the median bbox diagonal across all detections in long tracks
+    as a robust estimate of apparent body length.
+    """
+    diagonals = []
+    for tid, pts in long_tracks.items():
+        for p in pts:
+            w = p["bbox_x2"] - p["bbox_x1"]
+            h = p["bbox_y2"] - p["bbox_y1"]
+            diag = (w**2 + h**2) ** 0.5
+            diagonals.append(diag)
+    if not diagonals:
+        return 0.0
+    return float(np.median(diagonals))
+
+
+def load_pose_data(pose_csv: Path) -> dict[tuple[int, int], dict]:
+    """Load pose keypoints indexed by (frame, track_id)."""
+    if not pose_csv.exists():
+        return {}
+    data = {}
+    with open(pose_csv, newline="") as f:
+        for row in csv.DictReader(f):
+            key = (int(row["frame"]), int(row["track_id"]))
+            data[key] = row
+    return data
+
+
+def compute_pose_heading(pose_data: dict, frame: int,
+                         track_id: int) -> float | None:
+    """Compute heading from rostrum_tip → Caudal_peduncle body axis.
+
+    Returns heading in degrees (0=right, 90=up) or None if keypoints missing.
+    More robust than noisy frame-to-frame displacement heading.
+    """
+    key = (frame, track_id)
+    if key not in pose_data:
+        return None
+    row = pose_data[key]
+    rx, ry = row.get("rostrum_tip_x", ""), row.get("rostrum_tip_y", "")
+    cx, cy = row.get("Caudal_peduncle_x", ""), row.get("Caudal_peduncle_y", "")
+    if not all([rx, ry, cx, cy]):
+        return None
+    dx = float(rx) - float(cx)
+    dy = float(ry) - float(cy)
+    if abs(dx) < 1 and abs(dy) < 1:
+        return None
+    return float(np.degrees(np.arctan2(-dy, dx)) % 360)
 
 
 def plot_metrics(track_speeds: dict, inter_distances: list[dict],
@@ -304,6 +370,8 @@ def main():
     parser.add_argument("--sample-rate", type=int, default=3,
                         help="Frame sample rate used in tracking (default: 3)")
     parser.add_argument("--min-frames", type=int, default=5)
+    parser.add_argument("--body-length-m", type=float, default=7.0,
+                        help="Known body length in meters for calibration (default: 7.0 for adult SRKW)")
     args = parser.parse_args()
 
     csv_path = args.track_dir / args.csv
@@ -321,18 +389,42 @@ def main():
 
     long_tracks = {tid: pts for tid, pts in by_id.items()
                    if len(pts) >= args.min_frames}
-    print(f"  {len(long_tracks)} tracks with ≥{args.min_frames} frames\n")
+    print(f"  {len(long_tracks)} tracks with ≥{args.min_frames} frames")
+
+    # Load pose data if available (for heading from body axis)
+    pose_csv = args.track_dir / "pose" / "pose_keypoints.csv"
+    pose_data = load_pose_data(pose_csv)
+    if pose_data:
+        print(f"  Loaded {len(pose_data)} pose keypoints → using body-axis heading")
+    else:
+        print(f"  No pose data at {pose_csv} → using displacement heading")
+
+    # Body-length calibration
+    body_length_px = compute_body_length_px(long_tracks)
+    if body_length_px > 0:
+        px_per_m = body_length_px / args.body_length_m
+        print(f"\n  Body-length calibration: {body_length_px:.0f}px ≈ {args.body_length_m}m "
+              f"({px_per_m:.1f} px/m)")
+    else:
+        px_per_m = 0.0
+
+    print()
 
     # 1. Per-track speed
     print("Computing speeds...")
     track_speeds: dict[int, list] = {}
     for tid, pts in long_tracks.items():
-        speeds = compute_speed(pts, args.fps, args.sample_rate)
+        speeds = compute_speed(pts, args.fps, args.sample_rate, pose_data or None)
         track_speeds[tid] = speeds
         if speeds:
             avg = np.mean([s["speed_px_s"] for s in speeds])
             mx = np.max([s["speed_px_s"] for s in speeds])
-            print(f"  Track {tid}: avg {avg:.0f} px/s, max {mx:.0f} px/s")
+            bl_suffix = ""
+            if body_length_px > 0:
+                bl_suffix = f" ({avg / body_length_px:.2f} BL/s)"
+            pose_pct = sum(1 for s in speeds if s.get("heading_source") == "pose") / len(speeds) * 100
+            print(f"  Track {tid}: avg {avg:.0f} px/s{bl_suffix}, max {mx:.0f} px/s"
+                  + (f", heading {pose_pct:.0f}% from pose" if pose_data else ""))
 
     # 2. Inter-whale distance
     print("\nComputing inter-whale distances...")
@@ -347,8 +439,12 @@ def main():
             pairs.setdefault(pair, []).append(d["distance_px"])
         for pair, dists in sorted(pairs.items()):
             if len(dists) >= 3:
+                avg_d = np.mean(dists)
+                bl_suffix = ""
+                if body_length_px > 0:
+                    bl_suffix = f" ({avg_d / body_length_px:.1f} BL)"
                 print(f"  T{pair[0]}↔T{pair[1]}: {len(dists)} frames, "
-                      f"avg {np.mean(dists):.0f}px, "
+                      f"avg {avg_d:.0f}px{bl_suffix}, "
                       f"range {np.min(dists):.0f}–{np.max(dists):.0f}px")
     else:
         print("  No simultaneous whale pairs found")
@@ -381,7 +477,15 @@ def main():
                  args.track_dir, args.min_frames)
 
     # Save metrics as JSON
+    calibration = None
+    if body_length_px > 0:
+        calibration = {
+            "body_length_px": round(body_length_px, 1),
+            "body_length_m": args.body_length_m,
+            "px_per_m": round(px_per_m, 2),
+        }
     metrics = {
+        "calibration": calibration,
         "speeds": {str(tid): {
             "avg_px_s": round(np.mean([s["speed_px_s"] for s in sp]), 1) if sp else 0,
             "max_px_s": round(np.max([s["speed_px_s"] for s in sp]), 1) if sp else 0,

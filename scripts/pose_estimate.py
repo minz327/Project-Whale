@@ -65,12 +65,7 @@ def load_tracks(csv_path: Path) -> list[dict]:
     return tracks
 
 
-CENTROID_INPUT_H = 1360
-CENTROID_INPUT_W = 2560
-
-
-def find_centroid(centroid_model, frame: np.ndarray, bbox: dict,
-                  frame_scale_x: float, frame_scale_y: float,
+def find_centroid(bbox: dict, frame_scale_x: float, frame_scale_y: float,
                   centroid_map: np.ndarray) -> tuple[float, float] | None:
     """Find the centroid peak closest to the YOLO bbox center from a pre-computed centroid map.
 
@@ -253,15 +248,26 @@ def main():
 
     print(f"\nRunning pose estimation on {len(target_frames)} frames...")
 
-    # Precompute frame scaling for centroid model
+    # Derive centroid input dimensions from model shape or frame size
     cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
     ret, test_frame = cap.read()
     frame_h, frame_w = test_frame.shape[:2]
-    frame_scale_x = CENTROID_INPUT_W / frame_w
-    frame_scale_y = CENTROID_INPUT_H / frame_h
-    print(f"  Frame: {frame_w}x{frame_h} → centroid input: {CENTROID_INPUT_W}x{CENTROID_INPUT_H}")
+
+    centroid_shape = centroid_model.input_shape  # (batch, H, W, C)
+    if centroid_shape[1] is not None and centroid_shape[2] is not None:
+        centroid_h, centroid_w = centroid_shape[1], centroid_shape[2]
+    else:
+        # Fully convolutional: scale to ~0.5x, rounded to model stride (16)
+        stride = 16
+        centroid_h = int(round(frame_h * 0.5 / stride)) * stride
+        centroid_w = int(round(frame_w * 0.5 / stride)) * stride
+
+    frame_scale_x = centroid_w / frame_w
+    frame_scale_y = centroid_h / frame_h
+    print(f"  Frame: {frame_w}x{frame_h} → centroid input: {centroid_w}x{centroid_h}")
     print(f"  Scale: x={frame_scale_x:.4f}, y={frame_scale_y:.4f}")
     cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
+    fallback_count = 0
 
     while target_idx < len(target_frames):
         ret, frame = cap.read()
@@ -270,7 +276,7 @@ def main():
 
         if frame_idx == target_frames[target_idx]:
             # Stage 1: Run centroid model ONCE on the full downscaled frame
-            ds_frame = cv2.resize(frame, (CENTROID_INPUT_W, CENTROID_INPUT_H))
+            ds_frame = cv2.resize(frame, (centroid_w, centroid_h))
             ds_rgb = cv2.cvtColor(ds_frame, cv2.COLOR_BGR2RGB)
             ds_inp = ds_rgb.astype(np.float32) / 255.0
             ds_inp = np.expand_dims(ds_inp, axis=0)
@@ -280,11 +286,10 @@ def main():
             for t in by_frame[frame_idx]:
                 # Find precise centroid for this detection
                 centroid = find_centroid(
-                    centroid_model, frame, t,
-                    frame_scale_x, frame_scale_y, centroid_map,
+                    t, frame_scale_x, frame_scale_y, centroid_map,
                 )
                 if centroid is None:
-                    # Fallback: use YOLO bbox center
+                    fallback_count += 1
                     centroid = (
                         (t["bbox_x1"] + t["bbox_x2"]) / 2,
                         (t["bbox_y1"] + t["bbox_y2"]) / 2,
@@ -376,6 +381,7 @@ def main():
         print(f"POSE ESTIMATION COMPLETE")
         print(f"{'='*55}")
         print(f"  Crops processed:  {processed}")
+        print(f"  Centroid fallbacks: {fallback_count}/{processed}")
         print(f"  With keypoints:   {len(results)}")
         print(f"  Avg keypoints:    {avg_kp:.1f} / {len(KEYPOINT_NAMES)}")
         print(f"\n  Per-keypoint detection rate:")

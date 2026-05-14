@@ -47,7 +47,7 @@ Video → Frame extraction → YOLO-World detection → Cross-class NMS → Byte
 
 - ByteTrack maintains whale IDs during continuous surfacing (up to **12 seconds** tested)
 - IDs break across dives — a whale that submerges gets a new ID when it resurfaces
-- Appearance-based re-linking (ResNet18 embeddings) successfully merges fragments (0.86–0.92 cosine similarity), reducing **13 tracks to 9** in the test clip
+- Appearance-based re-linking (ResNet18 embeddings) successfully merges fragments (0.86–0.92 cosine similarity), reducing **15 tracks to 12** in the test clip
 - **Unsolved**: Long dives + drone movement cause large spatial gaps that can't be reliably re-linked
 
 ### 3. What annotation work is needed? **Minimal for detection, moderate for tracking.**
