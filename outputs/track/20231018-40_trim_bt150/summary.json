@@ -1,0 +1,78 @@
+{
+  "video": "20231018-40_trim",
+  "tracker": "bytetrack",
+  "total_frames_processed": 862,
+  "sample_rate": 3,
+  "confidence_threshold": 0.1,
+  "lost_track_buffer": 150,
+  "match_threshold": 0.8,
+  "frame_rate": 9,
+  "frames_with_tracks": 524,
+  "unique_track_ids": 9,
+  "total_track_points": 524,
+  "track_stats": {
+    "1": {
+      "frames": 1,
+      "first_frame": 0,
+      "last_frame": 0,
+      "span": 0,
+      "avg_confidence": 0.455
+    },
+    "2": {
+      "frames": 11,
+      "first_frame": 63,
+      "last_frame": 120,
+      "span": 57,
+      "avg_confidence": 0.639
+    },
+    "3": {
+      "frames": 18,
+      "first_frame": 99,
+      "last_frame": 156,
+      "span": 57,
+      "avg_confidence": 0.522
+    },
+    "4": {
+      "frames": 7,
+      "first_frame": 192,
+      "last_frame": 219,
+      "span": 27,
+      "avg_confidence": 0.342
+    },
+    "5": {
+      "frames": 219,
+      "first_frame": 312,
+      "last_frame": 1071,
+      "span": 759,
+      "avg_confidence": 0.513
+    },
+    "6": {
+      "frames": 5,
+      "first_frame": 1119,
+      "last_frame": 1134,
+      "span": 15,
+      "avg_confidence": 0.557
+    },
+    "7": {
+      "frames": 163,
+      "first_frame": 1191,
+      "last_frame": 1740,
+      "span": 549,
+      "avg_confidence": 0.543
+    },
+    "8": {
+      "frames": 96,
+      "first_frame": 1848,
+      "last_frame": 2157,
+      "span": 309,
+      "avg_confidence": 0.584
+    },
+    "9": {
+      "frames": 4,
+      "first_frame": 2367,
+      "last_frame": 2376,
+      "span": 9,
+      "avg_confidence": 0.286
+    }
+  }
+}

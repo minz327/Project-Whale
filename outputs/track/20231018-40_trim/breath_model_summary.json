@@ -1,0 +1,30 @@
+{
+  "model_path": "models\\breath_detector.pkl",
+  "training_clip": "outputs\\track\\20231018-40_trim",
+  "n_features": 17,
+  "feature_names": [
+    "brightness",
+    "white_pct",
+    "roll_mean_bright",
+    "roll_std_bright",
+    "roll_max_bright",
+    "roll_mean_white",
+    "roll_max_white",
+    "bright_delta_1",
+    "white_delta_1",
+    "bright_delta_2",
+    "bright_fwd_delta",
+    "above_baseline",
+    "ratio_baseline",
+    "is_local_peak",
+    "is_rising",
+    "arch_angle",
+    "rs_dist"
+  ],
+  "n_training_frames": 464,
+  "n_breath_events": 4,
+  "n_breath_frames": 53,
+  "detected_breaths": 4,
+  "detected_rate_bpm": 3.5,
+  "cv_f1": "see console output"
+}

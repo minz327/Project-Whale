@@ -1,7 +1,7 @@
 [
   {
     "frame": 63,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2051.0,
@@ -28,7 +28,7 @@
   },
   {
     "frame": 66,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2029.0,
@@ -55,7 +55,7 @@
   },
   {
     "frame": 72,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1990.0,
@@ -82,7 +82,7 @@
   },
   {
     "frame": 75,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1976.0,
@@ -114,7 +114,7 @@
   },
   {
     "frame": 78,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1954.0,
@@ -146,7 +146,7 @@
   },
   {
     "frame": 81,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1949.0,
@@ -178,7 +178,7 @@
   },
   {
     "frame": 84,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1940.0,
@@ -215,7 +215,7 @@
   },
   {
     "frame": 87,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1930.0,
@@ -252,7 +252,7 @@
   },
   {
     "frame": 90,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1912.0,
@@ -284,7 +284,7 @@
   },
   {
     "frame": 99,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1843.0,
@@ -321,7 +321,7 @@
   },
   {
     "frame": 102,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1822.0,
@@ -358,7 +358,7 @@
   },
   {
     "frame": 105,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1800.0,
@@ -395,7 +395,7 @@
   },
   {
     "frame": 108,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1783.0,
@@ -432,7 +432,7 @@
   },
   {
     "frame": 111,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1769.0,
@@ -469,7 +469,7 @@
   },
   {
     "frame": 114,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1747.0,
@@ -506,7 +506,7 @@
   },
   {
     "frame": 117,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1732.0,
@@ -543,7 +543,7 @@
   },
   {
     "frame": 120,
-    "track_id": 2,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1726.0,
@@ -585,7 +585,7 @@
   },
   {
     "frame": 123,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1721.0,
@@ -627,7 +627,7 @@
   },
   {
     "frame": 126,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1717.0,
@@ -669,7 +669,7 @@
   },
   {
     "frame": 129,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1721.0,
@@ -711,7 +711,7 @@
   },
   {
     "frame": 132,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1725.0,
@@ -753,7 +753,7 @@
   },
   {
     "frame": 135,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1727.0,
@@ -795,7 +795,7 @@
   },
   {
     "frame": 138,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1733.0,
@@ -832,7 +832,7 @@
   },
   {
     "frame": 141,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1743.0,
@@ -869,7 +869,7 @@
   },
   {
     "frame": 144,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1749.0,
@@ -911,7 +911,7 @@
   },
   {
     "frame": 147,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1758.0,
@@ -953,7 +953,7 @@
   },
   {
     "frame": 150,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1764.0,
@@ -995,7 +995,7 @@
   },
   {
     "frame": 153,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1773.0,
@@ -1037,7 +1037,7 @@
   },
   {
     "frame": 192,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1887.0,
@@ -1079,7 +1079,7 @@
   },
   {
     "frame": 195,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1893.0,
@@ -1121,7 +1121,7 @@
   },
   {
     "frame": 201,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1896.0,
@@ -1163,7 +1163,7 @@
   },
   {
     "frame": 213,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1884.0,
@@ -1205,7 +1205,7 @@
   },
   {
     "frame": 216,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1882.0,
@@ -1247,7 +1247,7 @@
   },
   {
     "frame": 219,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1876.0,
@@ -1289,7 +1289,7 @@
   },
   {
     "frame": 285,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1744.0,
@@ -1326,7 +1326,7 @@
   },
   {
     "frame": 288,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1735.0,
@@ -1363,7 +1363,7 @@
   },
   {
     "frame": 303,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1680.0,
@@ -1405,7 +1405,7 @@
   },
   {
     "frame": 309,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1687.0,
@@ -1437,7 +1437,7 @@
   },
   {
     "frame": 312,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1689.0,
@@ -1474,7 +1474,7 @@
   },
   {
     "frame": 315,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1682.0,
@@ -1511,7 +1511,7 @@
   },
   {
     "frame": 318,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1683.0,
@@ -1543,7 +1543,7 @@
   },
   {
     "frame": 321,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1677.0,
@@ -1575,7 +1575,7 @@
   },
   {
     "frame": 324,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1677.0,
@@ -1612,7 +1612,7 @@
   },
   {
     "frame": 327,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1677.0,
@@ -1649,7 +1649,7 @@
   },
   {
     "frame": 330,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1677.0,
@@ -1681,7 +1681,7 @@
   },
   {
     "frame": 333,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1677.0,
@@ -1723,7 +1723,7 @@
   },
   {
     "frame": 336,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1680.0,
@@ -1755,7 +1755,7 @@
   },
   {
     "frame": 339,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1684.0,
@@ -1797,7 +1797,7 @@
   },
   {
     "frame": 342,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1688.0,
@@ -1834,7 +1834,7 @@
   },
   {
     "frame": 345,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1683.0,
@@ -1871,7 +1871,7 @@
   },
   {
     "frame": 348,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1705.0,
@@ -1913,7 +1913,7 @@
   },
   {
     "frame": 351,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1713.0,
@@ -1950,7 +1950,7 @@
   },
   {
     "frame": 354,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1713.0,
@@ -1987,7 +1987,7 @@
   },
   {
     "frame": 357,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1713.0,
@@ -2024,7 +2024,7 @@
   },
   {
     "frame": 360,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1710.0,
@@ -2056,7 +2056,7 @@
   },
   {
     "frame": 363,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1708.0,
@@ -2093,7 +2093,7 @@
   },
   {
     "frame": 366,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1699.0,
@@ -2130,7 +2130,7 @@
   },
   {
     "frame": 369,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1693.0,
@@ -2162,7 +2162,7 @@
   },
   {
     "frame": 372,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1688.0,
@@ -2194,7 +2194,7 @@
   },
   {
     "frame": 375,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1677.0,
@@ -2221,7 +2221,7 @@
   },
   {
     "frame": 378,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1667.0,
@@ -2248,7 +2248,7 @@
   },
   {
     "frame": 381,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1661.0,
@@ -2285,7 +2285,7 @@
   },
   {
     "frame": 384,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1652.0,
@@ -2322,7 +2322,7 @@
   },
   {
     "frame": 387,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1639.0,
@@ -2359,7 +2359,7 @@
   },
   {
     "frame": 393,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1617.0,
@@ -2391,7 +2391,7 @@
   },
   {
     "frame": 396,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1604.0,
@@ -2428,7 +2428,7 @@
   },
   {
     "frame": 399,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1593.0,
@@ -2465,7 +2465,7 @@
   },
   {
     "frame": 429,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1475.0,
@@ -2502,7 +2502,7 @@
   },
   {
     "frame": 435,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1455.0,
@@ -2539,7 +2539,7 @@
   },
   {
     "frame": 438,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1443.0,
@@ -2576,7 +2576,7 @@
   },
   {
     "frame": 441,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1438.0,
@@ -2613,7 +2613,7 @@
   },
   {
     "frame": 444,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1434.0,
@@ -2650,7 +2650,7 @@
   },
   {
     "frame": 447,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1425.0,
@@ -2687,7 +2687,7 @@
   },
   {
     "frame": 456,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1406.0,
@@ -2724,7 +2724,7 @@
   },
   {
     "frame": 459,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1405.0,
@@ -2756,7 +2756,7 @@
   },
   {
     "frame": 483,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1388.0,
@@ -2793,7 +2793,7 @@
   },
   {
     "frame": 486,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1393.0,
@@ -2830,7 +2830,7 @@
   },
   {
     "frame": 489,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1406.0,
@@ -2867,7 +2867,7 @@
   },
   {
     "frame": 492,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1425.0,
@@ -2904,7 +2904,7 @@
   },
   {
     "frame": 495,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1441.0,
@@ -2941,7 +2941,7 @@
   },
   {
     "frame": 498,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1460.0,
@@ -2978,7 +2978,7 @@
   },
   {
     "frame": 501,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1481.0,
@@ -3015,7 +3015,7 @@
   },
   {
     "frame": 504,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1502.0,
@@ -3052,7 +3052,7 @@
   },
   {
     "frame": 507,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1529.0,
@@ -3089,7 +3089,7 @@
   },
   {
     "frame": 510,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1553.0,
@@ -3121,7 +3121,7 @@
   },
   {
     "frame": 513,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1577.0,
@@ -3158,7 +3158,7 @@
   },
   {
     "frame": 516,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1598.0,
@@ -3195,7 +3195,7 @@
   },
   {
     "frame": 519,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1624.0,
@@ -3232,7 +3232,7 @@
   },
   {
     "frame": 522,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1649.0,
@@ -3264,7 +3264,7 @@
   },
   {
     "frame": 525,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1671.0,
@@ -3301,7 +3301,7 @@
   },
   {
     "frame": 528,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1696.0,
@@ -3338,7 +3338,7 @@
   },
   {
     "frame": 531,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1717.0,
@@ -3380,7 +3380,7 @@
   },
   {
     "frame": 534,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1735.0,
@@ -3422,7 +3422,7 @@
   },
   {
     "frame": 540,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1772.0,
@@ -3464,7 +3464,7 @@
   },
   {
     "frame": 543,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1790.0,
@@ -3506,7 +3506,7 @@
   },
   {
     "frame": 546,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1804.0,
@@ -3548,7 +3548,7 @@
   },
   {
     "frame": 549,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1820.0,
@@ -3590,7 +3590,7 @@
   },
   {
     "frame": 552,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1828.0,
@@ -3632,7 +3632,7 @@
   },
   {
     "frame": 555,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1840.0,
@@ -3674,7 +3674,7 @@
   },
   {
     "frame": 558,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1848.0,
@@ -3716,7 +3716,7 @@
   },
   {
     "frame": 561,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1857.0,
@@ -3758,7 +3758,7 @@
   },
   {
     "frame": 564,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1862.0,
@@ -3800,7 +3800,7 @@
   },
   {
     "frame": 567,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1871.0,
@@ -3842,7 +3842,7 @@
   },
   {
     "frame": 570,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1879.0,
@@ -3884,7 +3884,7 @@
   },
   {
     "frame": 573,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1881.0,
@@ -3926,7 +3926,7 @@
   },
   {
     "frame": 576,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1883.0,
@@ -3968,7 +3968,7 @@
   },
   {
     "frame": 579,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1893.0,
@@ -4005,7 +4005,7 @@
   },
   {
     "frame": 582,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1899.0,
@@ -4047,7 +4047,7 @@
   },
   {
     "frame": 585,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1905.0,
@@ -4089,7 +4089,7 @@
   },
   {
     "frame": 588,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1908.0,
@@ -4126,7 +4126,7 @@
   },
   {
     "frame": 591,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1912.0,
@@ -4168,7 +4168,7 @@
   },
   {
     "frame": 594,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1911.0,
@@ -4210,7 +4210,7 @@
   },
   {
     "frame": 597,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1914.0,
@@ -4252,7 +4252,7 @@
   },
   {
     "frame": 600,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1914.0,
@@ -4294,7 +4294,7 @@
   },
   {
     "frame": 603,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1917.0,
@@ -4336,7 +4336,7 @@
   },
   {
     "frame": 606,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1922.0,
@@ -4378,7 +4378,7 @@
   },
   {
     "frame": 609,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1929.0,
@@ -4420,7 +4420,7 @@
   },
   {
     "frame": 612,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1926.0,
@@ -4457,7 +4457,7 @@
   },
   {
     "frame": 615,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1927.0,
@@ -4499,7 +4499,7 @@
   },
   {
     "frame": 618,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1920.0,
@@ -4541,7 +4541,7 @@
   },
   {
     "frame": 621,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1918.0,
@@ -4583,7 +4583,7 @@
   },
   {
     "frame": 624,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1915.0,
@@ -4625,7 +4625,7 @@
   },
   {
     "frame": 627,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1906.0,
@@ -4667,7 +4667,7 @@
   },
   {
     "frame": 630,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1901.0,
@@ -4709,7 +4709,7 @@
   },
   {
     "frame": 633,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1888.0,
@@ -4751,7 +4751,7 @@
   },
   {
     "frame": 636,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1878.0,
@@ -4793,7 +4793,7 @@
   },
   {
     "frame": 639,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1865.0,
@@ -4830,7 +4830,7 @@
   },
   {
     "frame": 642,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1860.0,
@@ -4872,7 +4872,7 @@
   },
   {
     "frame": 645,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1844.0,
@@ -4914,7 +4914,7 @@
   },
   {
     "frame": 648,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1842.0,
@@ -4956,7 +4956,7 @@
   },
   {
     "frame": 651,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1829.0,
@@ -4998,7 +4998,7 @@
   },
   {
     "frame": 654,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1820.0,
@@ -5040,7 +5040,7 @@
   },
   {
     "frame": 657,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1812.0,
@@ -5082,7 +5082,7 @@
   },
   {
     "frame": 660,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1802.0,
@@ -5124,7 +5124,7 @@
   },
   {
     "frame": 663,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1792.0,
@@ -5166,7 +5166,7 @@
   },
   {
     "frame": 666,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1787.0,
@@ -5208,7 +5208,7 @@
   },
   {
     "frame": 669,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1777.0,
@@ -5250,7 +5250,7 @@
   },
   {
     "frame": 672,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1767.0,
@@ -5292,7 +5292,7 @@
   },
   {
     "frame": 675,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1759.0,
@@ -5329,7 +5329,7 @@
   },
   {
     "frame": 678,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1746.0,
@@ -5371,7 +5371,7 @@
   },
   {
     "frame": 681,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1737.0,
@@ -5408,7 +5408,7 @@
   },
   {
     "frame": 684,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1729.0,
@@ -5440,7 +5440,7 @@
   },
   {
     "frame": 687,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1716.0,
@@ -5477,7 +5477,7 @@
   },
   {
     "frame": 690,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1704.0,
@@ -5519,7 +5519,7 @@
   },
   {
     "frame": 693,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1702.0,
@@ -5556,7 +5556,7 @@
   },
   {
     "frame": 696,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1694.0,
@@ -5593,7 +5593,7 @@
   },
   {
     "frame": 699,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1681.0,
@@ -5630,7 +5630,7 @@
   },
   {
     "frame": 702,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1676.0,
@@ -5667,7 +5667,7 @@
   },
   {
     "frame": 705,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1667.0,
@@ -5704,7 +5704,7 @@
   },
   {
     "frame": 708,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1653.0,
@@ -5741,7 +5741,7 @@
   },
   {
     "frame": 711,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1648.0,
@@ -5783,7 +5783,7 @@
   },
   {
     "frame": 714,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1640.0,
@@ -5825,7 +5825,7 @@
   },
   {
     "frame": 717,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1635.0,
@@ -5862,7 +5862,7 @@
   },
   {
     "frame": 720,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1621.0,
@@ -5904,7 +5904,7 @@
   },
   {
     "frame": 723,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1615.0,
@@ -5946,7 +5946,7 @@
   },
   {
     "frame": 726,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1606.0,
@@ -5983,7 +5983,7 @@
   },
   {
     "frame": 729,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1601.0,
@@ -6020,7 +6020,7 @@
   },
   {
     "frame": 732,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1588.0,
@@ -6057,7 +6057,7 @@
   },
   {
     "frame": 735,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1583.0,
@@ -6094,7 +6094,7 @@
   },
   {
     "frame": 738,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1577.0,
@@ -6136,7 +6136,7 @@
   },
   {
     "frame": 741,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1567.0,
@@ -6178,7 +6178,7 @@
   },
   {
     "frame": 744,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1562.0,
@@ -6220,7 +6220,7 @@
   },
   {
     "frame": 747,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1552.0,
@@ -6262,7 +6262,7 @@
   },
   {
     "frame": 750,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1538.0,
@@ -6304,7 +6304,7 @@
   },
   {
     "frame": 753,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1540.0,
@@ -6346,7 +6346,7 @@
   },
   {
     "frame": 756,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1530.0,
@@ -6388,7 +6388,7 @@
   },
   {
     "frame": 759,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1521.0,
@@ -6430,7 +6430,7 @@
   },
   {
     "frame": 762,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1508.0,
@@ -6472,7 +6472,7 @@
   },
   {
     "frame": 765,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1506.0,
@@ -6514,7 +6514,7 @@
   },
   {
     "frame": 768,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1500.0,
@@ -6556,7 +6556,7 @@
   },
   {
     "frame": 771,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1500.0,
@@ -6598,7 +6598,7 @@
   },
   {
     "frame": 774,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1493.0,
@@ -6640,7 +6640,7 @@
   },
   {
     "frame": 777,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1490.0,
@@ -6682,7 +6682,7 @@
   },
   {
     "frame": 780,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1494.0,
@@ -6719,7 +6719,7 @@
   },
   {
     "frame": 789,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1483.0,
@@ -6756,7 +6756,7 @@
   },
   {
     "frame": 792,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1477.0,
@@ -6798,7 +6798,7 @@
   },
   {
     "frame": 795,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1467.0,
@@ -6825,7 +6825,7 @@
   },
   {
     "frame": 801,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1458.0,
@@ -6867,7 +6867,7 @@
   },
   {
     "frame": 807,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1456.0,
@@ -6904,7 +6904,7 @@
   },
   {
     "frame": 810,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1444.0,
@@ -6941,7 +6941,7 @@
   },
   {
     "frame": 813,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1452.0,
@@ -6983,7 +6983,7 @@
   },
   {
     "frame": 816,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1443.0,
@@ -7025,7 +7025,7 @@
   },
   {
     "frame": 819,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1452.0,
@@ -7062,7 +7062,7 @@
   },
   {
     "frame": 822,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1448.0,
@@ -7104,7 +7104,7 @@
   },
   {
     "frame": 825,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1452.0,
@@ -7141,7 +7141,7 @@
   },
   {
     "frame": 828,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1450.0,
@@ -7178,7 +7178,7 @@
   },
   {
     "frame": 831,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1454.0,
@@ -7220,7 +7220,7 @@
   },
   {
     "frame": 834,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1457.0,
@@ -7257,7 +7257,7 @@
   },
   {
     "frame": 837,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1460.0,
@@ -7299,7 +7299,7 @@
   },
   {
     "frame": 843,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1460.0,
@@ -7341,7 +7341,7 @@
   },
   {
     "frame": 846,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1467.0,
@@ -7383,7 +7383,7 @@
   },
   {
     "frame": 849,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1473.0,
@@ -7425,7 +7425,7 @@
   },
   {
     "frame": 852,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1475.0,
@@ -7467,7 +7467,7 @@
   },
   {
     "frame": 855,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1485.0,
@@ -7509,7 +7509,7 @@
   },
   {
     "frame": 858,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1487.0,
@@ -7551,7 +7551,7 @@
   },
   {
     "frame": 861,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1500.0,
@@ -7593,7 +7593,7 @@
   },
   {
     "frame": 864,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1505.0,
@@ -7635,7 +7635,7 @@
   },
   {
     "frame": 867,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1515.0,
@@ -7677,7 +7677,7 @@
   },
   {
     "frame": 870,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1520.0,
@@ -7719,7 +7719,7 @@
   },
   {
     "frame": 873,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1529.0,
@@ -7761,7 +7761,7 @@
   },
   {
     "frame": 876,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1538.0,
@@ -7803,7 +7803,7 @@
   },
   {
     "frame": 879,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1543.0,
@@ -7845,7 +7845,7 @@
   },
   {
     "frame": 936,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1617.0,
@@ -7887,7 +7887,7 @@
   },
   {
     "frame": 939,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1617.0,
@@ -7924,7 +7924,7 @@
   },
   {
     "frame": 942,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1615.0,
@@ -7961,7 +7961,7 @@
   },
   {
     "frame": 948,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1609.0,
@@ -7998,7 +7998,7 @@
   },
   {
     "frame": 951,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1603.0,
@@ -8030,7 +8030,7 @@
   },
   {
     "frame": 954,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1596.0,
@@ -8067,7 +8067,7 @@
   },
   {
     "frame": 957,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1589.0,
@@ -8109,7 +8109,7 @@
   },
   {
     "frame": 960,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1983.0,
@@ -8146,7 +8146,7 @@
   },
   {
     "frame": 963,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2041.0,
@@ -8178,7 +8178,7 @@
   },
   {
     "frame": 966,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "right_caudal_fluke": {
         "x": 2031.0,
@@ -8210,7 +8210,7 @@
   },
   {
     "frame": 969,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2036.0,
@@ -8242,7 +8242,7 @@
   },
   {
     "frame": 972,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1567.0,
@@ -8279,7 +8279,7 @@
   },
   {
     "frame": 975,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1564.0,
@@ -8311,7 +8311,7 @@
   },
   {
     "frame": 978,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1554.0,
@@ -8343,7 +8343,7 @@
   },
   {
     "frame": 981,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1554.0,
@@ -8375,7 +8375,7 @@
   },
   {
     "frame": 984,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1554.0,
@@ -8407,7 +8407,7 @@
   },
   {
     "frame": 987,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1551.0,
@@ -8439,7 +8439,7 @@
   },
   {
     "frame": 990,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1544.0,
@@ -8476,7 +8476,7 @@
   },
   {
     "frame": 993,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1542.0,
@@ -8513,7 +8513,7 @@
   },
   {
     "frame": 996,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1540.0,
@@ -8550,7 +8550,7 @@
   },
   {
     "frame": 999,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1533.0,
@@ -8587,7 +8587,7 @@
   },
   {
     "frame": 1005,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1525.0,
@@ -8624,7 +8624,7 @@
   },
   {
     "frame": 1008,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1539.0,
@@ -8661,7 +8661,7 @@
   },
   {
     "frame": 1011,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1541.0,
@@ -8698,7 +8698,7 @@
   },
   {
     "frame": 1014,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1539.0,
@@ -8735,7 +8735,7 @@
   },
   {
     "frame": 1017,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1530.0,
@@ -8777,7 +8777,7 @@
   },
   {
     "frame": 1023,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1526.0,
@@ -8814,7 +8814,7 @@
   },
   {
     "frame": 1026,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1517.0,
@@ -8841,7 +8841,7 @@
   },
   {
     "frame": 1029,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1518.0,
@@ -8878,7 +8878,7 @@
   },
   {
     "frame": 1032,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1513.0,
@@ -8915,7 +8915,7 @@
   },
   {
     "frame": 1038,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1506.0,
@@ -8952,7 +8952,7 @@
   },
   {
     "frame": 1041,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1503.0,
@@ -8989,7 +8989,7 @@
   },
   {
     "frame": 1068,
-    "track_id": 3,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1451.0,
@@ -9026,7 +9026,7 @@
   },
   {
     "frame": 1176,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1707.0,
@@ -9058,7 +9058,7 @@
   },
   {
     "frame": 1179,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1717.0,
@@ -9095,7 +9095,7 @@
   },
   {
     "frame": 1182,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1723.0,
@@ -9127,7 +9127,7 @@
   },
   {
     "frame": 1185,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1726.0,
@@ -9164,7 +9164,7 @@
   },
   {
     "frame": 1188,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1732.0,
@@ -9201,7 +9201,7 @@
   },
   {
     "frame": 1191,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1731.0,
@@ -9238,7 +9238,7 @@
   },
   {
     "frame": 1197,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1741.0,
@@ -9270,7 +9270,7 @@
   },
   {
     "frame": 1203,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1744.0,
@@ -9307,7 +9307,7 @@
   },
   {
     "frame": 1206,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1748.0,
@@ -9344,7 +9344,7 @@
   },
   {
     "frame": 1209,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1751.0,
@@ -9386,7 +9386,7 @@
   },
   {
     "frame": 1212,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1750.0,
@@ -9423,7 +9423,7 @@
   },
   {
     "frame": 1215,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1754.0,
@@ -9465,7 +9465,7 @@
   },
   {
     "frame": 1218,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1753.0,
@@ -9502,7 +9502,7 @@
   },
   {
     "frame": 1221,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1757.0,
@@ -9539,7 +9539,7 @@
   },
   {
     "frame": 1224,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1752.0,
@@ -9581,7 +9581,7 @@
   },
   {
     "frame": 1227,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -9623,7 +9623,7 @@
   },
   {
     "frame": 1230,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -9665,7 +9665,7 @@
   },
   {
     "frame": 1233,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1755.0,
@@ -9707,7 +9707,7 @@
   },
   {
     "frame": 1236,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1755.0,
@@ -9749,7 +9749,7 @@
   },
   {
     "frame": 1239,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1754.0,
@@ -9791,7 +9791,7 @@
   },
   {
     "frame": 1242,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1754.0,
@@ -9833,7 +9833,7 @@
   },
   {
     "frame": 1245,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1757.0,
@@ -9870,7 +9870,7 @@
   },
   {
     "frame": 1248,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1753.0,
@@ -9907,7 +9907,7 @@
   },
   {
     "frame": 1251,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -9949,7 +9949,7 @@
   },
   {
     "frame": 1254,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -9991,7 +9991,7 @@
   },
   {
     "frame": 1257,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -10028,7 +10028,7 @@
   },
   {
     "frame": 1260,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -10065,7 +10065,7 @@
   },
   {
     "frame": 1263,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -10097,7 +10097,7 @@
   },
   {
     "frame": 1266,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -10134,7 +10134,7 @@
   },
   {
     "frame": 1272,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1755.0,
@@ -10166,7 +10166,7 @@
   },
   {
     "frame": 1275,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1758.0,
@@ -10203,7 +10203,7 @@
   },
   {
     "frame": 1278,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1758.0,
@@ -10240,7 +10240,7 @@
   },
   {
     "frame": 1281,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1758.0,
@@ -10282,7 +10282,7 @@
   },
   {
     "frame": 1284,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1762.0,
@@ -10324,7 +10324,7 @@
   },
   {
     "frame": 1287,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1758.0,
@@ -10366,7 +10366,7 @@
   },
   {
     "frame": 1293,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1758.0,
@@ -10403,7 +10403,7 @@
   },
   {
     "frame": 1296,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1758.0,
@@ -10445,7 +10445,7 @@
   },
   {
     "frame": 1299,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1754.0,
@@ -10487,7 +10487,7 @@
   },
   {
     "frame": 1302,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1753.0,
@@ -10524,7 +10524,7 @@
   },
   {
     "frame": 1305,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1757.0,
@@ -10561,7 +10561,7 @@
   },
   {
     "frame": 1308,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1756.0,
@@ -10603,7 +10603,7 @@
   },
   {
     "frame": 1311,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1764.0,
@@ -10645,7 +10645,7 @@
   },
   {
     "frame": 1317,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1773.0,
@@ -10687,7 +10687,7 @@
   },
   {
     "frame": 1320,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1776.0,
@@ -10724,7 +10724,7 @@
   },
   {
     "frame": 1323,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1775.0,
@@ -10766,7 +10766,7 @@
   },
   {
     "frame": 1326,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1778.0,
@@ -10808,7 +10808,7 @@
   },
   {
     "frame": 1329,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1785.0,
@@ -10845,7 +10845,7 @@
   },
   {
     "frame": 1335,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1787.0,
@@ -10887,7 +10887,7 @@
   },
   {
     "frame": 1338,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1787.0,
@@ -10929,7 +10929,7 @@
   },
   {
     "frame": 1341,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1787.0,
@@ -10966,7 +10966,7 @@
   },
   {
     "frame": 1344,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1790.0,
@@ -11003,7 +11003,7 @@
   },
   {
     "frame": 1347,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1796.0,
@@ -11040,7 +11040,7 @@
   },
   {
     "frame": 1353,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1811.0,
@@ -11082,7 +11082,7 @@
   },
   {
     "frame": 1356,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1816.0,
@@ -11124,7 +11124,7 @@
   },
   {
     "frame": 1359,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1824.0,
@@ -11166,7 +11166,7 @@
   },
   {
     "frame": 1362,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1837.0,
@@ -11208,7 +11208,7 @@
   },
   {
     "frame": 1365,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1845.0,
@@ -11250,7 +11250,7 @@
   },
   {
     "frame": 1368,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1857.0,
@@ -11292,7 +11292,7 @@
   },
   {
     "frame": 1371,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1866.0,
@@ -11334,7 +11334,7 @@
   },
   {
     "frame": 1374,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1881.0,
@@ -11376,7 +11376,7 @@
   },
   {
     "frame": 1377,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1889.0,
@@ -11418,7 +11418,7 @@
   },
   {
     "frame": 1380,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1905.0,
@@ -11460,7 +11460,7 @@
   },
   {
     "frame": 1383,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1917.0,
@@ -11502,7 +11502,7 @@
   },
   {
     "frame": 1386,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1932.0,
@@ -11539,7 +11539,7 @@
   },
   {
     "frame": 1389,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1943.0,
@@ -11581,7 +11581,7 @@
   },
   {
     "frame": 1395,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1967.0,
@@ -11623,7 +11623,7 @@
   },
   {
     "frame": 1401,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1993.0,
@@ -11665,7 +11665,7 @@
   },
   {
     "frame": 1404,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2011.0,
@@ -11707,7 +11707,7 @@
   },
   {
     "frame": 1407,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2026.0,
@@ -11749,7 +11749,7 @@
   },
   {
     "frame": 1410,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2044.0,
@@ -11791,7 +11791,7 @@
   },
   {
     "frame": 1413,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2055.0,
@@ -11833,7 +11833,7 @@
   },
   {
     "frame": 1416,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2071.0,
@@ -11875,7 +11875,7 @@
   },
   {
     "frame": 1419,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2083.0,
@@ -11917,7 +11917,7 @@
   },
   {
     "frame": 1422,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2085.0,
@@ -11959,7 +11959,7 @@
   },
   {
     "frame": 1425,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2098.0,
@@ -12001,7 +12001,7 @@
   },
   {
     "frame": 1428,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2102.0,
@@ -12043,7 +12043,7 @@
   },
   {
     "frame": 1431,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2108.0,
@@ -12085,7 +12085,7 @@
   },
   {
     "frame": 1434,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2117.0,
@@ -12127,7 +12127,7 @@
   },
   {
     "frame": 1440,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2131.0,
@@ -12169,7 +12169,7 @@
   },
   {
     "frame": 1443,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2137.0,
@@ -12211,7 +12211,7 @@
   },
   {
     "frame": 1446,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2147.0,
@@ -12253,7 +12253,7 @@
   },
   {
     "frame": 1449,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2153.0,
@@ -12295,7 +12295,7 @@
   },
   {
     "frame": 1452,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2156.0,
@@ -12337,7 +12337,7 @@
   },
   {
     "frame": 1455,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2159.0,
@@ -12379,7 +12379,7 @@
   },
   {
     "frame": 1458,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2159.0,
@@ -12421,7 +12421,7 @@
   },
   {
     "frame": 1461,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2158.0,
@@ -12463,7 +12463,7 @@
   },
   {
     "frame": 1464,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2158.0,
@@ -12505,7 +12505,7 @@
   },
   {
     "frame": 1467,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2158.0,
@@ -12547,7 +12547,7 @@
   },
   {
     "frame": 1470,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -12589,7 +12589,7 @@
   },
   {
     "frame": 1473,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2161.0,
@@ -12631,7 +12631,7 @@
   },
   {
     "frame": 1476,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2161.0,
@@ -12673,7 +12673,7 @@
   },
   {
     "frame": 1479,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2161.0,
@@ -12715,7 +12715,7 @@
   },
   {
     "frame": 1482,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2161.0,
@@ -12757,7 +12757,7 @@
   },
   {
     "frame": 1485,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2161.0,
@@ -12799,7 +12799,7 @@
   },
   {
     "frame": 1488,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2161.0,
@@ -12841,7 +12841,7 @@
   },
   {
     "frame": 1491,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -12883,7 +12883,7 @@
   },
   {
     "frame": 1494,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2161.0,
@@ -12925,7 +12925,7 @@
   },
   {
     "frame": 1497,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -12967,7 +12967,7 @@
   },
   {
     "frame": 1500,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13009,7 +13009,7 @@
   },
   {
     "frame": 1503,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13051,7 +13051,7 @@
   },
   {
     "frame": 1506,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13093,7 +13093,7 @@
   },
   {
     "frame": 1509,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13135,7 +13135,7 @@
   },
   {
     "frame": 1512,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13177,7 +13177,7 @@
   },
   {
     "frame": 1515,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13219,7 +13219,7 @@
   },
   {
     "frame": 1518,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13261,7 +13261,7 @@
   },
   {
     "frame": 1521,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2153.0,
@@ -13303,7 +13303,7 @@
   },
   {
     "frame": 1524,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2153.0,
@@ -13345,7 +13345,7 @@
   },
   {
     "frame": 1527,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2153.0,
@@ -13387,7 +13387,7 @@
   },
   {
     "frame": 1530,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2153.0,
@@ -13429,7 +13429,7 @@
   },
   {
     "frame": 1533,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2153.0,
@@ -13471,7 +13471,7 @@
   },
   {
     "frame": 1539,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2153.0,
@@ -13513,7 +13513,7 @@
   },
   {
     "frame": 1542,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2154.0,
@@ -13555,7 +13555,7 @@
   },
   {
     "frame": 1545,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2154.0,
@@ -13597,7 +13597,7 @@
   },
   {
     "frame": 1548,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13639,7 +13639,7 @@
   },
   {
     "frame": 1551,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13681,7 +13681,7 @@
   },
   {
     "frame": 1554,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2157.0,
@@ -13723,7 +13723,7 @@
   },
   {
     "frame": 1557,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2161.0,
@@ -13765,7 +13765,7 @@
   },
   {
     "frame": 1560,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2162.0,
@@ -13807,7 +13807,7 @@
   },
   {
     "frame": 1563,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2162.0,
@@ -13849,7 +13849,7 @@
   },
   {
     "frame": 1566,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2162.0,
@@ -13891,7 +13891,7 @@
   },
   {
     "frame": 1572,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2162.0,
@@ -13933,7 +13933,7 @@
   },
   {
     "frame": 1596,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2167.0,
@@ -13975,7 +13975,7 @@
   },
   {
     "frame": 1623,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2178.0,
@@ -14017,7 +14017,7 @@
   },
   {
     "frame": 1629,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2182.0,
@@ -14059,7 +14059,7 @@
   },
   {
     "frame": 1632,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2181.0,
@@ -14101,7 +14101,7 @@
   },
   {
     "frame": 1635,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2182.0,
@@ -14143,7 +14143,7 @@
   },
   {
     "frame": 1638,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2182.0,
@@ -14185,7 +14185,7 @@
   },
   {
     "frame": 1641,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2182.0,
@@ -14227,7 +14227,7 @@
   },
   {
     "frame": 1644,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2182.0,
@@ -14264,7 +14264,7 @@
   },
   {
     "frame": 1650,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2187.0,
@@ -14301,7 +14301,7 @@
   },
   {
     "frame": 1653,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2185.0,
@@ -14338,7 +14338,7 @@
   },
   {
     "frame": 1656,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "right_caudal_fluke": {
         "x": 2413.0,
@@ -14370,7 +14370,7 @@
   },
   {
     "frame": 1659,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2188.0,
@@ -14412,7 +14412,7 @@
   },
   {
     "frame": 1662,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2184.0,
@@ -14454,7 +14454,7 @@
   },
   {
     "frame": 1665,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2184.0,
@@ -14491,7 +14491,7 @@
   },
   {
     "frame": 1668,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2177.0,
@@ -14523,7 +14523,7 @@
   },
   {
     "frame": 1671,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2181.0,
@@ -14555,7 +14555,7 @@
   },
   {
     "frame": 1674,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2185.0,
@@ -14587,7 +14587,7 @@
   },
   {
     "frame": 1677,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2185.0,
@@ -14619,7 +14619,7 @@
   },
   {
     "frame": 1683,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2190.0,
@@ -14656,7 +14656,7 @@
   },
   {
     "frame": 1692,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2143.0,
@@ -14693,7 +14693,7 @@
   },
   {
     "frame": 1707,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2147.0,
@@ -14730,7 +14730,7 @@
   },
   {
     "frame": 1710,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2163.0,
@@ -14772,7 +14772,7 @@
   },
   {
     "frame": 1713,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2167.0,
@@ -14809,7 +14809,7 @@
   },
   {
     "frame": 1725,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2166.0,
@@ -14851,7 +14851,7 @@
   },
   {
     "frame": 1845,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2052.0,
@@ -14893,7 +14893,7 @@
   },
   {
     "frame": 1848,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2044.0,
@@ -14935,7 +14935,7 @@
   },
   {
     "frame": 1851,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2037.0,
@@ -14977,7 +14977,7 @@
   },
   {
     "frame": 1854,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2037.0,
@@ -15019,7 +15019,7 @@
   },
   {
     "frame": 1857,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2037.0,
@@ -15061,7 +15061,7 @@
   },
   {
     "frame": 1860,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2038.0,
@@ -15103,7 +15103,7 @@
   },
   {
     "frame": 1863,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2034.0,
@@ -15145,7 +15145,7 @@
   },
   {
     "frame": 1866,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2031.0,
@@ -15187,7 +15187,7 @@
   },
   {
     "frame": 1872,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2028.0,
@@ -15229,7 +15229,7 @@
   },
   {
     "frame": 1875,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2021.0,
@@ -15271,7 +15271,7 @@
   },
   {
     "frame": 1878,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2017.0,
@@ -15313,7 +15313,7 @@
   },
   {
     "frame": 1881,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2014.0,
@@ -15355,7 +15355,7 @@
   },
   {
     "frame": 1884,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2011.0,
@@ -15397,7 +15397,7 @@
   },
   {
     "frame": 1887,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2008.0,
@@ -15439,7 +15439,7 @@
   },
   {
     "frame": 1890,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2001.0,
@@ -15481,7 +15481,7 @@
   },
   {
     "frame": 1893,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1998.0,
@@ -15523,7 +15523,7 @@
   },
   {
     "frame": 1896,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1995.0,
@@ -15565,7 +15565,7 @@
   },
   {
     "frame": 1899,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1987.0,
@@ -15607,7 +15607,7 @@
   },
   {
     "frame": 1902,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1984.0,
@@ -15649,7 +15649,7 @@
   },
   {
     "frame": 1905,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1978.0,
@@ -15691,7 +15691,7 @@
   },
   {
     "frame": 1908,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1975.0,
@@ -15733,7 +15733,7 @@
   },
   {
     "frame": 1911,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1968.0,
@@ -15775,7 +15775,7 @@
   },
   {
     "frame": 1914,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1961.0,
@@ -15817,7 +15817,7 @@
   },
   {
     "frame": 1917,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1958.0,
@@ -15859,7 +15859,7 @@
   },
   {
     "frame": 1920,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1952.0,
@@ -15901,7 +15901,7 @@
   },
   {
     "frame": 1923,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1949.0,
@@ -15943,7 +15943,7 @@
   },
   {
     "frame": 1926,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1942.0,
@@ -15985,7 +15985,7 @@
   },
   {
     "frame": 1929,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1939.0,
@@ -16027,7 +16027,7 @@
   },
   {
     "frame": 1932,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1933.0,
@@ -16069,7 +16069,7 @@
   },
   {
     "frame": 1935,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1930.0,
@@ -16111,7 +16111,7 @@
   },
   {
     "frame": 1938,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1923.0,
@@ -16153,7 +16153,7 @@
   },
   {
     "frame": 1941,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1920.0,
@@ -16195,7 +16195,7 @@
   },
   {
     "frame": 1944,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1917.0,
@@ -16237,7 +16237,7 @@
   },
   {
     "frame": 1947,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1911.0,
@@ -16279,7 +16279,7 @@
   },
   {
     "frame": 1950,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1904.0,
@@ -16321,7 +16321,7 @@
   },
   {
     "frame": 1953,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1905.0,
@@ -16363,7 +16363,7 @@
   },
   {
     "frame": 1956,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1898.0,
@@ -16405,7 +16405,7 @@
   },
   {
     "frame": 1959,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1896.0,
@@ -16447,7 +16447,7 @@
   },
   {
     "frame": 1962,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1886.0,
@@ -16489,7 +16489,7 @@
   },
   {
     "frame": 1965,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1879.0,
@@ -16526,7 +16526,7 @@
   },
   {
     "frame": 1968,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1872.0,
@@ -16568,7 +16568,7 @@
   },
   {
     "frame": 1971,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1869.0,
@@ -16610,7 +16610,7 @@
   },
   {
     "frame": 1974,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1866.0,
@@ -16652,7 +16652,7 @@
   },
   {
     "frame": 1977,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1855.0,
@@ -16694,7 +16694,7 @@
   },
   {
     "frame": 1986,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1846.0,
@@ -16736,7 +16736,7 @@
   },
   {
     "frame": 1989,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1844.0,
@@ -16778,7 +16778,7 @@
   },
   {
     "frame": 1992,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1841.0,
@@ -16820,7 +16820,7 @@
   },
   {
     "frame": 1995,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1842.0,
@@ -16862,7 +16862,7 @@
   },
   {
     "frame": 1998,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1840.0,
@@ -16904,7 +16904,7 @@
   },
   {
     "frame": 2001,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1838.0,
@@ -16946,7 +16946,7 @@
   },
   {
     "frame": 2013,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1829.0,
@@ -16988,7 +16988,7 @@
   },
   {
     "frame": 2016,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1826.0,
@@ -17030,7 +17030,7 @@
   },
   {
     "frame": 2019,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1819.0,
@@ -17072,7 +17072,7 @@
   },
   {
     "frame": 2022,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1813.0,
@@ -17114,7 +17114,7 @@
   },
   {
     "frame": 2025,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1807.0,
@@ -17156,7 +17156,7 @@
   },
   {
     "frame": 2031,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1802.0,
@@ -17198,7 +17198,7 @@
   },
   {
     "frame": 2034,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1799.0,
@@ -17240,7 +17240,7 @@
   },
   {
     "frame": 2037,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1797.0,
@@ -17282,7 +17282,7 @@
   },
   {
     "frame": 2040,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1793.0,
@@ -17324,7 +17324,7 @@
   },
   {
     "frame": 2043,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1790.0,
@@ -17366,7 +17366,7 @@
   },
   {
     "frame": 2046,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1790.0,
@@ -17408,7 +17408,7 @@
   },
   {
     "frame": 2049,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1790.0,
@@ -17450,7 +17450,7 @@
   },
   {
     "frame": 2052,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1791.0,
@@ -17492,7 +17492,7 @@
   },
   {
     "frame": 2055,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1792.0,
@@ -17534,7 +17534,7 @@
   },
   {
     "frame": 2058,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1797.0,
@@ -17576,7 +17576,7 @@
   },
   {
     "frame": 2061,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1800.0,
@@ -17618,7 +17618,7 @@
   },
   {
     "frame": 2073,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1815.0,
@@ -17660,7 +17660,7 @@
   },
   {
     "frame": 2076,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1819.0,
@@ -17702,7 +17702,7 @@
   },
   {
     "frame": 2082,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1826.0,
@@ -17744,7 +17744,7 @@
   },
   {
     "frame": 2085,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1827.0,
@@ -17786,7 +17786,7 @@
   },
   {
     "frame": 2088,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1831.0,
@@ -17828,7 +17828,7 @@
   },
   {
     "frame": 2091,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1830.0,
@@ -17870,7 +17870,7 @@
   },
   {
     "frame": 2094,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1832.0,
@@ -17912,7 +17912,7 @@
   },
   {
     "frame": 2097,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1830.0,
@@ -17944,7 +17944,7 @@
   },
   {
     "frame": 2103,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1836.0,
@@ -17986,7 +17986,7 @@
   },
   {
     "frame": 2112,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1873.0,
@@ -18023,7 +18023,7 @@
   },
   {
     "frame": 2115,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1840.0,
@@ -18050,7 +18050,7 @@
   },
   {
     "frame": 2118,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1842.0,
@@ -18087,7 +18087,7 @@
   },
   {
     "frame": 2121,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1841.0,
@@ -18114,7 +18114,7 @@
   },
   {
     "frame": 2124,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1848.0,
@@ -18146,7 +18146,7 @@
   },
   {
     "frame": 2127,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1880.0,
@@ -18178,7 +18178,7 @@
   },
   {
     "frame": 2130,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1883.0,
@@ -18210,7 +18210,7 @@
   },
   {
     "frame": 2133,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1883.0,
@@ -18242,7 +18242,7 @@
   },
   {
     "frame": 2136,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1882.0,
@@ -18274,7 +18274,7 @@
   },
   {
     "frame": 2139,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2037.0,
@@ -18311,7 +18311,7 @@
   },
   {
     "frame": 2142,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 1883.0,
@@ -18343,7 +18343,7 @@
   },
   {
     "frame": 2145,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2036.0,
@@ -18380,7 +18380,7 @@
   },
   {
     "frame": 2148,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "rostrum_tip": {
         "x": 2039.0,
@@ -18417,7 +18417,7 @@
   },
   {
     "frame": 2151,
-    "track_id": 9,
+    "track_id": 1,
     "keypoints": {
       "left_caudal_fluke": {
         "x": 1883.0,

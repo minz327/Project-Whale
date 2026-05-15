@@ -1,0 +1,30 @@
+{
+    "files.exclude": {
+        "**/*.slp": true,
+        "**/*.h5": true,
+        "**/*.pt": true,
+        "**/*.npz": true,
+        "**/models/**": true,
+        "videos/**": true
+    },
+    "search.exclude": {
+        "**/*.slp": true,
+        "**/*.h5": true,
+        "**/*.pt": true,
+        "**/*.npz": true,
+        "**/models/**": true,
+        "outputs/**": true,
+        "videos/**": true,
+        "exeter/**": true,
+        "data/raw_clips/**": true
+    },
+    "files.watcherExclude": {
+        "**/*.slp": true,
+        "**/*.h5": true,
+        "**/*.pt": true,
+        "**/models/**": true,
+        "videos/**": true,
+        "outputs/**": true,
+        "exeter/**": true
+    }
+}

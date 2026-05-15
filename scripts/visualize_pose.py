@@ -133,8 +133,10 @@ def main():
         print(f"Error: {pose_csv} not found")
         sys.exit(1)
 
-    # Load tracks (bounding boxes)
-    tracks_csv = args.track_dir / "tracks_relinked.csv"
+    # Load tracks (bounding boxes) — prefer unified > relinked > raw
+    tracks_csv = args.track_dir / "tracks_unified.csv"
+    if not tracks_csv.exists():
+        tracks_csv = args.track_dir / "tracks_relinked.csv"
     if not tracks_csv.exists():
         tracks_csv = args.track_dir / "tracks.csv"
     tracks_by_frame = {}

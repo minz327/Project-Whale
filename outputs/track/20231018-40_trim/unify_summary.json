@@ -1,0 +1,23 @@
+{
+  "input_csv": "tracks_relinked.csv",
+  "input_tracks": 9,
+  "merged_track_ids": [
+    2,
+    3,
+    11
+  ],
+  "dropped_track_ids": [
+    1,
+    7,
+    8,
+    10,
+    12,
+    13
+  ],
+  "unified_whale_id": 1,
+  "total_points": 469,
+  "frame_range": [
+    63,
+    2151
+  ]
+}

@@ -1,6 +1,9 @@
 # ProjectWhale — Progress & Continuation Guide
 
 > Last updated: 2026-05-14
+>
+> **Current Focus:** Single-whale clip **20231018-40_trim** — getting to Ren-quality tracked+pose output.
+> Other clips are paused until this reference clip meets quality bar.
 
 ---
 
@@ -19,7 +22,8 @@ Video (.MP4)
   ├─ 2. evaluate_detections.py → review.html (human QA)
   ├─ 3. track_whales.py        → outputs/track/{clip}/tracks.csv + tracked video
   ├─ 4. relink_tracks.py       → tracks_relinked.csv (fix ID breaks, pose-aware)
-  ├─ 4b. compensate_tracks.py  → tracks_compensated.csv (optical flow ego-motion removal)
+  ├─ 4b. unify_single_whale.py → tracks_unified.csv (merge all tracks for single-whale clips)
+  ├─ 4c. compensate_tracks.py  → tracks_compensated.csv (optical flow ego-motion removal)
   ├─ 5. track_metrics.py       → metrics.json + track_metrics.png (body-length calibrated)
   ├─ 6. visualize_tracks.py    → trajectory_map.png + track_timeline.png
   └─ 7. pose_estimate.py       → pose/pose_keypoints.csv + pose_results.json
@@ -49,6 +53,7 @@ Video (.MP4)
 | `evaluate_detections.py` | `.venv` | Cross-class NMS + HTML review grid for human QA |
 | `track_whales.py` | `.venv` | YOLO-World + ByteTrack multi-object tracking |
 | `relink_tracks.py` | `.venv` | Merges fragmented tracks via spatial + ResNet18 + pose body-length features |
+| `unify_single_whale.py` | `.venv` | For single-whale clips: merges all significant tracks into one ID, drops noise |
 | `compensate_tracks.py` | `.venv` | Optical flow ego-motion compensation (subtracts camera drift from tracks) |
 | `track_metrics.py` | `.venv` | Relative metrics with body-length calibration + pose-derived heading |
 | `visualize_tracks.py` | `.venv` | Static trajectory map + timeline chart |
@@ -59,16 +64,18 @@ Video (.MP4)
 
 ## Clip Processing Status
 
-| Video Clip | detect_world | evaluate | track | relink | metrics | visualize | pose |
-|---|---|---|---|---|---|---|---|
-| **20240527-22.MP4** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **20240727-84.MP4** | ✅ | ✅ | — | — | — | — | — |
-| srkw_calf_drone | ✅ | ✅ | — | — | — | — | — |
-| 20231018-40_trim.mp4 | — | — | — | — | — | — | — |
-| 20231018-48_trim.mp4 | — | — | — | — | — | — | — |
-| 20240127-7_trim.mp4 | — | — | — | — | — | — | — |
+| Video Clip | detect | evaluate | track | relink | unify | compensate | metrics | visualize | pose |
+|---|---|---|---|---|---|---|---|---|---|
+| **20231018-40_trim** ⭐ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **20240527-22** | ✅ | ✅ | ✅ | ✅ | — | — | ✅ | ✅ | ✅ |
+| **20240727-84** | ✅ | ✅ | — | — | — | — | — | — | — |
+| srkw_calf_drone | ✅ | ✅ | — | — | — | — | — | — | — |
+| 20231018-48_trim | — | — | — | — | — | — | — | — | — |
+| 20240127-7_trim | — | — | — | — | — | — | — | — | — |
 
-Only **20240527-22** has gone through the full pipeline. Videos are in `videos/` folder.
+⭐ = **Current focus clip** (single whale). Full pipeline complete.
+
+Videos are in `videos/` folder.
 
 ---
 
@@ -101,59 +108,63 @@ outputs/
 │   ├── 20240527-22/                 — YOLO-World detections + review.html
 │   ├── 20240727-84/                 — YOLO-World detections + review.html
 │   └── srkw_calf_drone/            — YOLO-World detections + review.html
+├── track/20231018-40_trim/           ⭐ FOCUS CLIP (single whale)
+│   ├── 20231018-40_trim_tracked.mp4  — annotated tracking video (bbox only)
+│   ├── tracks.csv                    — raw ByteTrack output (13 tracks)
+│   ├── tracks_relinked.csv           — post-relink (9 tracks)
+│   ├── tracks_unified.csv            — single whale ID (1 track, 469 points)
+│   ├── tracks_compensated.csv        — ego-motion compensated
+│   ├── ego_motion.json               — camera drift data
+│   ├── metrics.json + track_metrics.png
+│   ├── trajectory_map_unified.png + trajectory_map_compensated.png
+│   ├── track_timeline_unified.png + track_timeline_compensated.png
+│   └── pose/
+│       ├── pose_keypoints.csv        — 7 keypoints × 469 frames
+│       ├── pose_results.json
+│       ├── pose_review.html          — visual QA page
+│       ├── frames/                   — 30 annotated frame JPGs
+│       └── debug_frames/             — centroid debug crops
 └── track/20240527-22/
     ├── 20240527-22_tracked.mp4      — annotated tracking video
-    ├── tracks.csv                   — raw track data
-    ├── tracks_relinked.csv          — post-relink track data
-    ├── summary.json / relink_summary.json
+    ├── tracks.csv / tracks_relinked.csv
     ├── metrics.json + track_metrics.png
     ├── trajectory_map*.png + track_timeline*.png
-    └── pose/
-        ├── pose_keypoints.csv       — keypoint coordinates + confidence
-        ├── pose_results.json
-        ├── pose_review.html         — visual QA page
-        └── frames/                  — 30 annotated frame JPGs
+    └── pose/                        — 7 keypoints, pose_review.html
 ```
 
 ---
 
 ## Next Steps
 
-### Immediate — Complete Pipeline on More Clips
+### Current Focus — 20231018-40_trim (Single Whale Reference Clip)
 
-1. Run tracking → relinking → metrics → visualization → pose on **20240727-84**:
-   ```powershell
-   .\.venv\Scripts\Activate.ps1
-   python scripts/track_whales.py videos/20240727-84.MP4 --sample-rate 3 --conf 0.1
-   python scripts/relink_tracks.py outputs/track/20240727-84
-   python scripts/track_metrics.py outputs/track/20240727-84
-   python scripts/visualize_tracks.py outputs/track/20240727-84 --csv tracks_relinked.csv --suffix _relinked
+Goal: Match Ren's DORSAP quality for this clip. Full pipeline is now complete.
 
-   .\.venv_sleap\Scripts\Activate.ps1
-   python scripts/pose_estimate.py outputs/track/20240727-84 videos/20240727-84.MP4
+**Done so far:**
+- Detection → tracking → relinking (13→9 tracks) → unification (→1 whale, 469 frames)
+- Ego-motion compensation (6134px camera drift removed)
+- Metrics: 11 surfacing bouts, body-length calibrated (562px ≈ 7.0m)
+- Pose: 6.5/7 avg keypoints, rostrum 99%, saddle_patch 100%, right_caudal_fluke 97%
+- Visualizations: trajectory maps (raw + compensated), timeline, metrics, pose review
 
-   .\.venv\Scripts\Activate.ps1
-   python scripts/visualize_pose.py outputs/track/20240727-84 videos/20240727-84.MP4
-   ```
+**Quality to improve:**
+1. **Low-confidence keypoints** — left_caudal_fluke (68% detection, 0.15 avg conf), left_pect_fin (85%, 0.17 conf). These may be occluded by body orientation.
+2. **Pose-derived heading** — rostrum→caudal axis works but 0% heading from pose in metrics (needs fix in track_metrics.py to use unified track)
+3. **Tracked video with pose overlay** — current `_tracked.mp4` has bounding boxes only; should overlay skeleton keypoints
+4. **Review `pose_review.html`** — human QA on keypoint placement accuracy
 
-2. Run full pipeline on the **3 unprocessed trimmed clips** (20231018-40, 20231018-48, 20240127-7)
+### After Single-Whale Quality is Confirmed
 
-### Pose Estimation Quality
-
-3. **Review pose results** — Open `outputs/track/20240527-22/pose/pose_review.html` and check keypoint placement accuracy. Decide if SLEAP model needs fine-tuning for aerial footage or if filtering to high-confidence keypoints (rostrum + fluke) is sufficient.
+5. Run pipeline on **20240727-84** (multi-whale, detection already done)
+6. Run pipeline on **20231018-48_trim** and **20240127-7_trim**
+7. Compare pose quality across clips
 
 ### Pipeline Improvements
 
-4. **Pin dependencies** — Export `pip freeze` from both venvs to proper requirements files
-5. **Obtain DJI SRT telemetry files** — Enables geo-referencing and absolute trajectory analysis
-6. **Fine-tune YOLO on whale boxes** (~100 annotated frames) to improve detection confidence
-7. **Combine pose + tracking** — Use rostrum-to-fluke axis as heading direction for behaviour metrics
-
-### Stretch
-
-8. **Build unified pipeline script** — Single command: video → all outputs
-9. **Cross-clip re-identification** — Match individuals across different clips
-10. **Focus on measurable behaviours** — Surfacing intervals, proximity patterns, synchronized movements
+8. **Pin dependencies** — Export `pip freeze` from both venvs to proper requirements files
+9. **Obtain DJI SRT telemetry files** — Enables geo-referencing and absolute trajectory analysis
+10. **Fine-tune YOLO on whale boxes** (~100 annotated frames) to improve detection confidence
+11. **Build unified pipeline script** — Single command: video → all outputs
 
 ---
 
@@ -189,6 +200,26 @@ python scripts/visualize_tracks.py outputs/track/CLIP_ID --csv tracks_relinked.c
 python scripts/pose_estimate.py outputs/track/CLIP_ID VIDEO_PATH
 
 # Switch back for pose visualization
+.\.venv\Scripts\Activate.ps1
+python scripts/visualize_pose.py outputs/track/CLIP_ID VIDEO_PATH
+```
+
+### Single-Whale Clip Pipeline (e.g., 20231018-40_trim)
+
+```powershell
+# After relink, unify all tracks into single whale ID:
+python scripts/unify_single_whale.py outputs/track/CLIP_ID
+
+# Then compensate + metrics + visualize using unified CSV:
+python scripts/compensate_tracks.py outputs/track/CLIP_ID VIDEO_PATH --csv tracks_unified.csv
+python scripts/track_metrics.py outputs/track/CLIP_ID --csv tracks_unified.csv
+python scripts/visualize_tracks.py outputs/track/CLIP_ID --csv tracks_unified.csv --suffix _unified
+python scripts/visualize_tracks.py outputs/track/CLIP_ID --csv tracks_compensated.csv --suffix _compensated
+
+# Pose on unified track:
+.\.venv_sleap\Scripts\Activate.ps1
+python scripts/pose_estimate.py outputs/track/CLIP_ID VIDEO_PATH --csv tracks_unified.csv
+
 .\.venv\Scripts\Activate.ps1
 python scripts/visualize_pose.py outputs/track/CLIP_ID VIDEO_PATH
 ```

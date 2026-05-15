@@ -9,32 +9,39 @@
     "dorsal fin",
     "marine mammal"
   ],
-  "total_frames_processed": 173,
-  "frames_with_detections": 151,
-  "total_detections": 322,
+  "total_frames_processed": 259,
+  "frames_with_detections": 231,
+  "total_detections": 491,
   "class_counts": {
-    "marine mammal": 138,
-    "whale": 172,
-    "dorsal fin": 12
+    "marine mammal": 213,
+    "whale": 256,
+    "dorsal fin": 21,
+    "killer whale": 1
   },
   "confidence_stats": {
     "marine mammal": {
-      "count": 138,
+      "count": 213,
       "min": 0.05,
-      "max": 0.905,
-      "mean": 0.354
+      "max": 0.953,
+      "mean": 0.371
     },
     "whale": {
-      "count": 172,
+      "count": 256,
       "min": 0.05,
-      "max": 0.762,
-      "mean": 0.221
+      "max": 0.702,
+      "mean": 0.229
     },
     "dorsal fin": {
-      "count": 12,
+      "count": 21,
       "min": 0.053,
-      "max": 0.197,
-      "mean": 0.106
+      "max": 0.221,
+      "mean": 0.098
+    },
+    "killer whale": {
+      "count": 1,
+      "min": 0.096,
+      "max": 0.096,
+      "mean": 0.096
     }
   }
 }

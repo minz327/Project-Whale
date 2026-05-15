@@ -1,0 +1,28 @@
+# BoT-SORT config tuned for aerial whale tracking
+# Key changes from defaults:
+#   - track_buffer: 150 (5s at 30fps) to survive short dives
+#   - with_reid: True (appearance matching for re-association after dives)
+#   - gmc_method: sparseOptFlow (compensate drone camera drift)
+#   - appearance_thresh: 0.25 (relaxed - all orcas look similar from above)
+#   - track_high_thresh: 0.1 (match our low YOLO-World confidence scores)
+
+tracker_type: botsort
+
+# Detection thresholds (tuned for low-confidence YOLO-World detections)
+track_high_thresh: 0.1     # first-stage match (default 0.25, lowered for whale detections)
+track_low_thresh: 0.05     # second-stage for low-score recovery
+new_track_thresh: 0.1      # min confidence to start a new track
+
+# Track persistence  
+track_buffer: 300           # frames to keep lost tracks alive (10s at 30fps, real frames now)
+match_thresh: 0.8           # IoU/cost similarity for association
+fuse_score: true            # fuse detection score with motion/IoU
+
+# Camera motion compensation (critical for drone footage)
+gmc_method: sparseOptFlow   # compensate drone camera movement
+
+# ReID (appearance-based re-identification)
+with_reid: true             # enable appearance matching
+proximity_thresh: 0.5       # min IoU to consider for ReID
+appearance_thresh: 0.25     # relaxed - orcas look similar from above, but still helps
+model: yolov8x-cls.pt      # explicit classification model for ReID (auto doesn't work with YOLO-World)

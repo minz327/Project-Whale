@@ -1,0 +1,63 @@
+{
+  "n_breaths": 4,
+  "total_time_s": 69.6,
+  "breaths_per_min": 3.4,
+  "threshold": 98.4,
+  "baseline_brightness": 70.8,
+  "inter_breath_intervals_s": [
+    21.8,
+    23.2,
+    15.0
+  ],
+  "mean_ibi_s": 20.0,
+  "events": [
+    {
+      "breath_id": 1,
+      "peak_frame": 303,
+      "peak_brightness": 143.89484375,
+      "peak_white_pct": 12.843750000000002,
+      "start_frame": 288,
+      "end_frame": 321,
+      "duration_frames": 33,
+      "blowhole_x": 1737,
+      "blowhole_y": 602,
+      "time_s": 10.11
+    },
+    {
+      "breath_id": 2,
+      "peak_frame": 957,
+      "peak_brightness": 171.00640625,
+      "peak_white_pct": 51.96875,
+      "start_frame": 954,
+      "end_frame": 981,
+      "duration_frames": 27,
+      "blowhole_x": 1662,
+      "blowhole_y": 826,
+      "time_s": 31.93
+    },
+    {
+      "breath_id": 3,
+      "peak_frame": 1653,
+      "peak_brightness": 186.74859375,
+      "peak_white_pct": 60.34374999999999,
+      "start_frame": 1650,
+      "end_frame": 1707,
+      "duration_frames": 57,
+      "blowhole_x": 2193,
+      "blowhole_y": 462,
+      "time_s": 55.16
+    },
+    {
+      "breath_id": 4,
+      "peak_frame": 2103,
+      "peak_brightness": 195.21265625,
+      "peak_white_pct": 62.546875,
+      "start_frame": 2103,
+      "end_frame": 2133,
+      "duration_frames": 30,
+      "blowhole_x": 1855,
+      "blowhole_y": 587,
+      "time_s": 70.17
+    }
+  ]
+}
