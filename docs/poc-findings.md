@@ -7,20 +7,24 @@ End-to-end prototype testing whale detection, tracking, and behaviour measuremen
 ## Pipeline Built
 
 ```
-Video → Frame extraction → YOLO-World detection → Cross-class NMS → ByteTrack → Track re-linking (appearance) → Relative metrics
+Video → Frame extraction → YOLO-World detection → Cross-class NMS → Norfair (IoU + ReID + GMC) → Noise filter → Relative metrics
 ```
 
 ### Scripts
 
 | Script | Purpose |
 |--------|---------|
-| `detect_whales.py` | Baseline COCO YOLOv8n detection |
-| `detect_yoloworld.py` | Open-vocabulary whale detection (YOLO-World) |
+| `detect_whales.py` | Baseline COCO YOLOv8n detection (failed) |
+| `detect_yoloworld.py` | Standalone open-vocabulary detection (legacy, replaced by track_whales.py) |
 | `evaluate_detections.py` | Cross-class NMS + HTML review grid |
-| `track_whales.py` | ByteTrack multi-object tracking + annotated video |
-| `relink_tracks.py` | Merge fragmented tracks (spatial + appearance ReID) |
+| `track_whales.py` | **Primary pipeline**: YOLO-World detection + Norfair tracking (ReID + GMC) |
+| `relink_tracks.py` | Post-hoc track merging (largely redundant with Norfair ReID) |
+| `compensate_tracks.py` | Ego-motion compensation via optical flow |
+| `pose_estimate.py` | SLEAP 7-keypoint pose estimation (needs `.venv_sleap`) |
+| `detect_respirations.py` | Breath detection from blowhole brightness |
+| `track_metrics.py` | Body-length calibrated metrics |
 | `visualize_tracks.py` | Trajectory map + timeline plots |
-| `track_metrics.py` | Camera-invariant relative metrics |
+| `render_tracked_video.py` | Full annotated video (box + skeleton + minimap + HUD) |
 | `download_clips.py` | Batch clip downloader |
 
 ### Clips Tested
@@ -43,12 +47,18 @@ Video → Frame extraction → YOLO-World detection → Cross-class NMS → Byte
 - Standard COCO models (YOLOv8n) completely fail — **0 whale detections**
 - Cross-class NMS is essential: ~40% of raw detections are duplicate labels ("whale" + "marine mammal" + "dorsal fin") on the same animal
 
-### 2. Is within-video tracking feasible? **Partially.**
+### 2. Is within-video tracking feasible? **Yes.**
 
-- ByteTrack maintains whale IDs during continuous surfacing (up to **12 seconds** tested)
-- IDs break across dives — a whale that submerges gets a new ID when it resurfaces
-- Appearance-based re-linking (ResNet18 embeddings) successfully merges fragments (0.86–0.92 cosine similarity), reducing **15 tracks to 12** in the test clip
-- **Unsolved**: Long dives + drone movement cause large spatial gaps that can't be reliably re-linked
+- **Norfair tracker** with two-tier matching solves the ID fragmentation problem:
+  - Short-term: IoU distance matching (threshold 0.7, hit_counter_max 15)
+  - Long-term ReID: ResNet18 cosine similarity (threshold 0.5, ~15s buffer)
+  - Camera motion compensation: Norfair `MotionEstimator` with homography
+- Single-whale clip: **13 IDs → 2** (1 main whale + 1 concurrent detection)
+- Multi-whale clip (3 whales): **6 IDs → 3** stable tracks spanning full 70s video
+- ReID bridges dive gaps of 15+ seconds
+- Post-processing noise filter (`--min-track-conf 0.25`) removes false positive tracks
+- **Previous approach (ByteTrack)** was IoU-only, no appearance features — superseded
+- `relink_tracks.py` post-hoc merging is now largely redundant (Norfair finds 0 candidates to merge)
 
 ### 3. What annotation work is needed? **Minimal for detection, moderate for tracking.**
 
@@ -68,10 +78,10 @@ Video → Frame extraction → YOLO-World detection → Cross-class NMS → Byte
 
 ### 5. What are the real blockers?
 
-1. **Camera motion** — No drone telemetry means no reliable absolute positions. Feature-based stabilization fails on open ocean (insufficient stable features). This is the #1 blocker.
-2. **ID fragmentation across dives** — Solvable with better appearance models but fundamentally hard.
-3. **Low detection confidence** — Fine-tuning on whale data would help.
-4. **4K processing speed** — Very slow on CPU; needs GPU or frame downscaling.
+1. **Camera motion** — No drone telemetry means no reliable absolute positions. Ego-motion compensation via optical flow removes drift for relative analysis, but geo-referencing requires DJI SRT files.
+2. **Respiration detection** — Current brightness-based approach needs tuning per clip (only found 1 breath on multi-whale clip).
+3. **4K processing speed** — Very slow on CPU; needs GPU or frame downscaling.
+4. **Video encoding** — OpenCV's `mp4v` codec produces unplayable files. Must use XVID + ffmpeg H.264 re-encode.
 
 ---
 
@@ -113,7 +123,9 @@ Ren (Lawrence Cutler, Univ. of Exeter) built **DORSAP** — Dorsal Saddle Patch 
 ## Recommendations for Next Phase
 
 1. **Ask Darren for DJI SRT files** — unlocks absolute trajectories and solves camera motion entirely
-2. **Fine-tune a YOLO model on whale bounding boxes** — small annotation effort (~100 frames), big confidence improvement
-3. **Focus analysis on surfacing patterns + inter-whale distance** — these work today
-4. **Combine pipelines**: YOLO detection → ByteTrack → SLEAP keypoints (two-stage architecture)
-5. **Run on more clips** — test `noaa_uav_overview.mp4` + get additional clips from Darren covering different scenarios (glare, multiple whales, social interaction)
+2. **Run remaining clips** through Norfair pipeline — `20240527-22`, `srkw_calf_drone`, `20231018-48_trim`, `20240127-7_trim`
+3. **Tune respiration detection** — brightness-based approach needs per-clip or adaptive thresholding
+4. **Simplify `relink_tracks.py`** — largely redundant now that Norfair handles ReID during tracking
+5. **Fine-tune YOLO on whale bounding boxes** — small annotation effort (~100 frames), big confidence improvement
+6. **Focus analysis on surfacing patterns + inter-whale distance** — these work reliably today
+7. **Combine pipelines**: YOLO detection → Norfair → SLEAP keypoints (two-stage architecture is proven)

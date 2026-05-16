@@ -72,29 +72,44 @@ python scripts/evaluate_detections.py outputs/detect_world/20231018-40_trim
 
 ---
 
-### Step 3 — Tracking (ByteTrack)
+### Step 3 — Tracking (Norfair + ReID + GMC)
 
 ```powershell
-python scripts/track_whales.py videos/20231018-40_trim.mp4 --sample-rate 3 --conf 0.1
+python scripts/track_whales.py videos/20231018-40_trim.mp4 --sample-rate 3 --conf 0.1 --output-dir outputs/track/20231018-40_trim
 ```
 
-**What it does:** Runs YOLO-World detection on every 3rd frame, then feeds results to ByteTrack for multi-object tracking. Assigns persistent track IDs and generates an annotated video.
+**What it does:** Runs YOLO-World detection on every 3rd frame, then feeds results to **Norfair** for multi-object tracking with two-tier matching:
+- **Short-term (IoU)**: distance_threshold=0.7, hit_counter_max=15 frames
+- **Long-term (ReID)**: ResNet18 embeddings, cosine similarity threshold=0.5, reid_counter_max=150 (~15s)
+- **Camera motion compensation**: HomographyTransformationGetter (500 keypoints)
+- **Post-processing noise filter**: drops tracks with avg_conf < 0.25 or < 10 frames
 
 **Parameters:**
 - `--sample-rate 3` → processes ~10fps (every 3rd frame of 30fps video)
 - `--conf 0.1` → low threshold to catch dim/partial surfacings
+- `--min-track-conf 0.25` → filter noise tracks (default)
+- `--min-track-frames 10` → filter very short tracks (default)
 
 **Output:** `outputs/track/20231018-40_trim/`
 
 | File | Contents |
 |------|----------|
 | `tracks.csv` | Per-frame track ID, bounding box, center, confidence |
-| `20231018-40_trim_tracked.mp4` | Video with bounding boxes and trail lines |
+| `20231018-40_trim_tracked.mp4` | Video with bounding boxes and trail lines (H.264) |
 | `summary.json` | Track statistics |
 
 **Results:**
-- 862 frames processed, 483 with tracks (56%)
-- 13 unique track IDs (fragmented — same whale gets new ID after each dive)
+- 862 frames processed, ~800 with tracks (93%)
+- 5 raw IDs → **2 after noise filter** (was 13 IDs with old ByteTrack)
+- Track 1: 695 frames, span 3→2421 (~80s of 86s video) — main whale
+- Track 21: 131 frames, concurrent detection overlapping Track 1
+
+**Improvement over ByteTrack:**
+| Metric | ByteTrack (old) | Norfair (current) |
+|--------|-----------------|-------------------|
+| Track IDs | 13 | 2 |
+| Longest track | 168 frames | 695 frames |
+| Coverage | 56% | 93% |
 
 ---
 

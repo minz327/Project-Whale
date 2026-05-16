@@ -1,9 +1,9 @@
 # ProjectWhale — Progress & Continuation Guide
 
-> Last updated: 2026-05-14
+> Last updated: 2026-05-15
 >
-> **Current Focus:** Single-whale clip **20231018-40_trim** — getting to Ren-quality tracked+pose output.
-> Other clips are paused until this reference clip meets quality bar.
+> **Current Focus:** Multi-whale tracking validated. Pipeline works end-to-end on both single-whale and multi-whale clips.
+> Next: simplify `relink_tracks.py` (largely redundant now), run remaining clips.
 
 ---
 
@@ -18,16 +18,22 @@ Build a minimal end-to-end POC pipeline for whale detection, tracking, and behav
 ```
 Video (.MP4)
   │
-  ├─ 1. detect_yoloworld.py   → outputs/detect_world/{clip}/
-  ├─ 2. evaluate_detections.py → review.html (human QA)
-  ├─ 3. track_whales.py        → outputs/track/{clip}/tracks.csv + tracked video
-  ├─ 4. relink_tracks.py       → tracks_relinked.csv (fix ID breaks, pose-aware)
-  ├─ 4b. unify_single_whale.py → tracks_unified.csv (merge all tracks for single-whale clips)
-  ├─ 4c. compensate_tracks.py  → tracks_compensated.csv (optical flow ego-motion removal)
-  ├─ 5. track_metrics.py       → metrics.json + track_metrics.png (body-length calibrated)
+  ├─ 1. track_whales.py        → outputs/track/{clip}/tracks.csv + tracked video
+  │      (Norfair + YOLO-World detection + ReID + camera motion compensation)
+  │      Replaces old detect→track→relink pipeline in a single step.
+  │
+  ├─ 2. compensate_tracks.py   → tracks_compensated.csv (optical flow ego-motion removal)
+  ├─ 3. pose_estimate.py       → pose/pose_keypoints.csv (SLEAP, needs .venv_sleap)
+  ├─ 4. detect_respirations.py → respirations.csv (blowhole brightness)
+  ├─ 5. track_metrics.py       → metrics.json + track_metrics.png
   ├─ 6. visualize_tracks.py    → trajectory_map.png + track_timeline.png
-  └─ 7. pose_estimate.py       → pose/pose_keypoints.csv + pose_results.json
-       └─ visualize_pose.py    → pose/pose_review.html + annotated frames
+  └─ 7. render_tracked_video.py → {clip}_tracked_pose.mp4 (full annotated video)
+
+  Optional / legacy:
+  ├─ detect_yoloworld.py       → standalone detection (replaced by track_whales.py)
+  ├─ evaluate_detections.py    → detection QA review HTML
+  ├─ relink_tracks.py          → post-hoc track merging (largely redundant with Norfair ReID)
+  └─ unify_single_whale.py     → force-merge all tracks for known single-whale clips
 ```
 
 ---
@@ -51,8 +57,8 @@ Video (.MP4)
 | `detect_yoloworld.py` | `.venv` | Open-vocab YOLO-World detection (Exp 2 — works, 80%+ accuracy) |
 | `download_clips.py` | `.venv` | Downloads clips from `data/clip_log.csv` via yt-dlp |
 | `evaluate_detections.py` | `.venv` | Cross-class NMS + HTML review grid for human QA |
-| `track_whales.py` | `.venv` | YOLO-World + ByteTrack multi-object tracking |
-| `relink_tracks.py` | `.venv` | Merges fragmented tracks via spatial + ResNet18 + pose body-length features |
+| `track_whales.py` | `.venv` | YOLO-World + **Norfair** tracking (IoU + ReID + camera motion comp.) |
+| `relink_tracks.py` | `.venv` | Merges fragmented tracks via spatial + ResNet18 (largely redundant with Norfair ReID) |
 | `unify_single_whale.py` | `.venv` | For single-whale clips: merges all significant tracks into one ID, drops noise |
 | `compensate_tracks.py` | `.venv` | Optical flow ego-motion compensation (subtracts camera drift from tracks) |
 | `track_metrics.py` | `.venv` | Relative metrics with body-length calibration + pose-derived heading |
@@ -64,16 +70,18 @@ Video (.MP4)
 
 ## Clip Processing Status
 
-| Video Clip | detect | evaluate | track | relink | unify | compensate | metrics | visualize | pose |
-|---|---|---|---|---|---|---|---|---|---|
-| **20231018-40_trim** ⭐ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **20240527-22** | ✅ | ✅ | ✅ | ✅ | — | — | ✅ | ✅ | ✅ |
-| **20240727-84** | ✅ | ✅ | — | — | — | — | — | — | — |
-| srkw_calf_drone | ✅ | ✅ | — | — | — | — | — | — | — |
-| 20231018-48_trim | — | — | — | — | — | — | — | — | — |
-| 20240127-7_trim | — | — | — | — | — | — | — | — | — |
+| Video Clip | Whales | track | compensate | pose | respirations | metrics | visualize | render |
+|---|---|---|---|---|---|---|---|---|
+| **20231018-40_trim** | 1 | ✅ (2 IDs) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **20240727-84** ⭐ | 3 | ✅ (3 IDs) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **20240527-22** | ? | old ByteTrack | — | ✅ | — | ✅ | ✅ | — |
+| srkw_calf_drone | 2 | — | — | — | — | — | — | — |
+| 20231018-48_trim | ? | — | — | — | — | — | — | — |
+| 20240127-7_trim | ? | — | — | — | — | — | — | — |
 
-⭐ = **Current focus clip** (single whale). Full pipeline complete.
+⭐ = **First multi-whale clip** — full pipeline validated with Norfair tracker.
+
+**Note:** Clips marked "old ByteTrack" should be re-run with `track_whales.py` (now uses Norfair).
 
 Videos are in `videos/` folder.
 
@@ -81,21 +89,40 @@ Videos are in `videos/` folder.
 
 ## Key Findings So Far
 
-1. **Detection works zero-shot** — YOLO-World with text prompts ("whale", "orca", etc.) at conf ≥ 0.05 achieves 80%+ accuracy. Standard COCO YOLOv8 completely fails.
-2. **Tracking works during surfacing** — ByteTrack maintains IDs for up to 12s of continuous surfacing, but IDs fragment across dives.
-3. **Re-linking helps** — ResNet18 appearance embedding re-linking reduced 15 tracks → 12 on test clip.
-4. **Absolute trajectories are unusable** — Camera motion dominates. Pivoted to relative/pairwise metrics (inter-whale distance, heading, speed) which are camera-motion-invariant.
-5. **Stabilization failed** — Attempted and scrapped; produced bad artifacts.
-6. **Pose estimation runs** — Two-stage top-down pipeline: centroid model finds saddle patch center on full frame (1360×2560), then centered-instance model predicts 7 keypoints on 832×832 crop. Achieves 6.5/7 keypoints avg with consistent quality across all frames.
+1. **Detection works zero-shot** — YOLO-World with text prompts ("whale", "orca", etc.) at conf ≥ 0.1 achieves 80%+ accuracy. Standard COCO YOLOv8 completely fails.
+2. **Norfair tracker solves ID fragmentation** — Two-tier matching (IoU short-term + ResNet18 ReID long-term) with camera motion compensation reduced single-whale IDs from 13 → 2. Multi-whale (3 whales) tracked as 3 stable IDs across full 70s video.
+3. **ByteTrack is superseded** — IoU-only matching with no appearance features. Norfair replaces it entirely.
+4. **ReID bridges dive gaps** — ResNet18 cosine similarity (threshold 0.5) re-identifies whales after 15+ second dives. `relink_tracks.py` now finds 0 candidates to merge.
+5. **Post-processing noise filter works** — `--min-track-conf 0.25` and `--min-track-frames 10` drop false positive tracks (avg conf 0.17-0.22) while keeping real whale tracks (conf 0.26-0.50).
+6. **Absolute trajectories are unusable** — Camera motion dominates. Pivoted to relative/pairwise metrics (inter-whale distance, heading, speed) which are camera-motion-invariant.
+7. **Pose estimation runs** — Two-stage top-down pipeline: centroid model finds saddle patch center, then centered-instance model predicts 7 keypoints. Achieves 6.2-6.5/7 keypoints avg.
+8. **Video encoding** — Must use XVID + ffmpeg H.264 re-encode. OpenCV's `mp4v` codec produces unplayable files.
+
+---
+
+## Tracking Results Comparison
+
+### Single-whale clip (20231018-40_trim, 86s, 1 whale)
+
+| Tracker | Track IDs | Longest track | Coverage |
+|---------|-----------|---------------|----------|
+| ByteTrack (buffer=30) | 13 | 168 frames | 56% |
+| ByteTrack (buffer=150) | 9 | 219 frames | 61% |
+| **Norfair+ReID+GMC** | **5 → 2** (after noise filter) | **695 frames** | **93%** |
+
+### Multi-whale clip (20240727-84, 70s, 3 whales)
+
+| Tracker | Track IDs | Avg frames/track | Coverage |
+|---------|-----------|-------------------|----------|
+| **Norfair+ReID+GMC** | **6 → 3** (after noise filter) | **556 frames** | **99%** |
 
 ---
 
 ## Top Blockers
 
 1. **Camera motion / no telemetry** — Without DJI SRT files, can't geo-reference trajectories
-2. **ID fragmentation across dives** — Re-linking helps but isn't perfect
-3. **Low detection confidence** — Many detections in 0.05–0.30 range
-4. **Processing speed** — 4K frames are slow on CPU
+2. **Processing speed** — 4K frames are slow on CPU
+3. **Respiration detection needs tuning** — Current brightness-based approach only found 1 breath on multi-whale clip
 
 ---
 
