@@ -310,10 +310,12 @@ def main():
     else:
         print(f"    Camera motion: DISABLED")
 
-    # Set up video writer for output
+    # Set up video writer for output — write as AVI/XVID (reliable),
+    # then re-encode to H.264 MP4 via ffmpeg if available
+    out_video_path_raw = output_dir / f"{video_stem}_tracked_raw.avi"
     out_video_path = output_dir / f"{video_stem}_tracked.mp4"
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-    out_video = cv2.VideoWriter(str(out_video_path), fourcc, effective_fps,
+    fourcc = cv2.VideoWriter_fourcc(*"XVID")
+    out_video = cv2.VideoWriter(str(out_video_path_raw), fourcc, effective_fps,
                                 (width, height))
 
     # Re-open video for frame-by-frame processing
@@ -475,6 +477,27 @@ def main():
 
     cap.release()
     out_video.release()
+
+    # Re-encode AVI → H.264 MP4 via ffmpeg (if available)
+    import shutil as _shutil, subprocess as _sp
+    if _shutil.which("ffmpeg"):
+        print("\n  Re-encoding to H.264 MP4 via ffmpeg...")
+        _sp.run([
+            "ffmpeg", "-y", "-i", str(out_video_path_raw),
+            "-c:v", "libx264", "-crf", "23", "-preset", "fast",
+            "-pix_fmt", "yuv420p", str(out_video_path)
+        ], stdout=_sp.DEVNULL, stderr=_sp.DEVNULL)
+        if out_video_path.exists():
+            out_video_path_raw.unlink()  # remove raw AVI
+        else:
+            # ffmpeg failed, keep AVI
+            out_video_path = out_video_path_raw
+            print("  WARNING: ffmpeg re-encode failed, keeping AVI")
+    else:
+        # No ffmpeg, rename AVI to final output
+        out_video_path = out_video_path_raw.rename(
+            out_video_path_raw.with_suffix(".avi"))
+        print("  NOTE: ffmpeg not found, output is AVI format")
 
     # Post-processing: filter noise tracks
     unique_tracks_raw = set(t["track_id"] for t in all_tracks)

@@ -619,8 +619,9 @@ def main():
         stem = args.video.stem
         out_path = args.track_dir / f"{stem}_tracked_pose.mp4"
 
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-    out = cv2.VideoWriter(str(out_path), fourcc, effective_fps, (width, height))
+    out_path_raw = out_path.with_name(out_path.stem + "_raw.avi")
+    fourcc = cv2.VideoWriter_fourcc(*"XVID")
+    out = cv2.VideoWriter(str(out_path_raw), fourcc, effective_fps, (width, height))
 
     # Build minimap from compensated coordinates (camera-drift-free)
     comp_csv = args.track_dir / "tracks_compensated.csv"
@@ -716,6 +717,22 @@ def main():
 
     cap.release()
     out.release()
+
+    # Re-encode AVI → H.264 MP4 via ffmpeg
+    import shutil as _shutil, subprocess as _sp
+    if _shutil.which("ffmpeg"):
+        print("\n  Re-encoding to H.264 MP4 via ffmpeg...")
+        _sp.run([
+            "ffmpeg", "-y", "-i", str(out_path_raw),
+            "-c:v", "libx264", "-crf", "23", "-preset", "fast",
+            "-pix_fmt", "yuv420p", str(out_path)
+        ], stdout=_sp.DEVNULL, stderr=_sp.DEVNULL)
+        if out_path.exists():
+            out_path_raw.unlink()
+        else:
+            out_path = out_path_raw
+    else:
+        out_path = out_path_raw.rename(out_path_raw.with_suffix(".avi"))
 
     print(f"\n{'='*55}")
     print(f"TRACKED + POSE VIDEO COMPLETE")

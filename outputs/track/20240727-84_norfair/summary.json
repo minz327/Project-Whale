@@ -1,0 +1,39 @@
+{
+  "video": "20240727-84",
+  "tracker": "norfair",
+  "reid_enabled": true,
+  "gmc_enabled": true,
+  "total_frames_processed": 704,
+  "sample_rate": 3,
+  "confidence_threshold": 0.1,
+  "distance_threshold": 0.7,
+  "hit_counter_max": 15,
+  "reid_threshold": 0.5,
+  "reid_counter_max": 150,
+  "frames_with_tracks": 695,
+  "unique_track_ids": 3,
+  "total_track_points": 1667,
+  "track_stats": {
+    "1": {
+      "frames": 574,
+      "first_frame": 18,
+      "last_frame": 2109,
+      "span": 2091,
+      "avg_confidence": 0.288
+    },
+    "4": {
+      "frames": 543,
+      "first_frame": 87,
+      "last_frame": 2109,
+      "span": 2022,
+      "avg_confidence": 0.264
+    },
+    "12": {
+      "frames": 550,
+      "first_frame": 384,
+      "last_frame": 2052,
+      "span": 1668,
+      "avg_confidence": 0.289
+    }
+  }
+}

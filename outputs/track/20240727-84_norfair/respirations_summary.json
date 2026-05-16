@@ -1,0 +1,23 @@
+{
+  "n_breaths": 1,
+  "total_time_s": 2.3,
+  "breaths_per_min": 26.1,
+  "threshold": 120.3,
+  "baseline_brightness": 115.4,
+  "inter_breath_intervals_s": [],
+  "mean_ibi_s": 0,
+  "events": [
+    {
+      "breath_id": 1,
+      "peak_frame": 21,
+      "peak_brightness": 122.4834375,
+      "peak_white_pct": 0.3125,
+      "start_frame": 21,
+      "end_frame": 33,
+      "duration_frames": 12,
+      "blowhole_x": 2169,
+      "blowhole_y": 1274,
+      "time_s": 0.7
+    }
+  ]
+}
