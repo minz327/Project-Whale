@@ -1,0 +1,4678 @@
+[
+  {
+    "frame": 3087,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1256.0,
+        "y": 1017.0,
+        "confidence": 0.2617
+      },
+      "right_pect_fin_tip": {
+        "x": 1300.0,
+        "y": 1173.0,
+        "confidence": 0.1554
+      },
+      "mid_saddle_patch": {
+        "x": 1112.0,
+        "y": 1181.0,
+        "confidence": 0.6219
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3090,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1224.0,
+        "y": 1027.0,
+        "confidence": 0.2981
+      },
+      "right_pect_fin_tip": {
+        "x": 1260.0,
+        "y": 1179.0,
+        "confidence": 0.1183
+      },
+      "mid_saddle_patch": {
+        "x": 1076.0,
+        "y": 1191.0,
+        "confidence": 0.8565
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3093,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1181.0,
+        "y": 1036.0,
+        "confidence": 0.2666
+      },
+      "mid_saddle_patch": {
+        "x": 1037.0,
+        "y": 1204.0,
+        "confidence": 0.814
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3096,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1141.0,
+        "y": 1040.0,
+        "confidence": 0.3183
+      },
+      "right_pect_fin_tip": {
+        "x": 1189.0,
+        "y": 1288.0,
+        "confidence": 0.1231
+      },
+      "mid_saddle_patch": {
+        "x": 1001.0,
+        "y": 1208.0,
+        "confidence": 0.4494
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3099,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1104.0,
+        "y": 1052.0,
+        "confidence": 0.2958
+      },
+      "left_pect_fin_tip": {
+        "x": 960.0,
+        "y": 1132.0,
+        "confidence": 0.1326
+      },
+      "right_pect_fin_tip": {
+        "x": 1144.0,
+        "y": 1300.0,
+        "confidence": 0.1704
+      },
+      "mid_saddle_patch": {
+        "x": 960.0,
+        "y": 1220.0,
+        "confidence": 0.5699
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3102,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1061.0,
+        "y": 1058.0,
+        "confidence": 0.3494
+      },
+      "mid_saddle_patch": {
+        "x": 921.0,
+        "y": 1222.0,
+        "confidence": 0.7577
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3105,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 1024.0,
+        "y": 1061.0,
+        "confidence": 0.3687
+      },
+      "right_caudal_fluke": {
+        "x": 1024.0,
+        "y": 1053.0,
+        "confidence": 0.1023
+      },
+      "left_pect_fin_tip": {
+        "x": 928.0,
+        "y": 1077.0,
+        "confidence": 0.1252
+      },
+      "mid_saddle_patch": {
+        "x": 876.0,
+        "y": 1233.0,
+        "confidence": 0.6506
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3108,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 981.0,
+        "y": 1068.0,
+        "confidence": 0.421
+      },
+      "right_caudal_fluke": {
+        "x": 989.0,
+        "y": 1060.0,
+        "confidence": 0.1123
+      },
+      "left_pect_fin_tip": {
+        "x": 889.0,
+        "y": 1084.0,
+        "confidence": 0.1102
+      },
+      "mid_saddle_patch": {
+        "x": 837.0,
+        "y": 1236.0,
+        "confidence": 0.7561
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3111,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 947.0,
+        "y": 1054.0,
+        "confidence": 0.4133
+      },
+      "right_caudal_fluke": {
+        "x": 947.0,
+        "y": 1046.0,
+        "confidence": 0.129
+      },
+      "mid_saddle_patch": {
+        "x": 799.0,
+        "y": 1226.0,
+        "confidence": 0.3653
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3114,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 909.0,
+        "y": 1042.0,
+        "confidence": 0.4107
+      },
+      "right_caudal_fluke": {
+        "x": 909.0,
+        "y": 1034.0,
+        "confidence": 0.1753
+      },
+      "mid_saddle_patch": {
+        "x": 757.0,
+        "y": 1206.0,
+        "confidence": 0.3148
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3117,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 877.0,
+        "y": 1027.0,
+        "confidence": 0.411
+      },
+      "right_pect_fin_tip": {
+        "x": 861.0,
+        "y": 1023.0,
+        "confidence": 0.1922
+      },
+      "mid_saddle_patch": {
+        "x": 737.0,
+        "y": 1199.0,
+        "confidence": 0.2335
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3120,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 849.0,
+        "y": 1017.0,
+        "confidence": 0.4784
+      },
+      "right_caudal_fluke": {
+        "x": 853.0,
+        "y": 1009.0,
+        "confidence": 0.1825
+      },
+      "right_pect_fin_tip": {
+        "x": 837.0,
+        "y": 1013.0,
+        "confidence": 0.1945
+      },
+      "mid_saddle_patch": {
+        "x": 677.0,
+        "y": 1181.0,
+        "confidence": 0.1979
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3123,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 821.0,
+        "y": 1010.0,
+        "confidence": 0.5003
+      },
+      "right_caudal_fluke": {
+        "x": 825.0,
+        "y": 1002.0,
+        "confidence": 0.2094
+      },
+      "right_pect_fin_tip": {
+        "x": 809.0,
+        "y": 1006.0,
+        "confidence": 0.1797
+      },
+      "mid_saddle_patch": {
+        "x": 649.0,
+        "y": 1178.0,
+        "confidence": 0.3537
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3126,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 799.0,
+        "y": 1002.0,
+        "confidence": 0.5238
+      },
+      "right_caudal_fluke": {
+        "x": 799.0,
+        "y": 994.0,
+        "confidence": 0.1542
+      },
+      "right_pect_fin_tip": {
+        "x": 787.0,
+        "y": 998.0,
+        "confidence": 0.1931
+      },
+      "mid_saddle_patch": {
+        "x": 835.0,
+        "y": 1494.0,
+        "confidence": 0.3529
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3129,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 778.0,
+        "y": 998.0,
+        "confidence": 0.4612
+      },
+      "right_caudal_fluke": {
+        "x": 782.0,
+        "y": 994.0,
+        "confidence": 0.1787
+      },
+      "right_pect_fin_tip": {
+        "x": 766.0,
+        "y": 990.0,
+        "confidence": 0.1353
+      },
+      "mid_saddle_patch": {
+        "x": 626.0,
+        "y": 1182.0,
+        "confidence": 0.2297
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3132,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 756.0,
+        "y": 987.0,
+        "confidence": 0.3302
+      },
+      "right_caudal_fluke": {
+        "x": 760.0,
+        "y": 991.0,
+        "confidence": 0.1201
+      },
+      "right_pect_fin_tip": {
+        "x": 836.0,
+        "y": 1255.0,
+        "confidence": 0.1098
+      },
+      "mid_saddle_patch": {
+        "x": 700.0,
+        "y": 1019.0,
+        "confidence": 0.1571
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3135,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 733.0,
+        "y": 987.0,
+        "confidence": 0.3288
+      },
+      "right_caudal_fluke": {
+        "x": 605.0,
+        "y": 1371.0,
+        "confidence": 0.1136
+      },
+      "right_pect_fin_tip": {
+        "x": 817.0,
+        "y": 1255.0,
+        "confidence": 0.1439
+      },
+      "mid_saddle_patch": {
+        "x": 549.0,
+        "y": 1159.0,
+        "confidence": 0.2118
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3138,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 817.0,
+        "y": 1165.0,
+        "confidence": 0.2878
+      },
+      "right_pect_fin_tip": {
+        "x": 789.0,
+        "y": 1257.0,
+        "confidence": 0.1743
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3141,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 696.0,
+        "y": 983.0,
+        "confidence": 0.3149
+      },
+      "right_pect_fin_tip": {
+        "x": 780.0,
+        "y": 1239.0,
+        "confidence": 0.1084
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3144,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 791.0,
+        "y": 1172.0,
+        "confidence": 0.2625
+      },
+      "left_pect_fin_tip": {
+        "x": 375.0,
+        "y": 1264.0,
+        "confidence": 0.1071
+      },
+      "right_pect_fin_tip": {
+        "x": 747.0,
+        "y": 1248.0,
+        "confidence": 0.1496
+      },
+      "mid_saddle_patch": {
+        "x": 463.0,
+        "y": 1140.0,
+        "confidence": 0.2151
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3147,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 764.0,
+        "y": 1168.0,
+        "confidence": 0.1897
+      },
+      "right_pect_fin_tip": {
+        "x": 728.0,
+        "y": 1248.0,
+        "confidence": 0.1473
+      },
+      "mid_saddle_patch": {
+        "x": 444.0,
+        "y": 1136.0,
+        "confidence": 0.2257
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3150,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 748.0,
+        "y": 1161.0,
+        "confidence": 0.2064
+      },
+      "right_caudal_fluke": {
+        "x": 756.0,
+        "y": 1157.0,
+        "confidence": 0.1265
+      },
+      "left_pect_fin_tip": {
+        "x": 304.0,
+        "y": 1301.0,
+        "confidence": 0.1028
+      },
+      "right_pect_fin_tip": {
+        "x": 712.0,
+        "y": 1245.0,
+        "confidence": 0.1676
+      },
+      "mid_saddle_patch": {
+        "x": 620.0,
+        "y": 1265.0,
+        "confidence": 0.3862
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3153,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 257.0,
+        "y": 1255.0,
+        "confidence": 0.2903
+      },
+      "right_caudal_fluke": {
+        "x": 341.0,
+        "y": 1335.0,
+        "confidence": 0.1049
+      },
+      "right_pect_fin_tip": {
+        "x": 705.0,
+        "y": 1247.0,
+        "confidence": 0.1582
+      },
+      "mid_saddle_patch": {
+        "x": 381.0,
+        "y": 1243.0,
+        "confidence": 0.3174
+      },
+      "Caudal_peduncle": {
+        "x": 597.0,
+        "y": 1263.0,
+        "confidence": 0.105
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3156,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 242.0,
+        "y": 1260.0,
+        "confidence": 0.3772
+      },
+      "left_caudal_fluke": {
+        "x": 246.0,
+        "y": 1276.0,
+        "confidence": 0.1007
+      },
+      "right_caudal_fluke": {
+        "x": 322.0,
+        "y": 1332.0,
+        "confidence": 0.18
+      },
+      "right_pect_fin_tip": {
+        "x": 682.0,
+        "y": 1248.0,
+        "confidence": 0.1189
+      },
+      "mid_saddle_patch": {
+        "x": 586.0,
+        "y": 1260.0,
+        "confidence": 0.149
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3159,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 221.0,
+        "y": 1260.0,
+        "confidence": 0.4065
+      },
+      "right_caudal_fluke": {
+        "x": 301.0,
+        "y": 1340.0,
+        "confidence": 0.1546
+      },
+      "left_pect_fin_tip": {
+        "x": 221.0,
+        "y": 1248.0,
+        "confidence": 0.1087
+      },
+      "right_pect_fin_tip": {
+        "x": 677.0,
+        "y": 1244.0,
+        "confidence": 0.1266
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3162,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 204.0,
+        "y": 1261.0,
+        "confidence": 0.5236
+      },
+      "right_pect_fin_tip": {
+        "x": 668.0,
+        "y": 1233.0,
+        "confidence": 0.1054
+      },
+      "mid_saddle_patch": {
+        "x": 324.0,
+        "y": 1217.0,
+        "confidence": 0.3867
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3165,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 285.0,
+        "y": 1339.0,
+        "confidence": 0.2814
+      },
+      "left_pect_fin_tip": {
+        "x": 369.0,
+        "y": 1091.0,
+        "confidence": 0.1144
+      },
+      "mid_saddle_patch": {
+        "x": 709.0,
+        "y": 1087.0,
+        "confidence": 0.4253
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3168,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 272.0,
+        "y": 1332.0,
+        "confidence": 0.2231
+      },
+      "mid_saddle_patch": {
+        "x": 396.0,
+        "y": 1108.0,
+        "confidence": 0.4981
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3171,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 605.0,
+        "y": 977.0,
+        "confidence": 0.2774
+      },
+      "mid_saddle_patch": {
+        "x": 393.0,
+        "y": 1105.0,
+        "confidence": 0.4638
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3174,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 598.0,
+        "y": 978.0,
+        "confidence": 0.3617
+      },
+      "right_caudal_fluke": {
+        "x": 606.0,
+        "y": 978.0,
+        "confidence": 0.134
+      },
+      "mid_saddle_patch": {
+        "x": 390.0,
+        "y": 1102.0,
+        "confidence": 0.5043
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3177,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 597.0,
+        "y": 980.0,
+        "confidence": 0.3154
+      },
+      "right_caudal_fluke": {
+        "x": 613.0,
+        "y": 980.0,
+        "confidence": 0.1271
+      },
+      "mid_saddle_patch": {
+        "x": 521.0,
+        "y": 1256.0,
+        "confidence": 0.4665
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3180,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 594.0,
+        "y": 974.0,
+        "confidence": 0.3046
+      },
+      "right_caudal_fluke": {
+        "x": 606.0,
+        "y": 966.0,
+        "confidence": 0.166
+      },
+      "mid_saddle_patch": {
+        "x": 390.0,
+        "y": 1090.0,
+        "confidence": 0.9036
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3183,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 593.0,
+        "y": 970.0,
+        "confidence": 0.3424
+      },
+      "right_caudal_fluke": {
+        "x": 609.0,
+        "y": 970.0,
+        "confidence": 0.1661
+      },
+      "mid_saddle_patch": {
+        "x": 393.0,
+        "y": 1086.0,
+        "confidence": 1.1507
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3186,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 601.0,
+        "y": 972.0,
+        "confidence": 0.3463
+      },
+      "right_caudal_fluke": {
+        "x": 613.0,
+        "y": 968.0,
+        "confidence": 0.2022
+      },
+      "mid_saddle_patch": {
+        "x": 393.0,
+        "y": 1084.0,
+        "confidence": 0.2488
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3189,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 599.0,
+        "y": 963.0,
+        "confidence": 0.2547
+      },
+      "right_caudal_fluke": {
+        "x": 607.0,
+        "y": 959.0,
+        "confidence": 0.201
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3192,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 592.0,
+        "y": 960.0,
+        "confidence": 0.2603
+      },
+      "right_caudal_fluke": {
+        "x": 600.0,
+        "y": 956.0,
+        "confidence": 0.1648
+      },
+      "mid_saddle_patch": {
+        "x": 304.0,
+        "y": 1140.0,
+        "confidence": 0.1266
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3195,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 597.0,
+        "y": 961.0,
+        "confidence": 0.2064
+      },
+      "right_caudal_fluke": {
+        "x": 609.0,
+        "y": 957.0,
+        "confidence": 0.1081
+      },
+      "right_pect_fin_tip": {
+        "x": 557.0,
+        "y": 1061.0,
+        "confidence": 0.1635
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3198,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 624.0,
+        "y": 1118.0,
+        "confidence": 0.2421
+      },
+      "right_pect_fin_tip": {
+        "x": 556.0,
+        "y": 1058.0,
+        "confidence": 0.1773
+      },
+      "Caudal_peduncle": {
+        "x": 592.0,
+        "y": 1150.0,
+        "confidence": 0.1042
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3201,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 610.0,
+        "y": 940.0,
+        "confidence": 0.2027
+      },
+      "right_caudal_fluke": {
+        "x": 626.0,
+        "y": 1112.0,
+        "confidence": 0.1277
+      },
+      "left_pect_fin_tip": {
+        "x": 462.0,
+        "y": 984.0,
+        "confidence": 0.1002
+      },
+      "right_pect_fin_tip": {
+        "x": 558.0,
+        "y": 1056.0,
+        "confidence": 0.1882
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3204,
+    "track_id": 58,
+    "keypoints": {
+      "mid_saddle_patch": {
+        "x": 570.0,
+        "y": 1461.0,
+        "confidence": 0.1477
+      }
+    },
+    "n_keypoints_found": 1
+  },
+  {
+    "frame": 3207,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 619.0,
+        "y": 941.0,
+        "confidence": 0.2189
+      },
+      "right_caudal_fluke": {
+        "x": 623.0,
+        "y": 933.0,
+        "confidence": 0.1276
+      },
+      "left_pect_fin_tip": {
+        "x": 455.0,
+        "y": 981.0,
+        "confidence": 0.1066
+      },
+      "right_pect_fin_tip": {
+        "x": 579.0,
+        "y": 1033.0,
+        "confidence": 0.1127
+      },
+      "mid_saddle_patch": {
+        "x": 611.0,
+        "y": 1089.0,
+        "confidence": 0.3394
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3210,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 189.0,
+        "y": 1177.0,
+        "confidence": 0.1336
+      },
+      "left_pect_fin_tip": {
+        "x": 557.0,
+        "y": 1725.0,
+        "confidence": 0.1145
+      },
+      "mid_saddle_patch": {
+        "x": 585.0,
+        "y": 1441.0,
+        "confidence": 0.3464
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3213,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 633.0,
+        "y": 914.0,
+        "confidence": 0.1908
+      },
+      "right_pect_fin_tip": {
+        "x": 601.0,
+        "y": 1022.0,
+        "confidence": 0.1183
+      },
+      "mid_saddle_patch": {
+        "x": 441.0,
+        "y": 1042.0,
+        "confidence": 0.9673
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3216,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 635.0,
+        "y": 900.0,
+        "confidence": 0.2056
+      },
+      "right_caudal_fluke": {
+        "x": 651.0,
+        "y": 904.0,
+        "confidence": 0.1075
+      },
+      "right_pect_fin_tip": {
+        "x": 583.0,
+        "y": 1024.0,
+        "confidence": 0.1112
+      },
+      "mid_saddle_patch": {
+        "x": 447.0,
+        "y": 1032.0,
+        "confidence": 0.5984
+      },
+      "Caudal_peduncle": {
+        "x": 611.0,
+        "y": 1116.0,
+        "confidence": 0.1087
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3219,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 648.0,
+        "y": 902.0,
+        "confidence": 0.1932
+      },
+      "right_caudal_fluke": {
+        "x": 660.0,
+        "y": 894.0,
+        "confidence": 0.1602
+      },
+      "right_pect_fin_tip": {
+        "x": 588.0,
+        "y": 1022.0,
+        "confidence": 0.111
+      },
+      "mid_saddle_patch": {
+        "x": 456.0,
+        "y": 1026.0,
+        "confidence": 0.7475
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3222,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 661.0,
+        "y": 892.0,
+        "confidence": 0.2218
+      },
+      "right_caudal_fluke": {
+        "x": 669.0,
+        "y": 884.0,
+        "confidence": 0.1641
+      },
+      "right_pect_fin_tip": {
+        "x": 585.0,
+        "y": 1016.0,
+        "confidence": 0.1201
+      },
+      "mid_saddle_patch": {
+        "x": 465.0,
+        "y": 1016.0,
+        "confidence": 0.9193
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3225,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 677.0,
+        "y": 883.0,
+        "confidence": 0.2009
+      },
+      "right_caudal_fluke": {
+        "x": 681.0,
+        "y": 875.0,
+        "confidence": 0.1505
+      },
+      "mid_saddle_patch": {
+        "x": 477.0,
+        "y": 1003.0,
+        "confidence": 1.035
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3228,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 788.0,
+        "y": 1250.0,
+        "confidence": 0.1465
+      },
+      "right_pect_fin_tip": {
+        "x": 636.0,
+        "y": 974.0,
+        "confidence": 0.1179
+      },
+      "mid_saddle_patch": {
+        "x": 492.0,
+        "y": 994.0,
+        "confidence": 1.0412
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3231,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 792.0,
+        "y": 1238.0,
+        "confidence": 0.1751
+      },
+      "mid_saddle_patch": {
+        "x": 504.0,
+        "y": 978.0,
+        "confidence": 0.9474
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3234,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 488.0,
+        "y": 1253.0,
+        "confidence": 0.1678
+      },
+      "mid_saddle_patch": {
+        "x": 516.0,
+        "y": 969.0,
+        "confidence": 1.1751
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3237,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 495.0,
+        "y": 1244.0,
+        "confidence": 0.1953
+      },
+      "mid_saddle_patch": {
+        "x": 531.0,
+        "y": 956.0,
+        "confidence": 1.2441
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3240,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 827.0,
+        "y": 1191.0,
+        "confidence": 0.1576
+      },
+      "right_caudal_fluke": {
+        "x": 843.0,
+        "y": 1191.0,
+        "confidence": 0.1518
+      },
+      "right_pect_fin_tip": {
+        "x": 615.0,
+        "y": 855.0,
+        "confidence": 0.116
+      },
+      "mid_saddle_patch": {
+        "x": 543.0,
+        "y": 943.0,
+        "confidence": 0.898
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3243,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 838.0,
+        "y": 1180.0,
+        "confidence": 0.1762
+      },
+      "right_caudal_fluke": {
+        "x": 742.0,
+        "y": 820.0,
+        "confidence": 0.1268
+      },
+      "mid_saddle_patch": {
+        "x": 558.0,
+        "y": 928.0,
+        "confidence": 1.2865
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3246,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 743.0,
+        "y": 806.0,
+        "confidence": 0.1412
+      },
+      "right_pect_fin_tip": {
+        "x": 655.0,
+        "y": 822.0,
+        "confidence": 0.1449
+      },
+      "mid_saddle_patch": {
+        "x": 567.0,
+        "y": 918.0,
+        "confidence": 0.7959
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3249,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 847.0,
+        "y": 1153.0,
+        "confidence": 0.1887
+      },
+      "right_caudal_fluke": {
+        "x": 859.0,
+        "y": 1149.0,
+        "confidence": 0.1217
+      },
+      "mid_saddle_patch": {
+        "x": 583.0,
+        "y": 905.0,
+        "confidence": 0.6858
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3252,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 754.0,
+        "y": 781.0,
+        "confidence": 0.1931
+      },
+      "right_caudal_fluke": {
+        "x": 882.0,
+        "y": 1141.0,
+        "confidence": 0.1287
+      },
+      "mid_saddle_patch": {
+        "x": 594.0,
+        "y": 893.0,
+        "confidence": 1.2284
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3255,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 861.0,
+        "y": 1139.0,
+        "confidence": 0.1589
+      },
+      "right_caudal_fluke": {
+        "x": 797.0,
+        "y": 775.0,
+        "confidence": 0.1491
+      },
+      "mid_saddle_patch": {
+        "x": 609.0,
+        "y": 883.0,
+        "confidence": 1.2001
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3258,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 898.0,
+        "y": 1128.0,
+        "confidence": 0.1436
+      },
+      "left_pect_fin_tip": {
+        "x": 782.0,
+        "y": 1160.0,
+        "confidence": 0.1024
+      },
+      "mid_saddle_patch": {
+        "x": 618.0,
+        "y": 880.0,
+        "confidence": 1.0595
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3300,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3305.0,
+        "y": 586.0,
+        "confidence": 0.3359
+      },
+      "right_caudal_fluke": {
+        "x": 3309.0,
+        "y": 578.0,
+        "confidence": 0.2231
+      },
+      "left_pect_fin_tip": {
+        "x": 3137.0,
+        "y": 614.0,
+        "confidence": 0.1538
+      },
+      "right_pect_fin_tip": {
+        "x": 3229.0,
+        "y": 710.0,
+        "confidence": 0.1317
+      },
+      "mid_saddle_patch": {
+        "x": 3113.0,
+        "y": 718.0,
+        "confidence": 0.7885
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3303,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3308.0,
+        "y": 603.0,
+        "confidence": 0.3562
+      },
+      "right_caudal_fluke": {
+        "x": 3308.0,
+        "y": 599.0,
+        "confidence": 0.1721
+      },
+      "left_pect_fin_tip": {
+        "x": 3140.0,
+        "y": 631.0,
+        "confidence": 0.1798
+      },
+      "right_pect_fin_tip": {
+        "x": 3232.0,
+        "y": 727.0,
+        "confidence": 0.1574
+      },
+      "mid_saddle_patch": {
+        "x": 3120.0,
+        "y": 731.0,
+        "confidence": 0.6877
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3306,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3224.0,
+        "y": 1106.0,
+        "confidence": 0.3063
+      },
+      "right_caudal_fluke": {
+        "x": 3312.0,
+        "y": 614.0,
+        "confidence": 0.103
+      },
+      "left_pect_fin_tip": {
+        "x": 3140.0,
+        "y": 650.0,
+        "confidence": 0.1694
+      },
+      "right_pect_fin_tip": {
+        "x": 3224.0,
+        "y": 754.0,
+        "confidence": 0.1536
+      },
+      "mid_saddle_patch": {
+        "x": 3120.0,
+        "y": 750.0,
+        "confidence": 0.87
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3309,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 889.0,
+        "y": 1145.0,
+        "confidence": 0.3165
+      },
+      "left_caudal_fluke": {
+        "x": 509.0,
+        "y": 929.0,
+        "confidence": 0.1093
+      },
+      "mid_saddle_patch": {
+        "x": 717.0,
+        "y": 1261.0,
+        "confidence": 0.6979
+      },
+      "Caudal_peduncle": {
+        "x": 593.0,
+        "y": 1045.0,
+        "confidence": 0.1251
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3312,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3329.0,
+        "y": 689.0,
+        "confidence": 0.3592
+      },
+      "right_caudal_fluke": {
+        "x": 3333.0,
+        "y": 681.0,
+        "confidence": 0.1256
+      },
+      "left_pect_fin_tip": {
+        "x": 3165.0,
+        "y": 709.0,
+        "confidence": 0.2218
+      },
+      "right_pect_fin_tip": {
+        "x": 3341.0,
+        "y": 705.0,
+        "confidence": 0.1051
+      },
+      "mid_saddle_patch": {
+        "x": 3137.0,
+        "y": 813.0,
+        "confidence": 1.1275
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3315,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3328.0,
+        "y": 701.0,
+        "confidence": 0.3047
+      },
+      "left_pect_fin_tip": {
+        "x": 3164.0,
+        "y": 725.0,
+        "confidence": 0.166
+      },
+      "right_pect_fin_tip": {
+        "x": 3268.0,
+        "y": 817.0,
+        "confidence": 0.1552
+      },
+      "mid_saddle_patch": {
+        "x": 3140.0,
+        "y": 829.0,
+        "confidence": 0.799
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3318,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3322.0,
+        "y": 720.0,
+        "confidence": 0.3544
+      },
+      "right_caudal_fluke": {
+        "x": 3238.0,
+        "y": 1208.0,
+        "confidence": 0.1221
+      },
+      "left_pect_fin_tip": {
+        "x": 3166.0,
+        "y": 744.0,
+        "confidence": 0.1735
+      },
+      "right_pect_fin_tip": {
+        "x": 3258.0,
+        "y": 848.0,
+        "confidence": 0.1558
+      },
+      "mid_saddle_patch": {
+        "x": 3150.0,
+        "y": 852.0,
+        "confidence": 0.8856
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3321,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3322.0,
+        "y": 736.0,
+        "confidence": 0.3554
+      },
+      "right_caudal_fluke": {
+        "x": 3326.0,
+        "y": 732.0,
+        "confidence": 0.1402
+      },
+      "left_pect_fin_tip": {
+        "x": 3098.0,
+        "y": 1224.0,
+        "confidence": 0.1555
+      },
+      "right_pect_fin_tip": {
+        "x": 3258.0,
+        "y": 868.0,
+        "confidence": 0.173
+      },
+      "mid_saddle_patch": {
+        "x": 3150.0,
+        "y": 868.0,
+        "confidence": 0.7746
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3324,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3330.0,
+        "y": 752.0,
+        "confidence": 0.358
+      },
+      "right_caudal_fluke": {
+        "x": 3334.0,
+        "y": 748.0,
+        "confidence": 0.1428
+      },
+      "left_pect_fin_tip": {
+        "x": 3098.0,
+        "y": 1236.0,
+        "confidence": 0.1986
+      },
+      "right_pect_fin_tip": {
+        "x": 3278.0,
+        "y": 864.0,
+        "confidence": 0.1787
+      },
+      "mid_saddle_patch": {
+        "x": 3146.0,
+        "y": 884.0,
+        "confidence": 0.6078
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3327,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3331.0,
+        "y": 761.0,
+        "confidence": 0.3926
+      },
+      "right_caudal_fluke": {
+        "x": 3335.0,
+        "y": 757.0,
+        "confidence": 0.2176
+      },
+      "left_pect_fin_tip": {
+        "x": 3163.0,
+        "y": 789.0,
+        "confidence": 0.1583
+      },
+      "right_pect_fin_tip": {
+        "x": 3259.0,
+        "y": 893.0,
+        "confidence": 0.1519
+      },
+      "mid_saddle_patch": {
+        "x": 3143.0,
+        "y": 893.0,
+        "confidence": 0.807
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3330,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3327.0,
+        "y": 773.0,
+        "confidence": 0.372
+      },
+      "right_caudal_fluke": {
+        "x": 3331.0,
+        "y": 769.0,
+        "confidence": 0.2356
+      },
+      "left_pect_fin_tip": {
+        "x": 3095.0,
+        "y": 1261.0,
+        "confidence": 0.1473
+      },
+      "right_pect_fin_tip": {
+        "x": 3247.0,
+        "y": 901.0,
+        "confidence": 0.156
+      },
+      "mid_saddle_patch": {
+        "x": 3143.0,
+        "y": 905.0,
+        "confidence": 0.9893
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3333,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3223.0,
+        "y": 1281.0,
+        "confidence": 0.5432
+      },
+      "right_caudal_fluke": {
+        "x": 3223.0,
+        "y": 1277.0,
+        "confidence": 0.2301
+      },
+      "left_pect_fin_tip": {
+        "x": 3091.0,
+        "y": 1277.0,
+        "confidence": 0.3039
+      },
+      "right_pect_fin_tip": {
+        "x": 3243.0,
+        "y": 1293.0,
+        "confidence": 0.1258
+      },
+      "mid_saddle_patch": {
+        "x": 3039.0,
+        "y": 1397.0,
+        "confidence": 0.8422
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3333,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3223.0,
+        "y": 1281.0,
+        "confidence": 0.5432
+      },
+      "right_caudal_fluke": {
+        "x": 3223.0,
+        "y": 1277.0,
+        "confidence": 0.2301
+      },
+      "left_pect_fin_tip": {
+        "x": 3091.0,
+        "y": 1277.0,
+        "confidence": 0.3039
+      },
+      "right_pect_fin_tip": {
+        "x": 3243.0,
+        "y": 1293.0,
+        "confidence": 0.1258
+      },
+      "mid_saddle_patch": {
+        "x": 3039.0,
+        "y": 1397.0,
+        "confidence": 0.8422
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3336,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3216.0,
+        "y": 1290.0,
+        "confidence": 0.3719
+      },
+      "left_caudal_fluke": {
+        "x": 2844.0,
+        "y": 1426.0,
+        "confidence": 0.1282
+      },
+      "right_caudal_fluke": {
+        "x": 3212.0,
+        "y": 1282.0,
+        "confidence": 0.3016
+      },
+      "left_pect_fin_tip": {
+        "x": 3080.0,
+        "y": 1286.0,
+        "confidence": 0.3166
+      },
+      "right_pect_fin_tip": {
+        "x": 3116.0,
+        "y": 1386.0,
+        "confidence": 0.1243
+      },
+      "mid_saddle_patch": {
+        "x": 3032.0,
+        "y": 1410.0,
+        "confidence": 0.2154
+      },
+      "Caudal_peduncle": {
+        "x": 2904.0,
+        "y": 1446.0,
+        "confidence": 0.1065
+      }
+    },
+    "n_keypoints_found": 7
+  },
+  {
+    "frame": 3336,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3322.0,
+        "y": 796.0,
+        "confidence": 0.3844
+      },
+      "right_caudal_fluke": {
+        "x": 3214.0,
+        "y": 1284.0,
+        "confidence": 0.213
+      },
+      "left_pect_fin_tip": {
+        "x": 3078.0,
+        "y": 1280.0,
+        "confidence": 0.228
+      },
+      "right_pect_fin_tip": {
+        "x": 3246.0,
+        "y": 916.0,
+        "confidence": 0.1237
+      },
+      "mid_saddle_patch": {
+        "x": 3134.0,
+        "y": 928.0,
+        "confidence": 0.7346
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3339,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3304.0,
+        "y": 802.0,
+        "confidence": 0.3131
+      },
+      "left_pect_fin_tip": {
+        "x": 3144.0,
+        "y": 826.0,
+        "confidence": 0.204
+      },
+      "right_pect_fin_tip": {
+        "x": 3216.0,
+        "y": 934.0,
+        "confidence": 0.1495
+      },
+      "mid_saddle_patch": {
+        "x": 3128.0,
+        "y": 938.0,
+        "confidence": 1.034
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3339,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3304.0,
+        "y": 802.0,
+        "confidence": 0.3131
+      },
+      "left_pect_fin_tip": {
+        "x": 3144.0,
+        "y": 826.0,
+        "confidence": 0.204
+      },
+      "right_pect_fin_tip": {
+        "x": 3216.0,
+        "y": 934.0,
+        "confidence": 0.1495
+      },
+      "mid_saddle_patch": {
+        "x": 3128.0,
+        "y": 938.0,
+        "confidence": 1.034
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3342,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3188.0,
+        "y": 1304.0,
+        "confidence": 0.3418
+      },
+      "right_caudal_fluke": {
+        "x": 3200.0,
+        "y": 1296.0,
+        "confidence": 0.1773
+      },
+      "left_pect_fin_tip": {
+        "x": 3064.0,
+        "y": 1312.0,
+        "confidence": 0.1822
+      },
+      "right_pect_fin_tip": {
+        "x": 3088.0,
+        "y": 1308.0,
+        "confidence": 0.124
+      },
+      "mid_saddle_patch": {
+        "x": 3020.0,
+        "y": 1420.0,
+        "confidence": 0.9094
+      },
+      "Caudal_peduncle": {
+        "x": 2880.0,
+        "y": 1460.0,
+        "confidence": 0.1307
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3342,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3188.0,
+        "y": 1304.0,
+        "confidence": 0.3418
+      },
+      "right_caudal_fluke": {
+        "x": 3200.0,
+        "y": 1296.0,
+        "confidence": 0.1773
+      },
+      "left_pect_fin_tip": {
+        "x": 3064.0,
+        "y": 1312.0,
+        "confidence": 0.1822
+      },
+      "right_pect_fin_tip": {
+        "x": 3088.0,
+        "y": 1308.0,
+        "confidence": 0.124
+      },
+      "mid_saddle_patch": {
+        "x": 3020.0,
+        "y": 1420.0,
+        "confidence": 0.9094
+      },
+      "Caudal_peduncle": {
+        "x": 2880.0,
+        "y": 1460.0,
+        "confidence": 0.1307
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3345,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3167.0,
+        "y": 1306.0,
+        "confidence": 0.3698
+      },
+      "right_caudal_fluke": {
+        "x": 3299.0,
+        "y": 814.0,
+        "confidence": 0.1948
+      },
+      "left_pect_fin_tip": {
+        "x": 3131.0,
+        "y": 842.0,
+        "confidence": 0.1793
+      },
+      "mid_saddle_patch": {
+        "x": 3111.0,
+        "y": 950.0,
+        "confidence": 0.7797
+      },
+      "Caudal_peduncle": {
+        "x": 2987.0,
+        "y": 1010.0,
+        "confidence": 0.1011
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3345,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3167.0,
+        "y": 1306.0,
+        "confidence": 0.3698
+      },
+      "right_caudal_fluke": {
+        "x": 3299.0,
+        "y": 814.0,
+        "confidence": 0.1948
+      },
+      "left_pect_fin_tip": {
+        "x": 3131.0,
+        "y": 842.0,
+        "confidence": 0.1793
+      },
+      "mid_saddle_patch": {
+        "x": 3111.0,
+        "y": 950.0,
+        "confidence": 0.7797
+      },
+      "Caudal_peduncle": {
+        "x": 2987.0,
+        "y": 1010.0,
+        "confidence": 0.1011
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3348,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3283.0,
+        "y": 828.0,
+        "confidence": 0.3839
+      },
+      "left_caudal_fluke": {
+        "x": 2839.0,
+        "y": 1044.0,
+        "confidence": 0.1004
+      },
+      "right_caudal_fluke": {
+        "x": 3287.0,
+        "y": 824.0,
+        "confidence": 0.1719
+      },
+      "left_pect_fin_tip": {
+        "x": 3115.0,
+        "y": 844.0,
+        "confidence": 0.1779
+      },
+      "right_pect_fin_tip": {
+        "x": 3207.0,
+        "y": 956.0,
+        "confidence": 0.1497
+      },
+      "mid_saddle_patch": {
+        "x": 3095.0,
+        "y": 960.0,
+        "confidence": 0.3993
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3348,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3283.0,
+        "y": 828.0,
+        "confidence": 0.3839
+      },
+      "left_caudal_fluke": {
+        "x": 2839.0,
+        "y": 1044.0,
+        "confidence": 0.1004
+      },
+      "right_caudal_fluke": {
+        "x": 3287.0,
+        "y": 824.0,
+        "confidence": 0.1719
+      },
+      "left_pect_fin_tip": {
+        "x": 3115.0,
+        "y": 844.0,
+        "confidence": 0.1779
+      },
+      "right_pect_fin_tip": {
+        "x": 3207.0,
+        "y": 956.0,
+        "confidence": 0.1497
+      },
+      "mid_saddle_patch": {
+        "x": 3095.0,
+        "y": 960.0,
+        "confidence": 0.3993
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3351,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3279.0,
+        "y": 838.0,
+        "confidence": 0.3631
+      },
+      "right_caudal_fluke": {
+        "x": 3283.0,
+        "y": 830.0,
+        "confidence": 0.2212
+      },
+      "left_pect_fin_tip": {
+        "x": 3103.0,
+        "y": 854.0,
+        "confidence": 0.1519
+      },
+      "right_pect_fin_tip": {
+        "x": 3179.0,
+        "y": 970.0,
+        "confidence": 0.1453
+      },
+      "mid_saddle_patch": {
+        "x": 3083.0,
+        "y": 966.0,
+        "confidence": 0.5493
+      },
+      "Caudal_peduncle": {
+        "x": 2899.0,
+        "y": 1066.0,
+        "confidence": 0.1117
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3351,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3279.0,
+        "y": 838.0,
+        "confidence": 0.3631
+      },
+      "right_caudal_fluke": {
+        "x": 3283.0,
+        "y": 830.0,
+        "confidence": 0.2212
+      },
+      "left_pect_fin_tip": {
+        "x": 3103.0,
+        "y": 854.0,
+        "confidence": 0.1519
+      },
+      "right_pect_fin_tip": {
+        "x": 3179.0,
+        "y": 970.0,
+        "confidence": 0.1453
+      },
+      "mid_saddle_patch": {
+        "x": 3083.0,
+        "y": 966.0,
+        "confidence": 0.5493
+      },
+      "Caudal_peduncle": {
+        "x": 2899.0,
+        "y": 1066.0,
+        "confidence": 0.1117
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3354,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3260.0,
+        "y": 845.0,
+        "confidence": 0.3483
+      },
+      "right_caudal_fluke": {
+        "x": 3260.0,
+        "y": 841.0,
+        "confidence": 0.1887
+      },
+      "left_pect_fin_tip": {
+        "x": 3104.0,
+        "y": 861.0,
+        "confidence": 0.1806
+      },
+      "right_pect_fin_tip": {
+        "x": 3180.0,
+        "y": 965.0,
+        "confidence": 0.1471
+      },
+      "mid_saddle_patch": {
+        "x": 3072.0,
+        "y": 973.0,
+        "confidence": 0.682
+      },
+      "Caudal_peduncle": {
+        "x": 2940.0,
+        "y": 1041.0,
+        "confidence": 0.1171
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3354,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3260.0,
+        "y": 845.0,
+        "confidence": 0.3483
+      },
+      "right_caudal_fluke": {
+        "x": 3260.0,
+        "y": 841.0,
+        "confidence": 0.1887
+      },
+      "left_pect_fin_tip": {
+        "x": 3104.0,
+        "y": 861.0,
+        "confidence": 0.1806
+      },
+      "right_pect_fin_tip": {
+        "x": 3180.0,
+        "y": 965.0,
+        "confidence": 0.1471
+      },
+      "mid_saddle_patch": {
+        "x": 3072.0,
+        "y": 973.0,
+        "confidence": 0.682
+      },
+      "Caudal_peduncle": {
+        "x": 2940.0,
+        "y": 1041.0,
+        "confidence": 0.1171
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3357,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2821.0,
+        "y": 1579.0,
+        "confidence": 0.4009
+      },
+      "left_caudal_fluke": {
+        "x": 2769.0,
+        "y": 1499.0,
+        "confidence": 0.1518
+      },
+      "right_caudal_fluke": {
+        "x": 3113.0,
+        "y": 1347.0,
+        "confidence": 0.2631
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3357,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3248.0,
+        "y": 855.0,
+        "confidence": 0.3789
+      },
+      "right_caudal_fluke": {
+        "x": 3104.0,
+        "y": 1339.0,
+        "confidence": 0.2165
+      },
+      "left_pect_fin_tip": {
+        "x": 3084.0,
+        "y": 863.0,
+        "confidence": 0.2245
+      },
+      "right_pect_fin_tip": {
+        "x": 3156.0,
+        "y": 971.0,
+        "confidence": 0.1302
+      },
+      "mid_saddle_patch": {
+        "x": 3060.0,
+        "y": 979.0,
+        "confidence": 0.8329
+      },
+      "Caudal_peduncle": {
+        "x": 2920.0,
+        "y": 1043.0,
+        "confidence": 0.1
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3360,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2857.0,
+        "y": 1140.0,
+        "confidence": 0.328
+      },
+      "right_caudal_fluke": {
+        "x": 3093.0,
+        "y": 1352.0,
+        "confidence": 0.2104
+      },
+      "left_pect_fin_tip": {
+        "x": 3061.0,
+        "y": 872.0,
+        "confidence": 0.1667
+      },
+      "right_pect_fin_tip": {
+        "x": 3149.0,
+        "y": 980.0,
+        "confidence": 0.2035
+      },
+      "mid_saddle_patch": {
+        "x": 3045.0,
+        "y": 988.0,
+        "confidence": 1.0228
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3360,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2857.0,
+        "y": 1138.0,
+        "confidence": 0.3355
+      },
+      "right_caudal_fluke": {
+        "x": 3233.0,
+        "y": 854.0,
+        "confidence": 0.2273
+      },
+      "left_pect_fin_tip": {
+        "x": 3061.0,
+        "y": 870.0,
+        "confidence": 0.152
+      },
+      "right_pect_fin_tip": {
+        "x": 3149.0,
+        "y": 982.0,
+        "confidence": 0.1973
+      },
+      "mid_saddle_patch": {
+        "x": 3045.0,
+        "y": 982.0,
+        "confidence": 0.5539
+      },
+      "Caudal_peduncle": {
+        "x": 2893.0,
+        "y": 1058.0,
+        "confidence": 0.1244
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3363,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2786.0,
+        "y": 1589.0,
+        "confidence": 0.5188
+      },
+      "left_caudal_fluke": {
+        "x": 2730.0,
+        "y": 1513.0,
+        "confidence": 0.1904
+      },
+      "right_caudal_fluke": {
+        "x": 3078.0,
+        "y": 1361.0,
+        "confidence": 0.261
+      },
+      "mid_saddle_patch": {
+        "x": 2938.0,
+        "y": 1449.0,
+        "confidence": 0.47
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3363,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3213.0,
+        "y": 865.0,
+        "confidence": 0.3146
+      },
+      "right_caudal_fluke": {
+        "x": 3217.0,
+        "y": 857.0,
+        "confidence": 0.2046
+      },
+      "left_pect_fin_tip": {
+        "x": 3065.0,
+        "y": 873.0,
+        "confidence": 0.1984
+      },
+      "right_pect_fin_tip": {
+        "x": 3229.0,
+        "y": 893.0,
+        "confidence": 0.1091
+      },
+      "mid_saddle_patch": {
+        "x": 3033.0,
+        "y": 985.0,
+        "confidence": 1.1363
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3366,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2768.0,
+        "y": 1600.0,
+        "confidence": 0.423
+      },
+      "left_caudal_fluke": {
+        "x": 2700.0,
+        "y": 1520.0,
+        "confidence": 0.1864
+      },
+      "right_caudal_fluke": {
+        "x": 3048.0,
+        "y": 1364.0,
+        "confidence": 0.2034
+      },
+      "mid_saddle_patch": {
+        "x": 2920.0,
+        "y": 1452.0,
+        "confidence": 0.2578
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3366,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3199.0,
+        "y": 860.0,
+        "confidence": 0.349
+      },
+      "right_caudal_fluke": {
+        "x": 3191.0,
+        "y": 852.0,
+        "confidence": 0.1035
+      },
+      "left_pect_fin_tip": {
+        "x": 3047.0,
+        "y": 880.0,
+        "confidence": 0.1574
+      },
+      "right_pect_fin_tip": {
+        "x": 3127.0,
+        "y": 984.0,
+        "confidence": 0.2031
+      },
+      "mid_saddle_patch": {
+        "x": 3011.0,
+        "y": 988.0,
+        "confidence": 0.9101
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3369,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2814.0,
+        "y": 1155.0,
+        "confidence": 0.3039
+      },
+      "left_caudal_fluke": {
+        "x": 2686.0,
+        "y": 1515.0,
+        "confidence": 0.1217
+      },
+      "right_caudal_fluke": {
+        "x": 3022.0,
+        "y": 1375.0,
+        "confidence": 0.2339
+      },
+      "left_pect_fin_tip": {
+        "x": 2678.0,
+        "y": 1527.0,
+        "confidence": 0.1001
+      },
+      "mid_saddle_patch": {
+        "x": 2902.0,
+        "y": 1455.0,
+        "confidence": 0.3245
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3372,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2717.0,
+        "y": 1598.0,
+        "confidence": 0.311
+      },
+      "left_caudal_fluke": {
+        "x": 2669.0,
+        "y": 1502.0,
+        "confidence": 0.1106
+      },
+      "right_caudal_fluke": {
+        "x": 2993.0,
+        "y": 1378.0,
+        "confidence": 0.2133
+      },
+      "mid_saddle_patch": {
+        "x": 2881.0,
+        "y": 1458.0,
+        "confidence": 0.114
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3372,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3159.0,
+        "y": 865.0,
+        "confidence": 0.3977
+      },
+      "right_caudal_fluke": {
+        "x": 3163.0,
+        "y": 861.0,
+        "confidence": 0.1508
+      },
+      "left_pect_fin_tip": {
+        "x": 3003.0,
+        "y": 885.0,
+        "confidence": 0.2096
+      },
+      "right_pect_fin_tip": {
+        "x": 3095.0,
+        "y": 989.0,
+        "confidence": 0.1511
+      },
+      "mid_saddle_patch": {
+        "x": 2979.0,
+        "y": 997.0,
+        "confidence": 0.8491
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3375,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2961.0,
+        "y": 1370.0,
+        "confidence": 0.2248
+      },
+      "right_caudal_fluke": {
+        "x": 2973.0,
+        "y": 1362.0,
+        "confidence": 0.2176
+      },
+      "left_pect_fin_tip": {
+        "x": 2973.0,
+        "y": 894.0,
+        "confidence": 0.1457
+      },
+      "right_pect_fin_tip": {
+        "x": 3085.0,
+        "y": 994.0,
+        "confidence": 0.1905
+      },
+      "mid_saddle_patch": {
+        "x": 2961.0,
+        "y": 1002.0,
+        "confidence": 0.7533
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3375,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3141.0,
+        "y": 873.0,
+        "confidence": 0.385
+      },
+      "right_caudal_fluke": {
+        "x": 2969.0,
+        "y": 1357.0,
+        "confidence": 0.1522
+      },
+      "left_pect_fin_tip": {
+        "x": 2973.0,
+        "y": 893.0,
+        "confidence": 0.1502
+      },
+      "right_pect_fin_tip": {
+        "x": 3089.0,
+        "y": 993.0,
+        "confidence": 0.1975
+      },
+      "mid_saddle_patch": {
+        "x": 2957.0,
+        "y": 1001.0,
+        "confidence": 0.8119
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3378,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2939.0,
+        "y": 1372.0,
+        "confidence": 0.3192
+      },
+      "right_caudal_fluke": {
+        "x": 2947.0,
+        "y": 1372.0,
+        "confidence": 0.1136
+      },
+      "left_pect_fin_tip": {
+        "x": 2631.0,
+        "y": 1512.0,
+        "confidence": 0.1176
+      },
+      "mid_saddle_patch": {
+        "x": 2843.0,
+        "y": 1464.0,
+        "confidence": 0.5094
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3378,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3128.0,
+        "y": 880.0,
+        "confidence": 0.4263
+      },
+      "right_caudal_fluke": {
+        "x": 3132.0,
+        "y": 872.0,
+        "confidence": 0.1249
+      },
+      "left_pect_fin_tip": {
+        "x": 2968.0,
+        "y": 892.0,
+        "confidence": 0.2001
+      },
+      "right_pect_fin_tip": {
+        "x": 3080.0,
+        "y": 988.0,
+        "confidence": 0.2132
+      },
+      "mid_saddle_patch": {
+        "x": 2940.0,
+        "y": 1004.0,
+        "confidence": 0.6581
+      },
+      "Caudal_peduncle": {
+        "x": 2816.0,
+        "y": 1056.0,
+        "confidence": 0.1202
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3381,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3110.0,
+        "y": 883.0,
+        "confidence": 0.4148
+      },
+      "right_caudal_fluke": {
+        "x": 3118.0,
+        "y": 879.0,
+        "confidence": 0.1833
+      },
+      "left_pect_fin_tip": {
+        "x": 2962.0,
+        "y": 895.0,
+        "confidence": 0.1785
+      },
+      "right_pect_fin_tip": {
+        "x": 3058.0,
+        "y": 995.0,
+        "confidence": 0.1981
+      },
+      "mid_saddle_patch": {
+        "x": 2918.0,
+        "y": 1011.0,
+        "confidence": 0.551
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3381,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3110.0,
+        "y": 883.0,
+        "confidence": 0.4148
+      },
+      "right_caudal_fluke": {
+        "x": 3118.0,
+        "y": 879.0,
+        "confidence": 0.1833
+      },
+      "left_pect_fin_tip": {
+        "x": 2962.0,
+        "y": 895.0,
+        "confidence": 0.1785
+      },
+      "right_pect_fin_tip": {
+        "x": 3058.0,
+        "y": 995.0,
+        "confidence": 0.1981
+      },
+      "mid_saddle_patch": {
+        "x": 2918.0,
+        "y": 1011.0,
+        "confidence": 0.551
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3384,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3096.0,
+        "y": 886.0,
+        "confidence": 0.3335
+      },
+      "right_caudal_fluke": {
+        "x": 3096.0,
+        "y": 882.0,
+        "confidence": 0.116
+      },
+      "left_pect_fin_tip": {
+        "x": 2932.0,
+        "y": 898.0,
+        "confidence": 0.2442
+      },
+      "right_pect_fin_tip": {
+        "x": 3040.0,
+        "y": 998.0,
+        "confidence": 0.2216
+      },
+      "mid_saddle_patch": {
+        "x": 2904.0,
+        "y": 1010.0,
+        "confidence": 0.5663
+      },
+      "Caudal_peduncle": {
+        "x": 2752.0,
+        "y": 1086.0,
+        "confidence": 0.1216
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3384,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3096.0,
+        "y": 886.0,
+        "confidence": 0.3335
+      },
+      "right_caudal_fluke": {
+        "x": 3096.0,
+        "y": 882.0,
+        "confidence": 0.116
+      },
+      "left_pect_fin_tip": {
+        "x": 2932.0,
+        "y": 898.0,
+        "confidence": 0.2442
+      },
+      "right_pect_fin_tip": {
+        "x": 3040.0,
+        "y": 998.0,
+        "confidence": 0.2216
+      },
+      "mid_saddle_patch": {
+        "x": 2904.0,
+        "y": 1010.0,
+        "confidence": 0.5663
+      },
+      "Caudal_peduncle": {
+        "x": 2752.0,
+        "y": 1086.0,
+        "confidence": 0.1216
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3387,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3078.0,
+        "y": 889.0,
+        "confidence": 0.4137
+      },
+      "right_caudal_fluke": {
+        "x": 3082.0,
+        "y": 885.0,
+        "confidence": 0.1473
+      },
+      "left_pect_fin_tip": {
+        "x": 2926.0,
+        "y": 901.0,
+        "confidence": 0.2012
+      },
+      "right_pect_fin_tip": {
+        "x": 3022.0,
+        "y": 1005.0,
+        "confidence": 0.2164
+      },
+      "mid_saddle_patch": {
+        "x": 2886.0,
+        "y": 1013.0,
+        "confidence": 0.6235
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3387,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3078.0,
+        "y": 889.0,
+        "confidence": 0.4137
+      },
+      "right_caudal_fluke": {
+        "x": 3082.0,
+        "y": 885.0,
+        "confidence": 0.1473
+      },
+      "left_pect_fin_tip": {
+        "x": 2926.0,
+        "y": 901.0,
+        "confidence": 0.2012
+      },
+      "right_pect_fin_tip": {
+        "x": 3022.0,
+        "y": 1005.0,
+        "confidence": 0.2164
+      },
+      "mid_saddle_patch": {
+        "x": 2886.0,
+        "y": 1013.0,
+        "confidence": 0.6235
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3390,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2687.0,
+        "y": 1165.0,
+        "confidence": 0.389
+      },
+      "left_caudal_fluke": {
+        "x": 2631.0,
+        "y": 1093.0,
+        "confidence": 0.1199
+      },
+      "right_caudal_fluke": {
+        "x": 3071.0,
+        "y": 885.0,
+        "confidence": 0.2214
+      },
+      "left_pect_fin_tip": {
+        "x": 2915.0,
+        "y": 897.0,
+        "confidence": 0.2147
+      },
+      "right_pect_fin_tip": {
+        "x": 3003.0,
+        "y": 1005.0,
+        "confidence": 0.1977
+      },
+      "mid_saddle_patch": {
+        "x": 2867.0,
+        "y": 1017.0,
+        "confidence": 0.4651
+      },
+      "Caudal_peduncle": {
+        "x": 2695.0,
+        "y": 1101.0,
+        "confidence": 0.1298
+      }
+    },
+    "n_keypoints_found": 7
+  },
+  {
+    "frame": 3390,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2687.0,
+        "y": 1165.0,
+        "confidence": 0.389
+      },
+      "left_caudal_fluke": {
+        "x": 2631.0,
+        "y": 1093.0,
+        "confidence": 0.1199
+      },
+      "right_caudal_fluke": {
+        "x": 3071.0,
+        "y": 885.0,
+        "confidence": 0.2214
+      },
+      "left_pect_fin_tip": {
+        "x": 2915.0,
+        "y": 897.0,
+        "confidence": 0.2147
+      },
+      "right_pect_fin_tip": {
+        "x": 3003.0,
+        "y": 1005.0,
+        "confidence": 0.1977
+      },
+      "mid_saddle_patch": {
+        "x": 2867.0,
+        "y": 1017.0,
+        "confidence": 0.4651
+      },
+      "Caudal_peduncle": {
+        "x": 2695.0,
+        "y": 1101.0,
+        "confidence": 0.1298
+      }
+    },
+    "n_keypoints_found": 7
+  },
+  {
+    "frame": 3393,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3060.0,
+        "y": 896.0,
+        "confidence": 0.3966
+      },
+      "left_caudal_fluke": {
+        "x": 2628.0,
+        "y": 1096.0,
+        "confidence": 0.1121
+      },
+      "right_caudal_fluke": {
+        "x": 3060.0,
+        "y": 892.0,
+        "confidence": 0.1939
+      },
+      "left_pect_fin_tip": {
+        "x": 2904.0,
+        "y": 896.0,
+        "confidence": 0.171
+      },
+      "right_pect_fin_tip": {
+        "x": 3000.0,
+        "y": 1004.0,
+        "confidence": 0.2275
+      },
+      "mid_saddle_patch": {
+        "x": 2852.0,
+        "y": 1020.0,
+        "confidence": 0.7641
+      },
+      "Caudal_peduncle": {
+        "x": 2680.0,
+        "y": 1128.0,
+        "confidence": 0.1067
+      }
+    },
+    "n_keypoints_found": 7
+  },
+  {
+    "frame": 3393,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3060.0,
+        "y": 896.0,
+        "confidence": 0.3966
+      },
+      "left_caudal_fluke": {
+        "x": 2628.0,
+        "y": 1096.0,
+        "confidence": 0.1121
+      },
+      "right_caudal_fluke": {
+        "x": 3060.0,
+        "y": 892.0,
+        "confidence": 0.1939
+      },
+      "left_pect_fin_tip": {
+        "x": 2904.0,
+        "y": 896.0,
+        "confidence": 0.171
+      },
+      "right_pect_fin_tip": {
+        "x": 3000.0,
+        "y": 1004.0,
+        "confidence": 0.2275
+      },
+      "mid_saddle_patch": {
+        "x": 2852.0,
+        "y": 1020.0,
+        "confidence": 0.7641
+      },
+      "Caudal_peduncle": {
+        "x": 2680.0,
+        "y": 1128.0,
+        "confidence": 0.1067
+      }
+    },
+    "n_keypoints_found": 7
+  },
+  {
+    "frame": 3396,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3045.0,
+        "y": 904.0,
+        "confidence": 0.4332
+      },
+      "right_caudal_fluke": {
+        "x": 3045.0,
+        "y": 896.0,
+        "confidence": 0.2337
+      },
+      "left_pect_fin_tip": {
+        "x": 2885.0,
+        "y": 904.0,
+        "confidence": 0.2164
+      },
+      "right_pect_fin_tip": {
+        "x": 2985.0,
+        "y": 1012.0,
+        "confidence": 0.2359
+      },
+      "mid_saddle_patch": {
+        "x": 2841.0,
+        "y": 1024.0,
+        "confidence": 0.3971
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3396,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3045.0,
+        "y": 904.0,
+        "confidence": 0.4332
+      },
+      "right_caudal_fluke": {
+        "x": 3045.0,
+        "y": 896.0,
+        "confidence": 0.2337
+      },
+      "left_pect_fin_tip": {
+        "x": 2885.0,
+        "y": 904.0,
+        "confidence": 0.2164
+      },
+      "right_pect_fin_tip": {
+        "x": 2985.0,
+        "y": 1012.0,
+        "confidence": 0.2359
+      },
+      "mid_saddle_patch": {
+        "x": 2841.0,
+        "y": 1024.0,
+        "confidence": 0.3971
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3399,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3032.0,
+        "y": 906.0,
+        "confidence": 0.419
+      },
+      "left_caudal_fluke": {
+        "x": 2608.0,
+        "y": 1094.0,
+        "confidence": 0.1372
+      },
+      "right_caudal_fluke": {
+        "x": 3036.0,
+        "y": 902.0,
+        "confidence": 0.197
+      },
+      "left_pect_fin_tip": {
+        "x": 2880.0,
+        "y": 902.0,
+        "confidence": 0.2237
+      },
+      "right_pect_fin_tip": {
+        "x": 2972.0,
+        "y": 1010.0,
+        "confidence": 0.2205
+      },
+      "mid_saddle_patch": {
+        "x": 2828.0,
+        "y": 1026.0,
+        "confidence": 0.7934
+      },
+      "Caudal_peduncle": {
+        "x": 2660.0,
+        "y": 1126.0,
+        "confidence": 0.1131
+      }
+    },
+    "n_keypoints_found": 7
+  },
+  {
+    "frame": 3399,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3032.0,
+        "y": 906.0,
+        "confidence": 0.419
+      },
+      "left_caudal_fluke": {
+        "x": 2608.0,
+        "y": 1094.0,
+        "confidence": 0.1372
+      },
+      "right_caudal_fluke": {
+        "x": 3036.0,
+        "y": 902.0,
+        "confidence": 0.197
+      },
+      "left_pect_fin_tip": {
+        "x": 2880.0,
+        "y": 902.0,
+        "confidence": 0.2237
+      },
+      "right_pect_fin_tip": {
+        "x": 2972.0,
+        "y": 1010.0,
+        "confidence": 0.2205
+      },
+      "mid_saddle_patch": {
+        "x": 2828.0,
+        "y": 1026.0,
+        "confidence": 0.7934
+      },
+      "Caudal_peduncle": {
+        "x": 2660.0,
+        "y": 1126.0,
+        "confidence": 0.1131
+      }
+    },
+    "n_keypoints_found": 7
+  },
+  {
+    "frame": 3402,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3024.0,
+        "y": 908.0,
+        "confidence": 0.4012
+      },
+      "right_caudal_fluke": {
+        "x": 3028.0,
+        "y": 904.0,
+        "confidence": 0.2303
+      },
+      "left_pect_fin_tip": {
+        "x": 2884.0,
+        "y": 900.0,
+        "confidence": 0.1939
+      },
+      "right_pect_fin_tip": {
+        "x": 2968.0,
+        "y": 1012.0,
+        "confidence": 0.1817
+      },
+      "mid_saddle_patch": {
+        "x": 2816.0,
+        "y": 1032.0,
+        "confidence": 0.9002
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3402,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3024.0,
+        "y": 908.0,
+        "confidence": 0.4012
+      },
+      "right_caudal_fluke": {
+        "x": 3028.0,
+        "y": 904.0,
+        "confidence": 0.2303
+      },
+      "left_pect_fin_tip": {
+        "x": 2884.0,
+        "y": 900.0,
+        "confidence": 0.1939
+      },
+      "right_pect_fin_tip": {
+        "x": 2968.0,
+        "y": 1012.0,
+        "confidence": 0.1817
+      },
+      "mid_saddle_patch": {
+        "x": 2816.0,
+        "y": 1032.0,
+        "confidence": 0.9002
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3405,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3016.0,
+        "y": 912.0,
+        "confidence": 0.4214
+      },
+      "right_caudal_fluke": {
+        "x": 3016.0,
+        "y": 908.0,
+        "confidence": 0.1184
+      },
+      "left_pect_fin_tip": {
+        "x": 2864.0,
+        "y": 908.0,
+        "confidence": 0.2739
+      },
+      "right_pect_fin_tip": {
+        "x": 2952.0,
+        "y": 1020.0,
+        "confidence": 0.1871
+      },
+      "mid_saddle_patch": {
+        "x": 2804.0,
+        "y": 1036.0,
+        "confidence": 0.7119
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3405,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3016.0,
+        "y": 912.0,
+        "confidence": 0.4214
+      },
+      "right_caudal_fluke": {
+        "x": 3016.0,
+        "y": 908.0,
+        "confidence": 0.1184
+      },
+      "left_pect_fin_tip": {
+        "x": 2864.0,
+        "y": 908.0,
+        "confidence": 0.2739
+      },
+      "right_pect_fin_tip": {
+        "x": 2952.0,
+        "y": 1020.0,
+        "confidence": 0.1871
+      },
+      "mid_saddle_patch": {
+        "x": 2804.0,
+        "y": 1036.0,
+        "confidence": 0.7119
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3408,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3011.0,
+        "y": 914.0,
+        "confidence": 0.3948
+      },
+      "left_caudal_fluke": {
+        "x": 2567.0,
+        "y": 1106.0,
+        "confidence": 0.1127
+      },
+      "right_caudal_fluke": {
+        "x": 3007.0,
+        "y": 906.0,
+        "confidence": 0.198
+      },
+      "left_pect_fin_tip": {
+        "x": 2855.0,
+        "y": 918.0,
+        "confidence": 0.2238
+      },
+      "right_pect_fin_tip": {
+        "x": 2947.0,
+        "y": 1022.0,
+        "confidence": 0.226
+      },
+      "mid_saddle_patch": {
+        "x": 2799.0,
+        "y": 1042.0,
+        "confidence": 0.95
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3408,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3011.0,
+        "y": 914.0,
+        "confidence": 0.3948
+      },
+      "left_caudal_fluke": {
+        "x": 2567.0,
+        "y": 1106.0,
+        "confidence": 0.1127
+      },
+      "right_caudal_fluke": {
+        "x": 3007.0,
+        "y": 906.0,
+        "confidence": 0.198
+      },
+      "left_pect_fin_tip": {
+        "x": 2855.0,
+        "y": 918.0,
+        "confidence": 0.2238
+      },
+      "right_pect_fin_tip": {
+        "x": 2947.0,
+        "y": 1022.0,
+        "confidence": 0.226
+      },
+      "mid_saddle_patch": {
+        "x": 2799.0,
+        "y": 1042.0,
+        "confidence": 0.95
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3411,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3002.0,
+        "y": 923.0,
+        "confidence": 0.4072
+      },
+      "right_caudal_fluke": {
+        "x": 2998.0,
+        "y": 911.0,
+        "confidence": 0.1876
+      },
+      "left_pect_fin_tip": {
+        "x": 2850.0,
+        "y": 915.0,
+        "confidence": 0.2446
+      },
+      "right_pect_fin_tip": {
+        "x": 2942.0,
+        "y": 1023.0,
+        "confidence": 0.1938
+      },
+      "mid_saddle_patch": {
+        "x": 2786.0,
+        "y": 1047.0,
+        "confidence": 0.404
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3411,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3002.0,
+        "y": 923.0,
+        "confidence": 0.4072
+      },
+      "right_caudal_fluke": {
+        "x": 2998.0,
+        "y": 911.0,
+        "confidence": 0.1876
+      },
+      "left_pect_fin_tip": {
+        "x": 2850.0,
+        "y": 915.0,
+        "confidence": 0.2446
+      },
+      "right_pect_fin_tip": {
+        "x": 2942.0,
+        "y": 1023.0,
+        "confidence": 0.1938
+      },
+      "mid_saddle_patch": {
+        "x": 2786.0,
+        "y": 1047.0,
+        "confidence": 0.404
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3414,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2996.0,
+        "y": 926.0,
+        "confidence": 0.4306
+      },
+      "right_caudal_fluke": {
+        "x": 2996.0,
+        "y": 918.0,
+        "confidence": 0.2805
+      },
+      "left_pect_fin_tip": {
+        "x": 2852.0,
+        "y": 914.0,
+        "confidence": 0.1223
+      },
+      "right_pect_fin_tip": {
+        "x": 2928.0,
+        "y": 1030.0,
+        "confidence": 0.1796
+      },
+      "mid_saddle_patch": {
+        "x": 2780.0,
+        "y": 1054.0,
+        "confidence": 0.3914
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3414,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2996.0,
+        "y": 927.0,
+        "confidence": 0.4272
+      },
+      "right_caudal_fluke": {
+        "x": 2996.0,
+        "y": 919.0,
+        "confidence": 0.2647
+      },
+      "left_pect_fin_tip": {
+        "x": 2852.0,
+        "y": 915.0,
+        "confidence": 0.128
+      },
+      "right_pect_fin_tip": {
+        "x": 2928.0,
+        "y": 1027.0,
+        "confidence": 0.1809
+      },
+      "mid_saddle_patch": {
+        "x": 2780.0,
+        "y": 1051.0,
+        "confidence": 0.2393
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3417,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2990.0,
+        "y": 928.0,
+        "confidence": 0.5011
+      },
+      "right_caudal_fluke": {
+        "x": 2990.0,
+        "y": 924.0,
+        "confidence": 0.1979
+      },
+      "left_pect_fin_tip": {
+        "x": 2834.0,
+        "y": 928.0,
+        "confidence": 0.2133
+      },
+      "right_pect_fin_tip": {
+        "x": 2918.0,
+        "y": 1032.0,
+        "confidence": 0.1986
+      },
+      "mid_saddle_patch": {
+        "x": 2778.0,
+        "y": 1052.0,
+        "confidence": 0.2746
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3417,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2990.0,
+        "y": 930.0,
+        "confidence": 0.4748
+      },
+      "right_caudal_fluke": {
+        "x": 2990.0,
+        "y": 922.0,
+        "confidence": 0.1307
+      },
+      "left_pect_fin_tip": {
+        "x": 2834.0,
+        "y": 926.0,
+        "confidence": 0.2185
+      },
+      "right_pect_fin_tip": {
+        "x": 2918.0,
+        "y": 1034.0,
+        "confidence": 0.1867
+      },
+      "mid_saddle_patch": {
+        "x": 2778.0,
+        "y": 1050.0,
+        "confidence": 0.183
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3420,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2983.0,
+        "y": 930.0,
+        "confidence": 0.4013
+      },
+      "left_caudal_fluke": {
+        "x": 2551.0,
+        "y": 1114.0,
+        "confidence": 0.1181
+      },
+      "right_caudal_fluke": {
+        "x": 2983.0,
+        "y": 926.0,
+        "confidence": 0.3326
+      },
+      "left_pect_fin_tip": {
+        "x": 2823.0,
+        "y": 926.0,
+        "confidence": 0.2875
+      },
+      "right_pect_fin_tip": {
+        "x": 2907.0,
+        "y": 1038.0,
+        "confidence": 0.2372
+      },
+      "mid_saddle_patch": {
+        "x": 2775.0,
+        "y": 1054.0,
+        "confidence": 0.6444
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3420,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2983.0,
+        "y": 930.0,
+        "confidence": 0.4013
+      },
+      "left_caudal_fluke": {
+        "x": 2551.0,
+        "y": 1114.0,
+        "confidence": 0.1181
+      },
+      "right_caudal_fluke": {
+        "x": 2983.0,
+        "y": 926.0,
+        "confidence": 0.3326
+      },
+      "left_pect_fin_tip": {
+        "x": 2823.0,
+        "y": 926.0,
+        "confidence": 0.2875
+      },
+      "right_pect_fin_tip": {
+        "x": 2907.0,
+        "y": 1038.0,
+        "confidence": 0.2372
+      },
+      "mid_saddle_patch": {
+        "x": 2775.0,
+        "y": 1054.0,
+        "confidence": 0.6444
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3423,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2742.0,
+        "y": 1442.0,
+        "confidence": 0.2684
+      },
+      "right_caudal_fluke": {
+        "x": 2746.0,
+        "y": 1430.0,
+        "confidence": 0.1347
+      },
+      "left_pect_fin_tip": {
+        "x": 2598.0,
+        "y": 1454.0,
+        "confidence": 0.1096
+      },
+      "right_pect_fin_tip": {
+        "x": 2662.0,
+        "y": 1438.0,
+        "confidence": 0.1213
+      },
+      "mid_saddle_patch": {
+        "x": 2634.0,
+        "y": 1510.0,
+        "confidence": 0.3585
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3423,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2984.0,
+        "y": 941.0,
+        "confidence": 0.2686
+      },
+      "right_caudal_fluke": {
+        "x": 2980.0,
+        "y": 933.0,
+        "confidence": 0.1338
+      },
+      "left_pect_fin_tip": {
+        "x": 2816.0,
+        "y": 937.0,
+        "confidence": 0.1554
+      },
+      "right_pect_fin_tip": {
+        "x": 2896.0,
+        "y": 1037.0,
+        "confidence": 0.1201
+      },
+      "mid_saddle_patch": {
+        "x": 2772.0,
+        "y": 1053.0,
+        "confidence": 0.1705
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3426,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2733.0,
+        "y": 1457.0,
+        "confidence": 0.2491
+      },
+      "left_pect_fin_tip": {
+        "x": 2633.0,
+        "y": 1433.0,
+        "confidence": 0.1753
+      },
+      "mid_saddle_patch": {
+        "x": 2629.0,
+        "y": 1517.0,
+        "confidence": 0.3458
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3426,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2978.0,
+        "y": 945.0,
+        "confidence": 0.2525
+      },
+      "right_pect_fin_tip": {
+        "x": 2966.0,
+        "y": 933.0,
+        "confidence": 0.1601
+      },
+      "mid_saddle_patch": {
+        "x": 2766.0,
+        "y": 1061.0,
+        "confidence": 0.708
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3429,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2737.0,
+        "y": 1452.0,
+        "confidence": 0.1903
+      },
+      "left_pect_fin_tip": {
+        "x": 2633.0,
+        "y": 1444.0,
+        "confidence": 0.1301
+      },
+      "mid_saddle_patch": {
+        "x": 2753.0,
+        "y": 1064.0,
+        "confidence": 0.2069
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3429,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2973.0,
+        "y": 948.0,
+        "confidence": 0.2491
+      },
+      "right_pect_fin_tip": {
+        "x": 2961.0,
+        "y": 940.0,
+        "confidence": 0.1521
+      },
+      "mid_saddle_patch": {
+        "x": 2757.0,
+        "y": 1064.0,
+        "confidence": 0.9803
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3432,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2745.0,
+        "y": 1440.0,
+        "confidence": 0.1803
+      },
+      "right_caudal_fluke": {
+        "x": 2749.0,
+        "y": 1432.0,
+        "confidence": 0.1566
+      },
+      "left_pect_fin_tip": {
+        "x": 2617.0,
+        "y": 1432.0,
+        "confidence": 0.1787
+      },
+      "right_pect_fin_tip": {
+        "x": 2669.0,
+        "y": 1540.0,
+        "confidence": 0.1309
+      },
+      "mid_saddle_patch": {
+        "x": 2617.0,
+        "y": 1524.0,
+        "confidence": 0.3553
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3432,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2969.0,
+        "y": 954.0,
+        "confidence": 0.2378
+      },
+      "left_pect_fin_tip": {
+        "x": 2613.0,
+        "y": 1426.0,
+        "confidence": 0.1215
+      },
+      "mid_saddle_patch": {
+        "x": 2757.0,
+        "y": 1070.0,
+        "confidence": 0.9218
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3435,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2738.0,
+        "y": 1460.0,
+        "confidence": 0.2201
+      },
+      "right_caudal_fluke": {
+        "x": 2746.0,
+        "y": 1456.0,
+        "confidence": 0.1629
+      },
+      "left_pect_fin_tip": {
+        "x": 2626.0,
+        "y": 1448.0,
+        "confidence": 0.1727
+      },
+      "mid_saddle_patch": {
+        "x": 2610.0,
+        "y": 1528.0,
+        "confidence": 0.3453
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3435,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2951.0,
+        "y": 970.0,
+        "confidence": 0.3457
+      },
+      "right_caudal_fluke": {
+        "x": 2955.0,
+        "y": 962.0,
+        "confidence": 0.1724
+      },
+      "right_pect_fin_tip": {
+        "x": 2659.0,
+        "y": 1162.0,
+        "confidence": 0.109
+      },
+      "mid_saddle_patch": {
+        "x": 2751.0,
+        "y": 1078.0,
+        "confidence": 0.6824
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3438,
+    "track_id": 58,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2739.0,
+        "y": 1453.0,
+        "confidence": 0.1944
+      },
+      "right_caudal_fluke": {
+        "x": 2747.0,
+        "y": 1449.0,
+        "confidence": 0.1367
+      },
+      "left_pect_fin_tip": {
+        "x": 2615.0,
+        "y": 1457.0,
+        "confidence": 0.1614
+      },
+      "right_pect_fin_tip": {
+        "x": 2647.0,
+        "y": 1449.0,
+        "confidence": 0.1324
+      },
+      "mid_saddle_patch": {
+        "x": 2607.0,
+        "y": 1541.0,
+        "confidence": 0.2786
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3438,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2945.0,
+        "y": 972.0,
+        "confidence": 0.3527
+      },
+      "right_caudal_fluke": {
+        "x": 2953.0,
+        "y": 964.0,
+        "confidence": 0.147
+      },
+      "right_pect_fin_tip": {
+        "x": 2941.0,
+        "y": 952.0,
+        "confidence": 0.1041
+      },
+      "mid_saddle_patch": {
+        "x": 2741.0,
+        "y": 1084.0,
+        "confidence": 0.4327
+      },
+      "Caudal_peduncle": {
+        "x": 2569.0,
+        "y": 1188.0,
+        "confidence": 0.1084
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3441,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2941.0,
+        "y": 978.0,
+        "confidence": 0.3483
+      },
+      "left_caudal_fluke": {
+        "x": 2529.0,
+        "y": 1162.0,
+        "confidence": 0.1139
+      },
+      "right_caudal_fluke": {
+        "x": 2941.0,
+        "y": 970.0,
+        "confidence": 0.1415
+      },
+      "right_pect_fin_tip": {
+        "x": 2933.0,
+        "y": 962.0,
+        "confidence": 0.1181
+      },
+      "mid_saddle_patch": {
+        "x": 2745.0,
+        "y": 1086.0,
+        "confidence": 0.931
+      },
+      "Caudal_peduncle": {
+        "x": 2549.0,
+        "y": 1178.0,
+        "confidence": 0.1226
+      }
+    },
+    "n_keypoints_found": 6
+  },
+  {
+    "frame": 3444,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2566.0,
+        "y": 1245.0,
+        "confidence": 0.3389
+      },
+      "right_caudal_fluke": {
+        "x": 2934.0,
+        "y": 973.0,
+        "confidence": 0.126
+      },
+      "mid_saddle_patch": {
+        "x": 2742.0,
+        "y": 1093.0,
+        "confidence": 0.9801
+      },
+      "Caudal_peduncle": {
+        "x": 2558.0,
+        "y": 1185.0,
+        "confidence": 0.1106
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3447,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2566.0,
+        "y": 1255.0,
+        "confidence": 0.3299
+      },
+      "left_caudal_fluke": {
+        "x": 2506.0,
+        "y": 1171.0,
+        "confidence": 0.1348
+      },
+      "right_caudal_fluke": {
+        "x": 2934.0,
+        "y": 987.0,
+        "confidence": 0.11
+      },
+      "left_pect_fin_tip": {
+        "x": 2774.0,
+        "y": 991.0,
+        "confidence": 0.1803
+      },
+      "mid_saddle_patch": {
+        "x": 2742.0,
+        "y": 1099.0,
+        "confidence": 1.1241
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3450,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2562.0,
+        "y": 1261.0,
+        "confidence": 0.45
+      },
+      "left_caudal_fluke": {
+        "x": 2506.0,
+        "y": 1173.0,
+        "confidence": 0.1658
+      },
+      "left_pect_fin_tip": {
+        "x": 2770.0,
+        "y": 997.0,
+        "confidence": 0.2017
+      },
+      "mid_saddle_patch": {
+        "x": 2742.0,
+        "y": 1105.0,
+        "confidence": 1.1663
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3453,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2562.0,
+        "y": 1273.0,
+        "confidence": 0.4092
+      },
+      "left_caudal_fluke": {
+        "x": 2506.0,
+        "y": 1181.0,
+        "confidence": 0.2076
+      },
+      "left_pect_fin_tip": {
+        "x": 2762.0,
+        "y": 997.0,
+        "confidence": 0.1804
+      },
+      "mid_saddle_patch": {
+        "x": 2742.0,
+        "y": 1105.0,
+        "confidence": 1.2266
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3456,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2564.0,
+        "y": 1269.0,
+        "confidence": 0.4145
+      },
+      "left_caudal_fluke": {
+        "x": 2508.0,
+        "y": 1185.0,
+        "confidence": 0.1932
+      },
+      "left_pect_fin_tip": {
+        "x": 2764.0,
+        "y": 1001.0,
+        "confidence": 0.1988
+      },
+      "mid_saddle_patch": {
+        "x": 2748.0,
+        "y": 1105.0,
+        "confidence": 1.1684
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3459,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2574.0,
+        "y": 1266.0,
+        "confidence": 0.2936
+      },
+      "left_caudal_fluke": {
+        "x": 2510.0,
+        "y": 1178.0,
+        "confidence": 0.2094
+      },
+      "left_pect_fin_tip": {
+        "x": 2758.0,
+        "y": 1006.0,
+        "confidence": 0.1408
+      },
+      "mid_saddle_patch": {
+        "x": 2754.0,
+        "y": 1102.0,
+        "confidence": 0.9828
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3462,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2578.0,
+        "y": 1259.0,
+        "confidence": 0.4015
+      },
+      "left_caudal_fluke": {
+        "x": 2522.0,
+        "y": 1183.0,
+        "confidence": 0.1371
+      },
+      "left_pect_fin_tip": {
+        "x": 2770.0,
+        "y": 1007.0,
+        "confidence": 0.1247
+      },
+      "mid_saddle_patch": {
+        "x": 2766.0,
+        "y": 1099.0,
+        "confidence": 0.9785
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3465,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2587.0,
+        "y": 1252.0,
+        "confidence": 0.3125
+      },
+      "left_caudal_fluke": {
+        "x": 2527.0,
+        "y": 1184.0,
+        "confidence": 0.1248
+      },
+      "left_pect_fin_tip": {
+        "x": 2531.0,
+        "y": 1184.0,
+        "confidence": 0.1641
+      },
+      "right_pect_fin_tip": {
+        "x": 2791.0,
+        "y": 1004.0,
+        "confidence": 0.1029
+      },
+      "mid_saddle_patch": {
+        "x": 2775.0,
+        "y": 1096.0,
+        "confidence": 0.7974
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3468,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2599.0,
+        "y": 1254.0,
+        "confidence": 0.2118
+      },
+      "left_pect_fin_tip": {
+        "x": 2531.0,
+        "y": 1178.0,
+        "confidence": 0.161
+      },
+      "mid_saddle_patch": {
+        "x": 2787.0,
+        "y": 1090.0,
+        "confidence": 0.8078
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3471,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2607.0,
+        "y": 1251.0,
+        "confidence": 0.2753
+      },
+      "left_pect_fin_tip": {
+        "x": 2783.0,
+        "y": 999.0,
+        "confidence": 0.1559
+      },
+      "mid_saddle_patch": {
+        "x": 2799.0,
+        "y": 1083.0,
+        "confidence": 0.6665
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3474,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2434.0,
+        "y": 547.0,
+        "confidence": 0.1391
+      },
+      "mid_saddle_patch": {
+        "x": 2274.0,
+        "y": 651.0,
+        "confidence": 0.6403
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3477,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2433.0,
+        "y": 534.0,
+        "confidence": 0.1025
+      },
+      "mid_saddle_patch": {
+        "x": 2281.0,
+        "y": 642.0,
+        "confidence": 0.6523
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3480,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2473.0,
+        "y": 528.0,
+        "confidence": 0.2344
+      },
+      "right_caudal_fluke": {
+        "x": 2481.0,
+        "y": 516.0,
+        "confidence": 0.1743
+      },
+      "right_pect_fin_tip": {
+        "x": 2445.0,
+        "y": 596.0,
+        "confidence": 0.1271
+      },
+      "mid_saddle_patch": {
+        "x": 2305.0,
+        "y": 628.0,
+        "confidence": 0.7194
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3483,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2491.0,
+        "y": 527.0,
+        "confidence": 0.1693
+      },
+      "mid_saddle_patch": {
+        "x": 2319.0,
+        "y": 623.0,
+        "confidence": 0.68
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3486,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2488.0,
+        "y": 497.0,
+        "confidence": 0.2521
+      },
+      "mid_saddle_patch": {
+        "x": 2336.0,
+        "y": 613.0,
+        "confidence": 0.8436
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3489,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3016.0,
+        "y": 956.0,
+        "confidence": 0.4382
+      },
+      "right_caudal_fluke": {
+        "x": 3020.0,
+        "y": 952.0,
+        "confidence": 0.1587
+      },
+      "right_pect_fin_tip": {
+        "x": 3036.0,
+        "y": 968.0,
+        "confidence": 0.1286
+      },
+      "mid_saddle_patch": {
+        "x": 2876.0,
+        "y": 1048.0,
+        "confidence": 0.1845
+      },
+      "Caudal_peduncle": {
+        "x": 2708.0,
+        "y": 1152.0,
+        "confidence": 0.1009
+      }
+    },
+    "n_keypoints_found": 5
+  },
+  {
+    "frame": 3492,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3031.0,
+        "y": 940.0,
+        "confidence": 0.4208
+      },
+      "right_caudal_fluke": {
+        "x": 3035.0,
+        "y": 936.0,
+        "confidence": 0.1227
+      },
+      "right_pect_fin_tip": {
+        "x": 3043.0,
+        "y": 964.0,
+        "confidence": 0.1105
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3495,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3041.0,
+        "y": 933.0,
+        "confidence": 0.3502
+      },
+      "right_caudal_fluke": {
+        "x": 3049.0,
+        "y": 933.0,
+        "confidence": 0.1052
+      },
+      "mid_saddle_patch": {
+        "x": 2813.0,
+        "y": 1077.0,
+        "confidence": 0.1937
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3498,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2749.0,
+        "y": 1179.0,
+        "confidence": 0.2133
+      },
+      "left_caudal_fluke": {
+        "x": 2785.0,
+        "y": 1467.0,
+        "confidence": 0.1107
+      },
+      "left_pect_fin_tip": {
+        "x": 2821.0,
+        "y": 1423.0,
+        "confidence": 0.1105
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3501,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2906.0,
+        "y": 1443.0,
+        "confidence": 0.1217
+      },
+      "right_caudal_fluke": {
+        "x": 2910.0,
+        "y": 1435.0,
+        "confidence": 0.1008
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3504,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 2932.0,
+        "y": 1440.0,
+        "confidence": 0.1274
+      },
+      "mid_saddle_patch": {
+        "x": 2820.0,
+        "y": 1468.0,
+        "confidence": 0.1289
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3507,
+    "track_id": 72,
+    "keypoints": {
+      "right_caudal_fluke": {
+        "x": 2931.0,
+        "y": 1449.0,
+        "confidence": 0.1029
+      },
+      "mid_saddle_patch": {
+        "x": 2839.0,
+        "y": 1461.0,
+        "confidence": 0.1172
+      }
+    },
+    "n_keypoints_found": 2
+  },
+  {
+    "frame": 3510,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3133.0,
+        "y": 884.0,
+        "confidence": 0.3069
+      },
+      "right_caudal_fluke": {
+        "x": 3133.0,
+        "y": 884.0,
+        "confidence": 0.15
+      },
+      "mid_saddle_patch": {
+        "x": 2965.0,
+        "y": 996.0,
+        "confidence": 0.3645
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3513,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3142.0,
+        "y": 894.0,
+        "confidence": 0.3718
+      },
+      "right_pect_fin_tip": {
+        "x": 3058.0,
+        "y": 994.0,
+        "confidence": 0.1479
+      },
+      "mid_saddle_patch": {
+        "x": 2982.0,
+        "y": 986.0,
+        "confidence": 0.3211
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3516,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3157.0,
+        "y": 900.0,
+        "confidence": 0.3564
+      },
+      "right_caudal_fluke": {
+        "x": 3161.0,
+        "y": 896.0,
+        "confidence": 0.1409
+      },
+      "right_pect_fin_tip": {
+        "x": 3133.0,
+        "y": 868.0,
+        "confidence": 0.1133
+      },
+      "mid_saddle_patch": {
+        "x": 2997.0,
+        "y": 976.0,
+        "confidence": 0.258
+      }
+    },
+    "n_keypoints_found": 4
+  },
+  {
+    "frame": 3519,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3164.0,
+        "y": 886.0,
+        "confidence": 0.2663
+      },
+      "right_pect_fin_tip": {
+        "x": 3040.0,
+        "y": 882.0,
+        "confidence": 0.1338
+      },
+      "mid_saddle_patch": {
+        "x": 3008.0,
+        "y": 966.0,
+        "confidence": 0.2765
+      }
+    },
+    "n_keypoints_found": 3
+  },
+  {
+    "frame": 3522,
+    "track_id": 72,
+    "keypoints": {
+      "rostrum_tip": {
+        "x": 3174.0,
+        "y": 872.0,
+        "confidence": 0.3083
+      },
+      "right_pect_fin_tip": {
+        "x": 3166.0,
+        "y": 860.0,
+        "confidence": 0.1311
+      },
+      "mid_saddle_patch": {
+        "x": 3026.0,
+        "y": 956.0,
+        "confidence": 0.6167
+      }
+    },
+    "n_keypoints_found": 3
+  }
+]

@@ -1,0 +1,252 @@
+{
+  "calibration": {
+    "body_length_px": 325.1,
+    "body_length_m": 7.0,
+    "px_per_m": 46.44
+  },
+  "speeds": {
+    "2": {
+      "avg_px_s": 540.9,
+      "max_px_s": 91670.2,
+      "n_measurements": 1129
+    },
+    "1": {
+      "avg_px_s": 195.7,
+      "max_px_s": 12595.0,
+      "n_measurements": 915
+    },
+    "3": {
+      "avg_px_s": 281.9,
+      "max_px_s": 18575.1,
+      "n_measurements": 745
+    },
+    "19": {
+      "avg_px_s": 249.3,
+      "max_px_s": 19399.4,
+      "n_measurements": 1003
+    },
+    "21": {
+      "avg_px_s": 493.0,
+      "max_px_s": 40818.8,
+      "n_measurements": 644
+    },
+    "20": {
+      "avg_px_s": 446.1,
+      "max_px_s": 67156.2,
+      "n_measurements": 901
+    },
+    "69": {
+      "avg_px_s": 608.4,
+      "max_px_s": 32065.9,
+      "n_measurements": 850
+    },
+    "75": {
+      "avg_px_s": 210.2,
+      "max_px_s": 24991.7,
+      "n_measurements": 988
+    },
+    "125": {
+      "avg_px_s": 471.7,
+      "max_px_s": 22245.0,
+      "n_measurements": 245
+    },
+    "135": {
+      "avg_px_s": 347.4,
+      "max_px_s": 27863.8,
+      "n_measurements": 762
+    },
+    "194": {
+      "avg_px_s": 274.4,
+      "max_px_s": 21322.1,
+      "n_measurements": 352
+    },
+    "200": {
+      "avg_px_s": 487.5,
+      "max_px_s": 23787.3,
+      "n_measurements": 121
+    },
+    "226": {
+      "avg_px_s": 297.8,
+      "max_px_s": 20342.4,
+      "n_measurements": 367
+    }
+  },
+  "surfacing": {
+    "2": {
+      "n_bouts": 2,
+      "bout_durations_s": [
+        81.4,
+        32.0
+      ],
+      "dive_gaps_s": [
+        9.7
+      ]
+    },
+    "1": {
+      "n_bouts": 2,
+      "bout_durations_s": [
+        84.3,
+        7.2
+      ],
+      "dive_gaps_s": [
+        13.0
+      ]
+    },
+    "3": {
+      "n_bouts": 2,
+      "bout_durations_s": [
+        10.7,
+        63.8
+      ],
+      "dive_gaps_s": [
+        1.6
+      ]
+    },
+    "19": {
+      "n_bouts": 7,
+      "bout_durations_s": [
+        7.4,
+        52.9,
+        18.5,
+        1.2,
+        1.2,
+        19.6,
+        0.6
+      ],
+      "dive_gaps_s": [
+        1.9,
+        2.5,
+        7.1,
+        1.2,
+        4.5,
+        0.6
+      ]
+    },
+    "21": {
+      "n_bouts": 4,
+      "bout_durations_s": [
+        21.1,
+        31.9,
+        7.6,
+        3.8
+      ],
+      "dive_gaps_s": [
+        2.6,
+        1.0,
+        11.5
+      ]
+    },
+    "20": {
+      "n_bouts": 5,
+      "bout_durations_s": [
+        64.1,
+        2.1,
+        3.2,
+        12.3,
+        8.4
+      ],
+      "dive_gaps_s": [
+        1.1,
+        0.7,
+        1.0,
+        2.9
+      ]
+    },
+    "69": {
+      "n_bouts": 4,
+      "bout_durations_s": [
+        54.6,
+        17.7,
+        3.4,
+        9.3
+      ],
+      "dive_gaps_s": [
+        1.0,
+        7.6,
+        4.0
+      ]
+    },
+    "75": {
+      "n_bouts": 4,
+      "bout_durations_s": [
+        2.6,
+        25.7,
+        23.7,
+        46.8
+      ],
+      "dive_gaps_s": [
+        3.5,
+        2.0,
+        4.5
+      ]
+    },
+    "125": {
+      "n_bouts": 2,
+      "bout_durations_s": [
+        7.1,
+        17.4
+      ],
+      "dive_gaps_s": [
+        3.8
+      ]
+    },
+    "135": {
+      "n_bouts": 3,
+      "bout_durations_s": [
+        54.7,
+        15.9,
+        5.6
+      ],
+      "dive_gaps_s": [
+        0.8,
+        14.5
+      ]
+    },
+    "194": {
+      "n_bouts": 3,
+      "bout_durations_s": [
+        31.0,
+        0.6,
+        5.0
+      ],
+      "dive_gaps_s": [
+        0.9,
+        1.1
+      ]
+    },
+    "200": {
+      "n_bouts": 2,
+      "bout_durations_s": [
+        2.9,
+        9.2
+      ],
+      "dive_gaps_s": [
+        0.6
+      ]
+    },
+    "226": {
+      "n_bouts": 9,
+      "bout_durations_s": [
+        2.4,
+        0.6,
+        2.2,
+        25.5,
+        0.6,
+        0.6,
+        3.0,
+        1.2,
+        0.6
+      ],
+      "dive_gaps_s": [
+        0.7,
+        2.6,
+        1.0,
+        11.7,
+        1.2,
+        3.9,
+        7.6,
+        4.7
+      ]
+    }
+  }
+}

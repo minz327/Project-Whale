@@ -1,0 +1,26 @@
+{
+  "calibration": {
+    "body_length_px": 633.6,
+    "body_length_m": 7.0,
+    "px_per_m": 90.52
+  },
+  "speeds": {
+    "3": {
+      "avg_px_s": 544.0,
+      "max_px_s": 31894.4,
+      "n_measurements": 305
+    }
+  },
+  "surfacing": {
+    "3": {
+      "n_bouts": 2,
+      "bout_durations_s": [
+        14.2,
+        16.3
+      ],
+      "dive_gaps_s": [
+        1.3
+      ]
+    }
+  }
+}

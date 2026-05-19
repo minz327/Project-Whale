@@ -1,0 +1,25 @@
+{
+  "video": "20240527-22",
+  "tracker": "norfair",
+  "reid_enabled": true,
+  "gmc_enabled": true,
+  "total_frames_processed": 320,
+  "sample_rate": 3,
+  "confidence_threshold": 0.1,
+  "distance_threshold": 0.7,
+  "hit_counter_max": 15,
+  "reid_threshold": 0.5,
+  "reid_counter_max": 150,
+  "frames_with_tracks": 307,
+  "unique_track_ids": 1,
+  "total_track_points": 307,
+  "track_stats": {
+    "3": {
+      "frames": 307,
+      "first_frame": 3,
+      "last_frame": 957,
+      "span": 954,
+      "avg_confidence": 0.456
+    }
+  }
+}

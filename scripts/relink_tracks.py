@@ -4,21 +4,20 @@ Re-link fragmented whale tracks using spatial proximity + appearance similarity.
 Post-processes tracks.csv from track_whales.py to merge track fragments
 that likely belong to the same whale (e.g., across a short dive).
 
-Strategy:
-  1. Spatial: If a new track starts near where an old track ended within
-     a time window, they're candidates for merging.
-  2. Appearance: Crop whale bounding boxes from the video, extract visual
-     features with ResNet18, compare embeddings between candidate pairs.
-  3. Merge tracks that pass both filters.
+NOTE: With the Norfair tracker (track_whales.py), ReID is handled during
+tracking itself. This script is now a lightweight fallback for any residual
+fragments. It reuses the same spatial + appearance strategy but skips
+embedding extraction if no spatial candidates are found.
 
 Usage:
-    python scripts/relink_tracks.py outputs/track/20240527-22 exeter/20240527-22.MP4
-    python scripts/relink_tracks.py outputs/track/20240527-22 exeter/20240527-22.MP4 --max-gap 200 --max-dist 500
+    python scripts/relink_tracks.py outputs/track/20240527-22 videos/20240527-22.MP4
+    python scripts/relink_tracks.py outputs/track/20240527-22 videos/20240527-22.MP4 --max-gap 200 --max-dist 500
 """
 
 import argparse
 import csv
 import json
+import shutil
 import sys
 from pathlib import Path
 
@@ -311,7 +310,10 @@ def main():
               f"gap={gap} frames, dist={dist:.0f}px")
 
     if not candidates:
-        print("\n  No candidates to merge. Try increasing --max-gap or --max-dist.")
+        print("\n  No candidates to merge. Copying tracks.csv → tracks_relinked.csv")
+        out_csv = args.track_dir / "tracks_relinked.csv"
+        shutil.copy2(csv_path, out_csv)
+        print(f"  Saved to {out_csv}")
         return
 
     # Extract crops for candidate tracks
@@ -371,7 +373,10 @@ def main():
 
     if not merge_map:
         print("\n  No tracks passed appearance matching. "
-              "Try lowering --min-similarity.")
+              "Copying tracks.csv → tracks_relinked.csv")
+        out_csv = args.track_dir / "tracks_relinked.csv"
+        shutil.copy2(csv_path, out_csv)
+        print(f"  Saved to {out_csv}")
         return
 
     # Apply merges

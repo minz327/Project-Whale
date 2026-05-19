@@ -1,0 +1,38 @@
+{
+  "calibration": {
+    "body_length_px": 422.7,
+    "body_length_m": 7.0,
+    "px_per_m": 60.38
+  },
+  "speeds": {
+    "58": {
+      "avg_px_s": 699.8,
+      "max_px_s": 23496.6,
+      "n_measurements": 103
+    },
+    "72": {
+      "avg_px_s": 375.3,
+      "max_px_s": 7165.8,
+      "n_measurements": 63
+    }
+  },
+  "surfacing": {
+    "58": {
+      "n_bouts": 2,
+      "bout_durations_s": [
+        5.7,
+        4.6
+      ],
+      "dive_gaps_s": [
+        1.4
+      ]
+    },
+    "72": {
+      "n_bouts": 1,
+      "bout_durations_s": [
+        6.3
+      ],
+      "dive_gaps_s": []
+    }
+  }
+}
