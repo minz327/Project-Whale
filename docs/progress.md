@@ -1,9 +1,9 @@
 # ProjectWhale — Progress & Continuation Guide
 
-> Last updated: 2026-05-15
+> Last updated: 2026-05-20
 >
-> **Current Focus:** Multi-whale tracking validated. Pipeline works end-to-end on both single-whale and multi-whale clips.
-> Next: simplify `relink_tracks.py` (largely redundant now), run remaining clips.
+> **Current Focus:** Quality improvement — fix detection false positives, pose multi-whale assignment, and keypoint stability.
+> Focus clips: **20231018-40_trim** (1 whale) and **20240727-84** (3 whales). Other clips wait until quality is validated.
 
 ---
 
@@ -72,16 +72,19 @@ Video (.MP4)
 
 | Video Clip | Whales | track | compensate | pose | respirations | metrics | visualize | render |
 |---|---|---|---|---|---|---|---|---|
-| **20231018-40_trim** | 1 | ✅ (2 IDs) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **20240727-84** ⭐ | 3 | ✅ (3 IDs) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **20240527-22** | ? | old ByteTrack | — | ✅ | — | ✅ | ✅ | — |
+| **20231018-40_trim** ⭐ | 1 | ✅ (2 IDs) | ✅ | ✅ (6.5/7¹) | ✅ | ✅ | ✅ | ✅ |
+| **20240727-84** ⭐ | 3 | ✅ (3 IDs) | ✅ | ✅ (6.2/7²) | ✅ | ✅ | ✅ | ✅ |
+| **20240527-22** | 1 | ✅ (1 ID) | ✅ | ✅ (3.5/7) | — | ✅ | ✅ | ✅ |
+| **20231018-48_trim** | 13 | ✅ (13 IDs) | ✅ | ✅ (5.7/7) | — | ✅ | ✅ | ✅ |
+| **20240127-7_trim** | 2 | ✅ (2 IDs) | ✅ | ✅ (4.2/7) | — | ✅ | ✅ | ✅ |
 | srkw_calf_drone | 2 | — | — | — | — | — | — | — |
-| 20231018-48_trim | ? | — | — | — | — | — | — | — |
-| 20240127-7_trim | ? | — | — | — | — | — | — | — |
 
-⭐ = **First multi-whale clip** — full pipeline validated with Norfair tracker.
+⭐ = **Quality focus clips** — all other clips wait until these meet quality bar.
 
-**Note:** Clips marked "old ByteTrack" should be re-run with `track_whales.py` (now uses Norfair).
+¹ Keypoints are unstable (jitter frame-to-frame) — needs temporal smoothing.
+² Keypoints jump between whales — needs Hungarian centroid assignment.
+
+**Note:** All clips have been run through the full Norfair pipeline, but pipeline quality needs improvement before results are usable (see Known Quality Issues below).
 
 Videos are in `videos/` folder.
 
@@ -126,6 +129,49 @@ Videos are in `videos/` folder.
 
 ---
 
+## Known Quality Issues (Active — 2026-05-20)
+
+### Issue 1: Detection False Positives — `track_whales.py`
+
+**Problem:** Water splashes and waves are detected as whales (visible as small bounding boxes in the tracked video). The detection confidence threshold (`--conf 0.1`) is too low and there is no bbox size filtering.
+
+**Root cause:** YOLO-World at conf=0.1 picks up any vaguely whale-shaped water feature. No min/max bbox area filter exists. The post-tracking noise filter (`--min-track-conf 0.25`) only removes noisy tracks after tracking, it doesn't prevent false detections from entering the tracker.
+
+**Fix plan:**
+- [ ] Add `--min-bbox-area` filter (default ~2000px²) to reject tiny splash/wave boxes before tracking
+- [ ] Add `--max-bbox-area` filter (default ~500000px²) to reject oversized false positives
+- [ ] Raise default `--conf` from 0.1 → 0.15
+- [ ] Test on both focus clips
+
+### Issue 2: Pose Multi-Whale Assignment — `pose_estimate.py`
+
+**Problem:** On the multi-whale clip (20240727-84), keypoints jump between whales. The pose output is unusable for multi-whale analysis.
+
+**Root cause:** The centroid model runs ONCE per frame, producing a single heatmap. Each track then greedily searches for the highest peak within 150 pixels of its bbox center. When whales are close together (0.8–1.2 body lengths apart), multiple tracks find the **same** centroid peak → same crop → identical keypoints assigned to different whales.
+
+**Fix plan:**
+- [ ] Replace greedy peak search with **Hungarian (one-to-one) assignment**:
+  1. Find ALL local maxima in centroid heatmap
+  2. Build cost matrix: distance from each peak to each track's bbox center
+  3. Use `scipy.optimize.linear_sum_assignment` for one-to-one matching
+  4. Tracks without a matched peak fall back to bbox center
+- [ ] Test on 20240727-84 — verify keypoints stay on their assigned whale
+
+### Issue 3: Pose Keypoint Instability — `pose_estimate.py`
+
+**Problem:** Even on the single-whale clip (20231018-40_trim), keypoints jitter frame-to-frame. The skeleton overlay in the rendered video looks unstable.
+
+**Root cause:** Each frame is processed independently. The centroid peak position fluctuates slightly each frame, shifting the 832×832 crop, which cascades into all keypoint positions. No temporal smoothing is applied.
+
+**Fix plan:**
+- [ ] Add **exponential moving average (EMA) smoothing** per track:
+  - Centroid position: alpha ~0.5 (moderate smoothing)
+  - Keypoint positions: alpha ~0.3, confidence-weighted (low-confidence → more smoothing)
+- [ ] Only smooth within same track_id; reset on new track
+- [ ] Test on both focus clips
+
+---
+
 ## Output Locations
 
 ```
@@ -163,35 +209,29 @@ outputs/
 
 ## Next Steps
 
-### Current Focus — 20231018-40_trim (Single Whale Reference Clip)
+### Phase A: Detection Filtering — `track_whales.py`
+- [ ] Add bbox area filters + raise conf threshold
+- [ ] Test on 20231018-40_trim and 20240727-84
 
-Goal: Match Ren's DORSAP quality for this clip. Full pipeline is now complete.
+### Phase B: Pose Multi-Whale Fix — `pose_estimate.py`
+- [ ] Implement Hungarian centroid assignment (depends on Phase A)
+- [ ] Test on 20240727-84
 
-**Done so far:**
-- Detection → tracking → relinking (13→9 tracks) → unification (→1 whale, 469 frames)
-- Ego-motion compensation (6134px camera drift removed)
-- Metrics: 11 surfacing bouts, body-length calibrated (562px ≈ 7.0m)
-- Pose: 6.5/7 avg keypoints, rostrum 99%, saddle_patch 100%, right_caudal_fluke 97%
-- Visualizations: trajectory maps (raw + compensated), timeline, metrics, pose review
+### Phase C: Pose Temporal Smoothing — `pose_estimate.py`
+- [ ] Add EMA smoothing for centroid + keypoints (depends on Phase B)
+- [ ] Test on both focus clips
 
-**Quality to improve:**
-1. **Low-confidence keypoints** — left_caudal_fluke (68% detection, 0.15 avg conf), left_pect_fin (85%, 0.17 conf). These may be occluded by body orientation.
-2. **Pose-derived heading** — rostrum→caudal axis works but 0% heading from pose in metrics (needs fix in track_metrics.py to use unified track)
-3. **Tracked video with pose overlay** — current `_tracked.mp4` has bounding boxes only; should overlay skeleton keypoints
-4. **Review `pose_review.html`** — human QA on keypoint placement accuracy
+### Phase D: Verification
+- [ ] Re-run full pipeline on both focus clips (track → compensate → pose → render)
+- [ ] Visual QA of rendered videos
+- [ ] Commit + push
 
-### After Single-Whale Quality is Confirmed
-
-5. Run pipeline on **20240727-84** (multi-whale, detection already done)
-6. Run pipeline on **20231018-48_trim** and **20240127-7_trim**
-7. Compare pose quality across clips
-
-### Pipeline Improvements
-
-8. **Pin dependencies** — Export `pip freeze` from both venvs to proper requirements files
-9. **Obtain DJI SRT telemetry files** — Enables geo-referencing and absolute trajectory analysis
-10. **Fine-tune YOLO on whale boxes** (~100 annotated frames) to improve detection confidence
-11. **Build unified pipeline script** — Single command: video → all outputs
+### After Quality is Validated
+- [ ] Re-run remaining clips with improved pipeline
+- [ ] Pin dependencies (export pip freeze)
+- [ ] Obtain DJI SRT telemetry files from Darren
+- [ ] Fine-tune YOLO on whale boxes (~100 annotated frames)
+- [ ] Build unified pipeline script (single command: video → all outputs)
 
 ---
 
@@ -214,39 +254,18 @@ Ren's DORSAP project from Exeter is stored in `exeter/`. Key assets used:
 # Activate SLEAP venv
 .\.venv_sleap\Scripts\Activate.ps1
 
-# Full pipeline for a new clip (replace CLIP_ID and VIDEO_PATH)
-python scripts/detect_yoloworld.py VIDEO_PATH --sample-rate 30 --conf 0.05
-python scripts/evaluate_detections.py outputs/detect_world/CLIP_ID
-python scripts/track_whales.py VIDEO_PATH --sample-rate 3 --conf 0.1
-python scripts/relink_tracks.py outputs/track/CLIP_ID
-python scripts/track_metrics.py outputs/track/CLIP_ID
-python scripts/visualize_tracks.py outputs/track/CLIP_ID --csv tracks_relinked.csv --suffix _relinked
+# Full pipeline for a clip (Norfair tracker)
+python scripts/track_whales.py VIDEO_PATH --output-dir outputs/track/CLIP_ID
+python scripts/relink_tracks.py outputs/track/CLIP_ID VIDEO_PATH
+python scripts/compensate_tracks.py outputs/track/CLIP_ID VIDEO_PATH --csv tracks.csv
+python scripts/track_metrics.py outputs/track/CLIP_ID --csv tracks_compensated.csv
+python scripts/visualize_tracks.py outputs/track/CLIP_ID --csv tracks_compensated.csv
 
-# Switch to SLEAP venv for pose
+# Pose estimation (requires .venv_sleap)
 .\.venv_sleap\Scripts\Activate.ps1
-python scripts/pose_estimate.py outputs/track/CLIP_ID VIDEO_PATH
+python scripts/pose_estimate.py outputs/track/CLIP_ID VIDEO_PATH --csv tracks.csv
 
-# Switch back for pose visualization
+# Render annotated video (requires .venv)
 .\.venv\Scripts\Activate.ps1
-python scripts/visualize_pose.py outputs/track/CLIP_ID VIDEO_PATH
-```
-
-### Single-Whale Clip Pipeline (e.g., 20231018-40_trim)
-
-```powershell
-# After relink, unify all tracks into single whale ID:
-python scripts/unify_single_whale.py outputs/track/CLIP_ID
-
-# Then compensate + metrics + visualize using unified CSV:
-python scripts/compensate_tracks.py outputs/track/CLIP_ID VIDEO_PATH --csv tracks_unified.csv
-python scripts/track_metrics.py outputs/track/CLIP_ID --csv tracks_unified.csv
-python scripts/visualize_tracks.py outputs/track/CLIP_ID --csv tracks_unified.csv --suffix _unified
-python scripts/visualize_tracks.py outputs/track/CLIP_ID --csv tracks_compensated.csv --suffix _compensated
-
-# Pose on unified track:
-.\.venv_sleap\Scripts\Activate.ps1
-python scripts/pose_estimate.py outputs/track/CLIP_ID VIDEO_PATH --csv tracks_unified.csv
-
-.\.venv\Scripts\Activate.ps1
-python scripts/visualize_pose.py outputs/track/CLIP_ID VIDEO_PATH
+python scripts/render_tracked_video.py outputs/track/CLIP_ID VIDEO_PATH
 ```
